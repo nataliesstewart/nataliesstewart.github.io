@@ -55,9 +55,9 @@ This is probably where Nsketches things will go.
 
 ---
 
-<h2> Acknowledgement </h2>
+<h1> Acknowledgement </h1>
 Much of the source for this site is lifted shamelessly from <a href="https://sanathdevalapurkar.github.io/"> Sanath Devalapurkar's</a> personal website.
-I'm indepted to him for keeping his site open source. 
+I'm indebted to him for keeping his site open source. 
 
 
 
