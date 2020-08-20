@@ -204,18 +204,3 @@ If the conjecture is true, then the composition of an arbitrary number of $$\bm$
 This is nice:
 it appears to tell us we can construct a nice sub-categorical object corresponding with the $$|bm$$-hyperbolic $$\ell$$-pieces.
 We'll work with this in a future blog post.
-
-### An example.
-I'll give the primary motivation for the hyperbolicity work.
-Suppose we have a link $$L$$ living in a cycle as in the following image.
-
-![A bracelet link](https://github.com/nataliesstewart/nataliesstewart.github.io/blob/master/assets/bracelet.eps)
-
-The blue lines are parts of a collection of spheres who separate the surrouding sphere into a collection of _saucer_ shaped spaces, and separate the link into tangles in these saucers.
-A schematic of such a tangle is drawn here, and the associated piece structure on the saucer is encoded in the colors of the boundary.
-The blue lines are parts of a collection of spheres who separate the surrouding sphere into a collection of _saucer_ shaped spaces, and separate the link into tangles in these saucers.
-A schematic of such a tangle is drawn here, and the associated piece structure on the saucer is encoded in the colors of the boundary.
-
-![A saucer tangle](https://github.com/nataliesstewart/nataliesstewart.github.io/blob/master/assets/saucer.eps)
-
-The main theorem outlined above implies that one may prove hyperbolicity of $$L$$ and find a lower bound for its volume by simply considering hyperbolicity of the 4-cycles made out reflected copies of each individual tangle.
