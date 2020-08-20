@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello world // categorical structures on the l-pieces"
+title:  "Hello world // categorical structures on the l-pieces part i"
 date:   2020-08-20
 categories: geometric-topology
 ---
@@ -124,29 +124,32 @@ for the purpose of this blog, we may assume that these are either smooth or piec
 All manifolds have boundary.
 Not all surfaces in a manifold are properly embedded, and they are usually not connected.
 
-I'm essentially testing out small modifications of the 
-
 **Definition.** We say the data $$(M,\cbr{V_1,V_2})$$ are a _piece_ if $$M$$ is a 3-manifold and $$V_1,V_2 \subset \partial M$$ are spaces satisfying one of the two follwing conditions:
 * $$V_1$$ and $$V_2$$ are surfaces and $$V_1 \cap V_2$$ is a properly embedded 1-submanifold of $$\partial M$$. 
 
 * $$V_1 = V_2 = \varnothing$$.
   We further say that the data $$\prn{M,\prn{\cbr{V_{2i},V_{2i + 1}} \mid 1 \leq i \leq \ell}}$$ are an _$$\ell$$-piece_ if each tuple $$(M,\cbr{V_{2i},V_{2i + 1}})$$ is a piece and the intersections $$V_i \cap V_j$$ are each contained in a 1-manifold.
 
+_Remark_: this definition actually differs somewhat from the analogous definition in the paper;
+this definition is a tiny bit more complicated, in a way which does not help with hyperbolic geometry but does help with abstract nonsense.
+
 The intersection condition is necessary for the following construction:
 
 **Definition.** Suppose $$(M,\prn{\cbr{V_i}})$$ and $$(M',\prn{\cbr{V'_i}})$$ are two $$\ell$$-pieces and suppose $$\psi:V_2 \rightarrow V_1$$ is a diffeomorphism.
 Then, the _composition_ $$(M,\prn{\cbr{V_i}}) \circ_\psi (M',\prn{\cbr{V'_i}})$$ is an $$\ell$$-piece defined as follows:
+
+<p align="center">
 $$
-\begin{align*}
   \prn{M \cup_\psi M', (\cbr{V_1,V'_2},\cbr{V_3 \cup V'_3,V_4 \cup V'_4},\cbr{V_5 \cup V'_5,V_6 \cup V'_6},\dots)}.   
-\end{align*}
 $$
+</p>
 
 This feels painfully topological, but it gets a little bit easier with some examples.
 We'll use examples from knot theory, which require a bit more definitions.
 
 **Definition.** Suppose $$M$$ is a 3-manifold and $$\Sigma \subset \partial M$$ is a surface in the boundary of $$M$$.
-Then, we say that a _tangle in $$(M,\Sigma)$$_ is a compact smooth properly embedded 1-submanifold $$(\mathcal{T},\partial \mathcal{T}) \subset (M,\Sigma)$$.
- 
-
+Then, We say that a _tangle in $$(M,\Sigma)$$_ is a compact smooth properly embedded 1-submanifold $$(\mathcal{T},\partial \mathcal{T}) \subset (M,\Sigma)$$.
+If $$(M,\prn{\cbr{V_i}})$$ is an $$\ell$$-piece, we may define a tangle in $$(M,\prn{\cbr{V_i}})$$ to be a tanle in $$(M,\bigcup_i V_i - \bigcup_{ij} V_i \cap V_j)$$.
+The complement of such a tangle determines a piece.
+There is an evident notion of composition of tangles, and composition commutes with taking complements.
 
