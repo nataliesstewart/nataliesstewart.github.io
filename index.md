@@ -58,6 +58,6 @@ This is probably where Nsketches things will go.
 <h1> Acknowledgement </h1>
 Much of the source for this site is lifted shamelessly from <a href="https://sanathdevalapurkar.github.io/"> Sanath Devalapurkar's</a> personal website.
 I'm indebted to him for keeping his site open source. 
-
+I promise I'll personalize this website a bit more eventually.
 
 
