@@ -103,8 +103,13 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\Crys}{\mathrm{Crys}} \newcommand{\cV}{\mathcal{V}}
 \newcommand{\can}{\mathrm{can}} \newcommand{\Coh}{\mathrm{Coh}}
 \newcommand{\SH}{\mathrm{SH}}
+
 \newcommand{\cbr}[1]{\left\{ #1 \right\}}
 \newcommand{\prn}[1]{\left( #1 \right)}
+\newcommand{\vol}{\operatorname{vol}}
+
+\newcommand{\bm}{\mathbf{m}}
+\newcommand{\bS}{\mathbf{S}}
 $$
 
 Hello world.
@@ -152,4 +157,35 @@ Then, We say that a _tangle in $$(M,\Sigma)$$_ is a compact smooth properly embe
 If $$(M,\prn{\cbr{V_i}})$$ is an $$\ell$$-piece, we may define a tangle in $$(M,\prn{\cbr{V_i}})$$ to be a tanle in $$(M,\bigcup_i V_i - \bigcup_{ij} V_i \cap V_j)$$.
 The complement of such a tangle determines a piece.
 There is an evident notion of composition of tangles, and composition commutes with taking complements.
+
+The following section is not strictly necessary for understanding the $$\ell$$-fold category structure, but it will be nice for motivating this from the geometric topology angle.
+
+### Hyperbolic $$\ell$$-pieces.
+Note that a 0-piece is simply a 3-manifold.
+We give a notion of hyperbolicity of $$\ell$$-pieces which bootstraps from the relevant notion for 3-manifolds.
+
+**Definition.** Suppose $$(M,\cbr{V_1,V_2})$$ is a piece.
+Then, we define the _$$2m$$-replica_ to be the 3-manifold
+<p align="center">
+$$
+D^{2m}(M,\prn{V_1,V_2}) := \frac{2n \cdot M}{(V_1,2i) \sim (V_1,2i+1) \hspace{10pt} \text{ and } \hspace{10pt} (V_2,2i-1) \sim (V_2,2i)} 
+$$
+</p>
+where $$2n \cdot M$$ is the $$2n$$th copower $$M \coprod M \coprod \cdots \coprod M$$.
+If $$(M,\prn{\cbr{V_i}})$$ is an $$\ell$$-piece, we define the $$\bm = (2m_1,\dots,2m_\ell)$$-replica to be the 3-manifold
+<p align="center">
+$$
+D^{(2m_1,\dots,2m_\ell)}(P,\prn{V_1,\dots,V_{2\ell}}) := D^{(2m_1,\dots,2m_{\ell-1})}\prn{D^{2m_\ell}(P,\prn{V_{2\ell - 1},V_{2\ell}}),\prn{D^{m_\ell}(V_1),\dots,D^{m_\ell}(V_{2(\ell - 1)})}}
+$$
+</p>
+We say that $$(M,\prn{\cbr{V_i}})$$ is _$$\bm$$-hyperbolic_ if $$D^{\bm}(M,\prn{\cbr{V_i}})$$ is hyperbolic, in which case we define the volume
+<p align="center">
+$$
+  \vol^{\bm}\prn{m,\prn{cbr{v_i}}} := \frac{\vol\prn{D^{\bm}\prn{m,\prn{cbr{v_i}}}}}{\prod_i 2m_i}.
+$$
+</p>
+Much of the forthcoming paper is dedicated to a precise form of the following theorem, and a special case of the following conjecture.
+
+**Pseudo-theorem:** Suppose there exists a suitable collection of $$m$$ surfaces decomposing an $$\ell$$-piece into a collection of $$(m_1,\dots,m_\ell,m)$$-hyperbolic $$(\ell+1)$$-pieces.
+Then, the $$\ell$$-piece is $$(m_1,\dots,m_\ell)$$-hyperbolic, and it's $$(m_1,\dots,m_\ell)$$-hyperbolic volume is lower bounded by the sum of the $$(m_1,\dots,m_\ell,m)$$-hyperbolic volumes of the associated $$(\ell+1)$$-pieces.
 
