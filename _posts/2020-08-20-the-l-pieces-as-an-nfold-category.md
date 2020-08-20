@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Hello world // categorical structures on the $$\ell$$-pieces"
+title:  "Hello world // categorical structures on the l-pieces"
 date:   2020-08-20
 categories: geometric-topology
 ---
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
 \newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
@@ -136,6 +136,11 @@ Then, the _composition_ $$(M,\prn{\cbr{V_i}}) \circ_\psi (M',\prn{\cbr{V'_i}})$$
   \prn{M \cup_\psi M', (\cbr{V_1,V'_2},\cbr{V_3 \cup V'_3,V_4 \cup V'_4},\cbr{V_5 \cup V'_5,V_6 \cup V'_6},\dots)}.   
 \end{align*}
 
+This feels painfully topological, but it gets a little bit easier with some examples.
+We'll use examples from knot theory, which require a bit more definitions.
 
+**Definition.** Suppose $$M$$ is a 3-manifold and $$\Sigma \subset \partial M$$ is a surface in the boundary of $$M$$.
+Then, we say that a _tangle in $$(M,\Sigma)$$_ is a compact smooth properly embedded 1-submanifold $$(\mathcal{T},\partial \mathcal{T}) \subset (M,\Sigma)$$.
+ 
 
 
