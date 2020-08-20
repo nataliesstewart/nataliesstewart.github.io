@@ -129,10 +129,11 @@ Not all surfaces in a manifold are properly embedded, and they are usually not c
   We further say that the data $$\prn{M,\prn{\cbr{V_{2i},V_{2i + 1}} \mid 1 \leq i \leq \ell}}$$ are an _$$\ell$$-piece_ if each tuple $$(M,\cbr{V_{2i},V_{2i + 1}})$$ is a piece and the intersections $$V_i \cap V_j$$ are each contained in a 1-manifold.
 
 The intersection condition is necessary for the following construction:
+
 **Definition.** Suppose $$(M,\prn{\cbr{V_i}})$$ and $$(M',\prn{\cbr{V'_i}})$$ are two $$\ell$$-pieces and suppose $$\psi:V_2 \rightarrow V_1$$ is a diffeomorphism.
-Then, the _composition_ $$(M,\prn{\cbr{V_i}}) \circ_\psi (M',\prn{\cbr{V'_i}})$$ is defined by
-\[
-  a
-\]
+Then, the _composition_ $$(M,\prn{\cbr{V_i}}) \circ_\psi (M',\prn{\cbr{V'_i}})$$ is defined as the following piece
+\begin{align*}
+  \prn{M \cup_\psi M', (\cbr{V_1,V'_2},\cbr{V_3 \cup V'_3,V_4 \cup V'_4},\cbr{V_5 \cup V'_5,V_6 \cup V'_6},\dots)}.   
+\end{align*}
 
 
