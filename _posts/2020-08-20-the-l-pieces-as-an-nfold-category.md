@@ -112,11 +112,13 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\bS}{\mathbf{S}}
 $$
 
+**THE FOLLOWING IS STILL BEING WRITTEN. I'M TOO LAZY TO EDIT IT OFF SITE FOR NOW...**
+
 Hello world.
 I'm going to start sparsely writing down my thoughts which I think are interesting, but which are not quite put together enough to stick in a paper.
 I'll start now with some abstract nonsense conceived during my time at the SMALL reu this summer.
 
-# $$\ell$$-pieces and category theory 
+# Categorical structures on $$\ell$$-pieces 
 I'm going to briefly introduce and motivate a geometric topology construct, called an $$\ell$$<i>-piece</i>, to appear in an upcoming paper from my group in the SMALL reu.
 Following this, I'll briefly introduce the concept of an $$n$$-fold category, guided by the $$n=2$$ case of a <i>double category</i>, and show how the collection of $$\ell$$-pieces can be made into the $$\ell$$-cells of an $$\ell$$-fold category.
 
@@ -181,11 +183,33 @@ $$
 We say that $$(M,\prn{\cbr{V_i}})$$ is _$$\bm$$-hyperbolic_ if $$D^{\bm}(M,\prn{\cbr{V_i}})$$ is hyperbolic, in which case we define the volume
 <p align="center">
 $$
-  \vol^{\bm}\prn{m,\prn{cbr{v_i}}} := \frac{\vol\prn{D^{\bm}\prn{m,\prn{cbr{v_i}}}}}{\prod_i 2m_i}.
+  \vol^{\bm}\prn{m,\prn{cbr{v_i}}} := \frac{\vol\prn{D^{\bm}\prn{m,\prn{\cbr{v_i}}}}}{\prod_i 2m_i}.
 $$
 </p>
 Much of the forthcoming paper is dedicated to a precise form of the following theorem, and a special case of the following conjecture.
 
-**Pseudo-theorem:** Suppose there exists a suitable collection of $$m$$ surfaces decomposing an $$\ell$$-piece into a collection of $$(m_1,\dots,m_\ell,m)$$-hyperbolic $$(\ell+1)$$-pieces.
+**Pseudo-theorem.** Suppose there exists a suitable collection of $$m$$ surfaces decomposing an $$\ell$$-piece into a collection of $$(m_1,\dots,m_\ell,m)$$-hyperbolic $$(\ell+1)$$-pieces.
 Then, the $$\ell$$-piece is $$(m_1,\dots,m_\ell)$$-hyperbolic, and it's $$(m_1,\dots,m_\ell)$$-hyperbolic volume is lower bounded by the sum of the $$(m_1,\dots,m_\ell,m)$$-hyperbolic volumes of the associated $$(\ell+1)$$-pieces.
+In particular, one may find a lower bound on the volume of a 3-manifold by separating it into pieces.
 
+**Conjecture.** Suppose an $$\ell$$-piece is $$(2m_1,\dots,2m_\ell)$$-hyperbolic.
+Then, it is $$(2(m_1 + 1),2m_2,\dots,2m_\ell)$$-hyperbolic.
+
+The conjecture is known for a more specific class, given by the tangles gotten by decomposing links residing in a cycle in $$S^3$$.
+I won't go into depth here, but we're looking to prove it in some greater generality.
+These yield the following corollary:
+**Corollary.** The composition of $$n$$-many $$(2m_1n,2m_2,\dots,2m_\ell)$$-hyperbolic $\ell$-pieces is $$(2m_1,\dots,2m_\ell)$$-hyprbolic. 
+If the conjecture is true, then the composition of an arbitrary number of $$\bm$$-hyperbolic $$\ell$$-pieces is $$\bm$$-hyprbolic.
+
+This is nice:
+it appears to tell us we can construct a nice sub-categorical object corresponding with the $$|bm$$-hyperbolic $$\ell$$-pieces.
+We'll work with this in a future blog post.
+
+### An example.
+I'll give the primary motivation for the hyperbolicity work.
+Suppose we have a link $$L$$ living in a cycle as in the following image.
+![An image](../assets/Bracelet.eps)
+The blue lines are parts of a collection of spheres who separate the surrouding sphere into a collection of _saucer_ shaped spaces, and separate the link into tangles in these saucers.
+A schematic of such a tangle is drawn here, and the associated piece structure on the saucer is encoded in the colors of the boundary.
+![An image](../assets/Saucer.eps)
+The main theorem outlined above implies that one may prove hyperbolicity of $$L$$ and find a lower bound for its volume by simply considering hyperbolicity of the 4-cycles made out reflected copies of each individual tangle.
