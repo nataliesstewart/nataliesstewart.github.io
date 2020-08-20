@@ -12,6 +12,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <img style="display: block; margin: auto;" alt="photo" src="/assets/under_construction.gif">
 </td>
 <td>
+<p>
 I'm a rising senior at MIT, where I am majoring in mathematics with computer science (18C) and minoring in economics.
 Generally I'm interested in category theory, algebraic topology, and similar subjects.
 Most recently I've done work in knot theory.
@@ -30,8 +31,8 @@ Outside of mathematics, I tend to spend time playing jazz guitar and making elec
 
 ---
 
-<h2> Writings </h2>
-<h3>Some assorted projects</h3>
+<h1> Writings </h1>
+<h2>Some assorted projects</h2>
 
 * Lower bounds on volumes of hyperbolic link compliments in 3-manifolds (2020). Joint with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. To appear.
     Description goes here.
@@ -47,7 +48,16 @@ Outside of mathematics, I tend to spend time playing jazz guitar and making elec
     Some heuristics are given towards existence of such an isomorphism in all cases.
     In the characteristic-5 case, some irreducible subrepresentation of Jordan-Shor's Fibonacci representation are given, and these are proven to be isomorphic to the irreducible quotients of two-row Specht modules whose rows differ by length at most 3.
 
-<h3>Other things</h3>
+<h2>Other things</h2>
+
 To appear.
 This is probably where Nsketches things will go.
+
+---
+
+<h2> Acknowledgement </h2>
+Much of the source for this site is lifted shamelessly from <a href="https://sanathdevalapurkar.github.io/"> Sanath Devalapurkar's</a> personal website.
+I'm indepted to him for keeping his site open source. 
+
+
 
