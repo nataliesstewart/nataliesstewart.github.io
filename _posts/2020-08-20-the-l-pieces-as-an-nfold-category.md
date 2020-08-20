@@ -4,7 +4,7 @@ title:  "Hello world // categorical structures on the l-pieces"
 date:   2020-08-20
 categories: geometric-topology
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
 $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
 \newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
@@ -111,7 +111,6 @@ Hello world.
 I'm going to start sparsely writing down my thoughts which I think are interesting, but which are not quite put together enough to stick in a paper.
 I'll start now with some abstract nonsense conceived during my time at the SMALL reu this summer.
 
----
 # $$\ell$$-pieces and category theory 
 I'm going to briefly introduce and motivate a geometric topology construct, called an $$\ell$$<i>-piece</i>, to appear in an upcoming paper from my group in the SMALL reu.
 Following this, I'll briefly introduce the concept of an $$n$$-fold category, guided by the $$n=2$$ case of a <i>double category</i>, and show how the collection of $$\ell$$-pieces can be made into the $$\ell$$-cells of an $$\ell$$-fold category.
@@ -125,16 +124,23 @@ for the purpose of this blog, we may assume that these are either smooth or piec
 All manifolds have boundary.
 Not all surfaces in a manifold are properly embedded, and they are usually not connected.
 
-**Definition.** We say the data $$(M,\cbr{V_1,V_2})$$ are a _piece_ if $$M$$ be a manifold and $$V_1,V_2 \subset \partial M$$ be two surfaces such that $$V_1 \cap V_2$$ is a properly embedded 1-manifold-submanifold of $$\partial M$$.
+I'm essentially testing out small modifications of the 
+
+**Definition.** We say the data $$(M,\cbr{V_1,V_2})$$ are a _piece_ if $$M$$ is a 3-manifold and $$V_1,V_2 \subset \partial M$$ are spaces satisfying one of the two follwing conditions:
+* $$V_1$$ and $$V_2$$ are surfaces and $$V_1 \cap V_2$$ is a properly embedded 1-submanifold of $$\partial M$$. 
+
+* $$V_1 = V_2 = \varnothing$$.
   We further say that the data $$\prn{M,\prn{\cbr{V_{2i},V_{2i + 1}} \mid 1 \leq i \leq \ell}}$$ are an _$$\ell$$-piece_ if each tuple $$(M,\cbr{V_{2i},V_{2i + 1}})$$ is a piece and the intersections $$V_i \cap V_j$$ are each contained in a 1-manifold.
 
 The intersection condition is necessary for the following construction:
 
 **Definition.** Suppose $$(M,\prn{\cbr{V_i}})$$ and $$(M',\prn{\cbr{V'_i}})$$ are two $$\ell$$-pieces and suppose $$\psi:V_2 \rightarrow V_1$$ is a diffeomorphism.
 Then, the _composition_ $$(M,\prn{\cbr{V_i}}) \circ_\psi (M',\prn{\cbr{V'_i}})$$ is an $$\ell$$-piece defined as follows:
+$$
 \begin{align*}
   \prn{M \cup_\psi M', (\cbr{V_1,V'_2},\cbr{V_3 \cup V'_3,V_4 \cup V'_4},\cbr{V_5 \cup V'_5,V_6 \cup V'_6},\dots)}.   
 \end{align*}
+$$
 
 This feels painfully topological, but it gets a little bit easier with some examples.
 We'll use examples from knot theory, which require a bit more definitions.
