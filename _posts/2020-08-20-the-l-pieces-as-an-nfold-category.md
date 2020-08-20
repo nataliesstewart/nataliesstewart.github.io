@@ -1,10 +1,10 @@
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
 ---
 layout: post
 title:  "Hello world // categorical structures on the $$\ell$$-pieces"
 date:   2020-08-20
 categories: geometric-topology
 ---
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
 $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
 \newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
@@ -131,9 +131,11 @@ Not all surfaces in a manifold are properly embedded, and they are usually not c
 The intersection condition is necessary for the following construction:
 
 **Definition.** Suppose $$(M,\prn{\cbr{V_i}})$$ and $$(M',\prn{\cbr{V'_i}})$$ are two $$\ell$$-pieces and suppose $$\psi:V_2 \rightarrow V_1$$ is a diffeomorphism.
-Then, the _composition_ $$(M,\prn{\cbr{V_i}}) \circ_\psi (M',\prn{\cbr{V'_i}})$$ is defined as the following piece
+Then, the _composition_ $$(M,\prn{\cbr{V_i}}) \circ_\psi (M',\prn{\cbr{V'_i}})$$ is an $$\ell$$-piece defined as follows:
 \begin{align*}
   \prn{M \cup_\psi M', (\cbr{V_1,V'_2},\cbr{V_3 \cup V'_3,V_4 \cup V'_4},\cbr{V_5 \cup V'_5,V_6 \cup V'_6},\dots)}.   
 \end{align*}
+
+
 
 
