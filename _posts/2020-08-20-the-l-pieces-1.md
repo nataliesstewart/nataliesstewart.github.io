@@ -117,6 +117,8 @@ Hello world.
 I'm going to start sparsely writing down my thoughts which I think are interesting, but which are not quite put together enough to stick in a paper.
 I'll start now with some abstract nonsense conceived during my time at the SMALL reu this summer.
 
+See <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/21/the-l-pieces-2.html">part 2 here.</a>
+
 # Basics of $$\ell$$-pieces 
 I'm going to briefly introduce and motivate a geometric topology construct, called an $$\ell$$<i>-piece</i>, to appear in an upcoming paper from my group in the SMALL reu.
 I'll endow these with a notion of hyperbolicity and hyperbolic volume, which also appears in this paper.

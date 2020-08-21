@@ -121,6 +121,8 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 
 $$
 
+See <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/20/the-l-pieces-1.html">part 1 here.</a>
+
 # Theory of $$n$$-fold categories
 In this post, my goal is to describe the category theory concept underlying the $$\ell$$-pieces.
 This is a construct called _$$n$$-fold categories_, the more complicated and less useful cousin of $$n$$-categories.
@@ -151,35 +153,22 @@ A *category  internal to $$\bE$$ is the following data
 
 * a _composition arrow_ $$\gamma:C_1 \times_{C_0} C_1 \rightarrow C_1$$ defined on the pullback:
 
-![the pullback](/assets/lpieces2_1.png)
+<p align="center">
+![the pullback](/assets/lpieces2_1.png =300px)
+</p>
 
 such that $$d_0i = \id = d_1i$$ so that identity arrows have the right (co)domain and such that the following diagrams commute, establishing identity, (co)domain of the composite, and associativity of composition.
 
 <p align="center">
-$$
-  \begin{tikzcd}
-    C_0 \times_{C_0} C_1 \arrow[r,"i \times \id"] \arrow[dr,"\pi_2"]
-    & C_1 \times_{C_0} C_1 \arrow[d,"\gamma"]
-    & C_1 \times_{C_0} C_0 \arrow[l,"\id \times i"] \arrow[dl,"\pi_1"]\\
-    & C_1
-  \end{tikcd}
-  \hspace{10pt}
-  \begin{tikzcd}
-    C_1 \arrow[d,"d_1"]
-    & C_1 \times_{C_0} C_1 \arrow[d,"\gamma"] \arrow[l,"\pi_1"] \arrow[r,"\pi_2"]
-    & C_1 \arrow[d,"d_0"]\\
-    C_0
-    & C_1 \arrow[r,"d_0"] \arrow[l,"d_1"]
-    & C_0
-  \end{tikzcd}
-  \begin{tikzcd}
-    C_1 \times_{C_0} C_1 \times_{C_0} C_1 \arrow[r,"\gamma \times \id"] \arrow[d,"\id \times \gamma"]
-    & C_1 \times_{C_0} C_1 \arrow[d,"\gamma"]\\
-    C_1 \times_{C_0} C_1 \arrow[r,"\gamma"]
-    & C_1
-  \end{tikzcd}
-$$
+![identity](/assets/lpieces2_2.png =300px)
 </p>
+<p align="center">
+![codomain](/assets/lpieces2_3.png =300px)
+</p>
+<p align="center">
+![associativity](/assets/lpieces2_4.png =300px)
+</p>
+
 
 We can define internal functors in exactly the way one expects;
 they are pairs of morphisms between the object and arrow objects which are compatible with the above data.
@@ -221,11 +210,15 @@ It may be said to consist of the following:
 
 This can be pictured via the following square:
 
-**put square here.**
+<p align="center">
+![square](/assets/lpieces2_5.png =300px)
+</p>
 
 The data of a double category may be summarized by horizontal and vertical "edge categories," as well as horizontal and vertical "2-cell categories" which are compatible with the edge categories and satisfy the *interchange law* specifying that the following composite is well-defined.
 
-**double composite.**
+<p align="center">
+![interchange](/assets/lpieces2_6.png =300px)
+</p>
 
 We will prefer this type of description, as it shows symmetry;
 there is an evident *transpose double category* given by interchanging the vertical and horizontal direction. 
