@@ -121,9 +121,7 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 
 $$
 
-See <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/20/the-l-pieces-1.html">part 1 here.</a>
 
-# Theory of $$n$$-fold categories
 In this post, my goal is to describe the category theory concept underlying the $$\ell$$-pieces.
 This is a construct called _$$n$$-fold categories_, the more complicated and less useful cousin of $$n$$-categories.
 I'll mostly focus on the $$n=2$$ case of _double categories_, since they generally seem more studied.
@@ -133,6 +131,8 @@ In a future post, I'll bring $$\ell$$-pieces back.
 **This'll mostly be a restatement of $$n$$Lab** plus some personal thoughts.
 We'll be mostly concerned with the simple structure of $$n$$-fold categories;
 if you're interested, there is some <a href="https://ncatlab.org/nlab/show/double+category#FPPModel">present work being done by Moser, Sarazola, and Verdugo on Quillen model structures on the category of double categories.</a>, but this is irrelevant, so I won't mention it further. 
+
+See <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/20/the-l-pieces-1.html">part 1 here.</a>
 
 ### What an $$n$$-fold category is
 Recall that (modulo size issues) an $$n$$-category is simply a category enriched in the $$(n-1)$$-categories.
@@ -153,9 +153,7 @@ A *category  internal to $$\bE$$ is the following data
 
 * a _composition arrow_ $$\gamma:C_1 \times_{C_0} C_1 \rightarrow C_1$$ defined on the pullback:
 
-<p align="center">
-![the pullback](/assets/lpieces2_1.png =300px)
-</p>
+<a href="url"><img src="/assets/lpieces2_1.png" align="center" width="200" ></a>
 
 such that $$d_0i = \id = d_1i$$ so that identity arrows have the right (co)domain and such that the following diagrams commute, establishing identity, (co)domain of the composite, and associativity of composition.
 
