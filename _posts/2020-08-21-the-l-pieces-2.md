@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Categorical structures on the l-pieces part 2"
+title:  "Categorical structures on the $$\ell$$-pieces part 2"
 date:   2020-08-20
 categories: geometric-topology
 ---
