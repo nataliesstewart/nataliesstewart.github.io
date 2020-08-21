@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Categorical structures on the l-pieces part 2"
-date:   2020-08-20
+date:   2020-08-21
 categories: geometric-topology
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
@@ -246,7 +246,7 @@ if this link is hyperbolic, we say that the square tangle is *hyperbolic.*
 Two square tangles with the same number of endpoints on opposing edges have a clear notion of *vertical* or *horizontal* composition done by gluin, depending on which edges are being glued together. 
 
 It's a consequence of the main theorem of the forthcoming paper that a link which subdivides into a hyperbolic square tangle is hyperbolic, and a square tangle which decomposes into two hyperbolic square tangles is hyperbolic.
-There are lower bounds on volumes going along with that, but we won't worry to much.
+There are lower bounds on volumes going along with that, but we won't worry too much.
 I'd rather give a double category.
 
 **Definition.**
