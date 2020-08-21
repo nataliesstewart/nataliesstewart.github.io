@@ -153,18 +153,20 @@ A *category  internal to $$\bE$$ is the following data
 
 * a _composition arrow_ $$\gamma:C_1 \times_{C_0} C_1 \rightarrow C_1$$ defined on the pullback:
 
+<p align="center">
 <a href="url"><img src="/assets/lpieces2_1.png" align="center" width="200" ></a>
+</p>
 
 such that $$d_0i = \id = d_1i$$ so that identity arrows have the right (co)domain and such that the following diagrams commute, establishing identity, (co)domain of the composite, and associativity of composition.
 
 <p align="center">
-![identity](/assets/lpieces2_2.png =300px)
+<a href="url"><img src="/assets/lpieces2_2.png" align="center" width="200" ></a>
 </p>
 <p align="center">
-![codomain](/assets/lpieces2_3.png =300px)
+<a href="url"><img src="/assets/lpieces2_3.png" align="center" width="200" ></a>
 </p>
 <p align="center">
-![associativity](/assets/lpieces2_4.png =300px)
+<a href="url"><img src="/assets/lpieces2_4.png" align="center" width="200" ></a>
 </p>
 
 
@@ -209,13 +211,13 @@ It may be said to consist of the following:
 This can be pictured via the following square:
 
 <p align="center">
-![square](/assets/lpieces2_5.png =300px)
+<a href="url"><img src="/assets/lpieces2_5.png" align="center" width="200" ></a>
 </p>
 
 The data of a double category may be summarized by horizontal and vertical "edge categories," as well as horizontal and vertical "2-cell categories" which are compatible with the edge categories and satisfy the *interchange law* specifying that the following composite is well-defined.
 
 <p align="center">
-![interchange](/assets/lpieces2_6.png =300px)
+<a href="url"><img src="/assets/lpieces2_6.png" align="center" width="400" ></a>
 </p>
 
 We will prefer this type of description, as it shows symmetry;
