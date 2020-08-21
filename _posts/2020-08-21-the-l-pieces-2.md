@@ -1,4 +1,4 @@
---
+---
 layout: post
 title:  "Categorical structures on the l-pieces part 2"
 date:   2020-08-20
@@ -163,12 +163,48 @@ such that $$d_0i = \id = d_1i$$ so that identity arrows have the right (co)domai
 <p align="center">
 $$
   \begin{tikzcd}
-    C_1 \times_{C_0} C_1 \arrow[r,"\pi_2"] \arrow[d,"\pi_1"]
-    & C_1 \arrow[d,"d_1"]\\
-    C_1 \arrow[r,"d_0"]
-    & C_0,  
+    C_0 \times_{C_0} C_1 \arrow[r,"i \times \id"] \arrow[dr,"\pi_2"]
+    & C_1 \times_{C_0} C_1 \arrow[d,"\gamma"]
+    & C_1 \times_{C_0} C_0 \arrow[l,"\id \times i"] \arrow[dl,"\pi_1"]\\
+    & C_1
   \end{tikcd}
+  \hspace{10pt}
+  \begin{tikzcd}
+    C_1 \arrow[d,"d_1"]
+    & C_1 \times_{C_0} C_1 \arrow[d,"\gamma"] \arrow[l,"\pi_1"] \arrow[r,"\pi_2"]
+    & C_1 \arrow[d,"d_0"]\\
+    C_0
+    & C_1 \arrow[r,"d_0"] \arrow[l,"d_1"]
+    & C_0
+  \end{tikzcd}
+  \begin{tikzcd}
+    C_1 \times_{C_0} C_1 \times_{C_0} C_1 \arrow[r,"\gamma \times \id"] \arrow[d,"\id \times \gamma"]
+    & C_1 \times_{C_0} C_1 \arrow[d,"\gamma"]\\
+    C_1 \times_{C_0} C_1 \arrow[r,"\gamma"]
+    & C_1
+  \end{tikzcd}
 $$
 </p>
 
+We can define internal functors in exactly the way one expects;
+they are pairs of morphisms between the object and arrow objects which are compatible with the above data.
+Hence there is a well-defined notion of a _category of internal categories in $$\bE$$_.
+
+This implicitly requires that the pullback $$C_1 \times_{C_0} C_1$$ exists, as well as a few others.
+In the case that $$\bE$$ has all pullbacks, an internal category can be shown to be precisely a monad in the bicategory of spans in $$\bE$$, though I won't go into depth (see <a href="https://ncatlab.org/nlab/show/internal+category">nlab</a> for details).
+
+We'll handwave existence of pullbacks away, since we only work with finitely complete categories.  
+In fact, the following theorem due to Charles and Andrée Ehresmann (and which appears directly proven in <a href="https://ncatlab.org/nlab/show/internal+category#CartesianClosure">nlab</a>) let's us handwave this away.
+
+**Theorem.**
+Suppose $$\bE$$ is finitely complete.
+Then, the category of internal categories in $$\bE$$ is also finitely complete.
+The same applies for finitely complete cartesian closed categories. 
+
+When $$\bE = \mathbf{Set}$$, these are precisely the cateory axioms;
+hence a (small) category is simply a category object in $$\mathbf{Set}$$.
+You can probably guess where this is going...
+
+**Definition.** A *1-fold category* is simply a small category.
+An *$$n$$-fold category* is a category internal to the category of $$(n-1)$$-fold categories. 
 
