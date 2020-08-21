@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Categorical structures on the $$\ell$$-pieces part 2"
+title:  "Categorical structures on the l-pieces part 2"
 date:   2020-08-20
 categories: geometric-topology
 ---
@@ -151,7 +151,7 @@ A *category  internal to $$\bE$$ is the following data
 
 * a _composition arrow_ $$\gamma:C_1 \times_{C_0} C_1 \rightarrow C_1$$ defined on the pullback:
 
-![the pullback](./assets/lpieces2_1.png)
+![the pullback](/assets/lpieces2_1.png)
 
 such that $$d_0i = \id = d_1i$$ so that identity arrows have the right (co)domain and such that the following diagrams commute, establishing identity, (co)domain of the composite, and associativity of composition.
 
