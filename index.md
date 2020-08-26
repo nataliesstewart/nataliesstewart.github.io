@@ -21,14 +21,15 @@ Most recently I've done work in knot theory.
 <li><b>Email address:</b> nns[at]mit[dot]edu.</li>
 <li><b>CV: </b><a href="/files/cv.pdf">[pdf]</a></li>
 </ul>
-<p>
-Outside of mathematics, I tend to spend time playing jazz guitar and making electronic music.
-I have a budding <a href="/blog/">blog</a> which I'm going to start using to deposit miscellaneous math thoughts. 
-</p>
 
 </td>
 </tr>
 </tbody></table>
+
+<p>
+Outside of mathematics, I tend to spend time playing jazz guitar and making electronic music.
+I have a budding <a href="/blog/">blog</a> which I'm going to start using to deposit miscellaneous math thoughts. 
+</p>
 
 I'm (probably) taking the following classes this semester:
 
