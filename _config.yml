@@ -24,11 +24,11 @@ permalink: /blog/:categories/:year/:month/:day/:title.html
 # Build settings
 markdown: kramdown
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
 
-minima:
-  skin: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
