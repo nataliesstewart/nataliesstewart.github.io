@@ -7,6 +7,9 @@ title: Writings
 
 # Some assorted projects
 
+This is currently heavily under construction.
+Sorry if it's confusing.
+
 * Lower bounds on volumes of hyperbolic link compliments in 3-manifolds (2020). Joint with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. To appear.
     
   Description goes here.
