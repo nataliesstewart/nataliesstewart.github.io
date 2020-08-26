@@ -118,9 +118,7 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\cT}{\mathcal{T}}
 
 \newcommand{\NN}{\mathbb{N}}
-
 $$
-
 In this post, my goal is to describe the category theory concept underlying the $$\ell$$-pieces.
 This is a construct called _$$n$$-fold categories_, the more complicated and less useful cousin of $$n$$-categories.
 I'll mostly focus on the $$n=2$$ case of _double categories_, since they generally seem more studied.
