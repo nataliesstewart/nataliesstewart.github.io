@@ -121,8 +121,6 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 
 $$
 
-**ROUGH DRAFT**
-
 In this post, my goal is to describe the category theory concept underlying the $$\ell$$-pieces.
 This is a construct called _$$n$$-fold categories_, the more complicated and less useful cousin of $$n$$-categories.
 I'll mostly focus on the $$n=2$$ case of _double categories_, since they generally seem more studied.
@@ -131,13 +129,14 @@ In a future post, I'll bring $$\ell$$-pieces back.
 
 **This'll mostly be a restatement of $$n$$Lab** plus some personal thoughts.
 We'll be mostly concerned with the simple structure of $$n$$-fold categories;
-if you're interested, there is some <a href="https://ncatlab.org/nlab/show/double+category#FPPModel">present work being done by Moser, Sarazola, and Verdugo on Quillen model structures on the category of double categories.</a>, but this is irrelevant, so I won't mention it further. 
+if you're interested, there is some <a href="https://ncatlab.org/nlab/show/double+category#FPPModel">present work being done by Moser, Sarazola, and Verdugo on Quillen model structures on the category of double categories</a>, but this is irrelevant, so I won't mention it further. 
 
-See <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/20/the-l-pieces-1.html">part 1 here.</a>
+See <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/20/the-l-pieces-1.html">part 1 here,</a> and see <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/27/the-l-pieces-3.html">part 3 here.</a>
+
 
 ### What an $$n$$-fold category is
 Recall that (modulo size issues) an $$n$$-category is simply a category enriched in the $$(n-1)$$-categories.
-We'll give a similar definition for $$n$$-fold categories, but to do so I'll give a little bit of exposition on internal categories.
+I'll give a similar definition for $$n$$-fold categories, but to do so I'll give a little bit of exposition on internal categories.
 The notation will follow MacLane's "Categories for the working mathematician."
 
 **Definition.**
@@ -186,20 +185,20 @@ Suppose $$\bE$$ is finitely complete.
 Then, the category of internal categories in $$\bE$$ is also finitely complete.
 The same applies for finitely complete cartesian closed categories. 
 
-When $$\bE = \mathbf{Set}$$, these are precisely the cateory axioms;
+When $$\bE = \mathbf{Set}$$, the internal category axioms are precisely the axioms for an ordinary category;
 hence a (small) category is simply a category object in $$\mathbf{Set}$$.
 You can probably guess where this is going...
 
 **Definition.** A *1-fold category* is simply a small category.
 An *$$n$$-fold category* is a category internal to the category of $$(n-1)$$-fold categories. 
 
-This is neat, but perhaps too neat.
+This is neat, but perhaps uninformatively so.
 Now, I'll go into detail on how to picture these, with a heavy focus on double categories.
 
 ### What an $$n$$-fold category _really_ is
 
-Let's draw a double category $$D_1 \rightrightarrows D_0$$
-It may be said to consist of the following:
+Let's draw a double category $$D_1 \rightrightarrows D_0$$.
+Such a category  may be said to consist of the following:
 
 * *objects* given by the objects of $$D_0$$.
 
@@ -229,14 +228,14 @@ The reader can take it upon themself to work through an analogous construction o
 i haven't formalized this, but I'm fairly certain that any permutation on $$n$$ letters can transform an $$n$$fold category into another one by permuting the opposin pairs of facets.
 This is not the relevant kind of abstract nonsense, so I mention it only in passing.
 
-### The square tangles as an double category with one object
+### The square tangles as a double category with one object
 There's some extra niceness that comes along with higher category theory for whom most of the structure is simple;
 for instance, a category with one object is a (small) monoid, and a 2-category with one object is a (small, strict) monoidal category.
 
-There's an analogous but unfamiliar structure to a one-object double category, which appears as a pair of *horizontal and vertical monoids* and a set of *crossed morphisms* with horizontal and vertical composition which are compatible with the horizontal and vertical monoids, which are each monoidal, and which satisfy an interchane law.
-This structure was described in this <a href="https://math.stackexchange.com/questions/2395428/whats-a-double-category-with-one-object">this math exchange post,</a>
+There's an analogous but unfamiliar structure to a one-object double category, which appears as a pair of *horizontal and vertical monoids* and a set of *crossed morphisms* with horizontal and vertical composition which are compatible with the horizontal and vertical monoids, which are each monoidal, and which satisfy an interchane law. 
+This structure was described in this <a href="https://math.stackexchange.com/questions/2395428/whats-a-double-category-with-one-object">this math stackexchange post.</a>
 
-The square tangles will be defined with precisely this structure, and later the $$\ell$$-pieces will be defined with a similar triviality for $$\ell$$-fold categories.
+The square tangles will be defined with precisely this structure, and later a broader class of $$\ell$$-pieces will be defined with a similar triviality for $$\ell$$-fold categories.
 
 **Definition.**
 Let $$R$$ be the square, and let $$\partial R = \bigcup_{i=1}^{2} F_{1i} \cup F_{2i}$$ be the decomposition of the boundary of the square into two pairs of opposing edges.
@@ -244,7 +243,7 @@ We define a *square tangle* to be a tangle in $$(R,\bigcup F_{ij} - \bigcup F_{i
 Doubling this individually across each pair of faces yields a link in a thickened torus;
 if this link is hyperbolic, we say that the square tangle is *hyperbolic.*
 
-Two square tangles with the same number of endpoints on opposing edges have a clear notion of *vertical* or *horizontal* composition done by gluin, depending on which edges are being glued together. 
+Two square tangles with the same number of endpoints on opposing edges have a clear notion of *vertical* or *horizontal* composition done by gluing, depending on which edges are being glued together. 
 
 It's a consequence of the main theorem of the forthcoming paper that a link which subdivides into a hyperbolic square tangle is hyperbolic, and a square tangle which decomposes into two hyperbolic square tangles is hyperbolic.
 There are lower bounds on volumes going along with that, but we won't worry too much.
