@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Classes
+title: Writings
 ---
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
 
-<h2>Some assorted projects</h2>
+# Some assorted projects
 
 * Lower bounds on volumes of hyperbolic link compliments in 3-manifolds (2020). Joint with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. To appear.
     
