@@ -50,20 +50,22 @@ To see the rest of my class history (though I'm not sure why you would), go <a h
 
 ---
 ## UAing
+
 <style>
 .site-main table.no-border td {
     border: none;
 }
 </style>
+
 <table class="no-border" width="100%" cellspacing="0" cellpadding="0" border="0">
-<tbody><tr>
-<td width="80%">
-I'm also planning on being a UA for 18.112!
-If you're a student in 112 and somehow magically stumbled on this website, feel free to email me if you need help in the class or the general perspective of an undergrad with bad opinions.
-</td>
-<td>
-<img style="display: block; margin: auto;" alt="photo" src="/assets/STOP DOING MATH.png" href="/assets/STOP DOING MATH.png">
-</td>
+  <tbody><tr>
+  <td width="80%">
+  I'm also planning on being a UA for 18.112!
+  If you're a student in 112 and somehow magically stumbled on this website, feel free to email me if you need help in the class or the general perspective of an undergrad with bad opinions.
+  </td>
+  <td>
+  <img style="display: block; margin: auto;" alt="photo" src="/assets/STOP DOING MATH.png" href="/assets/STOP DOING MATH.png">
+  </td></tr></tbody>
 </table>
 
 ---
