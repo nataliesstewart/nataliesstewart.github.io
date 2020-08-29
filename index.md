@@ -62,7 +62,7 @@ I'm also planning on being a UA for 18.112!
 If you're a student in 112 and somehow magically stumbled on this website, feel free to email me if you need help in the class or the general perspective of an undergrad with bad opinions.
 </td>
 <td>
-<img style="display: block; margin: auto;" alt="photo" src="/assets/STOP DOING MATH.png">
+<img style="display: block; margin: auto;" alt="photo" src="/assets/STOP DOING MATH.png" href="/assets/STOP DOING MATH.png">
 </td>
 </table>
 
