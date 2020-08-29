@@ -48,6 +48,7 @@ I'm (probably) taking the following classes this semester:
 I'll probably be taking and posting notes for 18.919 and 6.849 this semester.
 To see the rest of my class history (though I'm not sure why you would), go <a href="/classes">here.</a>
 
+---
 ## UAing
 <style>
 .site-main table.no-border td {
@@ -63,10 +64,10 @@ If you're a student in 112 and somehow magically stumbled on this website, feel 
 <td>
 <img style="display: block; margin: auto;" alt="photo" src="/assets/STOP DOING MATH.png">
 </td>
+</table>
 
-</table
-
-<h1> Acknowledgement </h1>
+---
+## Acknowledgement 
 Much of the source for this site is lifted shamelessly from <a href="https://sanathdevalapurkar.github.io/"> Sanath Devalapurkar's</a> personal website.
 
 
