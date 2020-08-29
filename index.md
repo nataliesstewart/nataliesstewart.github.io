@@ -49,8 +49,12 @@ I'll probably be taking and posting notes for 18.919 and 6.849 this semester.
 To see the rest of my class history (though I'm not sure why you would), go <a href="/classes">here.</a>
 
 ## UAing
-
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<style>
+.site-main table.no-border td {
+    border: none;
+}
+</style>
+<table class="no-border" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tbody><tr>
 <td width="80%">
 I'm also planning on being a UA for 18.112!
