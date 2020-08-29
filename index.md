@@ -52,6 +52,9 @@ To see the rest of my class history (though I'm not sure why you would), go <a h
 ## UAing
 
 <style>
+* {
+  box-sizing: border-box;
+}
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
