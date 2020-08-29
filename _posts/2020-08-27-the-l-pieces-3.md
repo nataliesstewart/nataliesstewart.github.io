@@ -120,6 +120,8 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\NN}{\mathbb{N}}
 $$
 
+**This is an unfinished rough draft.**
+
 Since the last post I made, I realized a small (big) mistake that I had made;
 it's harder than expected to define an $$\ell$$-fold category structure on the $$\ell$$ pieces.
 I'll try to rework this in a restricted case.
@@ -198,6 +200,7 @@ For every monoid $$M_i$$, there is an $$\ell$$-fold category $$M_i$$ with a triv
 That is, every one of the $$\ell$$ categories of $$\ell$$-cells is the delooping which realizes $$M_i$$ as a one-object category. 
 
 This allows for the following proposition:
+
 **Proposition.**
 Suppose that $$V_i$$ has $$n$$ connected components.
 Then, the $$(\ell-1)$$-fold category $$\cC_i$$ is given by $$\NN^n$$.
