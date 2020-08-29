@@ -52,8 +52,13 @@ To see the rest of my class history (though I'm not sure why you would), go <a h
 ## UAing
 
 <style>
-.site-main table.no-border td {
-    border: none;
+.site-main table.no-border
+td {
+    border: 0px;
+}
+
+th{
+  border: 0px;
 }
 </style>
 
