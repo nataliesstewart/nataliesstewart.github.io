@@ -52,11 +52,33 @@ To see the rest of my class history (though I'm not sure why you would), go <a h
 ## UAing
 
 <style>
-.site-main table.no-border
-table, tr, td {
-    border: none;
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+​
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+
 
 <table class="no-border" width="100%" cellspacing="0" cellpadding="0" border="0">
   <tbody><tr>
