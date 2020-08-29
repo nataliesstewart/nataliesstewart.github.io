@@ -53,12 +53,8 @@ To see the rest of my class history (though I'm not sure why you would), go <a h
 
 <style>
 .site-main table.no-border
-td {
-    border: 0px;
-}
-
-th{
-  border: 0px;
+table, tr, td {
+    border: none;
 }
 </style>
 
