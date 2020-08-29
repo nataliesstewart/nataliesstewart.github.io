@@ -89,10 +89,10 @@ To see the rest of my class history (though I'm not sure why you would), go <a h
 
 <div class="row">
   <div class="column left">
-  <div class="vertical-center">
+  <p align="center">
   I'm also planning on being a UA for 18.112!
   If you're a student in 112 and somehow magically stumbled on this website, feel free to email me if you need help in the class or the general perspective of an undergrad with bad opinions.
-  </div>
+  </p>
   </div>
   <div class="column right">
   <img style="display: block; margin: auto;" alt="photo" src="/assets/STOP DOING MATH.png" href="/assets/STOP DOING MATH.png">
