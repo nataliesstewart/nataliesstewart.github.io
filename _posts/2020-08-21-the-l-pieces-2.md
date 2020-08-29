@@ -119,6 +119,7 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 
 \newcommand{\NN}{\mathbb{N}}
 $$
+
 In this post, my goal is to describe the category theory concept underlying the $$\ell$$-pieces.
 This is a construct called _$$n$$-fold categories_, the more complicated and less useful cousin of $$n$$-categories.
 I'll mostly focus on the $$n=2$$ case of _double categories_, since they generally seem more studied.
@@ -152,19 +153,19 @@ A *category  internal to $$\bE$$* is the following data
 * a _composition arrow_ $$\gamma:C_1 \times_{C_0} C_1 \rightarrow C_1$$ defined on the pullback:
 
 <p align="center">
-<a href="/assets/lpieces2_1"><img src="/assets/lpieces2_1.png" align="center" height="100" ></a>
+<a href="/assets/lpieces2_1.png"><img src="/assets/lpieces2_1.png" align="center" height="100" ></a>
 </p>
 
 such that $$d_0i = \id = d_1i$$ so that identity arrows have the right (co)domain and such that the following diagrams commute, establishing identity, (co)domain of the composite, and associativity of composition.
 
 <p align="center">
-<a href="/assets/lpieces2_2"><img src="/assets/lpieces2_2.png" align="center" height="100" ></a>
+<a href="/assets/lpieces2_2.png"><img src="/assets/lpieces2_2.png" align="center" height="100" ></a>
 </p>
 <p align="center">
-<a href="/assets/lpieces2_3"><img src="/assets/lpieces2_3.png" align="center" height="100" ></a>
+<a href="/assets/lpieces2_3.png"><img src="/assets/lpieces2_3.png" align="center" height="100" ></a>
 </p>
 <p align="center">
-<a href="/assets/lpieces2_4"><img src="/assets/lpieces2_4.png" align="center" height="100" ></a>
+<a href="/assets/lpieces2_4.png"><img src="/assets/lpieces2_4.png" align="center" height="100" ></a>
 </p>
 
 
@@ -209,13 +210,13 @@ Such a category  may be said to consist of the following:
 This can be pictured via the following square:
 
 <p align="center">
-<a href="/assets/lpieces2_5"><img src="/assets/lpieces2_5.png" align="center" height="100" ></a>
+<a href="/assets/lpieces2_5.png"><img src="/assets/lpieces2_5.png" align="center" height="100" ></a>
 </p>
 
 The data of a double category may be summarized by horizontal and vertical "edge categories," as well as horizontal and vertical "2-cell categories" which are compatible with the edge categories and satisfy the *interchange law* specifying that the following composite is well-defined.
 
 <p align="center">
-<a href="/assets/lpieces2_6"><img src="/assets/lpieces2_6.png" align="center" height="200" ></a>
+<a href="/assets/lpieces2_6.png"><img src="/assets/lpieces2_6.png" align="center" height="200" ></a>
 </p>
 
 We will prefer this type of description, as it shows symmetry;

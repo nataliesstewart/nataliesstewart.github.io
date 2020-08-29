@@ -37,6 +37,8 @@ I'm (probably) taking the following classes this semester:
 
 * 18.919 (Kan seminar)
 
+* 6.0002 (throwaway class taken for REST credit :/ )
+
 * 6.849 (geometric folding algorithms)
 
 * 21m.361 (electronic music composition)
@@ -46,7 +48,5 @@ To see the rest of my class history (though I'm not sure why you would), go <a h
 
 <h1> Acknowledgement </h1>
 Much of the source for this site is lifted shamelessly from <a href="https://sanathdevalapurkar.github.io/"> Sanath Devalapurkar's</a> personal website.
-I'm indebted to him for keeping his site open source. 
-I promise I'll personalize this website a bit more eventually.
 
 
