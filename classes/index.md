@@ -15,7 +15,7 @@ Graduate courses are marked with an asterisk.
 
 * 18.725\* (algebraic geometry 1)
 
-* 18.919\* (Kan seminar)
+* 6.0002 (intro to CS)
 
 * 6.849\* (geometric folding algorithms)
 
@@ -31,7 +31,7 @@ Graduate courses are marked with an asterisk.
 
 * 18.784 (seminar in number theory: modular forms)
 
-* 18.906 (algebraic topology 2)
+* 18.906\* (algebraic topology 2)
 
 ### IAP 2020
 

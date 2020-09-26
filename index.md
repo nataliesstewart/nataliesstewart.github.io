@@ -37,15 +37,12 @@ I'm (probably) taking the following classes this semester:
 
 * 18.725 (algebraic geometry 1)
 
-* 18.919 (Kan seminar)
-
 * 6.0002 (throwaway class taken for REST credit :/ )
 
 * 6.849 (geometric folding algorithms)
 
 * 21m.361 (electronic music composition)
 
-I'll probably be taking and posting notes for 18.919 and 6.849 this semester.
 To see the rest of my class history (though I'm not sure why you would), go <a href="/classes">here.</a>
 
 ---
