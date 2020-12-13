@@ -26,9 +26,16 @@ Generally I'm interested in category theory, algebraic topology, and low-dimensi
 </tbody></table>
 
 <p>
+I believe that the best mathematical community is one whose population is primarily selected for by interest and effort, as well as their interaction with "talent," an endogenous and perpetually evolving trait.
+To this end, I care about <a href="dei/index.md">diversity in the mathematics community.</a>
+</p>
+
+<p>
 Outside of mathematics, I tend to spend time playing jazz guitar, making electronic music, and cooking vegetarian food.
 I have a budding <a href="/blog/">blog</a> which I very occasionally use to deposit miscellaneous math thoughts. 
 </p>
+
+
 
 ## Next semester's classes
 
