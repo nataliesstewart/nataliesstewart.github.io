@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inclusivity
+title: null
 ---
 
 In my view, mathematics is a largely social activity, and one whose history contains countless issues surrounding unequal access and fixation on particular "geniuses." 

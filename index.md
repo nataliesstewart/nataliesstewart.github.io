@@ -27,7 +27,7 @@ Generally I'm interested in category theory, algebraic topology, and low-dimensi
 
 <p>
 I believe that the best mathematical community is one whose population is primarily selected for by interest and effort, as well as their interaction with "talent," an endogenous and perpetually evolving trait.
-To this end, I care about <a href="dei/index.md">diversity in the mathematics community.</a>
+To this end, I care about <a href="dei.html">diversity in the mathematics community.</a>
 </p>
 
 <p>
