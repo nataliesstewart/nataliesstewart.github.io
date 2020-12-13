@@ -215,10 +215,11 @@ Each connected component of $$V_i$$ must intersect $$T_1$$;
 idempotence and a little bit of cleverness yields that there are $$n$$ connected components of $$T_1$$, each intersecting exactly one of the components of $$V_i$$.
 The same is true for $$T_2$$, and the two "sides" of a glued component of $$T_2$$ and $$T_1$$ correspond with copies of the same component in $$V_i$$.
 This yields additivity.
-<p align=right>
-  $$\qed$$
-</p>
 
-This is nice, but not necessary for the followin definition.
-**Definition goes here.**
+This is nice, but not necessary for the following definition.
 
+**Definition.**
+The $$\ell$$-fold category of *tangles in $$P$$* has $i$th $$(\ell-1)$$-fold faces given by $$\cC_i$$ and $$\ell$$-cells given by the tangles in $$(P,\cbr{V_i})$$.
+
+Say that a tangle in $$(P,\cbr{V_i})$$ is an *identity* if it is the identity in one of the associated categories of $$\ell$$-cells.
+Then, one can form the category of *hyperbolic tangles and identities in $$P$$*.
