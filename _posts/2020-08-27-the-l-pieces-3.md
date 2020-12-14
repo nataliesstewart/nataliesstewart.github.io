@@ -129,6 +129,8 @@ I'll try to rework this in a restricted case.
 See <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/20/the-l-pieces-1.html">part 1 here</a> and
 see <a href="https://nataliesstewart.github.io/blog/geometric-topology/2020/08/21/the-l-pieces-2.html">part 2 here.</a>
 
+*(Last updated Nov. 13, 2020)*
+
 ### What an idempotent $$\ell$$ piece is
 
 Recall the decomposition of tangles in $$S^3$$ into a *cycle of tangles*, and then a decomposition of one of those tangles into a cycle.
@@ -148,7 +150,7 @@ This yields closure under composition of tangles in the 2-piece.
 We give this as a general definition now:
 
 **Definition.** 
-We say that an $$\ell$$-piece $$(P,\prn{\cbr{V_i}})$$ is *idempotent* if $$V_{2i} = V_{2i+1}$$ and, for all identity maps $$\id_j:V_{2j + 1} \rightarrow V_{2i}$$ we have
+We say that an $$\ell$$-piece $$\prn{P,\prn{\cbr{V_i}}}$$ is *idempotent* if $$V_{2i} = V_{2i+1}$$ and, for all identity maps $$\id_j:V_{2j + 1} \rightarrow V_{2i}$$ we have
 <p align="center">
   $$(P,\prn{\cbr{V_i}}) \circ_{\id_j} (P,\prn{\cbr{V_i}}) = (P,\prn{\cbr{V_i}})$$
 </p>
