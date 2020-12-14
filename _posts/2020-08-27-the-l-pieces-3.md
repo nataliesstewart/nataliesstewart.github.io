@@ -120,8 +120,6 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\NN}{\mathbb{N}}
 $$
 
-**This is an unfinished rough draft.**
-
 Since the last post I made, I realized a small (big) mistake that I had made;
 it's harder than expected to define an $$\ell$$-fold category structure on the $$\ell$$ pieces.
 I'll try to rework this in a restricted case.
