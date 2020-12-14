@@ -170,7 +170,7 @@ This is powerful enough to be an obstacle.
 
 **Proposition.**
 Suppose $$(P,\prn{\cbr{V_i}})$$ is an idempotent $$\ell$$-piece which is $$\bm$$-hyperbolic for some $$\bm \in 2\NN^\ell$$.
-Then, it is $$(2,\dots,2)$$-hyperbolic, and we have
+Then, it is $$\prn{2,\dots,2}$$-hyperbolic, and we have
 <p align="center">
   $$\vol^{\bm}(P,\prn{\cbr{V_i}}) = \frac{\vol^{(2,\dots,2)}(P,\prn{\cbr{V_i}})}{\prod_i m_i}$$
 </p>
