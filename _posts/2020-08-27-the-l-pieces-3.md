@@ -221,7 +221,20 @@ This yields additivity.
 This is nice, but not necessary for the following definition.
 
 **Definition.**
-The $$\ell$$-fold category of *tangles in $$P$$* has $i$th $$(\ell-1)$$-fold faces given by $$\cC_i$$ and $$\ell$$-cells given by the tangles in $$(P,\cbr{V_i})$$.
+The $$\ell$$-fold category of *tangles in $$P$$* has $$i$$th $$(\ell-1)$$-fold faces given by $$\cC_i$$ and $$\ell$$-cells given by the tangles in $$(P,\cbr{V_i})$$.
 
 Say that a tangle in $$(P,\cbr{V_i})$$ is an *identity* if it is the identity in one of the associated categories of $$\ell$$-cells.
-Then, one can form the category of *hyperbolic tangles and identities in $$P$$*.
+Then, one can form the category of *asymptotically hyperbolic tangles and identities in $$P$$*.
+
+Our statement that *$$\ell$$-pieces decomposing into hyperbolic $$(\ell+1)$$-pieces are hyperbolic* then compiles down to a categorical statement about the relationships between categories of pieces.
+I won't go into it further, as it isn't super useful.
+
+### Limitations and the moral of the story
+The moral of the story here might be that this simply is not very useful. 
+This forms a useful visualization tool in very limited cases of tangles in familiar idempotent pieces 9such as gyrobifastiga), but it isn't quite novel there, and the generalization is painful.
+
+In particular, the generalization comes as a collection of (intuitively, not just set-theoretically) *small* categories of $$\ell$$-pieces;
+it would simply be more satisfying if there was a *big* $$\ell$$-fold category of all of the $$\ell$$-pieces.
+Unfortunately, then we would have to tack more data onto our categories so that two $$\ell$$-fold pieces without gluing given by an $$\ell$$-fold piece are not considered composable.
+
+It is what it is.
