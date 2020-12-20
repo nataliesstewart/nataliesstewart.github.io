@@ -139,7 +139,7 @@ This post will largely consist of information which exists at nlab, and I will b
 My goal here is to summarize the notions of a *presheaf topos* and a *free category* so as to use them later to do more interesting and original stuff.
 
 I will assume basic knowledge of category theory, and will only give a handwavy sketch of basics of topos theory.
-Refer to *Categories for the Working Mathematician* by Mac Lane for the free category things and *Sheaves in Geometry and Logic* by Mac Lane and Moerdijk for the topos theory things.
+Refer to <a href="https://www.springer.com/gp/book/9781461298397">*Categories for the Working Mathematician* by Mac Lane</a> for the free category things and <a href="https://www.springer.com/gp/book/9780387977102">*Sheaves in Geometry and Logic* by Mac Lane and Moerdijk</a> for the topos theory things.
 
 *(last updated: December 20, 2020)*
 
@@ -159,7 +159,7 @@ We say that a *subobject classifier* of $$\bC$$ is a morphism $$\top:1 \rightarr
 diagramatically, this is expressed as
 
 <p align="center">
-<a href="/assets/lpieces2_1.png"><img src="/assets/lpieces2_1.png" align="center" height="100" ></a>
+<a href="/assets/freetopos1_1.png"><img src="/assets/freetopos1_1.png" align="center" height="100" ></a>
 </p>
 
 Now supposing that $$\bC$$ is finitely cocomplete and locally small, this is equivalent to $$\Omega$$ being a representing element for $$\Sub$$, i.e. it is equivalent to requiring that there exists a natural isomorphism
@@ -210,7 +210,7 @@ that is, it is a set $$N(X)$$ for each node $$X$$ and a map $$N(Y) \rightarrow N
 We can come up with some examples;
 note that $$\Set^{\Free\prn{\prn{\bullet \rightrightarrows \bullet}^{\op}}} = \Set^{\bullet \rightrightarrows \bullet}$$ is the category of pairs of sets $$A,N$$ with parallel arrows $$A \rightrightarrows N$$;
 that is, it forms the category of graph.
-This was explored in this paper by Vigna.
+This was explored in <a href="http://vigna.di.unimi.it/ftp/papers/ToposGraphs.pdf">this paper by Sebastiano Vigna</a>.
 
 For a similar feeling example, let $$\omega$$ be the first countable ordinal, i.e. the natural numbers under the usual order $$\leq \subset \NN\times \NN$$.
 Note that $$\omega$$ is a free category on the graph with nodes $$\NN$$ and arcs $$i \rightarrow i+1$$.
@@ -218,7 +218,7 @@ Using this, a presheaf on $$\omega$$ corresponds with an $$\NN$$-indexed collect
 
 There is an equivalence of categories between $$\Set^{\omega^{\op}}$$ and the category of *forests of potentially infinite height*;
 the nodes at height $$i$$ are given by $$X_i$$, and the parent of a node $$x \in X_i$$ is $$p(x_i)$$.
-For details, see this paper by Kasangian and Vigna.
+For details, see <a href="https://content.iospress.com/articles/fundamenta-informaticae/fi32-1-02">this paper by Stefano Kasangian and Sebastiano Vigna.</a>
 
 ---
 
