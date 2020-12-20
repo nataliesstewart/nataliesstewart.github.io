@@ -5,6 +5,8 @@ date:   2020-12-19
 categories: applied-category-theory
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
 $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
 \newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
@@ -132,6 +134,13 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \def\Nat{\operatorname{Nat}}
 \def\Free{\operatorname{Free}}
 $$
+
+Please ignore this, which hopefully should be a circle.
+<script type="text/tikz">
+  \begin{tikzpicture}
+    \draw (0,0) circle (1in);
+  \end{tikzpicture}
+</script>
 
 **this is incomplete!**
 
