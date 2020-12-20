@@ -127,6 +127,8 @@ $$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 
 \newcommand{\Set}{\mathbf{Set}}
 
+\newcommand{\op}{\text{op}}
+
 \def\Nat{\operatorname{Nat}}
 \def\Free{\operatorname{Free}}
 $$
@@ -218,7 +220,7 @@ There is an equivalence of categories between $$\Set^{\omega^{\op}}$$ and the ca
 the nodes at height $$i$$ are given by $$X_i$$, and the parent of a node $$x \in X_i$$ is $$p(x_i)$$.
 For details, see this paper by Kasangian and Vigna.
 
---
+---
 
 On the next episode, I'll go more in depth on some examples of what *being a topos* buys us for presheaves on particular free graphs. 
 In particular I'll work some examples of topologies on presheaf toposes on free graphs, and we'll see what those buy us. 
