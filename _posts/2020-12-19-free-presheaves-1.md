@@ -137,9 +137,13 @@ $$
 
 Please ignore this, which hopefully should be a circle.
 <script type="text/tikz">
-  \begin{tikzpicture}
-    \draw (0,0) circle (1in);
-  \end{tikzpicture}
+  \color{white}
+   \begin{tikzcd}
+     A \arrow[r,"!"] \arrow[d,tail]
+     & 1 \arrow[d,"\top"]\\
+     X \arrow[r,"\chi_A"]
+     & \Omega
+   \end{tikzcd}
 </script>
 
 **this is incomplete!**
