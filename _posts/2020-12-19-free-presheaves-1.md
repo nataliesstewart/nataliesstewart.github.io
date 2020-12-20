@@ -137,7 +137,6 @@ $$
 
 Please ignore this, which hopefully should be a circle.
 <script type="text/tikz">
-\color{white}
    \begin{tikzpicture}
      \node (A) at (0,1) {$A$};
      \node (1) at (1,1) {$1$};
