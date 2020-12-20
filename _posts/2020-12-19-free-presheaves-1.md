@@ -137,13 +137,17 @@ $$
 
 Please ignore this, which hopefully should be a circle.
 <script type="text/tikz">
-  \color{white}
-   \begin{tikzcd}
-     A \arrow[r,"!"] \arrow[d,tail]
-     & 1 \arrow[d,"\top"]\\
-     X \arrow[r,"\chi_A"]
-     & \Omega
-   \end{tikzcd}
+\color{white}
+   \begin{tikzpicture}
+     \node (A) at (0,1) {$A$};
+     \node (1) at (1,1) {$1$};
+     \node (X) at (0,0) {$X$};
+     \node (O) at (1,0) {$\Omega$};
+     \path[draw,>->,white] (A) -- (X);
+     \path[draw,->,white] (A) -- (1);
+     \path[draw,->,white] (1) -- (O);
+     \path[draw,->,white] (X) -- (O);
+   \end{tikzpicture}
 </script>
 
 **this is incomplete!**
