@@ -142,10 +142,10 @@ Please ignore this, which hopefully should be a circle.
      \node (1) at (1,1) {$1$};
      \node (X) at (0,0) {$X$};
      \node (O) at (1,0) {$\Omega$};
-     \path[draw,>->,white] (A) -- (X);
-     \path[draw,->,white] (A) -- (1);
-     \path[draw,->,white] (1) -- (O);
-     \path[draw,->,white] (X) -- (O);
+     \path[draw,white] (A) -- (X);
+     \path[draw,white] (A) -- (1);
+     \path[draw,white] (1) -- (O);
+     \path[draw,white] (X) -- (O);
    \end{tikzpicture}
 </script>
 
@@ -157,7 +157,7 @@ My goal here is to summarize the notions of a *presheaf topos* and a *free categ
 I will assume basic knowledge of category theory, and will only give a handwavy sketch of basics of topos theory.
 Refer to <a href="https://www.springer.com/gp/book/9781461298397">*Categories for the Working Mathematician* by Mac Lane</a> for the free category things and <a href="https://www.springer.com/gp/book/9780387977102">*Sheaves in Geometry and Logic* by Mac Lane and Moerdijk</a> for the topos theory things.
 
-*(last updated: December 20, 2020)*
+*(last updated: December 22, 2020)*
 
 ### Toposes at a glance
 
