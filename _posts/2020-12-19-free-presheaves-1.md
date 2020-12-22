@@ -138,11 +138,11 @@ $$
 Please ignore this, which hopefully should be a circle.
 <script type="text/tikz">
    \begin{tikzpicture}
-     \node (A) at (0,1) {$A$};
-     \node (1) at (1,1) {$1$};
-     \node (X) at (0,0) {$X$};
-     \node (O) at (1,0) {$\Omega$};
-     \path[draw,white] (A) -- (X);
+     \node[white] (A) at (0,1) {$A$};
+     \node[white] (1) at (1,1) {$1$};
+     \node[white] (X) at (0,0) {$X$};
+     \node[white] (O) at (1,0) {$\Omega$};
+     \path[draw,-\>,white] (A) -- (X);
      \path[draw,white] (A) -- (1);
      \path[draw,white] (1) -- (O);
      \path[draw,white] (X) -- (O);
