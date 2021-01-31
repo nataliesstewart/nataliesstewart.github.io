@@ -45,6 +45,8 @@ I'm (probably) taking the following classes this spring:
 
 * 18.737 (linear algebraic groups)
 
+* Math 690 (Knot Homologies) at Duke
+
 * 6.009 (programming :/)
 
 * 14.42 (environmental policy and economics)
