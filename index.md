@@ -45,6 +45,8 @@ I'm taking the following classes currently:
 
 * 18.737 (algebraic groups)
 
+* Math 690 (Knot Homologies) at Duke
+
 * 6.009 (programming :/)
 
 * 21m.361 (electronic music composition 2)
