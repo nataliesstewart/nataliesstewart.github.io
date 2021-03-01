@@ -11,6 +11,18 @@ The titles are not official.
 
 Graduate courses are marked with an asterisk.
 
+### Spring 2021
+
+* 18.726\* (algebraic geometry 2)
+
+* 18.737\* (algebraic groups)
+
+* Duke math 690 (knot homologies)
+
+* 6.009 (programming)
+
+* 21m.361 (electronic music composition)
+
 ### Fall 2020
 
 * 18.725\* (algebraic geometry 1)

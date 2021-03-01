@@ -37,17 +37,17 @@ I have a budding <a href="/blog/">blog</a> which I very occasionally use to depo
 
 
 
-## Next semester's classes
+## Current classes
 
-I'm (probably) taking the following classes this spring:
+I'm taking the following classes currently:
 
 * 18.726 (algebraic geometry 2)
 
-* 18.737 (linear algebraic groups)
+* 18.737 (algebraic groups)
 
 * 6.009 (programming :/)
 
-* 14.42 (environmental policy and economics)
+* 21m.361 (electronic music composition 2)
 
 To see the rest of my class history (though I'm not sure why you would), go <a href="/classes">here.</a>
 
