@@ -13,11 +13,16 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm a senior at MIT, where I am majoring in mathematics with computer science (18C) and minoring in economics.
+I'm an incoming 1st year at Harvard, where I'm persuing a PhD in topology.
 Generally I'm interested in category theory, algebraic topology, and low-dimensional topology.
+
+</p>
+<p>
+
+I was previously at MIT, where I studied mathematics with computer science (18C).
 </p>
 <ul>
-<li><b>Email address:</b> nns[at]mit[dot]edu.</li>
+<li><b>Email address:</b> nataliestewart[at]g[dot]harvard[dot]edu</li>
 <li><b>CV: </b><a href="/files/cv.pdf">[pdf]</a></li>
 </ul>
 
@@ -35,21 +40,9 @@ Outside of mathematics, I tend to spend time playing jazz guitar, making electro
 I have a budding <a href="/blog/">blog</a> which I very occasionally use to deposit miscellaneous math thoughts. 
 </p>
 
-
-
-## Current classes
-
-I'm taking the following classes currently:
-
-* 18.726 (algebraic geometry 2)
-
-* 18.737 (algebraic groups)
-
-* 6.009 (programming :/)
-
-* 21m.361 (electronic music composition 2)
-
-To see the rest of my class history (though I'm not sure why you would), go <a href="/classes">here.</a>
+<p>
+To see my class history at MIT (though I'm not sure why you would), go <a href="/classes">here.</a>
+</p>
 
 ---
 ## Acknowledgement 
