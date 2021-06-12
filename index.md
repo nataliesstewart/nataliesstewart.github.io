@@ -36,7 +36,7 @@ To this end, I care about <a href="dei.html">diversity in the mathematics commun
 </p>
 
 <p>
-Outside of mathematics, I tend to spend time playing jazz guitar, making electronic music, and cooking vegetarian food.
+Outside of mathematics, I tend to spend time playing jazz guitar, making electronic music, and <a href="/cooking/">cooking vegetarian food</a>.
 I have a budding <a href="/blog/">blog</a> which I very occasionally use to deposit miscellaneous math thoughts. 
 </p>
 
