@@ -22,7 +22,7 @@ Generally I'm interested in category theory, algebraic topology, and low-dimensi
 I was previously at MIT, where I studied mathematics with computer science (18C).
 </p>
 <ul>
-<li><b>Email address:</b> nataliestewart[at]g[dot]harvard[dot]edu</li>
+<li><b>Email address:</b> nataliestewart[at]math[dot]harvard[dot]edu</li>
 <li><b>CV: </b><a href="/files/cv.pdf">[pdf]</a></li>
 </ul>
 
