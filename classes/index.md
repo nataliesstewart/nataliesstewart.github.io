@@ -11,6 +11,12 @@ The titles are not official.
 
 Graduate courses are marked with an asterisk.
 
+### Fall 2021
+
+* 18.919\* (Kan Seminar)
+
+* Math 230A\* (differential geometry)
+
 ### Spring 2021
 
 * 18.726\* (algebraic geometry 2)

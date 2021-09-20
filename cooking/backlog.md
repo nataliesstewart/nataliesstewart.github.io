@@ -9,4 +9,7 @@ title: Backlog of recipes to try
 
 * Dubu gangjeong
 
+* Explore SE asian curries
+
+* <a href="https://hintofhelen.com/sweet-potato-korean-curry/">This korean sweet potato curry.</a>
 
