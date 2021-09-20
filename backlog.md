@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Backlog of recipes to try
 exclude: true
 ---
 
