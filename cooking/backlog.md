@@ -1,4 +1,5 @@
 ---
+exclude: true
 layout: default
 title: Backlog of recipes to try
 ---
