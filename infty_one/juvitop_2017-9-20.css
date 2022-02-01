@@ -108,15 +108,15 @@ p { margin-bottom: 10px; }
 }
 
 
-
 .meta .date { 
     float: right;
     margin-left: -85px;
     margin-top: -4px;    
     padding: 5px;
-    width: 60px;    
-    background: #771313;
-    color: rgb(255, 255, 255);
+    width: 60px;  
+    border: 2px solid rgb(0,0,0);  
+    background: rgb(248,142,30);
+    color: rgb(0,0,0);
     text-align: center;
     font-size: 14px;
     -moz-border-radius: 5px;
@@ -126,7 +126,7 @@ p { margin-bottom: 10px; }
 .meta .date b { 
     display: block;
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 16px;
     line-height: 22px;
 }
