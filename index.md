@@ -44,7 +44,7 @@ To see my class history at MIT (though I'm not sure why you would), go <a href="
 </p>
 
 ---
-This semester, I'm co-running a <a href="/infty-one/">learning seminar on parts from Lurie's Higher Algebra</a>, which meets on Thursdays at 5:30 at Harvard.
+This semester, I'm co-running a <a href="/infty_one/">learning seminar on parts from Lurie's Higher Algebra</a>, which meets on Thursdays at 5:30 at Harvard.
 
 ---
 ## Acknowledgement 
