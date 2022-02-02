@@ -13,9 +13,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm an incoming 1st year at Harvard, where I'm persuing a PhD in topology.
+I'm a 1st year at Harvard, where I'm persuing a PhD in topology.
 Generally I'm interested in category theory, algebraic topology, and low-dimensional topology.
-
 </p>
 <p>
 
@@ -45,7 +44,11 @@ To see my class history at MIT (though I'm not sure why you would), go <a href="
 </p>
 
 ---
+This semester, I'm co-running a <a href="/infty-one/">learning seminar on parts from Lurie's Higher Algebra</a>, which meets on Thursdays at 5:30 at Harvard.
+
+---
 ## Acknowledgement 
 Much of the source for this site is lifted shamelessly from <a href="https://sanathdevalapurkar.github.io/"> Sanath Devalapurkar's</a> personal website.
+
 
 
