@@ -130,6 +130,50 @@ p { margin-bottom: 10px; }
     font-size: 16px;
     line-height: 22px;
 }
+.meta .datenow { 
+    float: right;
+    margin-left: -85px;
+    margin-top: -4px;    
+    padding: 5px;
+    width: 60px;  
+    border: 2px solid rgb(0,0,0);  
+    background: rgb(240, 20,20);
+    color: rgb(0,0,0);
+    text-align: center;
+    font-size: 14px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.meta .datenow b { 
+    display: block;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 22px;
+}
+.meta .datenext { 
+    float: right;
+    margin-left: -85px;
+    margin-top: -4px;    
+    padding: 5px;
+    width: 60px;  
+    border: 2px solid rgb(248,142,30);  
+    background: rgb(0,0,0);
+    color: rgb(248,142,30);
+    text-align: center;
+    font-size: 14px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.meta .datenext b { 
+    display: block;
+    font-weight: normal;
+    color: rgb(248,142,30);
+    font-size: 16px;
+    line-height: 22px;
+}
 .meta .calendar,
 .meta .poster { 
     float: right;
