@@ -7,7 +7,7 @@ title: Writings
 
 # Papers
 
-* Lower bounds on volumes of hyperbolic link complements in 3-manifolds (2021). Joint with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. To appear.
+* <a href="https://arxiv.org/pdf/2111.06319.pdf">Lower bounds on volumes of hyperbolic link complements in 3-manifolds (2021).</a> Joint with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. To appear.
     
   Lower bounds on the volumes of hyperbolic link complements are given via a new construction:
   a *bracelet link* is a link in $$S^3$$ decomposed as a cycle of interconnected tangles, and it is proved that a bracelet link of $$2n$$ tangles, such that each individual tangle may be *replicated* into a hyperbolic bracelet link of $$2n$$ copies of the tangle, is hyperbolic, with volume at least the average of the replicated links.
@@ -38,5 +38,6 @@ title: Writings
   In the characteristic-5 case, some irreducible subrepresentation of Jordan-Shor's Fibonacci representation are given, and these are proven to be isomorphic to the irreducible quotients of two-row Specht modules whose rows differ by length at most 3.
 
 # Notes and other things
+* <a href="/files/cauchy.pdf">Some notes on Cauchy complete categories</a>, prepared for a talk at Harvard's "trivial notions" seminar.
 
 * <a href="/files/juvitop_9_14_21.pdf">An introduction to L-infinity algebras</a>, for a talk at <a href="https://math.mit.edu/juvitop/">Juvitop</a>.
