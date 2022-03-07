@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="icon.svg" type="image/x-icon">
     <title>(∞,1)-seminar</title>
     <style type="text/css">
 /* 
@@ -74,10 +75,11 @@
 <hr style="margin-bottom: 10px">
 <p> We are a learning seminar about \(\infty\)-nonsense. We will follow sections from <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf">Higher Algebra</a> according to the interests of the participants.
 
+<p> We meet in SC 232 at 6-7pm on Thursdays.
+All talk titles are estimates, and subject to change. 
+
 <p> Familiarity with \((\infty,1)\)-categories on the level of <a href="https://arxiv.org/pdf/math/0608040.pdf">HTT §1-3</a> will be helpful, as well as some familiarity with model categories and stable homotopy theory;
 the fundamentals of higher category theory will be quickly reviewed.
-
-<p> All talk titles are estimates, and subject to change. More specific details will arise following our organizational meeting on February 3, in the Harvard math common room.
 
 <p> This seminar is organized by <a href="mailto:nataliestewart@math.harvard.edu">Natalie Stewart</a> and <a href="mailto:tnam@math.harvard.edu">Taeuk Nam</a>.</p>
 
@@ -87,7 +89,7 @@ the fundamentals of higher category theory will be quickly reviewed.
         <ul id= "talks">
             <li class="talk">
                 <ul class="meta">
-                  <li class="datenow"><b> Feb 3</b>2022</li>
+                  <li class="date"><b> Feb 3</b>2022</li>
                 <!--
                 
                     <li class="calendar"><a title="Add to Google Calendar" href=""></a></li> 
@@ -152,7 +154,7 @@ the fundamentals of higher category theory will be quickly reviewed.
                     
                     
                     </ul><div style="clear:both;">
-                      ???
+                    First, we will define infinity categories as simplicial sets that satisfy a certain lifting property. Then, we will compare our approach with other approaches to infinity categories. Finally, we will discuss how to extend ordinary category theoretic constructions to the setting of infinity categories.
                     </div> <!-- close talk_float div, and it needs to be cleared -->
                                                                     <div class="notes"><h3>References:</h3>
                                                                 <ul>
@@ -202,7 +204,15 @@ the fundamentals of higher category theory will be quickly reviewed.
                     
                     
                     </ul><div style="clear:both;">
-                      Trivial, Kan, left, categorical, and inner fibrations. 
+                      <p> We define <a href="fibrations.png">several classes of maps</a> in \(\mathbf{Set}_\Delta\) and sketch the definition of (co)Cartesian fibrations. 
+                     
+                      <p> We review the Quillen model structure on \(\mathbf{Set}_\Delta\), whose fibrations are Kan fibrations.
+
+                      <p> We go over the (unmarked) straightening and unstraightening constructions, and construct the covariant model structure on \((\mathbf{Set}_\Delta)_{/S}\), whose fibrations correspond with left fibrations over \(S\).
+                     
+                      <p> We go on to construct the Joyal model structure on \(\mathbf{Set}_\Delta\), which has fibrations the isofibrations (hence fibrant objects the quasicategories) and is Quillen equivalent to the Joyal model structure on \(\mathbf{Set}_\Delta-\mathbf{Cat}\), with left adjoint given by the simplicial nerve functor. 
+                      In general, we emphasize a collection of <a href="adjunctions.png">quillen adjunctions</a> relating the model structures mentioned above.
+
                     </div> <!-- close talk_float div, and it needs to be cleared -->
                                                                     
                                                                     
@@ -210,7 +220,10 @@ the fundamentals of higher category theory will be quickly reviewed.
                                                                     <div class="notes"><h3>References:</h3>
                                                                 <ul>
                                                                   <li>  
-                                                                    <a href="https://arxiv.org/pdf/math/0608040.pdf#chapter.2"> Lurie, Higher Topos Theory §2 </a>
+                                                                    <a href="https://arxiv.org/pdf/math/0608040.pdf#chapter.2"> Lurie, Higher Topos Theory §2.1-2.3 </a> for a full treatment, or
+                                                                  </li>
+                                                                  <li>
+                                                                    <a href="https://kerodon.net/tag/01GP"> Kerodon §4 </a> for a readable summary of fibrations other than (co)Cartesian fibrations.
                                                                   </li>
                                                                 </ul></div>
                                                                     
@@ -228,12 +241,12 @@ the fundamentals of higher category theory will be quickly reviewed.
               <h4 class="title">HTT crash course III: the Cartesian model structure and the \((\infty,1)\)-category of \((\infty,1)\)-categories</h4>
               <div style="clear: both;"></div>
            
-              <h3 class="speaker">???</h3>
+              <h3 class="speaker">Grant Barkley</h3>
               <div style="clear: both;"></div>
             </ul>
               
             <div style="clear:both;">
-              ???
+              We will discuss the notion of a Cartesian fibration of simplicial sets, generalizing the notion of a Grothendieck fibration of 1-categories. As in the 1-categorical setting, a Cartesian fibration of quasicategories should be thought as a family of quasicategories varying (contra)functorially over the base. By generalizing this perspective, we arrive at the construction of straightening and unstraightening functors. To place these constructions in the context of model structures, we will need to enhance the category of simplicial sets with some extra data, a marking of edges. The marked simplicial sets lying over a given simplicial set \(S\) have a model structure presenting the category of \((\infty,1)\)-presheaves on S. In particular, we get a new presentation of \(\mathbf{Cat}_\infty\) by taking \(S = *\). If we have time, we'll talk about how this perspective helps us compute limits in \(\mathbf{Cat}_\infty\).
             </div> 
                                                               
             <div class="notes">
@@ -258,12 +271,19 @@ the fundamentals of higher category theory will be quickly reviewed.
               <h4 class="title">Stable \(\infty\)-Categories</h4>
               <div style="clear: both;"></div>
            
-              <h3 class="speaker">???</h3>
+              <h3 class="speaker">Eunice Sukarto</h3>
               <div style="clear: both;"></div>
             </ul>
               
             <div style="clear:both;">
-              ???
+              We will define stability in an infinity-categorical setting. 
+              Roughly speaking, this means that fiber and cofiber sequences coincide. 
+              As in the 1-categorical setting, the homotopy category of a stable infinity category is triangulated. 
+              This means that we have a shift functor which is an equivalence, together with a collection of “distinguished triangles” (think: exact sequences). 
+              We will see that a pointed infinity category is stable iff it has all finite limits and colimits and pushout and pullback squares coincide. 
+              The correct notion of structure preserving morphisms between stable infinity categories are exact functors. 
+              This gives a subcategory \(\textbf{Cat}_{\infty}^{\mbox{Ex}} \subseteq \textbf{Cat}_{\infty}\) consisting of stable infinity categories and exact functors. 
+              In fact, the infinity category \(\textbf{Cat}_{\infty}^{\mbox{Ex}}\) has all small limits and small filtered colimits, which are preserved by the inclusion \(\textbf{Cat}_{\infty}^{\mbox{Ex}} \subseteq \textbf{Cat}_{\infty}\).
             </div> 
                                                               
             <div class="notes">
@@ -277,19 +297,19 @@ the fundamentals of higher category theory will be quickly reviewed.
           
             <li class="talk">
             <ul class="meta">
-              <li class="date"><b> Mar 10</b>2022</li>
+              <li class="datenow"><b> Mar 10</b>2022</li>
             </ul>
                   
             <ul class="talk_float">    
               <h4 class="title">Filtered objects, spectral sequences, and the Dold-Kan correspondence</h4>
               <div style="clear: both;"></div>
            
-              <h3 class="speaker">???</h3>
+              <h3 class="speaker">Jit Wu Yap</h3>
               <div style="clear: both;"></div>
             </ul>
               
             <div style="clear:both;">
-              ???
+              In this talk, we will define the notion of t-structures for a triangulated category, and extend it to the setting of stable \(\infty\)-categories. We will then define the notion of a filtered object in a stable \(\infty\)-category, and construct a spectral sequence that generalizes the spectral sequence of a filtered complex in an abelian category. Finally we will review the classical Dold-Kan correspondence, and then introduce the \(\infty\)-categorical version of it.
             </div> 
                                                               
             <div class="notes">
@@ -304,7 +324,213 @@ the fundamentals of higher category theory will be quickly reviewed.
             <div style="clear:both;">
             </div> 
           </li>
+
+            <li class="talk">
+            <ul class="meta">
+              <li class="datemon"><b> Mar 21</b>2022</li>
+            </ul>
+                  
+            <ul class="talk_float">    
+              <h4 class="title">Special talk: monadicity</h4>
+              <div style="clear: both;"></div>
+           
+              <h3 class="speaker">Taeuk Nam</h3>
+              <div style="clear: both;"></div>
+            </ul>
+              
+            <div style="clear:both;">
+              Monadicity, aimed at a general audience
+            </div> 
+                                                              
+            <div class="notes">
+              <h3>References:</h3>
+              <ul>
+                <li>
+                  <a href="https://people.maths.ox.ac.uk/brantner/L5.pdf"> These notes by Brantner. </a>
+                </li>
+              </ul>
+            </div>                                                      
+
+            <div style="clear:both;">
+            </div> 
+          </li>
+            
+          <li class="talk">
+            <ul class="meta">
+              <li class="date"><b> Mar 24</b>2022</li>
+            </ul>
+                  
+            <ul class="talk_float">    
+              <h4 class="title">The derived \((\infty,1)\)-category of an abelian category</h4>
+              <div style="clear: both;"></div>
+           
+              <h3 class="speaker">Wyatt Reeves</h3>
+              <div style="clear: both;"></div>
+            </ul>
+              
+            <div style="clear:both;">
+              ???
+            </div> 
+                                                              
+            <div class="notes">
+              <h3>References:</h3>
+              <ul>
+                <li>
+                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.1.3"> Lurie, Higher Algebra §1.3 </a>
+                </li>
+              </ul>
+            </div>                                                      
+
+            <div style="clear:both;">
+            </div> 
+          </li>
+            <li class="talk">
+            <ul class="meta">
+              <li class="date"><b> Mar 31</b>2022</li>
+            </ul>
+                  
+            <ul class="talk_float">    
+              <h4 class="title">The \((\infty,1)\)-category of spectra</h4>
+              <div style="clear: both;"></div>
+           
+              <h3 class="speaker">Keeley Hoek</h3>
+              <div style="clear: both;"></div>
+            </ul>
+              
+            <div style="clear:both;">
+              ???
+            </div> 
+                                                              
+            <div class="notes">
+              <h3>References:</h3>
+              <ul>
+                <li>
+                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.1.4"> Lurie, Higher Algebra §1.4 </a>
+                </li>
+              </ul>
+            </div>                                                      
+
+            <div style="clear:both;">
+            </div> 
+          </li>
+            <li class="talk">
+            <ul class="meta">
+              <li class="date"><b> Apr 7</b>2022</li>
+            </ul>
+                  
+            <ul class="talk_float">    
+              <h4 class="title"> Foundations of \(\infty\)-operads.</h4>
+              <div style="clear: both;"></div>
+           
+              <h3 class="speaker">Rushil?</h3>
+              <div style="clear: both;"></div>
+            </ul>
+              
+            <div style="clear:both;">
+              ???
+            </div> 
+                                                              
+            <div class="notes">
+              <h3>References:</h3>
+              <ul>
+                <li>
+                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.2.1"> Lurie, Higher Algebra §2.1 </a>
+                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.6.1"> Lurie, Higher Algebra §6.3 </a> for comparison with (co)monoids in symmetric sequences. 
+                </li>
+              </ul>
+            </div>                                                      
+
+            <div style="clear:both;">
+            </div> 
+          </li>
  
+            <li class="talk">
+            <ul class="meta">
+              <li class="date"><b> Apr 14</b>2022</li>
+            </ul>
+                  
+            <ul class="talk_float">    
+              <h4 class="title">Constructions of \(\infty\)-Operads</h4>
+              <div style="clear: both;"></div>
+           
+              <h3 class="speaker">???</h3>
+              <div style="clear: both;"></div>
+            </ul>
+              
+            <div style="clear:both;">
+              ???
+            </div> 
+                                                              
+            <div class="notes">
+              <h3>References:</h3>
+              <ul>
+                <li>
+                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.2.2"> Lurie, Higher Algebra §2.2 </a>
+                </li>
+              </ul>
+            </div>                                                      
+
+            <div style="clear:both;">
+            </div> 
+          </li>
+            <li class="talk">
+            <ul class="meta">
+              <li class="date"><b> Apr 21</b>2022</li>
+            </ul>
+                  
+            <ul class="talk_float">    
+              <h4 class="title">Disintegration and assembly</h4>
+              <div style="clear: both;"></div>
+           
+              <h3 class="speaker">???</h3>
+              <div style="clear: both;"></div>
+            </ul>
+              
+            <div style="clear:both;">
+              ???
+            </div> 
+                                                              
+            <div class="notes">
+              <h3>References:</h3>
+              <ul>
+                <li>
+                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.2.3"> Lurie, Higher Algebra §2.3 </a>
+                </li>
+              </ul>
+            </div>                                                      
+
+            <div style="clear:both;">
+            </div> 
+          </li>
+            <li class="talk">
+            <ul class="meta">
+              <li class="date"><b> Apr 28</b>2022</li>
+            </ul>
+                  
+            <ul class="talk_float">    
+              <h4 class="title">Products and coproducts</h4>
+              <div style="clear: both;"></div>
+           
+              <h3 class="speaker">???</h3>
+              <div style="clear: both;"></div>
+            </ul>
+              
+            <div style="clear:both;">
+              ???
+            </div> 
+                                                              
+            <div class="notes">
+              <h3>References:</h3>
+              <ul>
+                <li>
+                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.2.4"> Lurie, Higher Algebra §2.4 </a>
+                </li>
+              </ul>
+            </div>                                                      
+
+            <div style="clear:both;">
+            </div> 
+          </li>
 
         </ul>
     <hr style="margin-top: 20px; margin-bottom: 10px;">
