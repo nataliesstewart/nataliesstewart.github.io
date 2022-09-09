@@ -236,4 +236,11 @@ up to equivalence, we have $$\cW_1 \simeq \RRP^2$$ (we can pull rings to the cen
 
 Let's go one level up:
 what ought the space of two-component weaves be?
+One good answer for this is the space of pairs of circles which are nonintersecting.
 
+Let's flesh this all the way out:
+
+> **Definition 2.** *The $$n$$th part of the space of chainmail weaves is defined by
+\[
+  aaa
+\]
