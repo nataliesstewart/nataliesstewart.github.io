@@ -185,13 +185,13 @@ the *inner diameter* (diameter of the smallest longitudinal circle), the *wire d
 My preferred way of referring to rings is by wire diameter and AR, so that for single-AR designs, I can dialate my specification of the design with a single datum.
 
 However, we often use mixed-AR designs:
-for instance, given a weave made of rings of core diameter $1$ (i.e. inner diameter $+$ half wire diameter) and a fixed AR $A$, I can form another "weave" of rings of core diameter $1$ and AR $A + \varepsilon$ by "shrinking" each ring.
+for instance, given a weave made of rings of core diameter $1$ (i.e. inner diameter $+$ half wire diameter) and a fixed AR $A$, I can form another "weave" of rings of core diameter $1$ and AR $$A + \varepsilon$$ by "shrinking" each ring.
 
 Our classification should identify rings which are related by this procedure;
 we might as well shrink rings to infinitesimally small, and note that as $A \gg 0$, weaves become idenfied with AR $A$ iff they're identified with AR $A + \varepsilon$.
 I'll skip the ponderance of the (co)limit of the procedure, and say what we get:
 
-> **Correct question 1**. What are the ways of "rigidly" embedding finitely many circles into $\RR^3$$ up to deformations of rigidly embedded circles?
+> **Correct question 1**. What are the ways of "rigidly" embedding finitely many circles into $$\RR^3$$ up to deformations of rigidly embedded circles?
 
 However, in chainmail, there are sometimes phenomena that we care about which are specific towards ID relationships, called *captivation* and *orbiting*;
 a circle is *captivated* if it spans a plane not intersecting any other circles, yet it is not able to be "separated" from the rest of the weave to occupy disjoint isometrically embedded standard balls.
@@ -205,7 +205,7 @@ however, if it's ID is any amount larger than that of the surrounding ones, it i
 We can manage some ID specific interactions in a finitary classification if we fix ratios;
 the simplest example is weaves of rings which all have the same ID:
 
-> **Correct question 2**. What are the ways of "rigidly" embedding finitely many circles of the same radius into $\RR^3$$ up to deformations of rigidly embedded circles?
+> **Correct question 2**. What are the ways of "rigidly" embedding finitely many circles of the same radius into $$\RR^3$$ up to deformations of rigidly embedded circles?
 
 It is this question that we endeavor to answer.
 We now define "weave" in a precise way, to capture the answer to this question.
@@ -214,20 +214,20 @@ However, first, we need a bit of technology.
 ### Graded spaces
 
 ### The (graded) space of chain mail weaves
-We hope to define a graded space $\cW_n$, such that $W_n := \pi_0 \cW_n$ is the correct notion of a *weave with $n$ components*.
-Formally, let's write $\cW_0 = \cbr{*}$, i.e. it's the space consisting of a point.
-We may first endeavor to define $\cW_1$ correctly.
+We hope to define a graded space $$\cW_n$$, such that $$W_n := \pi_0 \cW_n$$ is the correct notion of a *weave with $n$ components*.
+Formally, let's write $$\cW_0 = \cbr{*}$$, i.e. it's the space consisting of a point.
+We may first endeavor to define $$\cW_1$$ correctly.
 
-These are meant to be *rigidly embedded circles of radius 1 in $\RR^3$*.
+These are meant to be *rigidly embedded circles of radius 1 in $$\RR^3$$*.
 Every such circle is a uniquely a unit circle in an embedded (pointed) plane, which is linearly embedded in $\RR^3$.
 We may use this as a definition:
 
-> **Definition 1**. $\cW_1 := \RR^3 \times \RRP^2$.
+> **Definition 1**. $$\cW_1 := \RR^3 \times \RRP^2$$.
 
 This is scary if not unpacked:
 already we're working with a non-orientable 5-manifold!
-However, as we currently only care about $\pi_0 \cW_n$, we should only really care about $\cW_1$ up to homotopy equivalence;
-up to equivalence, we have $\cW_1 \simeq \RRP^2$, which ought be one of the least scary non-orientable surfaces.
+However, as we currently only care about $$\pi_0 \cW_n$$, we should only really care about $$\cW_1$$ up to homotopy equivalence;
+up to equivalence, we have $$\cW_1 \simeq \RRP^2$$, which ought be one of the least scary non-orientable surfaces.
 
 
 
