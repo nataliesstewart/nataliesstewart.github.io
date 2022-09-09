@@ -1,13 +1,15 @@
 ---
 layout: post
 title:  "Chainmail math 1: a weave is a path component of the (coarse) moduli space of weaves"
-date:   2022-12-19
+date:   2022-09-09
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
 <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 <script src="https://tikzjax.com/v1/tikzjax.js"></script>
-$$\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
+
+$$
+\newcommand{\KO}{\mathrm{KO}} \newcommand{\TMF}{\mathrm{TMF}}
 \newcommand{\KU}{\mathrm{KU}} \newcommand{\Mfg}{M_\mathrm{fg}}
 \newcommand{\spec}{\mathrm{Spec}} \newcommand{\dX}{\mathcal{X}}
 \newcommand{\co}{\mathcal{O}} \newcommand{\Z}{\mathbf{Z}}
@@ -160,10 +162,10 @@ These often take the form of *units,* which are attached to a necklace chain as 
 It is these units, initially, that we're interested in classifying.
 So we may begin by asking an incorrect question:
 
-> **Incorrect question 1**. *What are the ways of isometrically embedding finitely many solid tori into $$\RR^3$?
+> **Incorrect question 1**. *What are the ways of isometrically embedding finitely many solid tori into $$\RR^3$$?
 
 One reason this is incorrect is that it has a tautological answer which is uncountably infinite:
-there is one for every isometric embedding $\coprod_n T_i \rightarrow \RR^3$, where $T_i$ is a standard solid torus of a given inner radius and "wire" radius!
+there is one for every isometric embedding \(\coprod_n T_i \rightarrow \RR^3\), where \(T_i\) is a standard solid torus of a given inner radius and "wire" radius!
 This is not of interest, and it doesn't help us work with chainmail in practice.
 
 Another reason this is incorrect is that it appears to distinguish between weaves which are secretly the same;
