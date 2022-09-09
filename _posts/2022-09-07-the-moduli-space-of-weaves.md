@@ -240,8 +240,8 @@ One good answer for this is the space of pairs of circles which are nonintersect
 
 Let's flesh this all the way out:
 
-> **Definition 2.** *The $$n$$th part of the space of chainmail weaves is defined by
-
+> **Definition 2.** *The $$n$$th part of the space of chainmail weaves is defined by*
   <p align="center">
-    $$\cW_n := \cbr{(x_i,\ell_i)_{i \in \brk{n}} \mid \not \exists y \in P_{\ell_i} \cap P_{\ell_j} \text{ and } d(x_i,y) = d(x_j,y) = 1)} 
+    $$\cW_n := \cbr{(x_i,\ell_i)_{i \in \brk{n}} \mid \not \exists y \in P_{\ell_i} \cap P_{\ell_j} \text{ and } d(x_i,y) = d(x_j,y) = 1)} $$
   </p>
+  *explicitly, this is the space of $$n$$ intersecting circles in $$\RR^3$$.*
