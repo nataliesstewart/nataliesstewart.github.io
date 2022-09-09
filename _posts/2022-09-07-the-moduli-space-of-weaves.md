@@ -121,7 +121,9 @@ $$
 \newcommand{\bE}{\mathbf{E}}
 \newcommand{\bS}{\mathbf{S}}
 
+\newcommand{\cW}{\mathcal{W}}
 \newcommand{\cT}{\mathcal{T}}
+\newcommand{\RRP}{\mathbb{RP}}
 
 \newcommand{\NN}{\mathbb{N}}
 
@@ -135,7 +137,10 @@ $$
 
 \def\Nat{\operatorname{Nat}}
 \def\Free{\operatorname{Free}}
+
+
 $$
+
 
 **This post is under construction.**
 
@@ -227,9 +232,8 @@ We may use this as a definition:
 This is scary if not unpacked:
 already we're working with a non-orientable 5-manifold!
 However, as we currently only care about $$\pi_0 \cW_n$$, we should only really care about $$\cW_1$$ up to homotopy equivalence;
-up to equivalence, we have $$\cW_1 \simeq \RRP^2$$, which ought be one of the least scary non-orientable surfaces.
+up to equivalence, we have $$\cW_1 \simeq \RRP^2$$ (we can pull rings to the center up to contractible ambiguity), which ought be one of the least scary non-orientable surfaces.
 
-
-
-
+Let's go one level up:
+what ought the space of two-component weaves be?
 
