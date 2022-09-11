@@ -244,7 +244,7 @@ Let's flesh this all the way out:
 
 > **Definition 2.** *The $$n$$th part of the space of chainmail weaves is defined by*
   <p align="center">
-    $$\cW_n := \cbr{(x_i,\ell_i)_{i \in [n]} \mid \not \exists y \in P_{\ell_i} \cap P_{\ell_j} \text{ s.t. } d(x_i,y) = d(x_j,y) = 1)} \subset \left\(\RR^3 \times \RRP^2\right\)^n;$$
+    $$\cW_n := \cbr{(x_i,\ell_i)_{i \in [n]} \mid \not \exists y \in P_{\ell_i} \cap P_{\ell_j} \text{ s.t. } d(x_i,y) = d(x_j,y) = 1)} \subset \prn{\RR^3 \times \RRP^2}^n;$$
   </p>
 > *explicitly, this is the space of $$n$$ intersecting circles in $$\RR^3$$.*
 
