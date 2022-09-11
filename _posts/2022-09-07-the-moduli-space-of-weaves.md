@@ -108,6 +108,8 @@ $$
 \newcommand{\can}{\mathrm{can}} \newcommand{\Coh}{\mathrm{Coh}}
 \newcommand{\SH}{\mathrm{SH}}
 
+\newcommand{\Fr}{\operatorname{Fr}}
+
 \newcommand{\cbr}[1]{\left\{ #1 \right\}}
 \newcommand{\brk}[1]{\left\[ #1 \right\]}
 \newcommand{\prn}[1]{\left( #1 \right)}
@@ -122,8 +124,9 @@ $$
 \newcommand{\bE}{\mathbf{E}}
 \newcommand{\bS}{\mathbf{S}}
 
-\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cA}{\mathcal{A}}
 \newcommand{\cT}{\mathcal{T}}
+\newcommand{\cW}{\mathcal{W}}
 \newcommand{\RRP}{\mathbb{RP}}
 
 \newcommand{\EE}{\mathbb{E}}
