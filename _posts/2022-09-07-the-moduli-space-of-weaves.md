@@ -220,6 +220,15 @@ We now define "weave" in a precise way, to capture the answer to this question.
 However, first, we need a bit of technology.
 
 ### Graded spaces
+We briefly mention the relevant technology of graded spaces:
+
+> **Definition 1**. The category of graded spaces is the functor category $$\operatorname{Fun}(\ZZ,\Top)$$, where $$\ZZ$$ has been regarded as the objects of a category with no non-identity morphisms.
+> Endowing $$\ZZ$$ with a symmetric monoidal structure via addition of integers, graded spaces are endowed with a day convolution symmetric monoidal structure;
+> this is explicitly computed on objects by
+  <p align="center">
+    $$\prn{X_* \otimes Y_*}_n = \bigoplus_{i + j = n} X_i \times Y_j$$.
+  </p>
+
 
 ### The (graded) space of chain mail weaves
 We hope to define a graded space $$\cW_n$$, such that $$W_n := \pi_0 \cW_n$$ is the correct notion of a *weave with $$n$$ components*.
@@ -285,4 +294,5 @@ in particular, we have
     $$W_n = \coprod_{n_1 + \cdots + n_k = n} \prod_i \widetilde W_{n_i}$$.
   </p>
 
-
+### A nod towards further work
+Here, I'll mention toroidal decomposition, weave diagrams, circle diagrams, and some ideas for invariants for distinction.
