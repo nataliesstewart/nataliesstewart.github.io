@@ -125,6 +125,8 @@ $$
 \newcommand{\cT}{\mathcal{T}}
 \newcommand{\RRP}{\mathbb{RP}}
 
+\newcommand{\EE}{\mathbb{E}}
+
 \newcommand{\NN}{\mathbb{N}}
 
 \newcommand{\Poly}{\mathbf{Poly}}
