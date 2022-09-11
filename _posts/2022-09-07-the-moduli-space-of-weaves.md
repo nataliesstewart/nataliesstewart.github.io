@@ -222,12 +222,20 @@ However, first, we need a bit of technology.
 ### Graded spaces
 We briefly mention the relevant technology of graded spaces:
 
-> **Definition 1**. The category of graded spaces is the functor category $$\operatorname{Fun}(\ZZ,\Top)$$, where $$\ZZ$$ has been regarded as the objects of a category with no non-identity morphisms.
+> **Definition 1**. The category of graded spaces is the functor category $$\mathbf{Top}^{\ZZ} = \operatorname{Fun}(\ZZ,\mathbf{Top})$$, where $$\ZZ$$ has been regarded as the objects of a category with no non-identity morphisms.
 > Endowing $$\ZZ$$ with a symmetric monoidal structure via addition of integers, graded spaces are endowed with a day convolution symmetric monoidal structure;
 > this is explicitly computed on objects by
   <p align="center">
     $$\prn{X_* \otimes Y_*}_n = \bigoplus_{i + j = n} X_i \times Y_j$$.
   </p>
+
+Graded spaces can be endowed with the structure of a topological or simplicially enriched cat by replacing giving $$\ZZ$$ the discrete topology and replacing the $$\mathbf{Set}$$ enriched category with one enriched in an appropriate category.
+Alternatively, we may directly consider the $$\infty$$-category of graded spaces by taking the functor $$\infty$$-category, considering the nerve of $$\ZZ$$ as a symmetric monoidal $$\infty$$ category.
+This may be too morally correct for such an explicit and messy goal.
+
+When regarded as a topologically enriched cat, $$\mathbf{Top}^{\ZZ}$$ is tensored, where $$\prn{S \otimes X_*)_n = S \otimes X_n$$.
+This yields a functor $$\operatorname{Op}(\mathbf{Top}) \rightarrow \operatorname{Op}\prn{\mathbf{Top}^{\ZZ}}$$ which is computed on objects by replacing the space of $$j$$ary operations with a graded space of $$j$$ary operations concentrated at degree zero, whose underlying space is the original operations.
+In particular, standard models for $$\EE_n$$ in $$\mathbf{Top}$$ tensor to models in graded spaces.
 
 
 ### The (graded) space of chain mail weaves
@@ -277,7 +285,7 @@ We implicitly refer to this presentation, embedded into graded spaces concentrat
 Note that, by translation after a choice of designated components, $\cW$ deformation retracts onto the graded subspace where a weave of $$n$$ components lives within the open ball of radius $$n + \varepsilon$$ about the origin.
 
 > **Definition 3**.
-The *obvious $$\EE_3$$ structure on $$\cW$$* is made up of maps $$\EE_3 (j) \otimes \bigotimes_{i \in \brk{j}} \cW_{n_i} \rightarrow \cW_{\Sigma_i n_i}$$ wherein, given a point $$(d,w_1,\dots,w_j)$$, a new weave is made by dilating $$d$$ to consist of balls of radius $$n + \varepsilon$$, then canonically embedding the weaves $$w_i$$ into the balls in $$d$$.
+The *obvious $$\EE_3$$ structure on $$\cW$$* is made up of maps $$\EE_3 (j) \otimes \bigotimes_{i \in [j]} \cW_{n_i} \rightarrow \cW_{\Sigma_i n_i}$$ wherein, given a point $$(d,w_1,\dots,w_j)$$, a new weave is made by dilating $$d$$ to consist of balls of radius $$n + \varepsilon$$, then canonically embedding the weaves $$w_i$$ into the balls in $$d$$.
 The pushforward graded commutative monoid structure on $$\pi_0 \cW = W$$ is called the *obvious additive structure on $$W$$.*
 
 > **Claim 4**.
