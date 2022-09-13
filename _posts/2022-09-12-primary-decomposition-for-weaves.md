@@ -125,6 +125,7 @@ $$
 \newcommand{\bS}{\mathbf{S}}
 
 \newcommand{\cA}{\mathcal{A}}
+\newcommand{\cO}{\mathcal{O}}
 \newcommand{\cT}{\mathcal{T}}
 \newcommand{\cW}{\mathcal{W}}
 \newcommand{\RRP}{\mathbb{RP}}
@@ -154,7 +155,7 @@ $$
 **This post is under construction.**
 See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html"> the previous post</a> in this series for context.
 
-As a convention, whenever $$\cO$$ is an operad in $$\cC$$, we write $$\Fr_\cO:\cC \rightarrow \cO(\cC)$$ for the <a href="https://ncatlab.org/nlab/show/operad#the_monad_attached_to_an_operad"</a>free $$\cO$$-algebra functor</a>.
+As a convention, whenever $$\cO$$ is an operad in $$\cC$$, we write $$\Fr_\cO:\cC \rightarrow \cO(\cC)$$ for the <a href="https://ncatlab.org/nlab/show/operad#the_monad_attached_to_an_operad"</a>free functor</a> to $$\cO$$-algebras..
 
 ### What is primary decomposition?
 
@@ -165,10 +166,11 @@ Secretly, these facts are reflective of the fact that these commutative monoids 
     $$\ZZ_{>0}^{\times} \simeq \Fr_{\Comm}\prn{\cbr{\text{primes}}}$$
   </p>
   <p align="center">
-    $$\operatorname{Knots} \simeq \Fr_{\Comm}\prn{\cbr{\text{prime knots}}}$$
+    $$\operatorname{Knots}^{\#} \simeq \Fr_{\Comm}\prn{\cbr{\text{prime knots}}}$$
   </p>
 
-We can also do this in chain mail math, but for it to be well defined on the level of spaces, we have to work on the level of $$\EE_3$$ algebras:
+### The additive structure on the space of weaves
+For primary decomposition to be well defined on the level of spaces, we have to work on the level of $$\EE_3$$ algebras:
 this is the fancy way of essentially adding weaves by placing them disjointly adjacent to each other.
 
 Note that one presentation of the $$\EE_3$$ operad, as the little 3-disks operad, asserts that each little 3-disk has the same fixed radius $$1 + \varepsilon$$, and the large 3-disk has some fixed radius of at least $$1 + \varepsilon$$.
@@ -179,17 +181,35 @@ Note that, by translation after a choice of designated components, $\cW$ deforma
 > The *obvious $$\EE_3$$ structure on $$\cW$$* is made up of maps $$\EE_3 (j) \otimes \prn{\bigotimes_{i \in [j]} \cW_{n_i}} \rightarrow \cW_{\Sigma_i n_i}$$ wherein, given a point $$(d,w_1,\dots,w_j)$$, a new weave is made by dilating $$d$$ to consist of balls of radius $$n + \varepsilon$$, then canonically embedding the weaves $$w_i$$ into the balls in $$d$$.
 > The pushforward graded commutative monoid structure on $$\pi_0 \cW = W$$ is called the *obvious additive structure on $$W$$.*
 
+### Primary decomposition on the set of weaves
+
 Let $$\widetilde \cW_*$$ be the graded summand consisting of weaves who do not have realizations whose complement has an isometrically embedded $$S^2$$ which is nontrivial after passing to the complement in $$S^3$$;
 these are "prime weaves," who cannot be realized by placing nonempty weaves in disjoint balls.
 
-We make this precise using the map $$f:\Fr_3\prn{\widetilde{\cW_*}} \rightarrow \cW_*$$ induced by the inclusion of graded spaces $$\widetilde{\cW_*} \hookrightarrow \cW_*$$ under the free-forgetful adjunction.
+We perform primary decomposition using the map $$f:\Fr_3\prn{\widetilde{\cW_*}} \rightarrow \cW_*$$ induced by the inclusion of graded spaces $$\widetilde{\cW_*} \hookrightarrow \cW_*$$ under the free-forgetful adjunction.
 
 > **Claim**.
 > The map $$f$$ is a $$\pi_0$$-equivalence; hence $$W_* \simeq \Fr_{\operatorname{Comm}}\prn{\widetilde{W}_*}$$.
 
-I'll come back and prove this later.
+We refer to a partition of the set $$\abs{w}$$ of components as a *decomposition* if there exists a realization of $$w$$ such that each part occupies a ball in $$\RR^3$$ such that the collection of such balls is disjoint.
+We refer to such a partition as being *primary* if it doesn't have any proper refinements;
+equivalently, a partition is primary if the weaves corresponding to the parts are each prime.
 
-We refer to $$\widetilde{\cW}$$ as the *space of prime weaves*, and $$\widetilde W$$ as the *set of prime weaves*.
+Given two decompositions $$d,d'$$ of $$w$$, let $$d \cap d'$$ be the coarsest common refinement of $$d$$ and $$d'$$.
+Note that $$d \cap d'$$ is a decomposition;
+hence the decompositions of $$w$$ form a finite upper-semilattice, implying they have a unique upper bound;
+this is a unique primary decomposition $$d^{w}$$ for $$w$$.
+
+In order to prove that $$f$$ is $$\pi_0$$-surjective, note that the sum of primary parts $$\sum_i d^w_i$$ yields a representative for $$\brk{w} \in \pi_0 \cW_*$$ in the image of $$f$$.
+
+In order to prove that it's $\pi_0$-injective, suppose we have a path $$h:w \sim w'$$ for $$w,w'$ \in \operatorname{im}(f)$$;
+note that the boundary of the ball around a prime subweave of size $$\varepsilon$$ of $$w$$ is equivalent to $$S^2$$, and hence is connected.
+We may partition $$h$$ into intervals of time where these $$S^2$$ are disjoint and where they are not, noting that the parts containing $$t=0$$ and $$t=1$$ have disjoint spheres, and in fact it is enough to rectify $$h$$ to a homotopy during which these spheres remain disjoint.
+This rectification can be done by modifying times with nondisjoint spheres to travel along a distinguished path from the starting intersection to the ending intersection, using connectedness of $$S^1$$.
+This implies that $$\pi_0 f_*$$ is injective, so we are done.
+
+**NOTE: this proof is horrible.**
+
 The upshot is that the graded commutative monoid freely generated by a graded set is well understood:
 it's explicitly the tensor algebra
   <p align="center">
@@ -203,7 +223,9 @@ in particular, we have
 One can prove that $$f$$ is not an equivalence of $$\EE_3$$-algebras, or even a $$1$$-equivalence;
 essentially, there are elements of $$\pi_1 \cW_*$$ which always force a component in one ball to travel through the ball bounding another one.
 If $$L_n$$ is a loop of $$n$$ components for $$n \gg 0$$, and $$O$$ is a weave with one component, then we can explicitly produce an element $$\pi_1(\cW_*; L_n + O)$$ which is not in the image of $$\pi_1 f$$ where $$O$$ travels around a "meridian" of $$L_n$$.
-However, one can ask whether we've just made an incorrect definition:
+However, one can ask whether we just haven't found the correct generated graded space:
 
 > **Question 3.** is $$\cW_*$$ equivalent to a free $$\EE_3$$-algebra? 
-> More generally, is there a free $$\EE_n$$-algenra whose underlying $$\EE_3$$-algebra is the obvious $$\EE_3$$-structure on $$|cW_*$$?
+> More generally, is there a free $$\EE_n$$-algenra whose underlying $$\EE_3$$-algebra is the obvious $$\EE_3$$-structure on $$\cW_*$$?
+
+This is essentially asking whether there's a topological primary decomposition for the space of weaves.
