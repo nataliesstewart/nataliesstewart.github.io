@@ -142,6 +142,8 @@ $$
 
 \newcommand{\op}{\text{op}}
 
+\newcommand{\Comm}{\operatorname{Comm}}
+
 \def\Nat{\operatorname{Nat}}
 \def\Free{\operatorname{Free}}
 
@@ -152,8 +154,20 @@ $$
 **This post is under construction.**
 See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html"> the previous post</a> in this series for context.
 
-In elementary algebra, we note that a natural number is written as a product of prime factors, unique up to permutation of the factors.
+As a convention, whenever $$\cO$$ is an operad in $$\cC$$, we write $$\Fr_\cO:\cC \rightarrow \cO(\cC)$$ for the <a href="https://ncatlab.org/nlab/show/operad#the_monad_attached_to_an_operad"</a>free $$\cO$$-algebra functor</a>.
+
+### What is primary decomposition?
+
+In elementary algebra, we note that a positive integer is written as a product of prime factors, unique up to permutation of the factors.
 In knot theory, the same is true for knots and prime knots under connect sum.
+Secretly, these facts are reflective of the fact that these commutative monoids are *freely generated* by the prime elements:
+  <p align="center">
+    $$\ZZ_{>0}^{\times} \simeq \Fr_{\Comm}\prn{\cbr{\text{primes}}}$$
+  </p>
+  <p align="center">
+    $$\operatorname{Knots} \simeq \Fr_{\Comm}\prn{\cbr{\text{prime knots}}}$$
+  </p>
+
 We can also do this in chain mail math, but for it to be well defined on the level of spaces, we have to work on the level of $$\EE_3$$ algebras:
 this is the fancy way of essentially adding weaves by placing them disjointly adjacent to each other.
 
