@@ -112,6 +112,7 @@ $$
 
 \newcommand{\cbr}[1]{\left\{ #1 \right\}}
 \newcommand{\brk}[1]{\left\[ #1 \right\]}
+\newcommand{\abs}[1]{\left| #1 \right|}
 \newcommand{\prn}[1]{\left( #1 \right)}
 \newcommand{\vol}{\operatorname{vol}}
 
@@ -155,7 +156,7 @@ $$
 **This post is under construction.**
 See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html"> the previous post</a> in this series for context.
 
-As a convention, whenever $$\cO$$ is an operad in $$\cC$$, we write $$\Fr_\cO:\cC \rightarrow \cO(\cC)$$ for the <a href="https://ncatlab.org/nlab/show/operad#the_monad_attached_to_an_operad"</a>free functor</a> to $$\cO$$-algebras..
+As a convention, whenever $$\cO$$ is an operad in $$\cC$$, we write $$\Fr_\cO:\cC \rightarrow \cO(\cC)$$ for the <a href="https://ncatlab.org/nlab/show/operad#the_monad_attached_to_an_operad">free $$\cO$$-algebra functor</a>.
 
 ### What is primary decomposition?
 
@@ -200,9 +201,9 @@ Note that $$d \cap d'$$ is a decomposition;
 hence the decompositions of $$w$$ form a finite upper-semilattice, implying they have a unique upper bound;
 this is a unique primary decomposition $$d^{w}$$ for $$w$$.
 
-In order to prove that $$f$$ is $$\pi_0$$-surjective, note that the sum of primary parts $$\sum_i d^w_i$$ yields a representative for $$\brk{w} \in \pi_0 \cW_*$$ in the image of $$f$$.
+In order to prove that $$f$$ is $$\pi_0$$-surjective, note that the sum of primary parts $$\sum_i d^w_i$$ yields a representative for $$\brk{w} \in \pi_0 \prn{\cW_*}$$ in the image of $$f$$.
 
-In order to prove that it's $\pi_0$-injective, suppose we have a path $$h:w \sim w'$$ for $$w,w'$ \in \operatorname{im}(f)$$;
+In order to prove that it's $\pi_0$-injective, suppose we have a path $$h:w \sim w'$$ for $$w,w' \in \operatorname{im}(f)$$;
 note that the boundary of the ball around a prime subweave of size $$\varepsilon$$ of $$w$$ is equivalent to $$S^2$$, and hence is connected.
 We may partition $$h$$ into intervals of time where these $$S^2$$ are disjoint and where they are not, noting that the parts containing $$t=0$$ and $$t=1$$ have disjoint spheres, and in fact it is enough to rectify $$h$$ to a homotopy during which these spheres remain disjoint.
 This rectification can be done by modifying times with nondisjoint spheres to travel along a distinguished path from the starting intersection to the ending intersection, using connectedness of $$S^1$$.
