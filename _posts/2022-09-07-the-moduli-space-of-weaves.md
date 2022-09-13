@@ -308,7 +308,7 @@ For distinction, it is notable that all of the weaves in the RIM are distinguish
 this is not true for prime atoroidal weaves at level 5, so we will need to find non-topological invariants to solve the distinction problem at that level.
 
 ### Forward references
-* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">On primary decomposition.</a>
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/12/primary-decomposition-for-weaves.html">On primary decomposition.</a>
 
 * On atoroidal decomposition.
 
