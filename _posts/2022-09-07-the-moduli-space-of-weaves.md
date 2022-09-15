@@ -310,6 +310,12 @@ this is not true for prime atoroidal weaves at level 5, so we will need to find 
 ### Forward references
 * <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/12/primary-decomposition-for-weaves.html">On primary decomposition.</a>
 
-* On atoroidal decomposition.
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html">The classification of weaves with 2 or fewer components.</a>
+
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/22/atoroidal-decomposition-for-weaves.html">On atoroidal decomposition</a>.
 
 * An exhaustion via weave diagrams. 
+
+* The level 3 classification.
+
+* The level 4 classification: The RIM is correct. 

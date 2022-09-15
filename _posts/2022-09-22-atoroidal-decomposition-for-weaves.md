@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chainmail math 4: atoroidal decomposition for the space of weaves, and kinging/möbiusing"
-date:   2022-09-13
+date:   2022-09-22
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
