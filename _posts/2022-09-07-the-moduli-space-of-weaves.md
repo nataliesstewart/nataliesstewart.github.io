@@ -308,14 +308,14 @@ For distinction, it is notable that all of the weaves in the RIM are distinguish
 this is not true for prime atoroidal weaves at level 5, so we will need to find non-topological invariants to solve the distinction problem at that level.
 
 ### Forward references
-* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/12/primary-decomposition-for-weaves.html">On primary decomposition.</a>
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/12/primary-decomposition-for-weaves.html">On primary decomposition:</a> every weave decomposes uniquely into simpler weaves called *primary weaves*, which can't be expressed as two separate weaves placed next to each other.
 
-* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html">The classification of weaves with 2 or fewer components.</a>
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html">The classification of weaves with 2 or fewer components:</a> there is a unique prime weave of 2 components.
 
-* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/22/atoroidal-decomposition-for-weaves.html">On atoroidal decomposition</a>.
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/22/atoroidal-decomposition-for-weaves.html">On atoroidal decomposition:</a> every weave is canonically (in some sense) generated under Kinging and Möbiusing by an "atoroidal" weave.
 
 * An exhaustion via weave diagrams. 
 
-* The level 3 classification.
+* The level 3 classification: there is a unique atoroidal weave of 3 components, and two toroidal primary ones.
 
 * The level 4 classification: The RIM is correct. 
