@@ -155,7 +155,8 @@ This post is the first of a stream-of-conciousness series on *chain mail math*, 
 There is no intended audience, but if all is right in the world, the important bits will be accessible to individuals possessing a working knowledge of basic topology, algebra, and category theory;
 if you do not know what the homotopy groups of a topological space are, consider that to be the main prerequisite at this time.
 
-At some point in time, after significant results are said and done, I plan on making a document summarizing the work which is accessible to the topology-curious chainmailler.
+At some point in time, I plan on making a document summarizing the work which is accessible to the topology-curious chainmailler.
+
 
 ### What chainmail really is, and what a unit weave ought be
 
@@ -163,9 +164,10 @@ Throughout many regions of the world and many times in history, people have been
 Such garments are examples of *chainmail*;
 roughly, we may consider chainmail to be the craft wherein one interlinks metal solid tori.
 <div align="center">
-	<a href="/assets/bracer.jpg"><img src="/assets/bracer.jpg" align="center" height="100" ></a>
+	<a href="/assets/bracer.jpg"><img src="/assets/bracer.jpg" align="center" height="300" ></a>
+	<a href="/assets/4in1 glam.jpg"><img src="/assets/4in1 glam.jpg" align="center" height="300" ></a>
 	<p align="center">
-    test caption
+    <font size="5">Pictured is a wrist bracer, made according to the <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=6">European 4 in 1</a> weave.
   </p>
 </div>
 
