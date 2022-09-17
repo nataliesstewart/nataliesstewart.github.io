@@ -31,7 +31,7 @@ $$
 \newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
 \newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
 \newcommand{\CP}{\mathbf{CP}} \newcommand{\wt}[1]{\widetilde #1}
-\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\RR}{\mathbb{R}} \renewcommand{\S}{\mathbb{S}}
 \newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
 \newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
 \newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
@@ -162,10 +162,12 @@ At some point in time, after significant results are said and done, I plan on ma
 Throughout many regions of the world and many times in history, people have been inspired to make protective garments (armor, butcher gloves, etc.) out of an interlinked collection of small metal pieces, each in the shape of a solid torus.
 Such garments are examples of *chainmail*;
 roughly, we may consider chainmail to be the craft wherein one interlinks metal solid tori.
-<p align="center">
-	<a href="bracer.jpg"><img src="/assets/bracer.jpg" align="center" height="100" ></a>
-	test caption
-</p>
+<div align="center">
+	<a href="/assets/bracer.jpg"><img src="/assets/bracer.jpg" align="center" height="100" ></a>
+	<p align="center">
+    test caption
+  </p>
+</div>
 
 Through this definition, we see that fabricating traditional chains with circle components can be considered chainmail;
 in fact, using the traditional armor weave of *European 4 in 1*, one may see that a plane of European armor is crafted placing a solid torus at each point in a lattice, and if we restrict this construction to two adjacent rows, we recover a traditional 2-in-1 chain, up to physical manipulation.
