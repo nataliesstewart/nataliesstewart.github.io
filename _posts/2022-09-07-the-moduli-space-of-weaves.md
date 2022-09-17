@@ -190,7 +190,7 @@ These often take the form of *units,* which are attached to a necklace chain as 
 <div align="center">
 	<a href="/assets/vortex.jpg"><img src="/assets/vortex.jpg" align="center" height="300" ></a>
 	<p align="center">
-    <font size="2">A self-stable *vortex medallion*, strung along a chain of <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=335">Jens Pind linkage</a>.</font>
+    <font size="2">A self-stable <i>vortex medallion</i>, strung along a chain of <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=335">Jens Pind linkage</a>.</font>
   </p>
 </div>
 
@@ -256,21 +256,20 @@ We briefly mention the relevant technology of graded spaces. The non-technical r
 > Endowing $$\ZZ$$ with a symmetric monoidal structure via addition of integers, graded spaces are endowed with a day convolution symmetric monoidal structure;
 > this is explicitly computed on objects by
 >  <p align="center">
->    $$\prn{X_* \otimes Y_*}_n = \bigoplus_{i + j = n} X_i \times Y_j.$$
+>    $$\prn{X_* \otimes Y_*}_n = \coprod_{i + j = n} X_i \times Y_j.$$
 >  </p>
 
 Graded spaces can be endowed with the structure of a topological or simplicially enriched cat by replacing giving $$\ZZ$$ the discrete topology and replacing the $$\mathbf{Set}$$ enriched category with one enriched in an appropriate category.
-Alternatively, we may directly consider the $$\infty$$-category of graded spaces by taking the functor $$\infty$$-category, considering the nerve of $$\ZZ$$ as a symmetric monoidal $$\infty$$ category.
+Alternatively, we may directly consider the symmetric monoidal $$\infty$$-category of graded spaces by taking the functor $$\infty$$-category $$\mathcal{S}^{\ZZ}$$, where $$\mathcal{S}$$ is the $$\infty$$-category of spaces. 
 This may be too morally correct for such an explicit and messy goal.
 
-When regarded as a topologically enriched cat, $$\mathbf{Top}^{\ZZ}$$ is tensored, where $$\prn{S \otimes X_*}_n = S \otimes X_n$$.
+When regarded as a topologically enriched cat, $$\mathbf{Top}^{\ZZ}$$ is tensored, where $$\prn{S \otimes X_*}_n = S \times X_n$$.
 This yields a functor $$\operatorname{Op}(\mathbf{Top}) \rightarrow \operatorname{Op}\prn{\mathbf{Top}^{\ZZ}}$$ which is computed on objects by replacing the space of $$j$$ary operations with a graded space of $$j$$ary operations concentrated at degree zero, whose underlying space is the original operations.
 In particular, standard models for $$\EE_n$$ in $$\mathbf{Top}$$ tensor to models in graded spaces.
 
-
 ### The (graded) space of chain mail weaves
 We hope to define a graded space $$\cW_*$$, such that $$W_n := \pi_0 \cW_n$$ is the correct notion of a *weave with $$n$$ components*.
-Formally, let's write $$\cW_0 = \cbr{*}$$, i.e. it's the space consisting of a point.
+Formally, let's write $$\cW_0 = \cbr{*}$$, i.e. there is a space of 0-component weaves consisting of precisely one point.
 We may first endeavor to define $$\cW_1$$ correctly.
 
 These are meant to be *rigidly embedded circles of radius 1 in $$\RR^3$$*.
@@ -282,11 +281,11 @@ We may use this as a definition:
 This is scary if not unpacked:
 already we're working with a non-orientable 5-manifold!
 However, as we currently only care about $$\pi_0 \cW_n$$, we should only really care about $$\cW_1$$ up to homotopy equivalence;
-up to equivalence, we have $$\cW_1 \simeq \RRP^2$$ (we can pull rings to the center up to contractible ambiguity), which ought be one of the least scary non-orientable surfaces.
+up to equivalence, we have $$\cW_1 \simeq \RRP^2$$ (we can pull ring center to the origin up to to contractible ambiguity), which ought be one of the least scary non-orientable surfaces.
 
-Let's go one level up:
+Let's go one $$n$$ levels up:
 what ought the space of two-component weaves be?
-One good answer for this is the space of pairs of circles which are nonintersecting.
+One good answer for this is the space of tuples of circles which are nonintersecting.
 
 Let's flesh this all the way out:
 
@@ -299,7 +298,6 @@ Let's flesh this all the way out:
 As said before, we define $$W_n := \pi_0 \cW_n$$.
 We also write $$\cW := \coprod_{n \in \NN} \cW_n$$ and i$$W := \pi_0 \cW = \coprod_{n \in \NN} W_n$$;
 by abuse of notation, we will sometimes refer to $$\cW$$ as the graded space $$\cW_*$$, noting that this has underlying space $$\cW$$.
-
 
 We can finally make a definition:
 
@@ -319,12 +317,18 @@ given two weaves $$w,w' \in W$$, there is a well defined weave $$w + w'$$ given 
 We will show that this operation is the $$\pi_0$$-induced commutative monoid corresponding with an $$\EE_3$$ algebra structure on $$\cW_*$$, and we will construct an $$\EE_3$$-morphism $$\Fr_3(\widetilde{\cW}_*) \rightarrow \cW_*$$ which is a $$\pi_0$$-isomorphism, for $$\widetilde{\cW_*} \subset \cW_*$$ a (graded) summand of "prime" weaves;
 as a corrolary, $$W_*$$ will be shown to be a tensor algebra (in graded sets).
 
-Our second reduction will be the construction of nontrivial graded spaces $$\cA_*$$ and $$\cT_*$$, together with proving that
-  <p align="center">
-    $$\pi_0(\cW_*) \simeq \pi_0(\cA_* \otimes \Fr_{\operatorname{Comm}}\prn{\cT_{*+1}}),$$
-  </p>
-together with an analogous (but messier) statement in the case of prime weaves.
+Our second reduction will be the construction of nontrivial graded spaces $$\cA_*$$ and $$\cT_*$$, together with a formula that expresses $$\cW_*$$ in terms of $$\cA_*$$ and $$\cT_*$$.
 The graded spaces $$\cT_*, \cA_* \subset \cW_*$$ embed as the subspaces of weaves with realizations lying within a solid torus of core radius 1 (the toroidal weaves), and those with no such proper nontrivial subweaves (the atoroidal weaves). 
+
+This decomposition is as follows, where $$\operatoraname{Sym}_{k,n}(X_*) = \coprod_{n_1 + \cdots + n_k = n} \prod_{1 = i}^k X_{n_i}$$.
+<div align="center">
+	<a href="/assets/toroidal bigrading.png"><img src="/assets/toroidal bigrading.png" align="center" height="300" ></a>
+	<p align="center">
+    <font size="2">
+      Conjecturally, $$\mathcal{W_n}$$ is the coproduct of the $$n$$th row.
+    </font>
+  </p>
+</div>
 
 After the level-2 classification, exhaustion for $$\cT_*$$ is immediate via an inductive strategy, so exhaustion reduces to the same problem for $$\cA_*$$, whose path components on the $$n$$th level conjecturally form a proportion of the weaves of size $$o(1)$$.
 Our strategy will be similar to knot theoretic techniques;
@@ -338,7 +342,7 @@ this is not true for prime atoroidal weaves at level 5, so we will need to find 
 
 * <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html">The classification of weaves with 2 or fewer components:</a> there is a unique prime weave of 2 components.
 
-* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/22/atoroidal-decomposition-for-weaves.html">On atoroidal decomposition:</a> every weave is canonically (in some sense) generated under Kinging and Möbiusing by an "atoroidal" weave.
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/16/atoroidal-decomposition-for-weaves.html">On atoroidal decomposition:</a> every weave is canonically (in some sense) generated under Kinging and Möbiusing by an "atoroidal" weave.
 
 * An exhaustion via weave diagrams. 
 
