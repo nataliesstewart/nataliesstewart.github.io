@@ -291,7 +291,7 @@ Let's flesh this all the way out:
 
 > **Definition 3**. *The $$n$$th part of the space of chainmail weaves is defined by*
 >  <p align="center">
->    $$\cW_n := \cbr{(x_i,P_i)_{i \in [n]} \mid \not \exists i \neq j \in \brk{n} \text{ with } y \in P_{i} \cap P_{j} \text{ s.t. } d(x_i,y) = d(x_j,y) = 1)} \subset \prn{\RR^3 \times \RRP^2}^n;$$
+>    $$\cW_n := \cbr{(x_i,P_i)_{i \in [n]} \mid \not \exists i\neq j \text{ with } y \in P_i \cap P_j \text{ s.t. } d(x_i,y) = d(x_j,y) = 1)} \subset \prn{\RR^3 \times \RRP^2}^n;$$
 >  </p>
 > *explicitly, this is the space of $$n$$ nonintersecting circles in $$\RR^3$$.*
 
@@ -322,9 +322,11 @@ This decomposition is as follows, where $$\operatorname{Sym}_{k,n}(X_*) = \copro
 <div align="center">
 	<a href="/assets/toroidal bigrading.png"><img src="/assets/toroidal bigrading.png" align="center" height="300" ></a>
 	<p align="center">
-    <font size="2">Conjecturally, $$\mathcal{W_n}$$ is the coproduct of the $$n$$th row.</font>
+  </p>
   </p>
 </div>
+
+Conjecturally, $$\mathcal{W_n}$$ is the coproduct of the $$n$$th row.
 
 There is a similar decomposition of $$\widetilde{\cW}_*$$ in terms of $$\widetilde{\cA}_* = \widetilde{\cW}_* \cap \cA_*$$ and $$\widetilde{\cT}_* = \widetilde{\cW}_* \cap \cT_*$$ 
 
