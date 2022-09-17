@@ -167,13 +167,22 @@ roughly, we may consider chainmail to be the craft wherein one interlinks metal 
 	<a href="/assets/bracer.jpg"><img src="/assets/bracer.jpg" align="center" height="300" ></a>
 	<a href="/assets/4in1 glam.jpg"><img src="/assets/4in1 glam.jpg" align="center" height="300" ></a>
 	<p align="center">
-    <font size="5">Pictured is a wrist bracer, made according to the <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=6">European 4 in 1</a> weave.
+    <font size="2">Pictured is a wrist bracer, made according to the <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=6">European 4-in-1</a> weave.</font>
   </p>
 </div>
 
 Through this definition, we see that fabricating traditional chains with circle components can be considered chainmail;
-in fact, using the traditional armor weave of *European 4 in 1*, one may see that a plane of European armor is crafted placing a solid torus at each point in a lattice, and if we restrict this construction to two adjacent rows, we recover a traditional 2-in-1 chain, up to physical manipulation.
-We may view European 4-in-1 armor as a line's worth of interlocking chains.
+in fact, using the traditional armor weave of *European-4-in-1*, one may see that a plane of European armor is crafted placing a solid torus at each point in a lattice, and if we restrict this construction to two adjacent rows, we recover a traditional 2-in-1 chain, up to physical manipulation.
+Hence we may view European 4-in-1 armor as a line's worth of interlocking chains.
+
+<div align="center">
+	<a href="/assets/bracer.jpg"><img src="/assets/bracer.jpg" align="center" height="300" ></a>
+	<a href="/assets/4in1 glam.jpg"><img src="/assets/4in1 glam.jpg" align="center" height="300" ></a>
+	<p align="center">
+    <font size="2">A section of 2-in-1 chain adjacent to a section of European 4-in-1.</font>
+  </p>
+</div>
+
 
 Advancing to the past few decades, perhaps growing out of *ren fairs,* another craft has emerged under the name "chainmail:"
 nowadays people craft jewelry out of more complicated and varied patterns of interlocking metal solid tori.
