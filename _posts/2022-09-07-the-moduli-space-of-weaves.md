@@ -176,8 +176,7 @@ in fact, using the traditional armor weave of *European-4-in-1*, one may see tha
 Hence we may view European 4-in-1 armor as a line's worth of interlocking chains.
 
 <div align="center">
-	<a href="/assets/bracer.jpg"><img src="/assets/bracer.jpg" align="center" height="300" ></a>
-	<a href="/assets/4in1 glam.jpg"><img src="/assets/4in1 glam.jpg" align="center" height="300" ></a>
+	<a href="/assets/chain in 4in1.jpg"><img src="/assets/chain in 4in1.jpg" align="center" height="300" ></a>
 	<p align="center">
     <font size="2">A section of 2-in-1 chain adjacent to a section of European 4-in-1.</font>
   </p>
@@ -187,6 +186,7 @@ Hence we may view European 4-in-1 armor as a line's worth of interlocking chains
 Advancing to the past few decades, perhaps growing out of *ren fairs,* another craft has emerged under the name "chainmail:"
 nowadays people craft jewelry out of more complicated and varied patterns of interlocking metal solid tori.
 These often take the form of *units,* which are attached to a necklace chain as a pendant or to an earwire as an earring.
+ 
 
 It is these units, initially, that we're interested in classifying.
 So we may begin by asking an incorrect question:
