@@ -167,7 +167,7 @@ roughly, we may consider chainmail to be the craft wherein one interlinks metal 
 	<a href="/assets/bracer.jpg"><img src="/assets/bracer.jpg" align="center" height="300" ></a>
 	<a href="/assets/4in1 glam.jpg"><img src="/assets/4in1 glam.jpg" align="center" height="300" ></a>
 	<p align="center">
-    <font size="2">Pictured is a wrist bracer, made according to the <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=6">European 4-in-1</a> weave.</font>
+    <font size="2">S=Pictured is a wrist bracer, made according to the <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=6">European 4-in-1</a> weave.</font>
   </p>
 </div>
 
@@ -178,7 +178,7 @@ Hence we may view European 4-in-1 armor as a line's worth of interlocking chains
 <div align="center">
 	<a href="/assets/chain in 4in1.jpg"><img src="/assets/chain in 4in1.jpg" align="center" height="300" ></a>
 	<p align="center">
-    <font size="2">A section of 2-in-1 chain adjacent to a section of European 4-in-1.</font>
+    <font size="2">Pictured is a section of 2-in-1 chain adjacent to a section of European 4-in-1.</font>
   </p>
 </div>
 
@@ -186,7 +186,13 @@ Hence we may view European 4-in-1 armor as a line's worth of interlocking chains
 Advancing to the past few decades, perhaps growing out of *ren fairs,* another craft has emerged under the name "chainmail:"
 nowadays people craft jewelry out of more complicated and varied patterns of interlocking metal solid tori.
 These often take the form of *units,* which are attached to a necklace chain as a pendant or to an earwire as an earring.
- 
+
+<div align="center">
+	<a href="/assets/vortex.jpg"><img src="/assets/vortex.jpg" align="center" height="300" ></a>
+	<p align="center">
+    <font size="2">A self-stable *vortex medallion*, strung along a chain of <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=335">Jens Pind linkage</a>.</font>
+  </p>
+</div>
 
 It is these units, initially, that we're interested in classifying.
 So we may begin by asking an incorrect question:
@@ -194,7 +200,7 @@ So we may begin by asking an incorrect question:
 > **Incorrect question 1**. *What are the ways of isometrically embedding finitely many solid tori into $$\RR^3$$*?
 
 One reason this is incorrect is that it has a tautological answer which is uncountably infinite:
-there is one for every isometric embedding \(\coprod_n T_i \rightarrow \RR^3\), where \(T_i\) is a standard solid torus of a given inner radius and "wire" radius!
+there is one for every isometric embedding $$\coprod_n T_i \rightarrow \RR^3$$, where $$T_i$$ is a standard solid torus of a given inner radius and "wire" radius!
 This is not of interest, and it doesn't help us work with chainmail in practice.
 
 Another reason this is incorrect is that it appears to distinguish between weaves which are secretly the same;
@@ -213,11 +219,11 @@ In chainmail, there is a (redundant) list of three measurements which specify th
 the *inner diameter* (diameter of the smallest longitudinal circle), the *wire diameter* (diameter of the largest meridian), and the *aspect ratio* (inner diameter divided by wire diameter).
 My preferred way of referring to rings is by wire diameter and AR, so that for single-AR designs, I can dialate my specification of the design with a single datum.
 
-However, we often use mixed-AR designs:
-for instance, given a weave made of rings of core diameter $1$ (i.e. inner diameter $+$ half wire diameter) and a fixed AR $A$, I can form another "weave" of rings of core diameter $1$ and AR $$A + \varepsilon$$ by "shrinking" each ring.
+We overcount because we any two weaves made of rings of different ARs are considered non-equivalent:
+for instance, given a weave made of rings of core diameter $$1$$ (i.e. inner diameter $$+$$ half wire diameter is $$1$$) and a fixed AR $$A$$, I can form another "weave" of rings of core diameter $$1$$ and AR $$A + \varepsilon$$ by "shrinking" each ring.
 
-Our classification should identify rings which are related by this procedure;
-we might as well shrink rings to infinitesimally small, and note that as $A \gg 0$, weaves become idenfied with AR $A$ iff they're identified with AR $A + \varepsilon$.
+Our classification should identify weaves which are related by this procedure;
+we might as well shrink rings to infinitesimally small, and note that as $$A \gg 0$$, weaves become idenfied with AR $$A$$ iff they're identified with AR $$A + \varepsilon$$.
 I'll skip the ponderance of the (co)limit of the procedure, and say what we get:
 
 > **Correct question 1**. What are the ways of "rigidly" embedding finitely many circles into $$\RR^3$$ up to deformations of rigidly embedded circles?
@@ -226,15 +232,18 @@ However, in chainmail, there are sometimes phenomena that we care about which ar
 a circle is *captivated* if it spans a plane not intersecting any other circles, yet it is not able to be "separated" from the rest of the weave to occupy disjoint isometrically embedded standard balls.
 Similarly, a circle *orbits* another part of the weave if it is unlinked to the part, yet it is not able to be freed from that part intersecting its disk.
 
-A simple example of an orbit follows, (credit: Joshua Dilberto, orbital, via RIM) **TODO: embed**
+The following weave exhibits this orbital behavior:
+<div align="center">
+	<a href="/assets/orbital.jpg"><img src="/assets/orbital.jpg" align="center" height="300" ></a>
+</div>
 
-The unlinked torus can't escape so long as it's ID is at most the ID of the rings in the linking which it orbits.
-however, if it's ID is any amount larger than that of the surrounding ones, it is free.
+The unlinked torus can't escape so long as it's ID is at most the outer diameter of the rings in the linking which it orbits.
+however, if it's ID is any amount larger than the OD of the surrounding ones, it is free.
 
 We can manage some ID specific interactions in a finitary classification if we fix ratios;
 the simplest example is weaves of rings which all have the same ID:
 
-> **Correct question 2**. What are the ways of "rigidly" embedding finitely many circles of the same radius into $$\RR^3$$ up to deformations of rigidly embedded circles?
+> **Correct question 2**. What are the ways of "rigidly" embedding finitely many unit circles of radius 1 into $$\RR^3$$ up to deformations of rigidly embedded unit circle?
 
 It is this question that we endeavor to answer.
 We now define "weave" in a precise way, to capture the answer to this question.
