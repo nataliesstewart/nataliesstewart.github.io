@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chainmail math 4: atoroidal decomposition for the space of weaves, and kinging/möbiusing"
+title:  "Chainmail math 4: kinging/möbiusing, and atoroidal decomposition"
 date:   2022-09-16
 categories: chainmail-math
 ---
@@ -31,7 +31,7 @@ $$
 \newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
 \newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
 \newcommand{\CP}{\mathbf{CP}} \newcommand{\wt}[1]{\widetilde #1}
-\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\RR}{\mathbb{R}} \renewcommand{\S}{\mathbb{S}}
 \newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
 \newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
 \newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}
@@ -158,14 +158,95 @@ See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/le
 
 
 ### On kinging and Möbiusing
-In chainmail, we often refer to a process called **kinging**, wherein every circle in a ring is replaced with two adjacent weaves.
+In chainmail, we often refer to a process called *kinging*, wherein every circle in a ring is replaced with two adjacent weaves.
 For instance, <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=8">King's maille</a> is a common weave which is created by kinging <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=6>European 4 in 1</a>.
 We sometimes concieve of partial kinging, e.g. in <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=223"> Poor King's Scale</a> (up to ring rescaling), a partial kinging of European 4 in 1, and a sheet variant of the titular <a href="https://www.joshuadiliberto.com/JD_newWebPages/tutorial_vertebrae4in1chain.php">Vertebrae weave</a>.
 
 We may understand this one ring at a time;
 one may reach a (partially or fully) kinged weave by repeatedly replacing components in a weave with $$O+O$$, where $$O$$ is the one component weave.
-Hnce we may understand kinging hopefully as a process $$\cW_*^+ \rightarrow \cW_{*+1}$, where $$\cW_*^+$$ refers to the graded space of weaves with a distinguished component.
+Hnce we may understand kinging hopefully as a process $$\cW_*^+ \rightarrow \cW_{*+1}$$, where $$\cW_*^+$$ refers to the graded space of weaves with a distinguished component.
 
 There are other practical analogues to this process;
-we may Möbius a weave by replacing a component with the prime 2-component weave.
- 
+we may Möbius a weave by replacing a component with <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html">the</a> prime 2-component weave.
+
+These are each gotten by substituting a weave of size $$2$$ into a solid torus surrounding a component of a weave.
+We'll refer to this process as **totoidal decomposition**, even for substituting suitable $$n$$-component weaves into a torus.
+Just as how supplying the obvious additive structure on $$W$$ allowed us to decompose weaves into primes, we can ask if there's a similar decomposition into atoroidals;
+there must be some disanalogy as we substitute specifically *weaves fitting into a solid torus of core radius 1* into *weaves with a distinguished component*.
+
+This will lead us astray from actual content, so let's start with the actual content:
+we'll first make sense of what a toroidal or atoroidal (sub)weave is, then we'll go on to proving a decomposition theorem.
+
+### Toroidal subweaves, quotients, and the contraction lemma
+By convention, we refer to a subweave as *trivial* if it has size 1, i.e. it has one compoent.
+
+> **Definition 1.** *A subweave $$t \hookrightarrow w$$ is *toroidal* if there is an isometrically embedded solid torus $$T \hookrightarrow \RR^3$$ of core radius 1 such that $$T \cap w = t$$*.
+> *A weave is *fully toroidal* if every proper nontrivial subweave is toroidal. 
+
+> **Definition 2.** *A subweave $$t \hookrightarrow w$$ is *$$n$$-atoroidal* if every proper subweave of $$t$$ size $$2 \leq i \leq n$$ is not toroidal in $$w$$, and it is *atoroidal* if it is $$(\abs{t}-1)$$-atoroidal.*
+> A weave is $$n$$-atoroidal if it is $$n$$-atoroidal as a subweave of itself, and it is atoroidal if it is $$(\abs{w}-1)$$-atoroidal.
+
+A nontrivial toroidal subweave $$t \hookrightarrow w$$ is a witness to the fact that $$w$$ can be built from weaves of size $$< \abs{w}$$.
+To establish this precisely, we need a way to reverse this building:
+
+> **Definition 3.** A *toroidal partition* of a weave $$w$$ is a partition of $$\abs{w}$$ such that the subweave consisting of the each part is toroidal.
+
+> **Lemma 1.** *(the contraction lemma)* Fix some $$0 < \varepsilon' < \varepsilon$$.
+> Suppose $$t \hookrightarrow w$$ is a toroidal subweave witnesed by some $$T_\varepsilon \hookrightarrow \RR^3$$ of core diameter $$\varepsilon$$.
+> Then, there exists a witness $$T_{\varepsilon'}$$ of $$t$$ with core diameter $$\varepsilon'$$.
+
+A toroidal partition supplies an equivalence relation on the set of weaves.
+This should suggest the notion of a quotient:
+
+> **Definition 4.** *Given a toroidal partition* $$\cbr{t_i}$$ of $$w$$, the *quotient* $$w / \cbr{t_i}$$ is formed by replacing each part with the core circle of a solid torus containing each part. 
+
+**NOTE TO SELF**: the solid torus should be part of the data of the subweave. 
+
+Given a toroidal partition $$\cbr{t_i}$$ of $$w$$, we can reconstruct $$w$$ by substituting $$\cbr{t_i}$$ into the rings of $$w / \cbr{t_i}$$;
+to make good use of this, we need to describe the extent of this reconstruction procedure.
+We'd like to give a *canonical decomposition* of each weave $$w$$ such that $$w$$ is indecomposable if and only if this decomposition is trivial.
+
+**TODO: lead into the toroidal hypergraph.** 
+
+### Some structure of the toroidal hypergraph 
+> **Definition 5.** *Given a weave $$w$$, the *toroidal hypergraph* $$H(w)$$ is the hypergraph corresponding with the subset of $$P(\abs{w}) - \cbr{\varnothing}$$ of toroidal weaves.*
+> *The weave $$w$$ is *toroidally connected* if $$H(w)$$ is connected.*
+
+
+A toroidal partition of $$w$$ is equivalent to a partition of $$\abs{H(w)}$$ by edges, and $$H(w / \cbr{t_i})$$ is given by contracting the corresponding edges, i.e. as $$H(w)/\cbr{t_i}$$.
+The following lemma is clear;
+
+> **Lemma 2**. A toroidal partition $$\cbr{t_i}$$ of $$w$$ has atoroidal quotient $$w / \cbr{t_i}$$ iff each part is a union of connected components of $$H(w)$$.
+
+We hope to construct a maximal atoroidal quotient;
+a natural choice for such a thing is the connected component partition of $$H(w)$$.
+Luckily for us, this works:
+
+> **Proposition 3.** Every connected component $$t$$ of $$H(w)$$ corresponds with a toroidal weave;
+hence there is a unique maximal atoroidal quotient of $$w$$.
+
+To prove this, we use the following lemma:
+> **Lemma 4.** Suppose $$s,t \subset w$$ are toroidal subweaves such that $$s \cap t \neq \emptyset$$. Then, $$s \cup t$$ is a toroidal subweave.
+
+This is a simple application of the contraction lemma:
+we fix a solid torus $$T_t$$ about $$t$$ and realize a small enough solid torus $$T_s$$ around $$s$$ so that $$T_s \subset T_t$$.
+Then, $$T_t$$ realizes $$s \cup t$$ as a toroidal subweave.
+Proposition 3 follows quickly.
+
+A weave is atoroidal iff it is equivalent to its maximal atoroidal quotient.
+We may visualize this by drawing a labelled tree with one root node labelled by $$w / \cbr{t_i}$$ and $$\abs{\cbr{t_i}}$$-many leaf nodes labelled by $$\cbr{t_i}$$.
+We induct this visualization by replacing $$t_i$$ with a tree of a similar form unless it is the one-component weave.
+This yields a canonical map from weaves of $$n$$ components to trees of $$n$$ leaf nodes labelled by atoroidal weaves.
+
+One familiar with the technology of operads may recognize this;
+the codomain of this map is the operad freely generated by the set of atoroidal weaves, whose $$n$$th level has the action of $$\Sigma_n$$ which permutes the components, called $$\cO_{\cA_*^}$$.
+
+We can summarize the combinatorics of atoroidal decomposition in the following not-too-far-off question:
+> **Question A.** Is the *atoroidal decomposition* map $$\cT_*^{\operatorname{sym}} \rightarrow \cO_{\cA_*}$$ is an equivalence of symmetric spaces;
+> does it induce an isomorphism of graded sets $$T_* \simeq \cO_{\cA_*}$$?
+
+
+
+
+**NOTE TO SELF** the definition of the moduli space needs a quotient by the permutations.
+
