@@ -125,6 +125,7 @@ $$
 \newcommand{\bS}{\mathbf{S}}
 
 \newcommand{\cA}{\mathcal{A}}
+\newcommand{\cO}{\mathcal{O}}
 \newcommand{\cT}{\mathcal{T}}
 \newcommand{\cW}{\mathcal{W}}
 \newcommand{\RRP}{\mathbb{RP}}
@@ -325,7 +326,7 @@ These have a day convolution monoidal product, a "composition product" (for whic
 We generally write $$\cW^{\operatorname{sym}}$$ for the obvious symmetric sequence satisfying $$\cW^{\operatorname{sym}}_{\Sigma} = \cW_*$$.
 Then, toroidal decomposition is a conjectural equivalence of symmetric spaces
 <p>
-  \cW^{\operatorname{sym}} \simeq \prn{\cA^{\operatorname{sym}} \circ \cO_{\cA^{\vee}}} \otimes \cT^{\operatorname{sym}},
+  $$\cW^{\operatorname{sym}} \simeq \prn{\cA^{\operatorname{sym}} \circ \cO_{\cA^{\vee}}} \otimes \cT^{\operatorname{sym}},$$
 </p>
 where $$\cO_{(-)}$$ is the free topological operad on a symmetric space.
 
