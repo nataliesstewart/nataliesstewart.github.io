@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chainmail math 4: kinging/möbiusing, and atoroidal decomposition"
+title:  "Chainmail math 4: kinging/möbiusing and atoroidal decomposition, the praxis"
 date:   2022-09-16
 categories: chainmail-math
 ---
@@ -180,16 +180,13 @@ we'll first make sense of what a toroidal or atoroidal (sub)weave is, then we'll
 ### Toroidal subweaves, quotients, and the contraction lemma
 By convention, we refer to a subweave as *trivial* if it has size 1, i.e. it has one compoent.
 
-> **Definition 1.** *A subweave $$t \hookrightarrow w$$ is *toroidal* if there is an isometrically embedded solid torus $$T \hookrightarrow \RR^3$$ of core radius 1 such that $$T \cap w = t$$*.
-> *A weave is *fully toroidal* if every proper nontrivial subweave is toroidal. 
-
-> **Definition 2.** *A subweave $$t \hookrightarrow w$$ is *$$n$$-atoroidal* if every proper subweave of $$t$$ size $$2 \leq i \leq n$$ is not toroidal in $$w$$, and it is *atoroidal* if it is $$(\abs{t}-1)$$-atoroidal.*
-> A weave is $$n$$-atoroidal if it is $$n$$-atoroidal as a subweave of itself, and it is atoroidal if it is $$(\abs{w}-1)$$-atoroidal.
+> **Definition 1.** *A subweave $$t \hookrightarrow w$$ is * toroidal * if there is an isometrically embedded solid torus $$T \hookrightarrow \RR^3$$ of core radius 1 such that $$T \cap w = t$$*.
+> *Fixing a circle $$c$$ in $$\R^3$$ of radius 1, the * symmetric space of toroidal weaves * is the subspace $$\cW^\vee_* \hookrightarrow \cW_*$$ which lie in an isometrically embedded solid torus of core curve $$c$$.
 
 A nontrivial toroidal subweave $$t \hookrightarrow w$$ is a witness to the fact that $$w$$ can be built from weaves of size $$< \abs{w}$$.
-To establish this precisely, we need a way to reverse this building:
+To establish this precisely, we need a way to reverse this building, which we develop via the following definition.
 
-> **Definition 3.** A *toroidal partition* of a weave $$w$$ is a partition of $$\abs{w}$$ such that the subweave consisting of the each part is toroidal.
+> **Definition 2.** A *toroidal partition* of a weave $$w$$ is a partition of $$\abs{w}$$ such that the subweave consisting of the each part is toroidal.
 
 > **Lemma 1.** *(the contraction lemma)* Fix some $$0 < \varepsilon' < \varepsilon$$.
 > Suppose $$t \hookrightarrow w$$ is a toroidal subweave witnesed by some $$T_\varepsilon \hookrightarrow \RR^3$$ of core diameter $$\varepsilon$$.
@@ -198,15 +195,20 @@ To establish this precisely, we need a way to reverse this building:
 A toroidal partition supplies an equivalence relation on the set of weaves.
 This should suggest the notion of a quotient:
 
-> **Definition 4.** *Given a toroidal partition* $$\cbr{t_i}$$ of $$w$$, the *quotient* $$w / \cbr{t_i}$$ is formed by replacing each part with the core circle of a solid torus containing each part. 
+> **Definition 3.** *Given a toroidal partition* $$\cbr{t_i}$$ of $$w$$, the *quotient* $$w / \cbr{t_i}$$ is formed by replacing each part with the core circle of a solid torus containing each part. 
 
-**NOTE TO SELF**: the solid torus should be part of the data of the subweave. 
 
 Given a toroidal partition $$\cbr{t_i}$$ of $$w$$, we can reconstruct $$w$$ by substituting $$\cbr{t_i}$$ into the rings of $$w / \cbr{t_i}$$;
 to make good use of this, we need to describe the extent of this reconstruction procedure.
 We'd like to give a *canonical decomposition* of each weave $$w$$ such that $$w$$ is indecomposable if and only if this decomposition is trivial.
+To develop this, we need to define the notion of indecomposability.
 
-**TODO: lead into the toroidal hypergraph.** 
+> **Definition 4.** *A subweave $$t \hookrightarrow w$$ is *$$n$$-atoroidal* if every proper subweave of $$t$$ size $$2 \leq i \leq n$$ is not toroidal in $$w$$, it is *exactly $$n$$-atoroiadl* if $$n$$ is the minumum such index, and it is *atoroidal* if it is $$(\abs{t}-1)$$-atoroidal.*
+> A weave is (exactly) $$n$$-atoroidal if it is (exactly) $$n$$-atoroidal as a subweave of itself, and it is atoroidal if it is $$(\abs{w}-1)$$-atoroidal.
+
+We denote by $$\cA_* \hookrightarrow \cW_*$$ the summand consisting of atoroidal weaves, and $$\cA_*^\vee := \cW_*^\vee \cap \cA_*$$.
+The atoroidal subweaves are minimal among the sub-poset of $$P(w)$$ of toroidal subweaves of size at least 2.
+We will formalize this perspective via hypergraphs:
 
 ### Some structure of the toroidal hypergraph 
 > **Definition 5.** *Given a weave $$w$$, the *toroidal hypergraph* $$H(w)$$ is the hypergraph corresponding with the subset of $$P(\abs{w}) - \cbr{\varnothing}$$ of toroidal weaves.*
@@ -225,6 +227,8 @@ Luckily for us, this works:
 > **Proposition 3.** Every connected component $$t$$ of $$H(w)$$ corresponds with a toroidal weave;
 hence there is a unique maximal atoroidal quotient of $$w$$.
 
+**NOTE: in the case of connected weaves, the unique atoroidal quotient is $$O$$! Need to prove that connected weaves are all $$\operatorname{M}_n$$ or $$\operatorname{St}_n$$.**
+
 To prove this, we use the following lemma:
 > **Lemma 4.** Suppose $$s,t \subset w$$ are toroidal subweaves such that $$s \cap t \neq \emptyset$$. Then, $$s \cup t$$ is a toroidal subweave.
 
@@ -234,38 +238,52 @@ Then, $$T_t$$ realizes $$s \cup t$$ as a toroidal subweave.
 Proposition 3 follows quickly.
 
 A weave is atoroidal iff it is equivalent to its maximal atoroidal quotient.
+A weave is toroidally connected iff its maximal atoroidal quotient is one ring.
+
 We may visualize this by drawing a labelled tree with one root node labelled by $$w / \cbr{t_i}$$ and $$\abs{\cbr{t_i}}$$-many leaf nodes labelled by $$\cbr{t_i}$$.
 We induct this visualization by replacing $$t_i$$ with a tree of a similar form unless it is the one-component weave.
-This yields a canonical map from weaves of $$n$$ components to trees of $$n$$ leaf nodes labelled by atoroidal weaves.
+This yields an isomorphism between the symmetric sequence of toroidal weaves and the symmetric sequence of trees whose nonleaf nodes are labelled by atoroidal toroidal weaves of size corresponding with the out-degree of the nodes and whose leaves are labelled by toroidally connected weaves.
+Similarly, this yields an isomorphism between the weaves and a similar symmetric sequence, where the root node is simply an atoroidal weave.
 
 One familiar with the technology of operads may recognize this;
-the codomain of this map is the operad freely generated by the set of atoroidal weaves, whose $$n$$th level has the action of $$\Sigma_n$$ which permutes the components, called $$\cO_{\cA_*}$$.
-Let's flesh this out.
+we work this out in the language of free operads and free left modules over operads in the next post.
 
-### Symmetric sequences, operads, and free functors
-Let $$\Sigma$$ denote the groupoid $$\Sigma := \coprod_{n \in \NN} \Sigma_n$$; this is equivalent to the core of the category of finite sets.
-> **Definition 6.** *Fix $$\cC$$ a cocomplete symmetric monoidal closed category*.
-> *The *category of symmetric sequences in $$\cC$$* is the functor category $$\cC^\Sigma$$*.
-> These possess a symmetric monoidal product called the *composition product*, computed on objects by
-> <p align="center>
->   $$\cO \circ \cO'(n) := \coprod_{n_1 + \cdots + n_k = n} \cO(k) \otimes \bigotimes_{i} \cO'(n_i).$$
-> </p>
-> An *operad* is a monoid in symmetric sequences.
+### What are the toroidally connected weaves, anyway?
+The following lemma is the workhorse of the categorization of toroidally connected weaves. 
+> **Lemma 5.** Suppose $$s,t \subset w$$ are toroidal subweaves who intersect. Then, the following suvweaves of $$w$$ are toroidal:
+> * $$s - s \cap t$$, 
+> * $$s \cup t - s \cap t$$,  and 
+> * $$s \cap t$$.
 
-I'll cut to the chase;
-there is a free forgetful functor between symmetric sequences and operads.
-Furthermore, there is an adjunction between nonnegatively graded objects and symmetric sequences with left adjoint $$L(X_*)$$ given by $$X_*$$ with the trivial $$\Sigma$$-action, and with right adjoint given by $$\prn{Y_n}_\Sigma$$ whose $$n$$th level is $$\prn{Y_n}_{\Sigma_n}$$.
+This is another contraction lemma bash.
 
- 
+Using this, we can immediately go on to characterize the toroidally connected weaves:
+> **Lemma 6.** Suppose $$w$$ is a toroidally connected weave. Then, every subweave of $$w$$ is toroidal.
+To see this, first note that every component is contained within a minimal nontrivial toroidal subweave (MNTS);
+as a consequence of the third statement of Lemma 5, any two minimal nontrivial toroidal subweaves must intersect at exactly one component.
+As a consequence of the first statement of Lemma 5, they must each have size 2.
 
+This implies that any two components $$c,c'$$ are connected by a path of toroidal subweaves of size 2;
+by Lemmas 3 and 5, this implies that $$\cbr{c,c'}$$ is toroidal.
+For an arbitrary subweave $$s \subset w$$, the size-2 subsets of $$s$$ provide a connected cover of $$s$$ by toroidal subweaves, so Lemma 3 implies that $$s$$ is toroidal, and we are done.
 
+We can use this to great effect:
+> **Proposition 7.** Suppose $$w$$ is a toroidally connected weave. Then $$w$$ is equivalent to either Möbius $$n$$ or $$n \cdot O$$.
 
-We can summarize the combinatorics of atoroidal decomposition in the following not-too-far-off question:
-> **Question A.** Is the *atoroidal decomposition* map $$\cT_*^{\operatorname{sym}} \rightarrow \cO_{\cA_*}$$ is an equivalence of symmetric spaces?
-> does it induce an isomorphism of graded sets $$T_* \simeq \cO_{\cA_*}_{\Sigma}$$?
+By the level 2 classification, the two (atoroidal) weaves of size 2 are $$M_2$$ and $$2 \cdot O$$. 
+Note that, by Lemma 6, every toroidally connected weave can be generated by repeatedly kinging and Möbiusing $$O$$.
+Further, note that any sequence which includes both kinging and Möbiusing generates a weave whose linking graph is not fully connected.
+**NOTE: need to construct linking graph.**
+By the following lemma combined with Lemma 6, every toroidally connected weave has fully connected linking grapjh.
 
+> **Lemma 8.** Suppose $$t \subset w$$ is a toroidal subweave and $$c,c' \in t$$ are components.
+> Then, there is an isomorphism of the linking graph $$L(w)_{/c} \simeq L(w)_{/c'}$$ which sends $$c$$ to $$c'$$ and sends every other vertex to itself. 
 
+Then, Proposition 7 follows by noting that every $$n$$-component weave generated by kinging is $$n \cdot O$$ and every $$n$$-component weave generated by Möbiusing is $$M_n$$.
 
+### Some worked out examples.
+The elements of the <a href="https://docs.google.com/spreadsheets/d/1O0weIB9KkCSFKIvFKhsnYluknzou5wXFCilfTZXy4wQ/edit?usp=sharing">RIM</a> which are realizable with a single ring size appear on first glance to have no redundancy, they cover all of the elements of $$W_{\leq 4}$$ that I'm aware of, and they agree with our computation of $$W_{\leq 2}$$.
+Our examples will primarily be pulled from this, or generated by RIM elements under toroidal composition.
+We will use their naming convention.
 
-**NOTE TO SELF** the definition of the moduli space needs a quotient by the permutations.
-
+**TODO: work out some examples.**
