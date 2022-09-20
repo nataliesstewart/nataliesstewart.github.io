@@ -181,7 +181,6 @@ we'll first make sense of what a toroidal or atoroidal (sub)weave is, then we'll
 By convention, we refer to a subweave as *trivial* if it has size 1, i.e. it has one compoent.
 
 > **Definition 1.** *A subweave $$t \hookrightarrow w$$ is * toroidal * if there is an isometrically embedded solid torus $$T \hookrightarrow \RR^3$$ of core radius 1 such that $$T \cap w = t$$*.
-> *Fixing a circle $$c$$ in $$\R^3$$ of radius 1, the * symmetric space of toroidal weaves * is the subspace $$\cW^\vee_* \hookrightarrow \cW_*$$ which lie in an isometrically embedded solid torus of core curve $$c$$.
 
 A nontrivial toroidal subweave $$t \hookrightarrow w$$ is a witness to the fact that $$w$$ can be built from weaves of size $$< \abs{w}$$.
 To establish this precisely, we need a way to reverse this building, which we develop via the following definition.

@@ -31,7 +31,7 @@ $$
 \newcommand{\pic}{\mathrm{Pic}} \newcommand{\RP}{\mathbf{R}P}
 \newcommand{\BO}{\mathrm{BO}} \newcommand{\cc}{\mathbf{C}}
 \newcommand{\CP}{\mathbf{CP}} \newcommand{\wt}[1]{\widetilde #1}
-\newcommand{\RR}{\mathbf{R}} \renewcommand{\S}{\mathbb{S}}
+\newcommand{\RR}{\mathbb{R}} \renewcommand{\S}{\mathbb{S}}
 \newcommand{\Lone}{L_{K(1)}} \newcommand{\Ltwo}{L_{K(2)}}
 \newcommand{\gl}{\mathrm{gl}} \newcommand{\Lk}{L_{K(n)}}
 \newcommand{\ku}{\mathrm{ku}} \newcommand{\ko}{\mathrm{ko}}

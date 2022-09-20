@@ -291,7 +291,7 @@ Let's flesh this all the way out:
 
 > **Definition 3**. *The $$n$$th part of the space of chainmail weaves is defined by*
 >  <p align="center">
->    $$\cW_n := \cbr{(x_i,P_i)_{i \in [n]} \mid \not \exists i\neq j \text{ with } y \in P_i \cap P_j \text{ s.t. } d(x_i,y) = d(x_j,y) = 1)} \subset \prn{\RR^3 \times \RRP^2}^n;$$
+>    $$\cW_n := \cbr{\cbr{x_i,P_i}_{i \in [n]} \mid \not \exists i\neq j \text{ with } y \in P_i \cap P_j \text{ s.t. } d(x_i,y) = d(x_j,y) = 1)} \subset \prn{\RR^3 \times \RRP^2}^n_{\Sigma_n};$$
 >  </p>
 > *explicitly, this is the space of $$n$$ nonintersecting circles in $$\RR^3$$.*
 
@@ -315,24 +315,19 @@ given two weaves $$w,w' \in W$$, there is a well defined weave $$w + w'$$ given 
 We will show that this operation is the $$\pi_0$$-induced commutative monoid corresponding with an $$\EE_3$$ algebra structure on $$\cW_*$$, and we will construct a graded summand of "prime weaves" $$\widetilde{\cW}_*$$ such that the associated $$\EE_3$$-morphism $$\Fr_3(\widetilde{\cW}_*) \rightarrow \cW_*$$ is a $$\pi_0$$-isomorphism;
 as a corrolary, $$W_*$$ will be shown to be a tensor algebra (in graded sets).
 
-Our second reduction will be the construction of nontrivial graded spaces $$\cA_*$$ and $$\cT_*$$, together with a formula that expresses $$\cW_*$$ in terms of $$\cA_*$$ and $$\cT_*$$.
-The graded spaces $$\cT_*, \cA_* \subset \cW_*$$ embed as the subspaces of weaves with realizations lying within a solid torus of core radius 1 (the toroidal weaves), and those with no such proper nontrivial subweaves (the atoroidal weaves). 
+Our second reduction will be the construction of nontrivial graded spaces $$\cA_*$$, $$\cA^\vee_*$$, and $$\cT_*$$, together with a formula that expresses $$\cW_*$$ in terms of them.
+The graded spaces $$\cT_*, \cA_* \subset \cW_*$$ embed as the subspace which is the union of the $$n$$-Möbius and $$n$$ parallel components, and those with no such proper nontrivial subweaves lying within an embedded solid torus of core radius 1 (the atoroidal weaves). 
+A $$\vee$$-superscript corresponds with a space of embeddings of weaves into a solid torus of core radius 1.
 
-This decomposition is as follows, where $$\operatorname{Sym}_{k,n}(X_*) = \coprod_{n_1 + \cdots + n_k = n} \prod_{1 = i}^k X_{n_i}$$.
-<div align="center">
-	<a href="/assets/toroidal bigrading.png"><img src="/assets/toroidal bigrading.png" align="center" height="300" ></a>
-	<p align="center">
-  </p>
-  </p>
-</div>
-
-Conjecturally, $$\mathcal{W_n}$$ is the coproduct of the $$n$$th row.
-
-There is a similar decomposition of $$\widetilde{\cW}_*$$ in terms of $$\widetilde{\cA}_* = \widetilde{\cW}_* \cap \cA_*$$ and $$\widetilde{\cT}_* = \widetilde{\cW}_* \cap \cT_*$$ 
-
-After the level-2 classification, exhaustion for $$\cT_*$$ is immediate via an inductive strategy, so exhaustion reduces to the same problem for $$\cA_*$$, whose path components on the $$n$$th level conjecturally form a proportion of the weaves of size $$o(1)$$.
-Our strategy will be similar to knot theoretic techniques;
-every weave has a diagram, and we can potentially exhaust the diagrams.
+This is written in terms of the symmetric spaces:
+a symmetric space is a functor $$\coprod_n \Sigma_n \rightarrow \operatorname{Top}$$.
+These have a day convolution monoidal product, a "composition product" (for which monoids are precisely the operads), and a functor $$(-)_{\Sigma}:\Top^\Sigma \rightarrow \Top^\ZZ$$ whose $$n$$th level is computed by $$(X_\Sigma)_n = X(n)_{\Sigma_n}$$. 
+We generally write $$\cW^{\operatorname{sym}}$$ for the obvious symmetric sequence satisfying $$\cW^{\operatorname{sym}}_{\Sigma} = \cW_*$$.
+Then, toroidal decomposition is a conjectural equivalence of symmetric spaces
+<p>
+  \cW^{\operatorname{sym}} \simeq \prn{\cA^{\operatorname{sym}} \circ \cO_{\cA^{\vee}}} \otimes \cT^{\operatorname{sym}},
+</p>
+where $$\cO_{(-)}$$ is the free topological operad on a symmetric space.
 
 For distinction, it is notable that all of the weaves in the RIM are distinguished by taking the underlying link;
 this is not true for prime atoroidal weaves at level 5, so we will need to find non-topological invariants to solve the distinction problem at that level.

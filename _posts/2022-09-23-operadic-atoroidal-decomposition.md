@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Chainmail math 3: the weaves with at most 2 components"
-date:   2022-09-15
+title:  "Chainmail math 5: operadic right-modules and atoroidal decomposition, the theory"
+date:   2022-09-17
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
@@ -154,31 +154,35 @@ $$
 
 
 **This post is under construction.**
-See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/12/primary-decomposition-for-weaves.html"> the previous post</a> in this series for context, or the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first in the series</a> for a table of contents
+See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html"> the previous post</a> in this series for context, or the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first in the series</a> for a table of contents
 
-We've explicitly defined $$\cW_1$$ to be equivalent to $$\RRP^2$$, and by connectedness, immediately concluded that there is exactly one weave with one ring.
-We now go to the second level:
 
-> **Proposition 2**: $$\cW_2 \simeq \prn{S^1 \coprod \RRP_2} \times \RRP_2$$;
-> in particular, there are exactly two weaves consisting of two rings, given by two circles which are either linked or not linked.
+### Symmetric sequences, operads, and free functors
+Let $$\Sigma$$ denote the groupoid $$\Sigma := \coprod_{n \in \NN} \Sigma_n$$; this is equivalent to the core of the category of finite sets.
+> **Definition 6.** *Fix $$\cC$$ a cocomplete symmetric monoidal closed category*.
+> *The *category of symmetric sequences in $$\cC$$* is the functor category $$\cC^\Sigma$$*.
+> These possess a symmetric monoidal product called the *composition product*, computed on objects by
+> <p align="center>
+>   $$\cO \circ \cO'(n) := \coprod_{n_1 + \cdots + n_k = n} \cO(k) \otimes \bigotimes_{i} \cO'(n_i).$$
+> </p>
+> An *operad* is a monoid in symmetric sequences.
 
-To prove this is a bit painful.
-First, I want to illustrate that this morally ought to be true:
-fix a component $$c$$ of $$w \in \cW_2$$, and call the other compoent $$c'$$..
-Then, $$c'$$'s disk is either punctured by $$c$$ or not;
-if it's not, then there is a contractible space of choices for the position of $$c'$$ (given by the complement of the ball around $$c'$$, and $$\RRP_2$$'s worth of choices for the directions of the components.
-If it is punchred, then there is an $$S^1 \times D^2 \simeq S^1$$'s worth of positions for $$c'$$, and a contractible space of positions (we can deformation retract onto the space where the directions are orthogonal).  
+I'll cut to the chase;
+there is a free forgetful functor between symmetric sequences and operads.
+Furthermore, there is an adjunction between nonnegatively graded objects and symmetric sequences with left adjoint $$L(X_*)$$ given by $$X_*$$ with the trivial $$\Sigma$$-action, and with right adjoint given by $$\prn{Y_n}_\Sigma$$ whose $$n$$th level is $$\prn{Y_n}_{\Sigma_n}$$;
+this right adjoint is called the $$|Sigma$$-orbits.
 
-To actually prove this, we proceed in two cases given a weave $$w$$ of components $$c,c' \hookrightarrow w$$;
-first suppose that $$w$$ is composite, so that $$w = c \oplus c'$$.
-Picking the point on the line between the centers of $$c$$ and $$c'$$ which is equidistant between them, pushing centers linearly towards or away from that point, we may defomration retract the connected component $$\cW_w$$ containing $$w$$ onto one where the centers of $$c$$ and $$c'$$ are distance $$2$$ from each other.
-We may further deformation retract to assume that $$c,c'$$ are centered at two fixed such points.
-Note that the space we've arrived at is $$\RRP_2^2$$.
+Note that $$\cT_*$$ naturally has the structure of the $$\Sigma$$-orbits of a symmetric space $$\cT_*^{\operatorname{sym}}$$;
+there is a symmetric subspace $$\cA_*^{\operatorname{sym}}$$ consisting of atoroidal weaves, and a similar graded subspace $$\cA_*$$.
 
-Now suppose that $$w$$ is prime.
-First, note that we may defomration retract to the subspace $$X \subset \cW_w$$ where $$c$$ is centered at the origin with direction the $$z$$ axis and $$c$$ is centered at a point of $$c'$$.
-Further, note that this defomration retracts onto the subspace $$Y \subset X$$ where the direction of $$c$$ is tangent to $$c'$$;
-to see this, note that $$X = Y \times (\RRP^2 - S^1)$$, pulling out the possible directions of $$c$$, and further note that $$\RRP^2 - S^1 \simeq *$$.
 
-Finally, note that $$Y \simeq S^1 \times \RRP^2$$.
-This together with the composite computation finishes the proof.
+
+We can summarize the combinatorics of atoroidal decomposition in the following not-too-far-off question:
+> **Question A.** Is the *atoroidal decomposition* map $$\cT_*^{\operatorname{sym}} \rightarrow \cO_{\cA_*}$$ is an equivalence of symmetric spaces?
+> does it induce an isomorphism of graded sets $$T_* \simeq \cO_{\cA_*}_{\Sigma}$$?
+
+
+
+
+**NOTE TO SELF** the definition of the moduli space needs a quotient by the permutations.
+
