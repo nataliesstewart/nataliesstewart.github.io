@@ -162,7 +162,7 @@ Let $$\Sigma$$ denote the groupoid $$\Sigma := \coprod_{n \in \NN} \Sigma_n$$; t
 > **Definition 6.** *Fix $$\cC$$ a cocomplete symmetric monoidal closed category*.
 > *The *category of symmetric sequences in $$\cC$$* is the functor category $$\cC^\Sigma$$*.
 > These possess a symmetric monoidal product called the *composition product*, computed on objects by
-> <p align="center>
+> <p align="center">
 >   $$\cO \circ \cO'(n) := \coprod_{n_1 + \cdots + n_k = n} \cO(k) \otimes \bigotimes_{i} \cO'(n_i).$$
 > </p>
 > An *operad* is a monoid in symmetric sequences.
@@ -172,14 +172,16 @@ there is a free forgetful functor between symmetric sequences and operads.
 Furthermore, there is an adjunction between nonnegatively graded objects and symmetric sequences with left adjoint $$L(X_*)$$ given by $$X_*$$ with the trivial $$\Sigma$$-action, and with right adjoint given by $$\prn{Y_n}_\Sigma$$ whose $$n$$th level is $$\prn{Y_n}_{\Sigma_n}$$;
 this right adjoint is called the $$|Sigma$$-orbits.
 
-Note that $$\cT_*$$ naturally has the structure of the $$\Sigma$$-orbits of a symmetric space $$\cT_*^{\operatorname{sym}}$$;
-there is a symmetric subspace $$\cA_*^{\operatorname{sym}}$$ consisting of atoroidal weaves, and a similar graded subspace $$\cA_*$$.
-
-
-
 We can summarize the combinatorics of atoroidal decomposition in the following not-too-far-off question:
-> **Question A.** Is the *atoroidal decomposition* map $$\cT_*^{\operatorname{sym}} \rightarrow \cO_{\cA_*}$$ is an equivalence of symmetric spaces?
-> does it induce an isomorphism of graded sets $$T_* \simeq \cO_{\cA_*}_{\Sigma}$$?
+> **Question A.** Is the *atoroidal decomposition* map 
+>  <p align="center">
+>    \cW^{\operatorname{sym}} \rightarrow \cA^{\operatorname{sym}} \circ \cO_{\cA^\vee} \otimes \cT^\vee
+>  </p>
+> an equivalence of symmetric spaces?
+This is probably very subtly wrong:
+I think this is a split epimorphism, and probably no more.
+This issue is that the second-to-bottom level can't contain any of the toroidally connected atoroidals (i.e. it can't contain $$M_n$$ or $$n \cdot O$$).
+We can fix this probably by tensoring in one level of atoroidals and replacing $$\cT^{\vee}$$ with a free graded monoid.
 
 
 

@@ -324,10 +324,15 @@ This is written in terms of the symmetric spaces:
 a symmetric space is a functor $$\coprod_n \Sigma_n \rightarrow \operatorname{Top}$$.
 These have a day convolution monoidal product, a "composition product" (for which monoids are precisely the operads), and a functor $$(-)_{\Sigma}:\Top^\Sigma \rightarrow \Top^\ZZ$$ whose $$n$$th level is computed by $$(X_\Sigma)_n = X(n)_{\Sigma_n}$$. 
 We generally write $$\cW^{\operatorname{sym}}$$ for the obvious symmetric sequence satisfying $$\cW^{\operatorname{sym}}_{\Sigma} = \cW_*$$.
-Then, toroidal decomposition is a conjectural equivalence of symmetric spaces
+Then, toroidal decomposition is a pair of conjectural equivalence of symmetric spaces
+<p>
+  $$\cW^{\vee} \simeq \cO_{\cA^{\vee}} \otimes \cT^{\operatorname{sym}},$$
+</p>
+and
 <p>
   $$\cW^{\operatorname{sym}} \simeq \prn{\cA^{\operatorname{sym}} \circ \cO_{\cA^{\vee}}} \otimes \cT^{\operatorname{sym}},$$
 </p>
+
 where $$\cO_{(-)}$$ is the free topological operad on a symmetric space.
 
 For distinction, it is notable that all of the weaves in the RIM are distinguished by taking the underlying link;
