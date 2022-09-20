@@ -227,15 +227,18 @@ Luckily for us, this works:
 > **Proposition 3.** Every connected component $$t$$ of $$H(w)$$ corresponds with a toroidal weave;
 hence there is a unique maximal atoroidal quotient of $$w$$.
 
-**NOTE: in the case of connected weaves, the unique atoroidal quotient is $$O$$! Need to prove that connected weaves are all $$\operatorname{M}_n$$ or $$\operatorname{St}_n$$.**
-
 To prove this, we use the following lemma:
-> **Lemma 4.** Suppose $$s,t \subset w$$ are toroidal subweaves such that $$s \cap t \neq \emptyset$$. Then, $$s \cup t$$ is a toroidal subweave.
+> **Lemma 4.** Suppose $$s,t \subset w$$ are toroidal subweaves such that $$s \cap t \neq \emptyset$$. Then, the following subweaves of $$w$$ are toroidal: 
+> * $$s \cup t$$,
+> * $$s \cap t$$,
+> * $$s \cup t - s \cap t$$,  and 
+> * $$s - s \cap t$$. 
 
 This is a simple application of the contraction lemma:
-we fix a solid torus $$T_t$$ about $$t$$ and realize a small enough solid torus $$T_s$$ around $$s$$ so that $$T_s \subset T_t$$.
+for the first, we fix a solid torus $$T_t$$ about $$t$$ and realize a small enough solid torus $$T_s$$ around $$s$$ so that $$T_s \subset T_t$$.
 Then, $$T_t$$ realizes $$s \cup t$$ as a toroidal subweave.
-Proposition 3 follows quickly.
+The others are simple.
+Proposition 3 follows quickly from Lemma 4.
 
 A weave is atoroidal iff it is equivalent to its maximal atoroidal quotient.
 A weave is toroidally connected iff its maximal atoroidal quotient is one ring.
@@ -259,6 +262,7 @@ This is another contraction lemma bash.
 
 Using this, we can immediately go on to characterize the toroidally connected weaves:
 > **Lemma 6.** Suppose $$w$$ is a toroidally connected weave. Then, every subweave of $$w$$ is toroidal.
+
 To see this, first note that every component is contained within a minimal nontrivial toroidal subweave (MNTS);
 as a consequence of the third statement of Lemma 5, any two minimal nontrivial toroidal subweaves must intersect at exactly one component.
 As a consequence of the first statement of Lemma 5, they must each have size 2.
