@@ -348,7 +348,7 @@ this is not true for prime atoroidal weaves at level 5, so we will need to find 
 
 * <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html">The classification of weaves with 2 or fewer components:</a> there is a unique prime weave of 2 components.
 
-* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/16/atoroidal-decomposition-for-weaves.html">On atoroidal decomposition:</a> every weave is canonically (in some sense) generated under Kinging and Möbiusing by an "atoroidal" weave.
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/16/atoroidal-decomposition-for-weaves.html">On atoroidal decomposition:</a> every weave is canonically generated from the one ring by repeatedly replacing rings with atoroidal weaves, then possibly $$n$$-kinging or $$n$$-Möbiusing the rings.
 
 * An exhaustion via weave diagrams. 
 
