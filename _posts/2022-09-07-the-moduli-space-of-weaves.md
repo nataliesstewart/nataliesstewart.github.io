@@ -271,7 +271,7 @@ Formally, let's write $$\cW_0 = \cbr{*}$$, i.e. there is a space of 0-component 
 We may first endeavor to define $$\cW_1$$ correctly.
 
 These are meant to be *rigidly embedded circles of radius 1 in $$\RR^3$$*.
-Every such circle is a uniquely a unit circle in an embedded (pointed) plane, which is linearly embedded in $$\RR^$3$.
+Every such circle is a uniquely a unit circle in an embedded (pointed) plane, which is linearly embedded in $$\RR^3$$.
 We may use this as a definition:
 
 > **Definition 2**. $$\cW_1 := \RR^3 \times \RRP^2$$.
@@ -316,7 +316,7 @@ given two weaves $$w,w' \in W$$, there is a well defined weave $$w + w'$$ given 
 We will show that this operation is the $$\pi_0$$-induced commutative monoid corresponding with an $$\EE_3$$ algebra structure on $$\cW_*$$, and we will construct a graded summand of "prime weaves" $$\widetilde{\cW}_*$$ such that the associated $$\EE_3$$-morphism $$\Fr_3(\widetilde{\cW}_*) \rightarrow \cW_*$$ is a $$\pi_0$$-isomorphism;
 as a corrolary, $$W_*$$ will be shown to be a tensor algebra (in graded sets).
 
-Our second reduction will be the construction of nontrivial graded spaces $$\cA_*$$, $$\cA^\vee_*$$, and $$\cT_*$$, together with a formula that expresses $$\cW_*$$ in terms of them.
+Our second reduction will be the construction of nontrivial graded spaces $$\cA_*$$, $$\cA^\vee$$, and $$\cW^\vee$$, together with a formula that expresses $$\cW_*$$ in terms of them.
 The graded spaces $$\cT_*, \cA_* \subset \cW_*$$ embed as the subspace which is the union of the $$n$$-Möbius and $$n$$ parallel components, and those with no such proper nontrivial subweaves lying within an embedded solid torus of core radius 1 (the atoroidal weaves). 
 A $$\vee$$-superscript corresponds with a space of embeddings of weaves into a solid torus of core radius 1.
 
@@ -324,16 +324,19 @@ This is written in terms of the symmetric spaces:
 a symmetric space is a functor $$\coprod_n \Sigma_n \rightarrow \operatorname{Top}$$.
 These have a day convolution monoidal product, a "composition product" (for which monoids are precisely the operads), and a functor $$(-)_{\Sigma}:\Top^\Sigma \rightarrow \Top^\ZZ$$ whose $$n$$th level is computed by $$(X_\Sigma)_n = X(n)_{\Sigma_n}$$. 
 We generally write $$\cW^{\operatorname{sym}}$$ for the obvious symmetric sequence satisfying $$\cW^{\operatorname{sym}}_{\Sigma} = \cW_*$$.
-Then, toroidal decomposition is a pair of conjectural equivalence of symmetric spaces
+
+There is a natural structure of $$\cW^\vee$$ as an operad under substitution;
+toroidal decomposition is a realization of $$\cW^\vee$$ as a summand of a free operad
 <p>
-  $$\cW^{\vee} \simeq \cO_{\cA^{\vee}} \otimes \cT^{\operatorname{sym}},$$
+  $$\cW^{\vee} \hookrightarrow \cO_{\cA^{\vee}} \otimes \cT^{\operatorname{sym}},$$
 </p>
-and
+together with an expression of $$\cW^{\vee}$$ as an explicit suboperad and quotient operad, whose data are expressed in terms of known chain mail weaves.
+This is proved on path components, and the equivalence on homotopy groups is conjectural.
+We further conjecture a result
 <p>
   $$\cW^{\operatorname{sym}} \simeq \prn{\cA^{\operatorname{sym}} \circ \cO_{\cA^{\vee}}} \otimes \cT^{\operatorname{sym}},$$
 </p>
-
-where $$\cO_{(-)}$$ is the free topological operad on a symmetric space.
+which has also been proved on path components.
 
 For distinction, it is notable that all of the weaves in the RIM are distinguished by taking the underlying link;
 this is not true for prime atoroidal weaves at level 5, so we will need to find non-topological invariants to solve the distinction problem at that level.
