@@ -284,9 +284,6 @@ This is harder to write than draw, so here's a big drawing:
 
 <div align="center">
 	<a href="/assets/RIM atoroidal.jpg"><img src="/assets/RIM atoroidal.jpg" align="center" height="2000" ></a>
-	<p align="center">
-    <font size="2">A self-stable <i>vortex medallion</i>, strung along a chain of <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=335">Jens Pind linkage</a>.</font>
-  </p>
 </div>
 
 
