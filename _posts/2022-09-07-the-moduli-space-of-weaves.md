@@ -328,15 +328,17 @@ We generally write $$\cW^{\operatorname{sym}}$$ for the obvious symmetric sequen
 There is a natural structure of $$\cW^\vee$$ as an operad under substitution;
 toroidal decomposition is a realization of $$\cW^\vee$$ as a summand of a free operad
 <p>
-  $$\cW^{\vee} \hookrightarrow \cO_{\cA^{\vee}} \otimes \cT^{\operatorname{sym}},$$
+  $$\cW^{\vee} \hookrightarrow \cO_{\cA^{\vee}} \circ \cT^{\operatorname{sym}},$$
 </p>
 together with an expression of $$\cW^{\vee}$$ as an explicit suboperad and quotient operad, whose data are expressed in terms of known chain mail weaves.
 This is proved on path components, and the equivalence on homotopy groups is conjectural.
 We further conjecture a result
 <p>
-  $$\cW^{\operatorname{sym}} \simeq \prn{\cA^{\operatorname{sym}} \circ \cO_{\cA^{\vee}}} \otimes \cT^{\operatorname{sym}},$$
+  $$\cW^{\operatorname{sym}} \simeq \cA^{\operatorname{sym}} \circ \cW,$$
 </p>
 which has also been proved on path components.
+The upshot of this is that it provides a formula for $$W$$ which only references the set of atoroidal weaves;
+in the RIM, many of the listed 4-component weaves are obviously not atoroidal (JPL3, satellite, Mobius 4, Japanese triangle, Tetra, Orbit, Cross Orbit, and Apogee), so this seems to already kill a good deal of redundancy on level 4. 
 
 For distinction, it is notable that all of the weaves in the RIM are distinguished by taking the underlying link;
 this is not true for prime atoroidal weaves at level 5, so we will need to find non-topological invariants to solve the distinction problem at that level.
