@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Chainmail math 4: kinging/möbiusing and atoroidal decomposition, the praxis"
-date:   2022-09-16
+date:   2022-09-22
+
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
@@ -157,7 +158,7 @@ $$
 See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html"> the previous post</a> in this series for context, or the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first in the series</a> for a table of contents
 
 ### On kinging and Möbiusing
-In chainmail, we often refer to a process called *kinging*, wherein every circle in a ring is replaced with two adjacent weaves.
+In chainmail, we often refer to a process called *kinging*, wherein every circle in a weave is replaced with two adjacent circles.
 For instance, <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=8">King's maille</a> is a common weave which is created by kinging <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=6">European 4 in 1</a>.
 We sometimes concieve of partial kinging, e.g. in <a href="https://www.mailleartisans.org/weaves/weavedisplay.php?key=223"> Poor King's Scale</a> (up to ring rescaling), a partial kinging of European 4 in 1, and a sheet variant of the titular <a href="https://www.joshuadiliberto.com/JD_newWebPages/tutorial_vertebrae4in1chain.php">Vertebrae weave</a>.
 
@@ -169,7 +170,7 @@ There are other practical analogues to this process;
 we may Möbius a weave by replacing a component with <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html">the</a> prime 2-component weave.
 
 These are each gotten by substituting a weave of size $$2$$ into a solid torus surrounding a component of a weave.
-We'll refer to this process as **totoidal decomposition**, even for substituting suitable $$n$$-component weaves into a torus.
+We'll refer to this process as *toroidal decomposition*, even when substituting suitable $$n$$-component weaves into a torus.
 Just as how supplying the obvious additive structure on $$W$$ allowed us to decompose weaves into primes, we can ask if there's a similar decomposition into atoroidals;
 there must be some disanalogy as we substitute specifically *weaves fitting into a solid torus of core radius 1* into *weaves with a distinguished component*.
 
@@ -201,15 +202,17 @@ to make good use of this, we need to describe the extent of this reconstruction 
 We'd like to give a *canonical decomposition* of each weave $$w$$ such that $$w$$ is indecomposable if and only if this decomposition is trivial.
 To develop this, we need to define the notion of indecomposability.
 
-> **Definition 4.** *A subweave $$t \hookrightarrow w$$ is *$$n$$-atoroidal* if every proper subweave of $$t$$ size $$2 \leq i \leq n$$ is not toroidal in $$w$$, it is *exactly $$n$$-atoroiadl* if $$n$$ is the minumum such index, and it is *atoroidal* if it is $$(\abs{t}-1)$$-atoroidal.*
-> A weave is (exactly) $$n$$-atoroidal if it is (exactly) $$n$$-atoroidal as a subweave of itself, and it is atoroidal if it is $$(\abs{w}-1)$$-atoroidal.
+> **Definition 4.** 
+> *A toroidal subweave $$t \hookrightarrow w$$ is * atoroidal * if it is of size $$\geq 2$$ and every proper subweave of $$t$$ of size $$ \geq 2$$ is not toroidal in $$w$$.*
+> *A weave is atoroidal if it is atoroidal as a subweave of itself.
 
 We denote by $$\cA_* \hookrightarrow \cW_*$$ the summand consisting of atoroidal weaves, and $$\cA_*^\vee := \cW_*^\vee \cap \cA_*$$.
 The atoroidal subweaves are minimal among the sub-poset of $$P(w)$$ of toroidal subweaves of size at least 2.
 We will formalize this perspective via hypergraphs:
 
 ### Some structure of the toroidal hypergraph 
-> **Definition 5.** *Given a weave $$w$$, the *toroidal hypergraph* $$H(w)$$ is the hypergraph corresponding with the subset of $$P(\abs{w}) - \cbr{\varnothing}$$ of toroidal weaves.*
+> **Definition 5.** 
+> *Given a weave $$w$$, the *toroidal hypergraph* $$H(w)$$ is the hypergraph corresponding with the subset of $$P(\abs{w}) - \cbr{\varnothing}$$ of toroidal weaves.*
 > *The weave $$w$$ is *toroidally connected* if $$H(w)$$ is connected.*
 
 
@@ -285,3 +288,5 @@ This is harder to write than draw, so here's a big drawing:
 	<a href="/assets/RIM atoroidal.png"><img src="/assets/RIM atoroidal.png" align="center" height="2000" ></a>
 </div>
 
+### The next step
+In the next post, we will sum up our perspective in terms of operads, and conjecture a topological version of the atoroidal decomposition laid out here.

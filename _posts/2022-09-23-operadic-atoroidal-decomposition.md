@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chainmail math 5: operadic right-modules and atoroidal decomposition, the theory"
-date:   2022-09-17
+date:   2022-09-23
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
@@ -154,7 +154,7 @@ $$
 
 
 **This post is under construction.**
-See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html"> the previous post</a> in this series for context, or the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first in the series</a> for a table of contents
+See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/16/atoroidal-decomposition-for-weaves.html"> the previous post</a> in this series for context and content of the following post, or the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first in the series</a> for a table of contents.
 
 
 ### Symmetric sequences, operads, and free functors
@@ -167,10 +167,21 @@ Let $$\Sigma$$ denote the groupoid $$\Sigma := \coprod_{n \in \NN} \Sigma_n$$; t
 > </p>
 > An *operad* is a monoid in symmetric sequences.
 
+We could have equivalently replaced $$\Sigma$$ with $$\mathbf{Fin}^{\simeq}$$;
+we use the skeleton for the sake of the notation $$\cO(n)$$.
+
 I'll cut to the chase;
-there is a free forgetful functor between symmetric sequences and operads.
-Furthermore, there is an adjunction between nonnegatively graded objects and symmetric sequences with left adjoint $$L(X_*)$$ given by $$X_*$$ with the trivial $$\Sigma$$-action, and with right adjoint given by $$\prn{Y_n}_\Sigma$$ whose $$n$$th level is $$\prn{Y_n}_{\Sigma_n}$$;
-this right adjoint is called the $$|Sigma$$-orbits.
+there is a free forgetful adjunction between symmetric sequences and operads, given by the free monoid construction with respect to $$\circ$$.
+Furthermore, there is an adjunction between nonnegatively graded objects and symmetric sequences with left adjoint $$L(X_*)$$ given by $$X_*$$ with the trivial $$\Sigma$$-action, and with left adjoint given by $$\prn{Y_n}_\Sigma$$ whose $$n$$th level is $$\prn{Y_n}_{\Sigma_n}$$;
+this left adjoint is called the $$\Sigma$$-orbits.
+There is a similar right adjoint given by $$\Sigma$$-fixed points.
+We can summarize this in the following diagram:
+
+<div align="center">
+	<a href="/assets/operad adjunctions.png"><img src="/assets/operad adjunctions.png" align="center" height="300" ></a>
+</div>
+
+
 
 We can summarize the combinatorics of atoroidal decomposition in the following not-too-far-off question:
 > **Question A.** Is the *atoroidal decomposition* map 
