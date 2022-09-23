@@ -283,7 +283,7 @@ We will use their naming convention.
 This is harder to write than draw, so here's a big drawing:
 
 <div align="center">
-	<a href="/assets/RIM atoroidal.jpg"><img src="/assets/RIM atoroidal.jpg" align="center" height="2000" ></a>
+	<a href="/assets/RIM atoroidal.png"><img src="/assets/RIM atoroidal.png" align="center" height="2000" ></a>
 </div>
 
 
