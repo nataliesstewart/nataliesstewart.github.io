@@ -261,6 +261,7 @@ we work this out in the language of free operads and free left modules over oper
 > **Proposition 6.** Suppose $$\abs{w} \geq 3$$. Then, the following are equivalent:
 > * $$w$$ has a fully toroidal quotient of size at least 3
 > * $$w$$ is toroidally connected.
+>
 > In the case that $$w$$ is toroidally connected, the partition $$M(w)$$ whose nontrivial partitions are the minimal toroidal subweaves of size at least 3 yields the unique maximal fully toroidal quotient of $$w$$.
 
 First note that $$M(w)$$ has fully toroidal quotient;
