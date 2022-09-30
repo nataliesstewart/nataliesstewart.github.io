@@ -258,7 +258,9 @@ One familiar with the technology of operads may recognize this;
 we work this out in the language of free operads and free left modules over operads in the next post.
 
 ### Further decomposition of toroidally connected weaves
-> **Proposition 6.** Suppose $$\abs{w} \geq 3$$. Then, $$w$$ has a fully toroidal quotient of size at least 3 if and only if it is toroidally connected.
+> **Proposition 6.** Suppose $$\abs{w} \geq 3$$. Then, the following are equivalent:
+> * $$w$$ has a fully toroidal quotient of size at least 3
+> * $$w$$ is toroidally connected.
 > In the case that $$w$$ is toroidally connected, the partition $$M(w)$$ whose nontrivial partitions are the minimal toroidal subweaves of size at least 3 yields the unique maximal fully toroidal quotient of $$w$$.
 
 First note that $$M(w)$$ has fully toroidal quotient;
@@ -286,7 +288,7 @@ Luckily, these objects are easy to classify:
 
 
 ### What are the fully toroidal weaves, anyway?
-> **Proposition 7.** Suppose $$w$$ is a fully toroidal weaves. Then $$w$$ is equivalent to either Möbius $$n$$ or $$n \cdot O$$.
+> **Proposition 7.** Suppose $$w$$ is a fully toroidal weave. Then $$w$$ is equivalent to either Möbius $$n$$ or $$n \cdot O$$.
 
 The first step in this proposition is the following definition:
 > **Definition 6.** * Given a weave $$w$$, the *linking graph* $$L(w)$$ is the undirected graph whose vertices are $$\abs{w}$$, such that $$c$$ and $$c'$$ are adjacent iff the linking number of $$c$$ and $$c'$$ is nonzero.
