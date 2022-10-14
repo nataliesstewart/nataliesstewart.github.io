@@ -249,7 +249,7 @@ Similarly, note that $$A \circ W^\vee$$ is the free right $$W^\vee$$-module on $
 Let $$r'_M$$ and $$r'_0$$ be the relations in $$A \circ W^\vee$$ corresponding with the realizations of $$M_3$$ and $$3 \cdot O$$.
 Toroidal decomposition for weaves can be phrased as follows:
 
-> **Theorem 4.**
+> **Theorem 5.**
 > The right $$W^\vee$$- cofork diagram
 > <p align="center">
 >   $$\langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W$$
