@@ -171,16 +171,43 @@ We could have equivalently replaced $$\Sigma$$ with $$\mathbf{Fin}^{\simeq}$$;
 we use the skeleton for the sake of the notation $$\cO(n)$$.
 
 I'll cut to the chase;
-there is a free forgetful adjunction between symmetric sequences and operads, given by the free monoid construction with respect to $$\circ$$.
-Furthermore, there is an adjunction between nonnegatively graded objects and symmetric sequences with left adjoint $$L(X_*)$$ given by $$X_*$$ with the trivial $$\Sigma$$-action, and with left adjoint given by $$\prn{Y_n}_\Sigma$$ whose $$n$$th level is $$\prn{Y_n}_{\Sigma_n}$$;
-this left adjoint is called the $$\Sigma$$-orbits.
-There is a similar right adjoint given by $$\Sigma$$-fixed points.
-We can summarize this in the following diagram:
+there is a free forgetful adjunction between pointed symmetric sequences and operads, given by the free monoid construction with respect to $$\circ$$.
+There's likewise a free-forgetful adjunction between symmetric sequences and left-modules over a given operad, as well as right-modules.
+Left-modules are a generalization of *algebras*, which are precisely left modules concentrated in degree 0.
 
-<div align="center">
-	<a href="/assets/operad adjunctions.png"><img src="/assets/operad adjunctions.png" align="center" height="300" ></a>
-</div>
+If we view the weight grading of a symmetric sequence $$X_\bullet$$ as being the "number of elements," then we may view right-modules over $$\cO$$ as an algebraic structure wherein, given an element of $$X_\bullet$$ with $$n$$ elements, and $$n$$ elements of $$\cO$$ with $$n_1,\dots,n_k$$ elements, we produce an element of $$X_\bullet$$ with $$\sum_i n_i$$ elements.
 
+We use this perspective to formalize toroidal composition.
+
+### Toroidal composition
+There are symmetric sequences $$\cA^\vee$$ of atoroidal weaves, $$\cW^\vee$$ of toroidal weaves, and $$\cW^{\Sym}$$ of weaves.
+Toroidal composition provides two maps of symmetric sequences:
+<p align="center">
+  $$\cW \circ \cW^\vee \rightarrow \cW.$$
+</p>
+<p align="center">
+  $$\cW^\vee \circ \cW^\vee \rightarrow \cW^\vee.$$
+</p>
+
+> **Claim:** $$\cA^{\vee}(1)$$ is contractible;
+> that is, there is a contractible space of one-component toroidal weaves.
+
+To prove this, note that there is a deformation retract of $$\cA^{\vee}(1)$$ onto the realization given by the core curve of the solid torus;
+this is a translation followed by a rotation.
+
+By the claim, $$\cA^{\vee}$$ is pointed up to a contractible space of ambiguity.
+Hence we may take the free operad $$\Fr_{\Op}\prn{\cA^\vee}$$ on $$\cA^{\vee}$$ as a pointed object. 
+
+
+
+
+
+
+Using the tree interpretation, $$\cO_{\cA^\vee}$$ may be viewed as a symmetric space whose points are the trees where every vertex has an atoroidal weave, with weights given by summing the number of components of root nodes.
+Composition is given by grafting of trees.
+
+Note further that $$\cW_O^\vee \simeq \cA^{\vee}_O$$ is the $$\circ$$ monoidal unit;
+the identity $$\cA^{\vee} \simeq \cA^{\vee} \circ \cW_O^\vee$$ establishes that these trees may have leaves which are all the one-unit weave.
 
 
 We can summarize the combinatorics of atoroidal decomposition in the following not-too-far-off question:
