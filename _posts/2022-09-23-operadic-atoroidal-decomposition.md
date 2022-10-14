@@ -182,7 +182,7 @@ If we view the weight grading of a symmetric sequence $$X_\bullet$$ as being the
 We use this perspective to formalize toroidal composition.
 
 ### Toroidal composition
-There are symmetric sequences $$A^\vee$$ of atoroidal weaves, $$W^\vee$$ of toroidal weaves, and $$W^{\Sym}$$ of weaves, in sets.
+There are symmetric sequences $$A^\vee$$ of atoroidal toroidal weaves, $$A^{\Sym}$$ of atoroidal weaves, $$W^\vee$$ of toroidal weaves, and $$W^{\Sym}$$ of weaves, in sets.
 Toroidal composition provides two maps of symmetric sequences:
 <p align="center">
   $$W^\vee \circ W^\vee \xrightarrow{\mu^\vee}W^\vee.$$
@@ -218,28 +218,33 @@ We next describe toroidal decomposition, which amounts to giving presentations o
 
 ### Toroidal decomposition
 Note that $$\cA^\vee$$ is contractible by Proposition 1, so $$A^\vee$$ is uniquely pointed.
+There is a free operad $$\Fr_{\Op}\prn{A^\vee}$$ on $$A^\vee$$ as a pointed object;
+this is the operad parameterizing trees labelled with atoroidal toroidal weaves, modulo the one-component weave $$O$$ acting as unit.
+The operad structure on $$\cW^\vee$$ is given by a structure map $$\Fr_{\Op}\prn{W^\vee} \rightarrow W^\vee$$.
+This induces a map
+<p align="center">
+    $$\Fr_{\Op}\prn{A^\vee} \rightarrow \Fr_{\Op}\prn{W^vee} \rightarrow W^\vee.$$
+</p>
+In the other direction, the previous discussion of toroidal decomposition yields a map of operads $$W^\vee \rightarrow \Fr_{\Op}\prn{A^\vee}$$, after choosing a (non-canonical) decomposition of each fully toroidal weave into a tree of 2-component weaves.
+We'd like to realize these as maps within a split coequalizer diagram in operads;
+to do so, we need the technology of operadic congruence envelopes.
+
+**TODO: put discussion of operadic congruence envelopes here.**
+
+Now, let $$r_{M} \in \Fr_{\Op}\prn{A^\vee}^{\times 2}$$ be the relation between the two realizations of $$M_3$$ within $$\Fr_{\Op}\prn{A^\vee}$$;
+these are both trees of height 2 with one leaf node $$M_2$$ and the other $$O$$, with the first making one choice of position for the $$M_2$$ and the other making the other.
+Similarly, let $$r_O \in \Fr{|Op}\prn{A^\vee}^{\times 2}$$ be the relation between the two realizations of $$3 \cdot O$$.
+
+Toroidal decomposition for toroidal weaves can be phrased as follows:
+
+> **Theorem 4.**
+> The cofork diagram
+> <p align="center">
+>   \langle r_M, r_O \rangle \rightrightarrows \Fr_{\Op}(A^\vee) \rightarrow \cW^\vee
+> </p>
+> is split by toroidal decomposition;
+> hence $$\cW^\vee$$ is the quotient of the operad of trees labelled by $$A^\vee$$ by the realizations of $$M_3$$ and $$3 \cdot O$$.
 
 
-Using the tree interpretation, $$\cO_{\cA^\vee}$$ may be viewed as a symmetric space whose points are the trees where every vertex has an atoroidal weave, with weights given by summing the number of components of root nodes.
-Composition is given by grafting of trees.
 
-Note further that $$\cW_O^\vee \simeq \cA^{\vee}_O$$ is the $$\circ$$ monoidal unit;
-the identity $$\cA^{\vee} \simeq \cA^{\vee} \circ \cW_O^\vee$$ establishes that these trees may have leaves which are all the one-unit weave.
-
-
-We can summarize the combinatorics of atoroidal decomposition in the following not-too-far-off question:
-> **Question A.** Is the *atoroidal decomposition* map 
->  <p align="center">
->    \cW^{\operatorname{sym}} \rightarrow \cA^{\operatorname{sym}} \circ \cO_{\cA^\vee} \otimes \cT^\vee
->  </p>
-> an equivalence of symmetric spaces?
-This is probably very subtly wrong:
-I think this is a split epimorphism, and probably no more.
-This issue is that the second-to-bottom level can't contain any of the toroidally connected atoroidals (i.e. it can't contain $$M_n$$ or $$n \cdot O$$).
-We can fix this probably by tensoring in one level of atoroidals and replacing $$\cT^{\vee}$$ with a free graded monoid.
-
-
-
-
-**NOTE TO SELF** the definition of the moduli space needs a quotient by the permutations.
 
