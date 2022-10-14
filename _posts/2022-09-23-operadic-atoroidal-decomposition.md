@@ -182,13 +182,13 @@ If we view the weight grading of a symmetric sequence $$X_\bullet$$ as being the
 We use this perspective to formalize toroidal composition.
 
 ### Toroidal composition
-There are symmetric sequences $$\cA^\vee$$ of atoroidal weaves, $$\cW^\vee$$ of toroidal weaves, and $$\cW^{\Sym}$$ of weaves.
+There are symmetric sequences $$A^\vee$$ of atoroidal weaves, $$W^\vee$$ of toroidal weaves, and $$W^{\Sym}$$ of weaves, in sets.
 Toroidal composition provides two maps of symmetric sequences:
 <p align="center">
-  $$\cW^\vee \circ \cW^\vee \xrightarrow{\mu}\cW^\vee.$$
+  $$W^\vee \circ W^\vee \xrightarrow{\mu^\vee}W^\vee.$$
 </p>
 <p align="center">
-  $$\cW \circ \cW^\vee \rightarrow \cW.$$
+  $$W \circ W^\vee \xrightarrow{\mu} W.$$
 </p>
 
 We'd like to realize the first as the composition map of an operad, and the second as a structure map of an operadic right module.
@@ -201,19 +201,23 @@ This is not too hard:
 To prove this, note that there is a deformation retract of $$\cW^{\vee}(1)$$ onto the realization given by the core curve of the solid torus;
 this is a translation followed by a rotation.
 
-Let $$\eta \in \Map(\cO_{\operatorname{triv}}, \cW^\vee) \simeq \cW^{\vee}(1) \simeq *$$ be a unit for $$\cW^\vee$$;
-there is a contractible space of such choices.
+Let $$\eta \in \Hom(\cO_{\operatorname{triv}}, W^\vee) \simeq W^{\vee}(1) \simeq *$$ be the for $$W^\vee$$.
 
 > **Proposition 2.**
-> The maps $$\mu, \eta$$ endow on $$\cW^{\vee}$$ the structure of an operad.
+> The maps $$\mu^\vee, \eta$$ endow on $$W^{\vee}$$ the structure of an operad.
 
+This is more-or-less obvious, so I'll skip it.
+The following proposition is also obvious, and I'll also skip it
 
-By the claim, $$\cA^{\vee}$$ is pointed up to a contractible space of ambiguity.
-Hence we may take the free operad $$\Fr_{\Op}\prn{\cA^\vee}$$ on $$\cA^{\vee}$$ as a pointed object. 
+> **Proposition 3.**
+> The map $$\mu$$ endows $$W$$ with the structure of a right module over $$W^\vee$$.
 
+These summarize the existence of algebraic structure on weaves;
+there's both an operadic composition within toroidal weaves, and an operadic right-action of toroidal weaves on weaves.
+We next describe toroidal decomposition, which amounts to giving presentations of $$W$$ and $$W^\vee$$ as quotients of free objects.
 
-
-
+### Toroidal decomposition
+Note that $$\cA^\vee$$ is contractible by Proposition 1, so $$A^\vee$$ is uniquely pointed.
 
 
 Using the tree interpretation, $$\cO_{\cA^\vee}$$ may be viewed as a symmetric space whose points are the trees where every vertex has an atoroidal weave, with weights given by summing the number of components of root nodes.
