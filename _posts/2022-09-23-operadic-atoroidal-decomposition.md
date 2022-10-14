@@ -223,7 +223,7 @@ this is the operad parameterizing trees labelled with atoroidal toroidal weaves,
 The operad structure on $$\cW^\vee$$ is given by a structure map $$\Fr_{\Op}\prn{W^\vee} \rightarrow W^\vee$$.
 This induces a map
 <p align="center">
-    $$\Fr_{\Op}\prn{A^\vee} \rightarrow \Fr_{\Op}\prn{W^vee} \rightarrow W^\vee.$$
+    $$\Fr_{\Op}\prn{A^\vee} \rightarrow \Fr_{\Op}\prn{W^\vee} \rightarrow W^\vee.$$
 </p>
 In the other direction, the previous discussion of toroidal decomposition yields a map of operads $$W^\vee \rightarrow \Fr_{\Op}\prn{A^\vee}$$, after choosing a (non-canonical) decomposition of each fully toroidal weave into a tree of 2-component weaves.
 We'd like to realize these as maps within a split coequalizer diagram in operads;
