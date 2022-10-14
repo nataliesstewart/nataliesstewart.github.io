@@ -238,13 +238,22 @@ Similarly, let $$r_O \in \Fr{|Op}\prn{A^\vee}^{\times 2}$$ be the relation betwe
 Toroidal decomposition for toroidal weaves can be phrased as follows:
 
 > **Theorem 4.**
-> The cofork diagram
+> The operadic cofork diagram
 > <p align="center">
 >   \langle r_M, r_O \rangle \rightrightarrows \Fr_{\Op}(A^\vee) \rightarrow \cW^\vee
 > </p>
 > is split by toroidal decomposition;
 > hence $$\cW^\vee$$ is the quotient of the operad of trees labelled by $$A^\vee$$ by the realizations of $$M_3$$ and $$3 \cdot O$$.
 
+Similarly, note that $$A \circ W^\vee$$ is the free right $$W^\vee$$-module on $$A$$.
+Let $$r'_M$$ and $$r'_0$$ be the relations in $$A \circ W^\vee$$ corresponding with the realizations of $$M_3$$ and $$3 \cdot O$$.
+Toroidal decomposition for weaves can be phrased as follows:
 
-
+> **Theorem 4.**
+> The right $$W^\vee$$- cofork diagram
+> <p align="center">
+>   \langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W
+> </p>
+> is split by toroidal decomposition;
+> hence $$W$$ arises by affixing a single atoroidal weave to a toroidal weave, modulo the pairs of such decompositions for $$M_3$$ and $$3 \cdot O$$.
 
