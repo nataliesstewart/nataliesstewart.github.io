@@ -240,7 +240,7 @@ Toroidal decomposition for toroidal weaves can be phrased as follows:
 > **Theorem 4.**
 > The operadic cofork diagram
 > <p align="center">
->   \langle r_M, r_O \rangle \rightrightarrows \Fr_{\Op}(A^\vee) \rightarrow \cW^\vee
+>   $$\langle r_M, r_O \rangle \rightrightarrows \Fr_{\Op}(A^\vee) \rightarrow \cW^\vee$$
 > </p>
 > is split by toroidal decomposition;
 > hence $$\cW^\vee$$ is the quotient of the operad of trees labelled by $$A^\vee$$ by the realizations of $$M_3$$ and $$3 \cdot O$$.
@@ -252,7 +252,7 @@ Toroidal decomposition for weaves can be phrased as follows:
 > **Theorem 4.**
 > The right $$W^\vee$$- cofork diagram
 > <p align="center">
->   \langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W
+>   $$\langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W$$
 > </p>
 > is split by toroidal decomposition;
 > hence $$W$$ arises by affixing a single atoroidal weave to a toroidal weave, modulo the pairs of such decompositions for $$M_3$$ and $$3 \cdot O$$.
