@@ -110,6 +110,8 @@ $$
 
 \newcommand{\Fr}{\operatorname{Fr}}
 
+\newcommand{\Op}{\operatorname{Op}}
+
 \newcommand{\cbr}[1]{\left\{ #1 \right\}}
 \newcommand{\brk}[1]{\left\[ #1 \right\]}
 \newcommand{\abs}[1]{\left| #1 \right|}
@@ -183,17 +185,28 @@ We use this perspective to formalize toroidal composition.
 There are symmetric sequences $$\cA^\vee$$ of atoroidal weaves, $$\cW^\vee$$ of toroidal weaves, and $$\cW^{\Sym}$$ of weaves.
 Toroidal composition provides two maps of symmetric sequences:
 <p align="center">
-  $$\cW \circ \cW^\vee \rightarrow \cW.$$
+  $$\cW^\vee \circ \cW^\vee \xrightarrow{\mu}\cW^\vee.$$
 </p>
 <p align="center">
-  $$\cW^\vee \circ \cW^\vee \rightarrow \cW^\vee.$$
+  $$\cW \circ \cW^\vee \rightarrow \cW.$$
 </p>
 
-> **Claim:** $$\cA^{\vee}(1)$$ is contractible;
+We'd like to realize the first as the composition map of an operad, and the second as a structure map of an operadic right module.
+To do the first, we need to choice a unit.
+This is not too hard: 
+
+> **Proposition 1.** $$\cW^{\vee}(1)$$ is contractible;
 > that is, there is a contractible space of one-component toroidal weaves.
 
-To prove this, note that there is a deformation retract of $$\cA^{\vee}(1)$$ onto the realization given by the core curve of the solid torus;
+To prove this, note that there is a deformation retract of $$\cW^{\vee}(1)$$ onto the realization given by the core curve of the solid torus;
 this is a translation followed by a rotation.
+
+Let $$\eta \in \Map(\cO_{\operatorname{triv}}, \cW^\vee) \simeq \cW^{\vee}(1) \simeq *$$ be a unit for $$\cW^\vee$$;
+there is a contractible space of such choices.
+
+> **Proposition 2.**
+> The maps $$\mu, \eta$$ endow on $$\cW^{\vee}$$ the structure of an operad.
+
 
 By the claim, $$\cA^{\vee}$$ is pointed up to a contractible space of ambiguity.
 Hence we may take the free operad $$\Fr_{\Op}\prn{\cA^\vee}$$ on $$\cA^{\vee}$$ as a pointed object. 
