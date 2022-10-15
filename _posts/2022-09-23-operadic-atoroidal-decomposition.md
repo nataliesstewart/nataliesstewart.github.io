@@ -250,7 +250,7 @@ Let $$r'_M$$ and $$r'_0$$ be the relations in $$A \circ W^\vee$$ corresponding w
 Toroidal decomposition for weaves can be phrased as follows:
 
 > **Theorem 5.**
-> The right $$W^\vee$$- cofork diagram
+> The right $$W^\vee$$-module cofork diagram
 > <p align="center">
 >   $$\langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W$$
 > </p>
