@@ -252,7 +252,7 @@ Toroidal decomposition for weaves can be phrased as follows:
 > **Theorem 5.**
 > The right $$W^\vee$$-module cofork diagram
 > <p align="center">
->   $$\langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W^\sym$$
+>   $$\langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W^\Sym$$
 > </p>
 > is split by toroidal decomposition;
 > hence $$W^{\Sym}$$ arises by affixing a single atoroidal weave to a toroidal weave, modulo the pairs of such decompositions for $$M_3$$ and $$3 \cdot O$$.
