@@ -261,7 +261,7 @@ We then may pass from $$W^{\Sym}$$ to $$W$$ by taking $$\Sigma$$-orbits.
 
 The various functors employed in this construction are summarized in the following chart:
 <div align="center">
-	<a href="/assets/toroidal decomposition.png"><img src="/assets/toroidal decomposition.png" align="center" height="900" ></a>
+	<a href="/assets/toroidal decomposition.png"><img src="/assets/toroidal decomposition.png" align="center" weight="800" ></a>
 	<p align="center">
     <font size="2"> This illustration is color coded for clarity; red describes the free operad construction, green the free module construction, orange the structure of $$W^\vee$$, and blue the structure of $$W$$. Each cofork diagram is a (split) coequalizer.</font>
   </p>
