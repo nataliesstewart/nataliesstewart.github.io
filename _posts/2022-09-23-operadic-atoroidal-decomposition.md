@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chainmail math 5: operadic right-modules and atoroidal decomposition, the theory"
+title:  "Chainmail math 5: operadic right-modules and toroidal decomposition, the theory"
 date:   2022-09-23
 categories: chainmail-math
 ---
@@ -188,7 +188,7 @@ Toroidal composition provides two maps of symmetric sequences:
   $$W^\vee \circ W^\vee \xrightarrow{\mu^\vee}W^\vee.$$
 </p>
 <p align="center">
-  $$W \circ W^\vee \xrightarrow{\mu} W.$$
+  $$W^{\Sym} \circ W^\vee \xrightarrow{\mu} W^{\Sym}.$$
 </p>
 
 We'd like to realize the first as the composition map of an operad, and the second as a structure map of an operadic right module.
@@ -210,7 +210,7 @@ This is more-or-less obvious, so I'll skip it.
 The following proposition is also obvious, and I'll also skip it
 
 > **Proposition 3.**
-> The map $$\mu$$ endows $$W$$ with the structure of a right module over $$W^\vee$$.
+> The map $$\mu$$ endows $$W^{\Sym}$$ with the structure of a right module over $$W^\vee$$.
 
 These summarize the existence of algebraic structure on weaves;
 there's both an operadic composition within toroidal weaves, and an operadic right-action of toroidal weaves on weaves.
@@ -220,7 +220,7 @@ We next describe toroidal decomposition, which amounts to giving presentations o
 Note that $$\cA^\vee$$ is contractible by Proposition 1, so $$A^\vee$$ is uniquely pointed.
 There is a free operad $$\Fr_{\Op}\prn{A^\vee}$$ on $$A^\vee$$ as a pointed object;
 this is the operad parameterizing trees labelled with atoroidal toroidal weaves, modulo the one-component weave $$O$$ acting as unit.
-The operad structure on $$\cW^\vee$$ is given by a structure map $$\Fr_{\Op}\prn{W^\vee} \rightarrow W^\vee$$.
+The operad structure on $$W^\vee$$ is given by a structure map $$\Fr_{\Op}\prn{W^\vee} \rightarrow W^\vee$$.
 This induces a map
 <p align="center">
     $$\Fr_{\Op}\prn{A^\vee} \rightarrow \Fr_{\Op}\prn{W^\vee} \rightarrow W^\vee.$$
@@ -252,8 +252,19 @@ Toroidal decomposition for weaves can be phrased as follows:
 > **Theorem 5.**
 > The right $$W^\vee$$-module cofork diagram
 > <p align="center">
->   $$\langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W$$
+>   $$\langle r'_M, r'_O \rangle \rightrightarrows A \circ W^\vee \rightarrow W^\sym$$
 > </p>
 > is split by toroidal decomposition;
-> hence $$W$$ arises by affixing a single atoroidal weave to a toroidal weave, modulo the pairs of such decompositions for $$M_3$$ and $$3 \cdot O$$.
+> hence $$W^{\Sym}$$ arises by affixing a single atoroidal weave to a toroidal weave, modulo the pairs of such decompositions for $$M_3$$ and $$3 \cdot O$$.
+
+We then may pass from $$W^{\Sym}$$ to $$W$$ by taking $$\Sigma$$-orbits.
+
+The various functors employed in this construction are summarized in the following chart:
+<div align="center">
+	<a href="/assets/toroidal decomposition.png"><img src="/assets/toroidal decomposition" align="center" height="900" ></a>
+	<p align="center">
+    <font size="2"> This illustration is color coded for clarity; red describes the free operad construction, green the free module construction, orange the structure of $$W^\vee$$, and blue the structure of $$W$$. Each cofork diagram is a (split) coequalizer.</font>
+  </p>
+</div>
+
 

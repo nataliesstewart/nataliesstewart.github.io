@@ -169,13 +169,19 @@ Hnce we may understand kinging hopefully as a process $$\cW_*^+ \rightarrow \cW_
 There are other practical analogues to this process;
 we may Möbius a weave by replacing a component with <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/15/level-2.html">the</a> prime 2-component weave.
 
-These are each gotten by substituting a weave of size $$2$$ into a solid torus surrounding a component of a weave.
-We'll refer to this process as *toroidal decomposition*, even when substituting suitable $$n$$-component weaves into a torus.
-Just as how supplying the obvious additive structure on $$W$$ allowed us to decompose weaves into primes, we can ask if there's a similar decomposition into atoroidals;
-there must be some disanalogy as we substitute specifically *weaves fitting into a solid torus of core radius 1* into *weaves with a distinguished component*.
+These are each gotten by substituting a weave into a solid torus surrounding a component of a weave.
+We'll refer to this process as *toroidal composition*.
 
-This will lead us astray from actual content, so let's start with the actual content:
-we'll first make sense of what a toroidal or atoroidal (sub)weave is, then we'll go on to proving a decomposition theorem, called *toroidal decomposition*.
+Just as how supplying the obvious additive structure on $$W$$ allowed us to decompose weaves into primes, we can ask if there's a similar decomposition into atoroidals;
+this turns out to be much more complicated, as our decription of toroidal composition allowed us only to substitute weaves with a distinguished (implicit) embedding into a solid torus.
+This will lead us astray from actual content, so we largely sweep it under the rug in this post, which is aimed at addressing only the actual content.
+
+In this post, we first make sense of what a toroidal or atoroidal (sub)weave is.
+We then collect these in a hypergraph invariant of weaves, called the *toroidal hypergraph*;
+following this, we give several workhorse lemmas about the structure of the toroidal hypergraph, which allow us to make sense of decomposition, in the language of *atoroidal quotients* and *fully toroidal quotients*.
+We perform a classification of fully toroidal weaves, reducing the class of indecomposable weaves for this decomposition to only the atoroidal weaves.
+We end with a sketch of the toroidal decomposition of each of the 4-component weaves appearing in the RIM.
+
 
 ### Toroidal subweaves, quotients, and the contraction lemma
 By convention, we refer to a subweave as *trivial* if it has size 1, i.e. it has one compoent.
@@ -321,4 +327,4 @@ This is harder to write than draw, so here's a big drawing:
 </div>
 
 ### The next step
-In the next post, we will sum up our perspective in terms of operads, and conjecture a topological version of the toroidal decomposition laid out here.
+In the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/23/operadic-atoroidal-decomposition.html">next post</a>, we will sum up our perspective in terms of operads, and conjecture a topological version of the toroidal decomposition laid out here.
