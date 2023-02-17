@@ -59,6 +59,7 @@ $$
 \newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
 \newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
 \newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
+\newcommand{\sym}{\mathrm{Sym}} 
 \newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
 \newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
 \newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
@@ -151,6 +152,8 @@ $$
 \def\Nat{\operatorname{Nat}}
 \def\Free{\operatorname{Free}}
 
+\newcommand{\lin}{\operatorname{lin}}
+
 \def\fig{\text{Fig. 8}}
 $$
 
@@ -175,7 +178,7 @@ All of these spaces will consist of infinitely many rings, so we first need to d
 
 This is not very useful, but allows for easy definition of linear weaves:
 
-> **Definition 2.** The space of *ordered n-periodic linear weaves* is be the subspace $$\cW^\sym_{\operatorname{per},n} \subset \cW^\sym_\omega$$ possessing a translational symmetry whose action on the set of embedded circles has quotient of size $$n$$. 
+> **Definition 2.** * The space of *ordered n-periodic linear weaves* is be the subspace $$\cW^\sym_{\operatorname{per},n} \subset \cW^\sym_\omega$$ possessing a translational symmetry whose action on the set of embedded circles has quotient of size $$n$$.* 
 
 There is an obvious question:
 why not record the translational symmetry itself?
@@ -191,8 +194,26 @@ this implies that $$w$$ has infinite units with respect to $$\tau_1$$, so $$\tau
 Next, suppose that $$\tau_1$$ and $$\tau_2$$ are parallel translational symmetries of $$w$$ different distance;
 it is easy to see that units of $$\tau_1$$ and $$\tau_2$$ have different numbers of units, so at most one can be an $$n$$-periodic symmetry.
 
+This allows us to make a global definition:
+> **Definition 3.** *The space of ordered linear weaves is the union*
+>  <p align="center">
+>    $$\cW^\sym_\lin := \colim_n \cW_{\per,n}^\sym \subset \cW_{\omega}^\sym$$. 
+>  </p>
 
+We can also remove the order:
+> **Definition 4.** *Let $$B\Sigma := \bigoplus B\Sigma_n$$ be the groupoid corresponding with the disjoint union of deloopings of the symmetric groups $$\Sigma_n$$.*
+> *Then, the space of * n-periodic linear weaves * is the orbit space
+>  <p align="center">
+>    $$\cW_{\per,n} := \prn{\cW_{\per,n}^\sym}_{\Sigma_n}$$. 
+>  </p>
+> *The space of *linear weaves* is the colimit
+>  <p align="center">
+>    $$\cW_\lin := \colim_n \cW_{\per,n}$$, 
+>  </p>
+> *or equivalently, the orbit space*
+>  <p align="center">
+>    $$\cW_\lin := \prn{\cW^\sym}_\Sigma$$. 
+>  </p>
 
-**Definition 1.** *Fix $$n \in \ZZ_{>0}$$ a positive integer.*
  
 
