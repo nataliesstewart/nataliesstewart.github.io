@@ -154,6 +154,8 @@ $$
 
 \newcommand{\lin}{\operatorname{lin}}
 
+\newcommand{\bL}{\mathbf{L}}
+
 \def\fig{\text{Fig. 8}}
 $$
 
@@ -197,7 +199,7 @@ it is easy to see that units of $$\tau_1$$ and $$\tau_2$$ have different numbers
 This allows us to make a global definition:
 > **Definition 3.** *The space of ordered linear weaves is the union*
 >  <p align="center">
->    $$\cW^\sym_\lin := \colim_n \cW_{\per,n}^{\sym} \subset \cW_{\omega}^{\sym}$$. 
+>    $$\cW^{\sym}_\lin := \colim_n \cW_{\per,n}^{\sym} \subset \cW_{\omega}^{\sym}$$. 
 >  </p>
 
 We can also remove the order:
@@ -231,6 +233,6 @@ all one needs to determine is $$\pi(X_{n+1}) = \pi(X_n) \coprod  \pi(X_{\leq n+1
 We will restrict for now to this setting, taking $$X_\bullet$$ to be a set and $$\pi$$ to be the identity.
 
 Let's define the setting in which the computers have hope:
-> **Definition 5.** * A $$\bL$$-filtred set $$X_\bullet$$ is of * *finite type* if the set $$\overline{X_n} := X_n / \cup_{k | n} X_{k}$$ is finite for each $$n$$.
+> **Definition 5.** *A $$\bL$$-filtred set $$X_\bullet$$ is of* finite type *if the set $$\overline{X_n} := X_n / \cup_{k | n} X_{k}$$ is finite for each $$n$$.
 
 
