@@ -59,7 +59,7 @@ $$
 \newcommand{\id}{\mathrm{id}} \newcommand{\Top}{\mathrm{Top}}
 \newcommand{\cP}{\mathcal{P}} \newcommand{\U}{\mathrm{U}}
 \newcommand{\Sym}{\mathrm{Sym}} \newcommand{\coker}{\mathrm{coker}}
-\newcommand{\sym}{\mathrm{Sym}} 
+\newcommand{\sym}{\mathrm{Sym}} \newcommand{\per}{\operatorname{per}} 
 \newcommand{\Vect}{\mathrm{Vect}} \newcommand{\Fun}{\mathrm{Fun}}
 \newcommand{\cT}{\mathcal{T}} \newcommand{\cJ}{\mathcal{J}}
 \newcommand{\Res}{\mathrm{Res}} \newcommand{\Ind}{\mathrm{Ind}}
@@ -215,5 +215,11 @@ We can also remove the order:
 >    $$\cW_\lin := \prn{\cW^\sym}_\Sigma$$. 
 >  </p>
 
- 
+As before, we denote by $$W_\lin$$ the set $$W_\lin := \pi_0 \cW_\lin$$, and similarly for other spaces.
+
+### Filtrations on the set of linear weaves
+Let $$\bL$$ be the lattice of nonzero ideals in $$\ZZ$$ where $$I \leq J$$ whenever $$I \supset J$$;
+this is the poset whose elements are positive integers, with edges corresponding with multiplication.
+The space $$\cW_\lin$$ (and hence the set $$W_\lin$$) has an evident $$\bL$$-indexed filtration corresponding with the *n-periodic linear weaves*.
+
 
