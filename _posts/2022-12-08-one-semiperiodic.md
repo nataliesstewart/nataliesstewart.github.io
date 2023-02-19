@@ -255,3 +255,7 @@ We can now engage in some conjectures!
 
 This is easier than the linear case:
 > **Conjecture B.** The *simply periodic* and *simply semiperiodic* filtrations on the set of linear weaves are of finite type.
+
+> **Proposition 5.** Conjecture A implies conjecture B.
+
+To see this, it suffices to give a $$\pi_0$$-injective map $$\cW_{s\per,n} \rightarrow \cW_{3n}$$.
