@@ -152,11 +152,9 @@ $$
 \def\Nat{\operatorname{Nat}}
 \def\Free{\operatorname{Free}}
 
-\newcommand{\lin}{{\mathrm{lin}}}
+\newcommand{\lin}{\mathrm{lin}}
 
 \newcommand{\bL}{\mathbf{L}}
-
-\def\fig{\text{Fig. 8}}
 $$
 
 
@@ -239,4 +237,5 @@ Unfortunately, the following easy proposition establishes that the periodicity f
 
 > **Proposition 2.** The weave $$H_n$$, called *half persian n in 1*, is $$2$$-periodic with linking graph of degree $$n$$;
 > in particular, $$H_n$$ is an infinite family of distinct 2-periodic linear weaves.
+
 
