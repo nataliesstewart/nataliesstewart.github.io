@@ -217,22 +217,11 @@ We can also remove the order:
 
 As before, we denote by $$W_\lin$$ the set $$W_\lin := \pi_0 \cW_\lin$$, and similarly for other spaces.
 
-### Filtrations on the set of linear weaves
-Let $$\bL$$ be the lattice of nonzero ideals in $$\ZZ$$ where $$I \leq J$$ whenever $$I \supset J$$;
-this is the poset whose elements are positive integers, with edges corresponding with multiplication.
-The space $$\cW_{\lin}$$ (and hence the set $$W_{\lin}$$) has an evident $$\bL$$-indexed filtration corresponding with the *n-periodic linear weaves*.
+### Periodicity, simple periodicity, semiperiodicity
+Let $$\bL$$ denote the poset of integers such that $$k \leq n$$ whenever $$k | n$$.
+We say that a $$\bL$$-filtered set is of *finite type* if the associated graded $$\gr_n X_\bullet = X_n / \cup_{k | n} X_k$$ is finite for each $$n$$.
 
-There is a monotonic function $$\bL \rightarrow \NN$$.
-This provides an *inductive strategy* for computing invariants of a $$\bL$$-filtered object $$X_\bullet$$ whose associated graded is managed:
-up to a potential extension problem, given an invariant $$\pi$$, one can hope to compute $$\pi X_{\leq n+1}$$ from $$\pi_{\leq n}$$ and any of the associated gradeds $$\cbr{X_{\leq n+1} / X_{\leq k}}_{k | n+1}$$.
-
-In the case that $$\pi$$ is $$\Set$$-valued, there are no potential extension problems:
-all one needs to determine is $$\pi(X_{n+1}) = \pi(X_n) \coprod  \pi(X_{\leq n+1}) / \cup_{k | n+1} \pi(X_{\leq k})$$.
-We will restrict for now to this setting, taking $$X_\bullet$$ to be a set and $$\pi$$ to be the identity.
-
-Let's define the setting in which the computers have hope:
-> **Definition 5.** *A $$\bL$$-filtred set $$X_\bullet$$ is of * finite type * if the set $$\overline{X_n} := X_n / \cup_{k\|n} X_{k}$$ is finite for each $$n$$.
-
+The set $$W_{\lin}$$ has an evident $$\bL$$-filtration corresponding with the *n-periodic linear weaves*.
 Unfortunately, the following easy proposition establishes that the periodicity filtration is *not* of finite type:
 
 > **Proposition 2.** The weave $$H_n$$, called *half persian n in 1*, is $$2$$-periodic with linking graph of degree $$n$$;
@@ -242,11 +231,12 @@ We may be able to rectify this!
 The family $$\cbr{H_n}$$ has _unbounded interconnectedness_, in the sense that the linking graph has unbounded degree.
 One way to bound interconnectedness is to restrict our periodicity symmetries to those that only interconnect adjacent units, as follows: 
 
-> **Definition 6.** *A linear weave is * simply n-periodic * if it possesses an $$n$$-periodicity such that no two non-adjacent units have linked components. 
+> **Definition 6.** *A linear weave is * simply n-periodic * if it possesses an $$n$$-periodicity such that no two non-adjacent units have linked components;
+> we write $$\cW_{s\per,n}$$ for the space of such weaves.
 
-The following proposition is clear, for $$L(w)$$ the *linking graph of $$w$$*:
+Let $$L(w)$$ denote the *linking graph of $$w$$*;
+the following proposition is clear, and establishes that simple periodicity yields a $$\bL$$-filtration of $$\cW_{\lin}$$. 
 > **Proposition 3.** Suppose $$w$$ is $$n$$-periodic;
 > then, $$w$$ is simply $$(2\operatorname{deg}(L(w)) + 1)n$$-periodic.
 
 Further, the information of *minimal length simple periodicity* is visible from a combination of the same information for periodicity and the linking graph.
-
