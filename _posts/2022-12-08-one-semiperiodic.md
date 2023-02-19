@@ -212,7 +212,7 @@ We can also remove the order:
 >  </p>
 > *or equivalently, the orbit space*
 >  <p align="center">
->    $$\cW_{\lin} := \prn{\cW^\sym}_\Sigma$.$ 
+>    $$\cW_{\lin} := \prn{\cW^\sym}_\Sigma.$$ 
 >  </p>
 
 As before, we denote by $$W_\lin$$ the set $$W_\lin := \pi_0 \cW_\lin$$, and similarly for other spaces.
@@ -231,7 +231,7 @@ all one needs to determine is $$\pi(X_{n+1}) = \pi(X_n) \coprod  \pi(X_{\leq n+1
 We will restrict for now to this setting, taking $$X_\bullet$$ to be a set and $$\pi$$ to be the identity.
 
 Let's define the setting in which the computers have hope:
-> **Definition 5.** *A $$\bL$$-filtred set $$X_\bullet$$ is of* finite type *if the set $$\overline{X_n} := X_n / \cup_{k | n} X_{k}$$ is finite for each $$n$$.
+> **Definition 5.** *A $$\bL$$-filtred set $$X_\bullet$$ is of* finite type *if the set $$\overline{X_n} := X_n / \cup_{k\|n} X_{k}$$ is finite for each $$n$$.
 
 Unfortunately, the following easy proposition establishes that the periodicity filtration is *not* of finite type:
 
