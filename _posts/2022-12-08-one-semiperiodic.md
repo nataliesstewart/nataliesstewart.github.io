@@ -152,7 +152,7 @@ $$
 \def\Nat{\operatorname{Nat}}
 \def\Free{\operatorname{Free}}
 
-\newcommand{\lin}{\operatorname{lin}}
+\newcommand{\lin}{{\mathrm{lin}}}
 
 \newcommand{\bL}{\mathbf{L}}
 
@@ -199,22 +199,22 @@ it is easy to see that units of $$\tau_1$$ and $$\tau_2$$ have different numbers
 This allows us to make a global definition:
 > **Definition 3.** *The space of ordered linear weaves is the union*
 >  <p align="center">
->    $$\cW^{\sym}_\lin := \colim_n \cW_{\per,n}^{\sym} \subset \cW_{\omega}^{\sym}$$. 
+>    $$\cW^{\sym}_{\lin} := \colim_n \cW_{\per,n}^{\sym} \subset \cW_{\omega}^{\sym}.$$ 
 >  </p>
 
 We can also remove the order:
 > **Definition 4.** *Let $$B\Sigma := \bigoplus B\Sigma_n$$ be the groupoid corresponding with the disjoint union of deloopings of the symmetric groups $$\Sigma_n$$.*
 > *Then, the space of * n-periodic linear weaves * is the orbit space
 >  <p align="center">
->    $$\cW_{\per,n} := \prn{\cW_{\per,n}^\sym}_{\Sigma_n}$$. 
+>    $$\cW_{\per,n} := \prn{\cW_{\per,n}^\sym}_{\Sigma_n}.$$ 
 >  </p>
 > *The space of *linear weaves* is the colimit
 >  <p align="center">
->    $$\cW_\lin := \colim_n \cW_{\per,n}$$, 
+>    $$\cW_{\lin} := \colim_n \cW_{\per,n},$$ 
 >  </p>
 > *or equivalently, the orbit space*
 >  <p align="center">
->    $$\cW_\lin := \prn{\cW^\sym}_\Sigma$$. 
+>    $$\cW_{\lin} := \prn{\cW^\sym}_\Sigma$.$ 
 >  </p>
 
 As before, we denote by $$W_\lin$$ the set $$W_\lin := \pi_0 \cW_\lin$$, and similarly for other spaces.
@@ -222,7 +222,7 @@ As before, we denote by $$W_\lin$$ the set $$W_\lin := \pi_0 \cW_\lin$$, and sim
 ### Filtrations on the set of linear weaves
 Let $$\bL$$ be the lattice of nonzero ideals in $$\ZZ$$ where $$I \leq J$$ whenever $$I \supset J$$;
 this is the poset whose elements are positive integers, with edges corresponding with multiplication.
-The space $$\cW_\lin$$ (and hence the set $$W_\lin$$) has an evident $$\bL$$-indexed filtration corresponding with the *n-periodic linear weaves*.
+The space $$\cW_{\lin}$$ (and hence the set $$W_{\lin}$$) has an evident $$\bL$$-indexed filtration corresponding with the *n-periodic linear weaves*.
 
 There is a monotonic function $$\bL \rightarrow \NN$$.
 This provides an *inductive strategy* for computing invariants of a $$\bL$$-filtered object $$X_\bullet$$ whose associated graded is managed:
@@ -235,4 +235,8 @@ We will restrict for now to this setting, taking $$X_\bullet$$ to be a set and $
 Let's define the setting in which the computers have hope:
 > **Definition 5.** *A $$\bL$$-filtred set $$X_\bullet$$ is of* finite type *if the set $$\overline{X_n} := X_n / \cup_{k | n} X_{k}$$ is finite for each $$n$$.
 
+Unfortunately, the following easy proposition establishes that the periodicity filtration is *not* of finite type:
+
+> **Proposition 2.** The weave $$H_n$$, called *half persian n in 1*, is $$2$$-periodic with linking graph of degree $$n$$;
+> in particular, $$H_n$$ is an infinite family of distinct 2-periodic linear weaves.
 
