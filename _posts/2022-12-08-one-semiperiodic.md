@@ -231,11 +231,22 @@ all one needs to determine is $$\pi(X_{n+1}) = \pi(X_n) \coprod  \pi(X_{\leq n+1
 We will restrict for now to this setting, taking $$X_\bullet$$ to be a set and $$\pi$$ to be the identity.
 
 Let's define the setting in which the computers have hope:
-> **Definition 5.** *A $$\bL$$-filtred set $$X_\bullet$$ is of* finite type *if the set $$\overline{X_n} := X_n / \cup_{k\|n} X_{k}$$ is finite for each $$n$$.
+> **Definition 5.** *A $$\bL$$-filtred set $$X_\bullet$$ is of * finite type * if the set $$\overline{X_n} := X_n / \cup_{k\|n} X_{k}$$ is finite for each $$n$$.
 
 Unfortunately, the following easy proposition establishes that the periodicity filtration is *not* of finite type:
 
 > **Proposition 2.** The weave $$H_n$$, called *half persian n in 1*, is $$2$$-periodic with linking graph of degree $$n$$;
 > in particular, $$H_n$$ is an infinite family of distinct 2-periodic linear weaves.
 
+We may be able to rectify this!
+The family $$\cbr{H_n}$$ has _unbounded interconnectedness_, in the sense that the linking graph has unbounded degree.
+One way to bound interconnectedness is to restrict our periodicity symmetries to those that only interconnect adjacent units, as follows: 
+
+> **Definition 6.** *A linear weave is * simply n-periodic * if it possesses an $$n$$-periodicity such that no two non-adjacent units have linked components. 
+
+The following proposition is clear, for $$L(w)$$ the *linking graph of $$w$$*:
+> **Proposition 3.** Suppose $$w$$ is $$n$$-periodic;
+> then, $$w$$ is simply $$(2\operatorname{deg}(L(w)) + 1)n$$-periodic.
+
+Further, the information of *minimal length simple periodicity* is visible from a combination of the same information for periodicity and the linking graph.
 
