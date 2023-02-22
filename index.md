@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: post
 title: Home
 ---
-<!DOCTYPE html>
 
 <!-- <script type="text/javascript"
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
