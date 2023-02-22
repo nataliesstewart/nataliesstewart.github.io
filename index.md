@@ -2,9 +2,9 @@
 layout: default
 title: Home
 ---
-<script type="text/javascript"
+<!-- <script type="text/javascript"
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+</script> -->
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tbody><tr>
