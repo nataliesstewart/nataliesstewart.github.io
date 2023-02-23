@@ -160,7 +160,51 @@ $$
 
 
 **This post is under construction.**
-This post is a reformulation of <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/12/08/one-semiperiodic.html"> the previous post </a> in the series, intended for a general audience.
-See the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-mat    h/2022/09/09/the-moduli-space-of-weaves.html">first post in the series</a> for a table of contents.
+This post is a reformulation of <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/22/one-semiperiodic.html"> the previous post </a> in the series, intended for a general audience.
+See the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first post in the series</a> for a table of contents.
 
 ### A "hello world" to a non-mathematical audience
+
+Hello world! 
+This blog is usually written for my own benefit, as an algebraic topologist;
+hence the rest is almost certainly not accessible to non-mathematicians.
+Eventually, once I've worked out enough technology to rigorously verify the RIM, I will make a document summarizing this for a general audience.
+We aren't there yet, but I want to be able to refer to this, so I'm putting it here.
+
+The name of the game is precision;
+after writing down a precise definition for weaves, one can prove rigorous/unarguable statements, such as providing a list of *all weaves satisfting a condition* (such as all unit weaves of size at most 4, which is probably more-or-less the RIM).
+In pursuit of this, the post today will state some (almost) precise definitions, and ask some precise questions.
+
+### A back-reference to unit weaves
+This section will be particularly imprecise and terse.
+A helpful intuitive read is the first section <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">here</a>.
+The gist is that we'd like to define *unit weaves*, i.e. weaves who do not replicate in any directions, in such a way that we have a hope of counting them.
+
+A helpful simplification (which will be made universally, until we've solved the simple case) is to set all inner diameters to 1, and all wire diameters to infinitesimal (so that AR is approximately $$\infty$$).
+We can then define a unit weave:
+a unit weave realization is a collection of geometrically embedded circles in 3-dimensional space, and an equivalence of two realizations is a physical manipulation of one to the other, i.e. an interval of time's worth of such realizations which moves continually from the first realization to the second.
+
+This equivalence partions the set of unit weaves into a number of parts;
+one of these parts is called a *unit weave*.
+In essence, Möbius 2 is a unit weave corresponding with any of the realizations of two circles liked to each other.
+
+A weave has *n components* if it is composed of n circles;
+a central conjecture in this theory is that there are finitely many weaves with n circles.
+
+However, unit weaves are not *really* what chain mail is about;
+we'd at least like to make a chain!
+Weaves replicating in a line are harder to define, but it's still doable.
+
+### A first definition of linear weaves
+In this section, we'll define the notion of weaves which are woven into a chain, called *linear weaves*.
+The central observation will be that such a weave is essentially the same information as an infinitely long chain, which repeats after a finite number of rings.
+
+To use this definition, we need a notion of infinite weaves:
+
+> **Definition 1.** An *infinite weave realization* is a collection of infinitely many non-intersecting circles in 3-space;
+> two such realizations are equivalent if one can be manipulated into the other, at all times remaining an infinite weave realization.
+> An *infinite weave* is a part in the associated partition of the set of infinite weave realizations. 
+
+These are obviously huge:
+there will certainly be infinitely many of them!
+
