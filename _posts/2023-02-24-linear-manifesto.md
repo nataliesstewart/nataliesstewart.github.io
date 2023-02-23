@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chainmail math 7.5: a linear weave manifesto in imprecise language"
-date:   2023-2-24
+date:   2023-2-23
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 

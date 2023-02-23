@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chainmail math 7: a linear weave manifesto in topological language"
-date:   2022-12-08
+date:   2023-2-22
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
