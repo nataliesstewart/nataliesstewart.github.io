@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Chainmail math 7.5: a linear weave manifesto in imprecise language"
-date:   2023-2-23
+title:  "Chainmail math 8: linking detects the unit unweave"
+date:   2023-3-17
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
@@ -160,91 +160,87 @@ $$
 
 
 **This post is under construction.**
-This post is a reformulation of <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/22/one-semiperiodic.html"> the previous post </a> in the series, intended for a general audience.
+See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/22/one-semiperiodic.html"> the previous post </a> in the series for context.
+
 See the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first post in the series</a> for a table of contents.
 
-### A "hello world" to a non-mathematical audience
+This major mathematical content of this post is a citation to the paper <a href="https://projecteuclid.org/journalArticle/Download?urlId=10.4310%2Fjdg%2F1214440725&referringURL=https%3A%2F%2Fduckduckgo.com%2F&isResultClick=False">Strange Actions of Groups on Spheres</a> by Freedman & Skora;
+in particular, they claim the essence of the main proposition of this post *by synthetic geometry* in Lemma 3.2.
 
-Hello world! 
-This blog is usually written for my own benefit, as an algebraic topologist;
-hence the rest is almost certainly not accessible to non-mathematicians.
-Eventually, once I've worked out enough technology to rigorously verify the RIM, I will make a document summarizing this for a general audience.
-We aren't there yet, but I want to be able to refer to this, so I'm putting it here.
+This note concenrs both the finite and infinite case;
+for the rest of the post, $$1 \leq n \leq \infty$$.
 
-The name of the game is precision;
-after writing down a precise definition for weaves, one can prove rigorous/unarguable statements, such as providing a list of *all weaves satisfting a condition* (such as all unit weaves of size at most 4, which is probably more-or-less the RIM).
-In pursuit of this, the post today will state some (almost) precise definitions, and ask some precise questions.
+### The linking graph
+We first warm up with some unit weave constructions;
+recall that weaves have underlying links, and pairs of components in links have <a href="https://en.wikipedia.org/wiki/Linking_number">linking numbers</a>.
+> **Construction.**  Let $$\tilde w \in \cW_n$$ be a unit weave realization, and let $$\pi:\cW_n \rightarrow \RR^{3n} = \operatorname{Map}(n,\RR^3)$$ be projection to the centers of circles.
+> The *linking grpah* of $$\tilde w$$ is the embedded graph $$L(\tilde w) \subset \RR^3$$ whose vertices embed as $$\pi(\tilde w)$$, with edges drawn linearly between vertices if the corresponding circles have nonzero linking number.
 
-### A back-reference to unit weaves
-This section will be particularly imprecise and terse.
-A helpful intuitive read is the first section <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">here</a>.
-The gist is that we'd like to define *unit weaves*, i.e. weaves who do not replicate in any directions, in such a way that we have a hope of counting them.
+The fact that this is invariant is obvious:
+> **Proposition 1.** Let $$\tilde w, \tilde u$$ be unit weave realizations;
+> there is a continuous map from equivalences $$\tilde w \sim \tilde u$$ to ambient isotopies $$L(\tilde w) \sim L(\tilde u)$$;
+> in particular, the underlying graph is a weave invariant.
+Hence, for $$w \in W_n$$, we define $$L(w)$$ to be the underlying graph of $$L(\tilde w)$$ for any realization $$\tilde w$$ of $$w$$. 
 
-A helpful simplification (which will be made universally, until we've solved the simple case) is to set all inner diameters to 1, and all wire diameters to infinitesimal (so that AR is approximately $$\infty$$).
-We can then define a unit weave:
-a unit weave realization is a collection of geometrically embedded circles in 3-dimensional space, and an equivalence of two realizations is a physical manipulation of one to the other, i.e. an interval of time's worth of such realizations which moves continually from the first realization to the second.
+Note that $$L$$ is naturally functorial under isometries;
+that is, $$O(3)$$ acts on $$\cW_n$$, and this is naturally mapped to an action of the stabilizer $$G$$ of $$\tilde w$$ on $$L(\tilde w)$$ as an embedded graph.
+This further maps to an action of $$G$$ on $$L(w)$$ as a graph.
+In particular, when $$w$$ is linear, $$L(w)$$ has a natural $$\ZZ$$ action.
 
-This equivalence partions the set of unit weaves into a number of parts;
-one of these parts is called a *unit weave*.
-In essence, Möbius 2 is a unit weave corresponding with any of the realizations of two circles liked to each other.
+We will explore this in the next post.
 
-A weave has *n components* if it is composed of n circles;
-a central conjecture in this theory is that there are finitely many weaves with n circles.
-
-However, unit weaves are not *really* what chain mail is about;
-we'd at least like to make a chain!
-Weaves replicating in a line are harder to define, but it's still doable.
-
-### A first definition of linear weaves
-In this section, we'll define the notion of weaves which are woven into a chain, called *linear weaves*.
-The central observation will be that such a weave is essentially the same information as an infinitely long chain, which repeats after a finite number of rings.
-
-To use this definition, we need a notion of infinite weaves:
-
-> **Definition 1.** *An* infinite weave realization *is a collection of infinitely many non-intersecting circles in 3-space;*
-> *two such realizations are equivalent if one can be manipulated into the other, at all times remaining an infinite weave realization.*
->
-> *An* infinite weave *is a part in the associated partition of the set of infinite weave realizations.* 
-
-These are obviously huge:
-there will certainly be infinitely many of them!
+### The ring dilation trick for units
+> **Construction.** *The* $$n$$th part of the space of scaled chainmail weaves* is defined by*
+>  <p align="center">
+>    $$\begin{align*}
+>      \cW'_n 
+>        :&= \cbr{\prn{(r,\cbr{x_i,P_i}_{i \in [n]}} \mid \not \exists i\neq j \text{ with } y \in P_i \cap P_j \text{ s.t. } d(x_i,y) = d(x_j,y) = r)}\\
+>        & \subset \RR \times \prn{\RR^3 \times \RRP^2}^n_{\Sigma_n};
+>       \end{align*}$$
+>  </p>
+> *explicitly, this is the space of $$n$$ nonintersecting circles of radius $$r$$ in $$\RR^3$$.*
 
 
+The following proposition is obvious.
+> **Proposition 2.** The "divide by $$r$$" map $$\cW'_n \rightarrow \cW_n$$ is a trivial $$\RR$$-fiber bundle;
+> in particular, it is a homotopy equivalence, so it induces a bijection on $$\pi_0$$.
 
-Luckily, we'll impose periodicity.
+We'll freely use $$\cW'_n$$ when useful from now on, which will allow us to avoid the hassle of explicit "ring resizing" tricks.
 
-Recall that a *translational symmetry of 3-space* is gotten by shifting all points by a fixed distance.
-We say that such a symmetry *permutes* an infinite weave realization if it takes each ring perfectly onto another ring, and every ring is hit by this procedure.
+For the following argument, let $$\rho:\cW'_n \rightarrow \RR$$ be the projection to the $$\RR$$ coordinate, i.e. the radius, and for $$c,c' \in \abs{w}$$, let $$d(c,c')$$ denote the distance between their centers.
+The following lemma is clear, but useful.
+> **Lemma 3.** Let $$w \in \cW'_n$$ be a unit weave such that for all pairs $$c,c' \in \abs{w}$$, we have $$d(c,c') > \rho(w)/2$$.
+> Then, $$w$$ is the unweave.
 
-> **Definition 2.** *An* $$n$$-periodic liner weave realization *is an infinite weave realization such that there exists a translational symmetry permuting the rings, partitioning them into precisely $$n$$ categories.*
-> *Two such realizations are equivalent if there is a manipulation making them equivalent as infinite weave realizations, $$n$$-periodic at each time.*
->
-> *An* $$n$$-periodic linear weave *is a part in the associated partition of the set of $$n$$-periodic linear weave realizations.*
-> *A* linear weave *is an infinite weave which is $$n$$-periodic for some $$n$$, up to periodic equivalence.
+### Linking detects the unit unweave
+> **Proposition 4.** Suppose $$w$$ is a unit weave of (possibly infinite) size $$n$$ such that $$L(w)$$ is trivial, i.e. no pairs of components are linked.
+> Then, $$w$$ is the unweave.
 
-That is, an $$n$$-periodic linear weave is a weave with units of size $$n$$.
+To prove this, we use Freedman & Skora Lemma 3.2;
+under the embedding $$\RR^3 \subset S^3 \subset \delta B^4$$, there exist unique hemispheres bounded by each component of $$\tilde w$$ intersecting $$S^3$$ perpendicularly.
+Doubling about $$S^3$$, these turn into standard metric 2-spheres;
+by an explicit euclidean geometry argument, any pair of such spheres must have intersection either empty, a circle which intersects $$S^3$$, or a single point contained in $$S^3$$.
+In particular, since the intersection of such circles with $$S^3$$ is $$w$$, any pair's intersection doesn't intersect $$S^3$$, and hence they are pairwise non-intersecting.
 
-### Finite-type gradings and periodicity
-A *grading* on a set is an assignment of a natural number to each element of the set;
-the $$n$$th part is the elements of value $$n$$.
-A grading is *finite type* if the $$n$$th part is finite for each $$n$$.
+Passing through the standard "thickened stereographic projection" map $$B^4 - \cbr{0} \cup \cbr{(1,0,0) \times I} \simeq \RR^3 \times \RR$$, this yields a collection of pairwise nonintersecting hemispheres in $$\RR^3 \times I$$ who intersection with $$\RR^3 \times \cbr{0}$$ is $$w$$;
+this implies that they have the same radius $$r$$, so their sintersection with $$\RR^3 \times \cbr{t}$$ is in $$\cW'_n$$ for $$t < r$$, yielding a path $$h_t$$ in $$\cW'_n$$ beginning at $$w$$.
 
-The set of linear weaves is graded by periodicity:
-the $$n$$th part is the set of weaves with minimal (periodic) units of size $$n$$.
-We ask the following conjectures:
+In fact, $$h_t$$ preserves centers, and as $$\varepsilon \rightarrow 0$$ we have $$\rho(h_{t - \varepsilon}) \rightarrow 0$$.
+By Lemma 3, this is unwoven for $$\varepsilon$$ small, so $$h_0 = w$$ is unwoven as well, and we are done.
+<span style="float:right;font-size:25px;">
+        □
+</span>
 
-> **Conjecture A.** The size grading on the set of unit weaves is finite type.
+<br />
 
-> **Conjecture B1.** The periodicity grading on the set of unit weaves is finite type.
+Because it will be useful later, we explicitly record the full strength of this argument:
+let $$X_\varepsilon \subset \cW'_n$$ be the subspace of realizations such that $$d(c,c') > \varepsilon \rho(w)$$ for all $$c,c'$$.
+> **Lemma 5.** The paths $$h_t$$ together form a deformation retract of $$\cW'_n$$ onto $$X_\varepsilon$$ which preserves the centers and normals of each component.
 
-For an example of a finite type grading, we could define a different set;
-for instance, let $$W'$$ be the set of unit weaves resulting from repeatedly kinging and mobiusing the one ring.
-One might call these *generalized mobius weaves.*
-Using toroidal composition, it is not too hard to show the following:
+From this perspective, Lemma 3 can be viewed as saying that $$X_\varepsilon$$ is connected, which together with Lemma 5, immediatley proves the proposition.
 
-> **Proposition 1.** The size grading on $$W'$$ is finite type.
-
-The above strategy generalizes, unhelpfully:
-> **Proposition 2.** if $$F$$ is a size-finite-type set of toroidal weaves, then the size filtration on the set of weaves generated by $$F$$ under toroidal composition is finite type.
-
-In particular, by atoroidal decomposition, if the set $$A$$ of atoroidal weaves has finite-type size filtration, then so does the set of weaves.
+### How we'll prove the linear case
+In the next post, I'll introduce weaves which are preserved by *arbitrary isometric group actions*, recovering linear weaves along the way.
+The key insight will be that preservation under isometric group actions depends only on component centers and normals;
+hence Lemma 5 continues to apply.
+In another post, we'll prove an equivariant version of Lemma 3, hence proving that equivariant linking detects the equivariant unweave.

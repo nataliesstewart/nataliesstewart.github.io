@@ -352,6 +352,10 @@ this is not true for prime atoroidal weaves at level 5, so we will need to find 
 
 * A definition for weaves which replicate in one direction, <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/22/one-semiperiodic.html">precise</a> and <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/23/linear-manifesto.html">intuitive.</a>
 
+* A more general definition for weaves which respect an arbitrary group action.
+
+* The linking graph detects the unweave, equivariantly.
+
 The following are articles hopefully to come:
 
 * An exhaustion via weave diagrams: $$W_n$$ is finite, and an algorithm to compute it.

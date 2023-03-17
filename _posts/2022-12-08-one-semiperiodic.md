@@ -185,7 +185,7 @@ There is an obvious question:
 why not record the translational symmetry itself?
 This turns out to not be very useful, by the following proposition:
 
-> **Proposition 1.** Let $$w \in \cW^\sym_\omega$$ be an ordered infinite weave. Then, there is at most one translation symmetry realizing $$w$$ as an $$n$$-periodic weave.
+> **Proposition 1.** Let $$w \in \cW^\sym_\omega$$ be an ordered infinite weave. Then, there is at most one translation symmetry realizing $$w$$ as an $$n$$-periodic weave, up to inversion.
 
 To prove this is not too hard;
 first suppose that there are translational symmetries $$\tau_1,\tau_2$$ of an infinite weave $$w$$ which are not parallel.
@@ -193,7 +193,7 @@ Then, the images of a component of $$w$$ under $$\tau_1^n$$ and $$\tau_2^n$$, ex
 this implies that $$w$$ has infinite units with respect to $$\tau_1$$, so $$\tau_1$$ does not realize $$w$$ as linear periodic.
 
 Next, suppose that $$\tau_1$$ and $$\tau_2$$ are parallel translational symmetries of $$w$$ different distance;
-it is easy to see that units of $$\tau_1$$ and $$\tau_2$$ have different numbers of units, so at most one can be an $$n$$-periodic symmetry.
+it is easy to see that units of $$\tau_1$$ and $$\tau_2$$ have different numbers of units, so at most one can be an $$n$$-periodic symmetry up to inversion.
 
 This allows us to make a global definition:
 > **Definition 3.** *The space of ordered linear weaves is the union*
