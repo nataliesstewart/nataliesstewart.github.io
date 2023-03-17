@@ -354,7 +354,7 @@ this is not true for prime atoroidal weaves at level 5, so we will need to find 
 
 * A more general definition for weaves which respect an arbitrary group action.
 
-* The linking graph detects the unweave, equivariantly.
+* <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/03/17/linking-unweave.html">The linking graph detects the unweave</a>, equivariantly.
 
 The following are articles hopefully to come:
 

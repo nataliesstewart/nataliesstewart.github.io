@@ -158,13 +158,11 @@ $$
 \newcommand{\bP}{\mathbf{P}}
 $$
 
-
-**This post is under construction.**
-See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/22/one-semiperiodic.html"> the previous post </a> in the series for context.
-
+See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/22/one-semiperiodic.html"> the previous post </a> in this series for context.
 See the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first post in the series</a> for a table of contents.
 
-This major mathematical content of this post is a citation to the paper <a href="https://projecteuclid.org/journalArticle/Download?urlId=10.4310%2Fjdg%2F1214440725&referringURL=https%3A%2F%2Fduckduckgo.com%2F&isResultClick=False">Strange Actions of Groups on Spheres</a> by Freedman & Skora;
+In this post, we construct a combinatorial invariant of unit weaves and prove that it detects the unweave.
+The major mathematical content of this post is a citation to the paper <a href="https://projecteuclid.org/journalArticle/Download?urlId=10.4310%2Fjdg%2F1214440725&referringURL=https%3A%2F%2Fduckduckgo.com%2F&isResultClick=False">Strange Actions of Groups on Spheres</a> by Freedman & Skora;
 in particular, they claim the essence of the main proposition of this post *by synthetic geometry* in Lemma 3.2.
 
 This note concenrs both the finite and infinite case;
