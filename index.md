@@ -41,4 +41,6 @@ I have a budding <a href="/blog/">blog</a> which I very occasionally use to depo
 </p>
 
 ---
-Last semester, I co-ran a <a href="/infty_one/">learning seminar on parts from Lurie's Higher Algebra</a>.
+I'm running the up and coming <a href="/zygotop/">zygotop seminar</a>, an informal pedagogical seminar aimed at bridging the gap between the Kan seminar and <a href="https://math.mit.edu/topology/babytop/index.html">babytop</a>. 
+
+Last year, I co-ran a <a href="/infty_one/">learning seminar on parts from Lurie's Higher Algebra</a>.
