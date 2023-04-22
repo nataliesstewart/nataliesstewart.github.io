@@ -254,6 +254,7 @@ p { margin-bottom: 10px; }
 }
 
 
+
 .notes h3 {
     font-size: 14px;
     font-weight: bold;
@@ -298,7 +299,9 @@ input:checked ~ .plusminus { background-image: url('img/minus.gif'); }
     float: left; 
 } 
 .talk .abstract { display: none; }
+.talk .notes { display: none; }
 .talk input:checked ~ .abstract { display: block; }
+.talk input:checked ~ .notes { display: block; }
 
 
 .old_juvitop_entry {
