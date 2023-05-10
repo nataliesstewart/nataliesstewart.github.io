@@ -352,7 +352,7 @@ this is not true for prime atoroidal weaves at level 5, so we will need to find 
 
 * A definition for weaves which replicate in one direction, <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/22/one-semiperiodic.html">precise</a> and <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/23/linear-manifesto.html">intuitive.</a>
 
-* A more general definition for weaves which respect an arbitrary group action.
+* A more general definition for weaves which respect an <a href="/blog/chainmail-math/2023/05/10/G-weaves.html">arbitrary group action.</a>
 
 * <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/03/17/linking-unweave.html">The linking graph detects the unweave</a>, equivariantly.
 
