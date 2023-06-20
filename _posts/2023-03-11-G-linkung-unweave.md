@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chainmail math 10: linking detects the G-unweave"
-date:   2023-05-10
+date:   2023-06-20
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
