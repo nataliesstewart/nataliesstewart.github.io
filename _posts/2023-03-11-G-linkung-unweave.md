@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Chainmail math 8: linking detects the unit unweave"
-date:   2023-3-17
+title:  "Chainmail math 10: linking detects the G-unweave"
+date:   2023-05-10
 categories: chainmail-math
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
@@ -158,88 +158,54 @@ $$
 \newcommand{\bP}{\mathbf{P}}
 $$
 
-See <a href="https://nataliesstewart.github.io/blog/chainmail-math/2023/02/22/one-semiperiodic.html"> the previous post </a> in this series for context.
-See the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first post in the series</a> for a table of contents.
 
-In this post, we construct a combinatorial invariant of unit weaves and prove that it detects the unweave.
-The major mathematical content of this post is a citation to the paper <a href="https://projecteuclid.org/journalArticle/Download?urlId=10.4310%2Fjdg%2F1214440725&referringURL=https%3A%2F%2Fduckduckgo.com%2F&isResultClick=False">Strange Actions of Groups on Spheres</a> by Freedman & Skora;
-in particular, they claim the essence of the main proposition of this post *by synthetic geometry* in Lemma 3.2.
+**This post is under construction.**
+Let $$G$$ be a group acting on $$\RR^3$$ through isometries.
+This note serves to note that <a href="/blog/chainmail-math/2023/03/17/linking-unweave.html"> the previous post concerning linking </a> is naturally $$G$$-equivariant:
+the (non-equivariant) linking graph, which is weaker than the $$G$$-equivariant linking graph, detects the $$G$$-equivariant unweave.
 
-This note concenrs both the finite and infinite case;
-for the rest of the post, $$1 \leq n \leq \infty$$.
+See the bottom of the <a href="https://nataliesstewart.github.io/blog/chainmail-math/2022/09/09/the-moduli-space-of-weaves.html">first post in the series on chain mail mathematics</a> for a table of contents.
 
-### The linking graph
-We first warm up with some unit weave constructions;
-recall that weaves have underlying links, and pairs of components in links have <a href="https://en.wikipedia.org/wiki/Linking_number">linking numbers</a>.
-> **Construction.**  Let $$\tilde w \in \cW_n$$ be a unit weave realization, and let $$\pi:\cW_n \rightarrow \RR^{3n} = \operatorname{Map}(n,\RR^3)$$ be projection to the centers of circles.
-> The *linking grpah* of $$\tilde w$$ is the embedded graph $$L(\tilde w) \subset \RR^3$$ whose vertices embed as $$\pi(\tilde w)$$, with edges drawn linearly between vertices if the corresponding circles have nonzero linking number.
+### The linking graph is equivariant and graded
+Our construction of the <a href="/blog/chainmail-math/2023/03/17/linking-unweave.html">linking graph</a> was manifestly equivariant;
+that is, we supplied a function $$\cW \rightarrow \cbr{\mathrm{Graphs \; in \; } \RR^3}$$, which happens to be equivariant for the evident $$\GG$$-action on the target space.
 
-The fact that this is invariant is obvious:
-> **Proposition 1.** Let $$\tilde w, \tilde u$$ be unit weave realizations;
-> there is a continuous map from equivalences $$\tilde w \sim \tilde u$$ to ambient isotopies $$L(\tilde w) \sim L(\tilde u)$$;
-> in particular, the underlying graph is a weave invariant.
-Hence, for $$w \in W_n$$, we define $$L(w)$$ to be the underlying graph of $$L(\tilde w)$$ for any realization $$\tilde w$$ of $$w$$. 
-
-Note that $$L$$ is naturally functorial under isometries;
-that is, $$O(3)$$ acts on $$\cW_n$$, and this is naturally mapped to an action of the stabilizer $$G$$ of $$\tilde w$$ on $$L(\tilde w)$$ as an embedded graph.
-This further maps to an action of $$G$$ on $$L(w)$$ as a graph.
-In particular, when $$w$$ is linear, $$L(w)$$ has a natural $$\ZZ$$ action.
-
-We will explore this in the next post.
-
-### The ring dilation trick for units
-> **Construction.** *The* $$n$$th part of the space of scaled chainmail weaves* is defined by*
->  <p align="center">
->    $$\begin{align*}
->      \cW'_n 
->        :&= \cbr{\prn{(r,\cbr{x_i,P_i}_{i \in [n]}} \mid \not \exists i\neq j \text{ with } y \in P_i \cap P_j \text{ s.t. } d(x_i,y) = d(x_j,y) = r)}\\
->        & \subset \RR \times \prn{\RR^3 \times \RRP^2}^n_{\Sigma_n};
->       \end{align*}$$
->  </p>
-> *explicitly, this is the space of $$n$$ nonintersecting circles of radius $$r$$ in $$\RR^3$$.*
+By Elmendorf's theorem, this data is equivalent to a natural transformation 
+<p align="center">
+    $$L^G:\cW^G \rightarrow \cbr{G\mathrm{-equivariant\;graphs\;in\;}\RR^3}.$$
+</p>
+To provide a grading to this graph is equivalent to upgrading this to a natural transformation over $$\pi_0 \Set^{BG}$$.
+In fact, this is easy;
+the map $$|-|:\cbr{G\mathrm{-equivariant\;graphs\;in\;}\RR^3} \rightarrow \pi_0 \Set^{BG}$$ is given by taking the underlying set of vertices and associated $$G$$-action, which is evidently natural and makes the required diagram commute.
 
 
-The following proposition is obvious.
-> **Proposition 2.** The "divide by $$r$$" map $$\cW'_n \rightarrow \cW_n$$ is a trivial $$\RR$$-fiber bundle;
-> in particular, it is a homotopy equivalence, so it induces a bijection on $$\pi_0$$.
 
-We'll freely use $$\cW'_n$$ when useful from now on, which will allow us to avoid the hassle of explicit "ring resizing" tricks.
+### (Non-equivariant) linking detects the $$G$$-unweave
+> **Theorem 1.** Let $$X$$ be the space of $$G$$-weaves of component set $$S$$ such that $$L(w)$$ is trivial, i.e. no pairs of components are linked.
+> Then, $$X$$ is connected. 
 
-For the following argument, let $$\rho:\cW'_n \rightarrow \RR$$ be the projection to the $$\RR$$ coordinate, i.e. the radius, and for $$c,c' \in \abs{w}$$, let $$d(c,c')$$ denote the distance between their centers.
-The following lemma is clear, but useful.
-> **Lemma 3.** Let $$w \in \cW'_n$$ be a unit weave such that for all pairs $$c,c' \in \abs{w}$$, we have $$d(c,c') > \rho(w)/2$$.
-> Then, $$w$$ is the unweave.
+The first step is already done:
+let $$\iota: X_\varepsilon \hookrightarrow X$$ denote the subspace of weave realizations such that the radius $$\rho(w)$$ is at most $$\varepsilon d(c,c')$$ for all components $$c,c'$$.
+Then, the non-equivariant proof constructed paths from weave relizations in $$X$$ to those in $$X_\varepsilon$$;these paths preserve centers and normals, hence they are $$G$$-equivariant.
+Together, these form a deformation retract of $$X$$ onto $$X_\varepsilon$$, so $$\iota$$ is a homotopy equivalence, and we can just prove that $$X_\varepsilon$$ is connected.
 
-### Linking detects the unit unweave
-> **Proposition 4.** Suppose $$w$$ is a unit weave of (possibly infinite) size $$n$$ such that $$L(w)$$ is trivial, i.e. no pairs of components are linked.
-> Then, $$w$$ is the unweave.
+The proof that $$X_\varepsilon$$ is connected is not too hard:
+first note that, by separately orienting the rings within their respective $$\varepsilon \operatorname{min}_{c,c'} d(c,c')$$ balls, we have the following:
+> **Lemma 2.** There is an equivalence $$X_\varepsilon \simeq \prn{\RRP^2}^n \times \Map(S,\RR^3)^G$$.
 
-To prove this, we use Freedman & Skora Lemma 3.2;
-under the embedding $$\RR^3 \subset S^3 \subset \delta B^4$$, there exist unique hemispheres bounded by each component of $$\tilde w$$ intersecting $$S^3$$ perpendicularly.
-Doubling about $$S^3$$, these turn into standard metric 2-spheres;
-by an explicit euclidean geometry argument, any pair of such spheres must have intersection either empty, a circle which intersects $$S^3$$, or a single point contained in $$S^3$$.
-In particular, since the intersection of such circles with $$S^3$$ is $$w$$, any pair's intersection doesn't intersect $$S^3$$, and hence they are pairwise non-intersecting.
-
-Passing through the standard "thickened stereographic projection" map $$B^4 - \cbr{0} \cup \cbr{(1,0,0) \times I} \simeq \RR^3 \times \RR$$, this yields a collection of pairwise nonintersecting hemispheres in $$\RR^3 \times I$$ who intersection with $$\RR^3 \times \cbr{0}$$ is $$w$$;
-this implies that they have the same radius $$r$$, so their sintersection with $$\RR^3 \times \cbr{t}$$ is in $$\cW'_n$$ for $$t < r$$, yielding a path $$h_t$$ in $$\cW'_n$$ beginning at $$w$$.
-
-In fact, $$h_t$$ preserves centers, and as $$\varepsilon \rightarrow 0$$ we have $$\rho(h_{t - \varepsilon}) \rightarrow 0$$.
-By Lemma 3, this is unwoven for $$\varepsilon$$ small, so $$h_0 = w$$ is unwoven as well, and we are done.
+Having proved this, the first factor is obviously connected, so we just have to prove the same for the second.
+This is the key geometric input: 
+for an orbit $$G/H \simeq \langle s \rangle \subset S$$, write $$R := S \backslash \prn{\langle s \rangle}$$, so that
+<p align="center">
+    $$\begin{align*}
+        \Map(S,\RR^3)^G &\simeq \Map(\langle s \rangle, \RR^3 - R)^G\\
+        &\simeq \prn{\RR^3 - R}_H\\
+        &\simeq \RR^3_H - R_H.
+    \end{align*}$$
+</p>
+Hence it is sufficient to prove that the complement of a discrete set of points in the 3-manifold $$\RR^3_H$$ is (path-)connected.
+This is true for any manifold of dimension 2 or higher;
+indeed, *any* path in $$\RR^3_H$$ can be isotoped to one which doesn't intersect $$R_H$$, by a routine general position argument.
 <span style="float:right;font-size:25px;">
         □
 </span>
-
-<br />
-
-Because it will be useful later, we explicitly record the full strength of this argument:
-let $$X_\varepsilon \subset \cW'_n$$ be the subspace of realizations such that $$d(c,c') > \varepsilon \rho(w)$$ for all $$c,c'$$.
-> **Lemma 5.** The paths $$h_t$$ together form a deformation retract of $$\cW'_n$$ onto $$X_\varepsilon$$ which preserves the centers and normals of each component.
-
-From this perspective, Lemma 3 can be viewed as saying that $$X_\varepsilon$$ is connected, which together with Lemma 5, immediatley proves the proposition.
-
-### How we'll prove the linear case
-In the next post, I'll introduce weaves which are preserved by *arbitrary isometric group actions*, recovering linear weaves along the way.
-The key insight will be that preservation under isometric group actions depends only on component centers and normals;
-hence Lemma 5 continues to apply.
-In <a href="/blog/chainmail-math/2023/05/10/G-linkung-unweave.html">another post</a>, we'll prove an equivariant version of Lemma 3, hence proving that linking detects the equivariant unweave.
-This will recover linear weaves as a special case.
