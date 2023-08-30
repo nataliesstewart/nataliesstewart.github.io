@@ -14,8 +14,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm a 2nd year at Harvard, where I'm persuing a PhD in topology.
-Generally I'm interested in category theory, algebraic topology, and low-dimensional topology.
+I'm a 3nd year at Harvard, where I'm persuing a PhD in topology.
+Generally I'm interested in homotopy theory, with particular emphasis on equivariant and algebraic considerations.
 </p>
 <p>
 
@@ -43,4 +43,3 @@ I have a budding <a href="/blog/">blog</a> which I very occasionally use to depo
 ---
 I'm running the up and coming <a href="/zygotop/">zygotop seminar</a>, an informal pedagogical seminar aimed at bridging the gap between the Kan seminar and <a href="https://math.mit.edu/topology/babytop/index.html">babytop</a>. 
 
-Last year, I co-ran a <a href="/infty_one/">learning seminar on parts from Lurie's Higher Algebra</a>.
