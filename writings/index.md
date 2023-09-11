@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Writings
 ---
 
@@ -38,6 +38,8 @@ title: Writings
   In the characteristic-5 case, some irreducible subrepresentation of Jordan-Shor's Fibonacci representation are given, and these are proven to be isomorphic to the irreducible quotients of two-row Specht modules whose rows differ by length at most 3.
 
 # Notes and other things
+* <a href="/files/borromean.pdf">You can't make the Borromean rings out of chainmail</a>, lecture notes for a talk at Harvard's "trivial notions" seminar.
+
 * <a href="/files/cauchy.pdf">Some notes on Cauchy complete categories</a>, prepared for a talk at Harvard's "trivial notions" seminar.
 
 * <a href="/files/juvitop_9_14_21.pdf">An introduction to L-infinity algebras</a>, for a talk at <a href="https://math.mit.edu/juvitop/">Juvitop</a>.
