@@ -16,42 +16,6 @@ sup {  font-size: .8em;  vertical-align: super;    line-height: 0; }
 
 h2,h3,h4 { font-weight: normal; }
 
-#topbar, #bottombar {
-    padding: 0.3em 0.5em;
-    overflow: hidden;
-    font-size: 12px;
-}
-
-#topbar {
-    height: 140px;
-    border-top: 2px solid #933;
-    text-align: right;
-    text-transform: lowercase;
-    line-height: 18px;
-}
-
-#topbar #logo { float: left; }
-
-#logo a {
-    display: block;
-    overflow: hidden;
-    text-indent: 9000px;
-    background: url(img/mit-logo.gif) 3px 3px no-repeat;
-    width: 115px;
-    height: 65px;
-}
-
-#bottombar {
-    margin-top: 15em;
-    border-bottom: 2px solid #933;
-}
-
-#bottombar li { 
-    float: left;
-    padding-right: 7px;
-}
-#bottombar li+li { border-left: 1px solid #111; padding-left: 7px; }
-
 
 #header { 
     margin-top: 25px;
@@ -253,8 +217,6 @@ p { margin-bottom: 10px; }
     margin-bottom: 10px;
 }
 
-
-
 .notes h3 {
     font-size: 14px;
     font-weight: bold;
@@ -269,6 +231,7 @@ p { margin-bottom: 10px; }
     padding-bottom: 3px;
     padding-left: 18px;
 }
+
 
 .notes li {
     padding-top: 3px;
@@ -304,23 +267,23 @@ input:checked ~ .plusminus { background-image: url('img/minus.gif'); }
 .talk input:checked ~ .notes { display: block; }
 
 
-.old_juvitop_entry {
-    margin-top: 25px;
-    margin-bottom: 40px;
+.semester h2 { /* semester level stuff for past talks */ 
+    color: #deb0ff;
+    text-transform: uppercase;
+    font: normal 16px Georgia;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin: 30px 0 25px;
 }
 
+.semester .talks { display:none; }
+.semester input:checked ~ .talks { display: block; }
 
-.old_juvitop_entry .meta .date {
-    font-size: 16px;
-    margin-top: 3px; /* this overwrites a negative value in .meta .date */
+
+.semester h2 label { display: inline-block; width: 100%; }
+
+.semester h2 { 
+    width: 570px;
 }
 
-.old_juvitop_entry > h2 {
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.old_juvitop_entry .organizer {
-    font-size: 16px;
-}
