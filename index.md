@@ -40,6 +40,4 @@ Outside of mathematics, I tend to spend time playing jazz guitar, making electro
 I have a budding <a href="/blog/">blog</a> which I very occasionally use to deposit miscellaneous math thoughts. 
 </p>
 
----
-I'm running the up and coming <a href="/zygotop/">zygotop seminar</a>, an informal pedagogical seminar aimed at bridging the gap between the Kan seminar and <a href="https://math.mit.edu/topology/babytop/index.html">babytop</a>. 
 
