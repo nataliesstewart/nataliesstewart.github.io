@@ -26,25 +26,6 @@ details[open] summary {
 }
 </style>
 
-<p>
-  We define the category of \(G\)-operads and the hierarchy of <i> gealized \(\mathcal{N}_\infty\)-operads</i>, which are \(G\)-suboperads of \(\mathrm{Comm}_G^{\otimes}\).
-  We exhibit an isomorphism between the category of generalized $\cN_\infty$-operads and the self-join poset
-  \[
-    \Op_G^{GN\infty} \simeq \mathrm{Ind-Sys}_G \star \mathrm{Ind-Sys}_G,
-  \]
-  where $\mathrm{Ind-Sys}_G$ is the poset of \emph{indexing systems} in $G$.
-  This recognizes generalized $\cN_\infty$-operads as parameterizing \emph{some commutative multiplicative transfers and possibly a commutative multiplication}.
-  Indeed, their algerbas in semiadditive Cartesian categories are incomplete Mackey functors and their algebras in Mackey functors recover incomplete Tambara functors when they are \emph{$N_\infty$ operads}, i.e. when they contain $\EE_\infty$.
-</p>
-<p>
-  After this, we discuss some in-progress research.
-  Namely, we construct a \emph{Boardman-Vogt tensor product} of $G$-operads and demonstrate that tensor products of genereralized $\cN_\infty$ operads correspond with joins in $\mathrm{Ind-Sys}_G \star \mathrm{Ind-Sys}_G$ i.e. there is an $\cN_{(I \vee J)\infty}$-monoidal equivalence
-  \[
-    \Alg^{\cN_{I \infty}} \Alg^{\cN_{J \infty}} \cC \simeq \Alg^{\cN_{(I \vee J)\infty}} \cC
-  \]
-  for all $\cN_{(I \vee J)\infty}$-monoidal categories $\cC$, allowing $G$-commutative structures to be constructed ``one norm at a time.'' 
-</p>
-
 ## Papers
 
 <details> 
