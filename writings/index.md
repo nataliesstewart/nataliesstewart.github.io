@@ -5,7 +5,45 @@ title: Writings
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script> 
 
+<style>
+details {
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
 
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  margin-bottom: 0.5em;
+}
+</style>
+
+<p>
+  We define the category of \(G\)-operads and the hierarchy of <i> gealized \(\mathcal{N}_\infty\)-operads</i>, which are \(G\)-suboperads of \(\mathrm{Comm}_G^{\otimes}\).
+  We exhibit an isomorphism between the category of generalized $\cN_\infty$-operads and the self-join poset
+  \[
+    \Op_G^{GN\infty} \simeq \mathrm{Ind-Sys}_G \star \mathrm{Ind-Sys}_G,
+  \]
+  where $\mathrm{Ind-Sys}_G$ is the poset of \emph{indexing systems} in $G$.
+  This recognizes generalized $\cN_\infty$-operads as parameterizing \emph{some commutative multiplicative transfers and possibly a commutative multiplication}.
+  Indeed, their algerbas in semiadditive Cartesian categories are incomplete Mackey functors and their algebras in Mackey functors recover incomplete Tambara functors when they are \emph{$N_\infty$ operads}, i.e. when they contain $\EE_\infty$.
+</p>
+<p>
+  After this, we discuss some in-progress research.
+  Namely, we construct a \emph{Boardman-Vogt tensor product} of $G$-operads and demonstrate that tensor products of genereralized $\cN_\infty$ operads correspond with joins in $\mathrm{Ind-Sys}_G \star \mathrm{Ind-Sys}_G$ i.e. there is an $\cN_{(I \vee J)\infty}$-monoidal equivalence
+  \[
+    \Alg^{\cN_{I \infty}} \Alg^{\cN_{J \infty}} \cC \simeq \Alg^{\cN_{(I \vee J)\infty}} \cC
+  \]
+  for all $\cN_{(I \vee J)\infty}$-monoidal categories $\cC$, allowing $G$-commutative structures to be constructed ``one norm at a time.'' 
+</p>
 
 ## Papers
 
@@ -13,10 +51,10 @@ title: Writings
 <summary> <label for="Lower bounds">  <a href="https://arxiv.org/pdf/2111.06319.pdf">Lower bounds on volumes of hyperbolic link complements in 3-manifolds (2021).</a> Joint with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. </label> </summary>
 <p>
 Lower bounds on the volumes of hyperbolic link complements are given via a new construction:
-  a *bracelet link* is a link in \(S^3\) decomposed as a cycle of interconnected tangles, and it is proved that a bracelet link of \(2n\) tangles, such that each individual tangle may be *replicated* into a hyperbolic bracelet link of \(2n\) copies of the tangle, is hyperbolic, with volume at least the average of the replicated links.
+  a <i> bracelet link</i> is a link in \(S^3\) decomposed as a cycle of interconnected tangles, and it is proved that a bracelet link of \(2n\) tangles, such that each individual tangle may be <i>replicated</i> into a hyperbolic bracelet link of \(2n\) copies of the tangle, is hyperbolic, with volume at least the average of the replicated links.
 </p>
 <p>
-  This replication is generalized to arbitrary 3-manifolds via a construction called *starbursts*, which separate the manifold into *pieces*, which have a well defined \(2n\)-*replicant*;
+  This replication is generalized to arbitrary 3-manifolds via a construction called <i>starbursts</i>, which separate the manifold into <i>pieces</i>, which have a well defined \(2n\)-<i>replicant</i>;
   if the resulting pieces from removing a regular neighborhood of a starburst have hyperbolic replicants, then the 3-manifold is hyperbolic, with volume at least the average of the volumes of the replicants. 
 </p>
 <p>
@@ -44,9 +82,60 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-    Additivity of the \(\mathbb{E}_V\) operads
+    Additivity of the \(\mathbb{E}_V\) family of \(G\)-operads
 </summary>
     I hope to leverage the closedness of the equivariant BV tensor product to reduce additivity of \(\mathbb{E}_V\) operads to checking on algebras in \(G\)-spaces, which are well-described using loop space theory.
+</details>
+
+<details> 
+<summary>
+    An \(\infty\)-categorical argument for the tom Dieck splitting of stable \(\mathcal{T}\)-Mackey functors.
+</summary>
+    I hope to flesh out the content of a talk I gave at <a href="https://zygotop.github.io/pastseminars.html">Zygotop</a> in order to prove a tom Dieck splitting for Mackey functors parameterized by atomic orbital \(\infty\)-categories and valued in arbitrary stable categories.
+    Finishing this is low-priority, since I don't have a use, as I haven't found a use for \(\mathcal{T}\)-stabilization of categories of coefficient systems outside of the setting of \(G\)-equivariant suspension spectra, where the result is well-known.
+</details>
+
+
+<br/><br/>  
+
+## Topics I intend to dive into within the next few years
+
+<details> 
+<summary>
+    A characterization of modules and cotangent complexes over equivariant operad algebras.
+</summary>
+    I hope to relitigate Higher Algebra chapter 7 in the setting of \(G\)-operads;
+    the aim is to lift the characterization of cotangent complexes from <a href="https://arxiv.org/pdf/1007.5315.pdf">Basterra-Mandell</a> in the setting \(G = C_2\) using the (dihedral) Bar construction of e.g. <a href="https://arxiv.org/pdf/2111.06970.pdf">Knoll-Gerhardt-Hill</a>, in preparation for computations in Real deformation theory. 
+</details>
+
+<details> 
+<summary>
+    The multiplication on \(\mathrm{BP}_{\mathbb{R}}\) and \(\mathrm{BP}_{\mathbb{R}} \langle n \rangle\).
+</summary>
+    <p>
+        I hope to construct canonical lifts of \(\mathbb{E}_{2n}-\mathrm{MU}\)-algebra structures on \(\mathrm{BP}\) to \(\mathbb{E}_{n \rho}-\mathrm{MU}_{\mathbb{R}}\)-algebra structures on \(\mathrm{BP}_{\mathbb{R}}\) using the cellularity results announced in <a href="https://arxiv.org/pdf/1806.11033.pdf">Hill-Hopkins</a> as well as the above conjectures concerning change of group functors applied to equivaraint operadic cotangent complexes.
+    </p>
+
+    <p>
+    After doing so, I hope to add \(\mathbb{R}\) and \(C_2\), as well as replace \(3\) with \(2 \rho - 1\), in section 2 of <a href="https://arxiv.org/pdf/2012.00864.pdf">Hahn-Wilson</a> and claim the new result as my own.
+    </p>
+</details>
+
+<details> 
+<summary>
+    Infinite loop space theory for equivariant associative operads.
+</summary>
+    <p>
+    <a href="https://arxiv.org/pdf/1705.03585.pdf">Rubin</a> constructed an associative version of \(N_\infty\) operads; these are the family of \(\mathbb{E}_1\)-containing subfunctors of an equivariant associative operad.
+    Tensor products of these are more complicated, as they are not tensor closed (indeed, \(\mathbb{E_2}\) is not a subfunctor of the equivariant associative operad, as it is not discrete)--
+    I hope to say something about this using techniques reminescent of <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a> and <a href="https://people.math.rochester.edu/faculty/doug/otherpapers/guillou-may-iterated2.pdf">Guillou-May</a>;
+    in particular, I conjecture that the $k$-fold tensor product of \(\mathrm{As}(I)\) can be interpreted as having grouplike algebras which are the \(k\)-fold deloopings for the maps in the transfer system associated to \(I\), in the sense of limits of \(S\)-indexed cubes, and when \(k = \infty\), this computes \(\mathcal{N}_{I \infty}.\)
+    </p>
+    
+    <p>
+    The aim of this is to supplant the \(\mathbb{E}_V\) family with a family whose tensor-indecomposables are of a combinatorial nature, bringing the explicit computational ease of the case \(G=C_2\) to arbitrary groups.
+    This is low priority, since my computational examples of interest currently only have \(C_2\) actions.
+    </p>
 </details>
 
 <br/><br/>  
