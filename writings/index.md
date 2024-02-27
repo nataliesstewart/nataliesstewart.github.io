@@ -63,9 +63,9 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-    Additivity of the \(\mathbb{E}_V\) family of \(G\)-operads
+    Stable additivity of the \(\mathbb{E}_V\) family of \(G\)-operads
 </summary>
-    I hope to leverage the closedness of the equivariant BV tensor product to reduce additivity of \(\mathbb{E}_V\) operads to checking on algebras in \(G\)-spaces, which are well-described using loop space theory.
+    I hope to leverage the closedness of the equivariant BV tensor product to reduce stable additivity of \(\mathbb{E}_V\) operads to checking on algebras in pointed connected \(G\)-spaces, which are well-described using loop space theory.
 </details>
 
 <details> 
@@ -119,25 +119,58 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     </p>
 </details>
 
+<details> 
+<summary>
+    Closing the gap between \(G\)-\(\infty\)-operads and genuine \(G\)-operads.
+</summary>
+    <p>
+        What remains in the equivariant version of the program to identify all models of operads with each other is an equivariant lift of <a href="https://arxiv.org/pdf/1606.03826.pdf">Chu-Haugseng-Heuts</a>;
+        I hope to use the general machinery of algebraic patterns to add a \(G\) everywhere in the above paper.
+    </p>
+</details>
+
+
+
 <br/><br/>  
 
 ## Notes and other things
 
+
 <details>
 <summary> 
-<a href="/files/borromean.pdf">You can't make the Borromean rings out of chainmail</a>, lecture notes for a talk at Harvard's "trivial notions" seminar.
+<a href="https://www.overleaf.com/read/pryjbtypsgph#4c3fcc">
+A directory of results in higher G-algebra</a>
 </summary>
+a living document intended to serve as a companion to <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf">Higher algebra</a>, giving citations to equivariant lifts of its greatest hits.
+</details>
+
+<details>
+<summary> 
+<a href="/files/ninftynotes.pdf">
+    You can construct G-commutative algebras one norm at a time
+</a>
+</summary>
+    a draft of some <a href="https://zygotop.github.io/">Zygotop</a> lecture notes, with just a few errors, about the additivity of \(N_\infty\)-operads.
+</details>
+
+<details>
+<summary> 
+<a href="/files/borromean.pdf">You can't make the Borromean rings out of chainmail</a>
+</summary>
+ lecture notes for a talk at Harvard's "trivial notions" seminar.
 </details>
 
 
 <details><summary> 
-<a href="/files/cauchy.pdf">Some notes on Cauchy complete categories</a>, prepared for a talk at Harvard's "trivial notions" seminar.
+<a href="/files/cauchy.pdf">Some notes on Cauchy complete categories</a>
 </summary>
+ prepared for a talk at Harvard's "trivial notions" seminar.
 </details>
 
 <details><summary> 
- <a href="/files/juvitop_9_14_21.pdf">An introduction to L-infinity algebras</a>, for a talk at <a href="https://math.mit.edu/juvitop/">Juvitop</a>
+ <a href="/files/juvitop_9_14_21.pdf">An introduction to L-infinity algebras</a>
 </summary>
+for a talk at <a href="https://math.mit.edu/juvitop/">Juvitop</a>
 </details>
 
 <details> <summary> <a href="https://math.mit.edu/research/undergraduate/spur/documents/2019Johnson-Stewart.pdf">Some graphical realizations of two-row Specht modules of Iwahori-Hecke algebras of the symmetric group (2019).</a> Joint with Miles Johnson.
