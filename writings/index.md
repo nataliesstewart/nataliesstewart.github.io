@@ -58,7 +58,12 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <summary>
     Additivity of the \(N_\infty\) family of \(G\)-operads.
 </summary>
-    I hope to define the BV tensor product and use largely categorical means to characterize the tensor products and BV-HHR norms of \(N_\infty\) operads.
+    I'm near finishing this one. 
+    A somewhat casual presentation of the binary case can be found at my notes
+    <a href="/files/ninftynotes.pdf">
+        "You can construct G-commutative algebras one norm at a time,"
+    </a>
+    prepared for a casual talk at <a href="https://zygotop.github.io/">Zygotop</a>. 
 </details>
 
 <details> 
