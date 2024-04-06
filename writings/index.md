@@ -61,7 +61,6 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 	<b>On indexed tensor products of equivariant commutative operads</b> 
-	<a href="/files/ninftyintro.pdf">[draft intro]</a>
 </summary>
     I'm near finishing this one. 
     A somewhat casual presentation of the binary case (with numerous errors) can be found at my notes
