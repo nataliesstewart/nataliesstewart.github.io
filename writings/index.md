@@ -60,7 +60,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-	<b>On indexed tensor products of equivariant commutative operads</b> 
+	On tensor products of equivariant commutative operads.
 </summary>
     I'm near finishing this one. 
     A somewhat casual presentation of the binary case (with numerous errors) can be found at my notes
@@ -70,9 +70,18 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     prepared for a casual talk at <a href="https://zygotop.github.io/">Zygotop</a>. 
 </details>
 
+<details>
+<summary>
+	Canonical indexed tensor products of homotopical Mackey functors.
+</summary>
+	I've had to develop many of the rudiments of <a href="https://arxiv.org/abs/1305.4550"> Gepner-Groth-Nikolaus </a> for non-indexed tensor products in the equivariant setting for the above project; 
+	the indexed side is in progress now.
+	The stability side of this is of course already done by <a href="https://dspace.mit.edu/bitstream/handle/1721.1/112895/1015183829-MIT.pdf?sequence=1&isAllowed=y">Denis Nardin</a>, so this is mostly about rounding up routine arguments and developing a basic understanding of how indexed tensors in \(\mathrm{Pr}^L_G\) interact with Segal conditions.
+</details>
+
 <details> 
 <summary>
-    Stable additivity of the \(\mathbb{E}_V\) family of \(G\)-operads
+    Stable additivity of the \(\mathbb{E}_V\) family of \(G\)-operads.
 </summary>
     I hope to leverage the closedness of the equivariant BV tensor product to reduce stable additivity of \(\mathbb{E}_V\) operads to checking on algebras in pointed connected \(G\)-spaces, which are well-described using loop space theory.
 </details>
