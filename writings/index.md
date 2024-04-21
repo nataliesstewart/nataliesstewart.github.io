@@ -77,6 +77,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	I've had to develop many of the rudiments of <a href="https://arxiv.org/abs/1305.4550"> Gepner-Groth-Nikolaus </a> for non-indexed tensor products in the equivariant setting for the above project; 
 	the indexed side is in progress now.
 	The stability side of this is of course already done by <a href="https://dspace.mit.edu/bitstream/handle/1721.1/112895/1015183829-MIT.pdf?sequence=1&isAllowed=y">Denis Nardin</a>, so this is mostly about rounding up routine arguments and developing a basic understanding of how indexed tensors in \(\mathrm{Pr}^L_G\) interact with Segal conditions.
+	The intended upshot is showing that HHR norms, localized Day convolutions, and box products are all the same and occur in much greater generality.
 </details>
 
 <details> 
