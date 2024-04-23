@@ -21,8 +21,8 @@ Generally I'm interested in homotopy theory and algebraic topology, with particu
 I was previously at MIT, where I studied mathematics with computer science.
 </p>
 <ul>
-<li><b>Email address:</b> nataliestewart[at]math[dot]harvard[dot]edu</li>
-<li><b>CV: </b><a href="/files/cv.pdf">[pdf]</a></li>
+<li> <a href="mailto:nataliestewart@math.harvard.edu">Email.</a></li>
+<li><a href="/files/cv.pdf">CV</a>.</li>
 </ul>
 
 </td>
