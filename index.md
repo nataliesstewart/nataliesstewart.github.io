@@ -9,7 +9,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tbody><tr>
-<td width = "30%">
+<td width = "25%">
 <img style="display: block; margin: auto;" alt="photo" src="/assets/Borromean.png">
 </td>
 <td>
