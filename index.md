@@ -39,7 +39,3 @@ Outside of mathematics, I tend to spend time playing jazz guitar, making electro
 I have a budding <a href="/blog/">blog</a> which I very occasionally use to deposit miscellaneous math thoughts. 
 </p>
 
-<p>
-    <a href="https://zygotop.github.io/">Click here to go to the zygotop seminar website.</a>
-</p>
-
