@@ -9,7 +9,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tbody><tr>
-<td width = "25%">
+<td width = "30%">
 <img style="display: block; margin: auto;" alt="photo" src="/assets/Borromean.png">
 </td>
 <td>
@@ -19,7 +19,6 @@ I'm a 3nd year PhD student at Harvard studying homotopy theory and algebraic top
 <p>
 I was previously at MIT, where I studied mathematics with computer science.
 </p>
-
 <table><tbody>
   <tr><td width="50%" style='text-align:center; vertical-align:middle'>
     <a href="mailto:nataliestewart@math.harvard.edu">Email</a>
@@ -29,7 +28,6 @@ I was previously at MIT, where I studied mathematics with computer science.
   </td>
 </tr>
 </tbody></table>
-
 </td>
 </tr>
 </tbody></table>
