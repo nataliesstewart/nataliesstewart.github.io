@@ -10,16 +10,15 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tbody><tr>
 <td width = "37.5%">
-<img style="display: block; margin: auto;" alt="photo" src="/assets/under_construction.gif">
+<img style="display: block; margin: auto;" alt="photo" src="/assets/Borromean.png">
 </td>
 <td>
 <p>
 I'm a 3nd year at Harvard, where I'm persuing a PhD in topology.
-Generally I'm interested in homotopy theory, with particular emphasis on equivariant and algebraic considerations.
+Generally I'm interested in homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations.
 </p>
 <p>
-
-I was previously at MIT, where I studied mathematics with computer science (18C).
+I was previously at MIT, where I studied mathematics with computer science.
 </p>
 <ul>
 <li><b>Email address:</b> nataliestewart[at]math[dot]harvard[dot]edu</li>
