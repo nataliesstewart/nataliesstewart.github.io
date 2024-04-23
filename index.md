@@ -14,8 +14,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </td>
 <td>
 <p>
-I'm a 3nd year at Harvard, where I'm persuing a PhD in topology.
-Generally I'm interested in homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations.
+I'm a 3nd year PhD student at Harvard studying homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations.
 </p>
 <p>
 I was previously at MIT, where I studied mathematics with computer science.
