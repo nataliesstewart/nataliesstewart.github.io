@@ -1,6 +1,5 @@
 ---
 layout: base
-title: Home
 ---
 
 <!-- <script type="text/javascript"
