@@ -13,7 +13,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
     </td>
     <td style="border:none;">
         <p style="margin-top: 1.25cm;">
-            I'm a 3nd year PhD student at Harvard studying homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations.
+            I'm a 3rd year PhD student at Harvard studying homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations.
         </p>
         <p>
             I was previously at MIT, where I studied mathematics with computer science.
