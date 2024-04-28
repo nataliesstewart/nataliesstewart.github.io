@@ -60,7 +60,9 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-	On tensor products of equivariant commutative operads.
+<!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
+	<b>On tensor products of equivariant commutative operads</b> (2024).
+	<a style="color:#DEB0FF;" href="/files/ninftyintro.pdf">[draft intro]</a>
 </summary>
     I'm near finishing this one. 
     A somewhat casual presentation of the binary case (with numerous errors) can be found at my notes
@@ -68,6 +70,14 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
         "You can construct G-commutative algebras one norm at a time,"
     </a>
     prepared for a casual talk at <a href="https://zygotop.github.io/">Zygotop</a>. 
+</details>
+
+<details>
+<summary>
+	Weak indexing systems via transfer systems. 
+</summary>
+    Many of the <a href="https://arxiv.org/abs/1905.03797">combinatorial</a> results concerning \(\mathcal{N}_\infty\)-operads factor through the recognition that indexing systems only describe on their intersections with the orbit category, which are intrinsically characterized via <i>transfer systems</i>.
+    This project is aimed towards reducing the combinatorics of <i>unital weak indexing systems</i> (i.e. the arity-supports of unital \(G\)-operads) in terms of transfer systems via some manageable auxiliary data. 
 </details>
 
 <details>
