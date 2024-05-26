@@ -74,7 +74,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details>
 <summary>
-	Weak indexing systems via transfer systems. 
+    Orbital categories and weak indexing systems.
 </summary>
     Many of the <a href="https://arxiv.org/abs/1905.03797">combinatorial</a> results concerning \(\mathcal{N}_\infty\)-operads factor through the recognition that indexing systems only depend on their intersections with the orbit category, which are intrinsically characterized via <i>transfer systems</i>.
     This project is aimed towards reducing the combinatorics of <i>unital weak indexing systems</i> (i.e. the arity-supports of unital \(G\)-operads) in terms of transfer systems via some manageable auxiliary data. 
@@ -169,8 +169,9 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details>
 <summary> 
+<b> A directory of higher G-algebra.</b>
 <a href="https://www.overleaf.com/read/pryjbtypsgph#4c3fcc">
-A directory of results in higher G-algebra</a>
+[overleaf]</a> <a href="/files/higher_galgebra.pdf">[pdf]</a>
 </summary>
 a living document intended to serve as a companion to <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf">Higher algebra</a>, giving citations to equivariant lifts of its greatest hits.
 </details>
