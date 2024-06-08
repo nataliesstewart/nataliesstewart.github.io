@@ -74,7 +74,8 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details>
 <summary>
-    Orbital categories and weak indexing systems.
+    <b>Orbital categories and weak indexing systems.</b> (2024).
+    <a style="color:#DeB0ff" href="/files/windex_draft.pdf">[draft intro]</a>
 </summary>
     Many of the <a href="https://arxiv.org/abs/1905.03797">combinatorial</a> results concerning \(\mathcal{N}_\infty\)-operads factor through the recognition that indexing systems only depend on their intersections with the orbit category, which are intrinsically characterized via <i>transfer systems</i>.
     This project is aimed towards reducing the combinatorics of <i>unital weak indexing systems</i> (i.e. the arity-supports of unital \(G\)-operads) in terms of transfer systems via some manageable auxiliary data. 

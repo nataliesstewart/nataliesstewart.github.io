@@ -31,13 +31,24 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tr>
 </tbody></table>
 
-<p style="margin-top: -.9cm;">
-    I believe that the best mathematical community is one whose population is primarily selected for by interest and effort, as well as their interaction with "talent," an endogenous and perpetually evolving trait.
-    To this end, I care about <a href="dei.html">diversity in the mathematics community.</a>
-</p>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse; border:none; margin-top: -1cm; margin-left: 0cm;">
+    <tbody><tr style="border:none; margin-left: 0cm">
+    <td width = "69%" style="border:none; margin-left: 0cm">
+            <p>
+                I believe that the best mathematical community is one whose population is primarily selected for by interest and effort, as well as their interaction with "talent," an endogenous and perpetually evolving trait.
+                To this end, I care about <a href="dei.html">diversity in the mathematics community.</a>
+            </p>
+            <p>
+                Outside of mathematics, I tend to spend time playing jazz guitar, making electronic music, and <a href="/cooking/">cooking vegetarian food</a>.
+                I have a budding <a href="/blog/">blog</a> which I very occasionally use to deposit miscellaneous math thoughts. 
+            </p>
+    </td>
+    <td style="border:none;">
+        <img src="/files/Self portrait 3.png" alt="photo" style="margin-top:-.9cm">       
+    </td>
+</tr>
+</tbody></table>
 
-<p>
-    Outside of mathematics, I tend to spend time playing jazz guitar, making electronic music, and <a href="/cooking/">cooking vegetarian food</a>.
-    I have a budding <a href="/blog/">blog</a> which I very occasionally use to deposit miscellaneous math thoughts. 
-</p>
+
+<p> Find me this summer at <a href="https://algtoppr.github.io/">Algebraic Structures in Topology</a> or at the <a href="https://www.math.ku.dk/english/calendar/events/stratified-homotopy-types/">Copenhagen masterclass on exit paths and stratified homotopy types</a>!</p>
 
