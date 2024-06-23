@@ -75,12 +75,21 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	<a style="color:#DEB0FF;" href="/files/ninftyintro.pdf">[draft intro]</a>
 </summary>
     I'm near finishing this one. 
-    A somewhat casual presentation of the binary case (with numerous errors) can be found at my notes
+    A somewhat casual presentation (with many errors) can be found at my notes
     <a href="/files/ninftynotes.pdf">
         "You can construct G-commutative algebras one norm at a time,"
     </a>
     prepared for a casual talk at <a href="https://zygotop.github.io/">Zygotop</a>. 
 </details>
+
+<details> 
+<summary>
+<!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
+	On the connectivity of spaces of equivariant configurations.
+</summary>
+    Out of frustration at the state of the literature, I'm most of the way through writing up a lift of Fadell-Neuwirth to a somewhat sharp characterization of connectivity of \(\mathbb{E}_V\)-operads.
+</details>
+
 
 
 <details>

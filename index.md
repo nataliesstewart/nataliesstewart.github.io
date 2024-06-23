@@ -50,5 +50,12 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tbody></table>
 
 
-<p> Find me this summer at <a href="https://algtoppr.github.io/">Algebraic Structures in Topology</a> or at the <a href="https://www.math.ku.dk/english/calendar/events/stratified-homotopy-types/">Copenhagen masterclass on exit paths and stratified homotopy types</a>!</p>
+<p> 
+Recent updates:
+<ul>
+    <li>
+        A draft of my paper <b><a style="color:#92b99b;" href="files/windex_draft.pdf">Orbital categories and weak indexing systems</a></b> is now live! 
+    </li>
+</ul>
+</p>
 
