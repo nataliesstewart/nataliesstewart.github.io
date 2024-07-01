@@ -56,6 +56,9 @@ Recent updates:
     <li>
         A draft of my paper <b><a style="color:#92b99b;" href="files/windex_draft.pdf">Orbital categories and weak indexing systems</a></b> is now live! 
     </li>
+    <li>
+        A draft of my paper <b><a style="color:#92b99b;" href="files/Ninfty_draft.pdf">On tensor products of equivariant commutative operads</a></b> is now live! 
+    </li>
 </ul>
 </p>
 

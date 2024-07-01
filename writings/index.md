@@ -71,8 +71,8 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	<b>On tensor products of equivariant commutative operads</b> (2024).
-	<a style="color:#DEB0FF;" href="/files/ninftyintro.pdf">[draft intro]</a>
+	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024).
+	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
 </summary>
     I'm near finishing this one. 
     A somewhat casual presentation (with many errors) can be found at my notes
