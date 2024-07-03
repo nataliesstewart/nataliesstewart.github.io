@@ -61,11 +61,10 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details>
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-    <b style="color:#92b99b;">Orbital categories and weak indexing systems.</b> (2024).
+    <b style="color:#92b99b;">Orbital categories and weak indexing systems</b> (2024).
     <a style="color:#DeB0ff" href="/files/windex_draft.pdf">[draft]</a>
 </summary>
-    This is currently a somewhat rough draft. 
-    I will finalize it and put a preprint up at the same time as the tensor products of \(\mathcal{N}_\infty\)-operads paper.
+    This paper is intended to get the ball rolling on the combinatorics of <i>weak</i> indexing systems, thus bolstering a combinatorial framework for managing arities and composition of operations when working with equivariant operads and their algebras.
 </details>
 
 <details> 
@@ -85,11 +84,13 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	On the connectivity of spaces of equivariant configurations.
+	<b style="color:#92b99b;">On connectivity of spaces of equivariant configurations</b> (2024).
+	<a style="color:#DEB0FF;" href="/files/Conf_draft.pdf">[draft]</a>
 </summary>
-    Out of frustration at the state of the literature, I'm most of the way through writing up a lift of Fadell-Neuwirth to a somewhat sharp characterization of connectivity of \(\mathbb{E}_V\)-operads.
+    This paper is what it says on the tin;
+    given \(V\) a real orthogonal \(G\)-representation (which may have no fixed points), we give relatively sharp bounds on connectivity of spaces of \(H\)-equivariant configurations of finite \(H\)-sets in it;
+    the upshot is that when \(V\) is large (e.g. it is a \(d\)-fold direct sum), \(\mathbb{E}_V\)-algebras canonically lift to \(AV\)-commutative algebras, and hence they are modelled by incomplete Mackey functors or bi-incomplete Tambara functors in a number of cases. 
 </details>
-
 
 
 <details>
