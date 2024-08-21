@@ -74,12 +74,9 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024).
 	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
 </summary>
-    I'm near finishing this one. 
-    A somewhat casual presentation (with many errors) can be found at my notes
-    <a href="/files/ninftynotes.pdf">
-        "You can construct G-commutative algebras one norm at a time,"
-    </a>
-    prepared for a casual talk at <a href="https://zygotop.github.io/">Zygotop</a>. 
+	This one is far along in the revision stages! 
+	I'm currently editing mostly for writing and readability. 
+	If all goes well, this should land on the arxiv in early september.
 </details>
 
 <details> 
@@ -89,8 +86,9 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	<a style="color:#DEB0FF;" href="/files/Conf_draft.pdf">[draft]</a>
 </summary>
     This paper is what it says on the tin;
-    given \(V\) a real orthogonal \(G\)-representation (which may have no fixed points), we give relatively sharp bounds on connectivity of spaces of \(H\)-equivariant configurations of finite \(H\)-sets in it;
+    given \(V\) a real orthogonal \(G\)-representation (which may have no fixed points), we give sharp bounds on connectivity of spaces of \(H\)-equivariant configurations of finite \(H\)-sets in it;
     the upshot is that when \(V\) is large (e.g. it is a \(d\)-fold direct sum), \(\mathbb{E}_V\)-algebras canonically lift to \(AV\)-commutative algebras, and hence they are modelled by incomplete Mackey functors or bi-incomplete Tambara functors in a number of cases. 
+    Expect this on the arxiv around 1 or 2 weeks after the \(\mathcal{N}_\infty\) paper.
 </details>
 
 
@@ -98,12 +96,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <summary>
 	Canonical indexed tensor products of homotopical Mackey functors.
 </summary>
-	I've had to develop many of the rudiments of <a href="https://arxiv.org/abs/1305.4550"> Gepner-Groth-Nikolaus </a> for non-indexed tensor products in the equivariant setting for the above project; 
-	the indexed side is in progress now.
-	The stability side of this is of course already done by <a href="https://dspace.mit.edu/bitstream/handle/1721.1/112895/1015183829-MIT.pdf?sequence=1&isAllowed=y">Denis Nardin</a>, so this is mostly about rounding up routine arguments and developing a basic understanding of how indexed tensors in \(\mathrm{Pr}^L_G\) interact with Segal conditions.
-	The intended upshot is showing that HHR norms, localized Day convolutions, and box products are all the same and occur in much greater generality;
-	this is a first step in showing that homotopical Tambara functors are the same thing as $G$-commutative ring spectra.
-
+	This is ongoing work with <a href="https://sites.google.com/view/bastiaan-cnossen">Bastiaan Cnossen</a>, <a href="https://t-lenz.github.io/">Tobias Lenz</a>, and <a href="https://www.math.uni-bonn.de/people/linskens/webpage.htmpl">Sil Linskens</a>. 
 </details>
 
 <details> 
@@ -113,18 +106,18 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     I hope to leverage the closedness of the equivariant BV tensor product to reduce stable additivity of \(\mathbb{E}_V\) operads to checking on algebras in pointed connected \(G\)-spaces, which are well-described using loop space theory.
 </details>
 
-<details> 
-<summary>
-    An \(\infty\)-categorical argument for the tom Dieck splitting of stable \(\mathcal{T}\)-Mackey functors.
-</summary>
-    I hope to flesh out the content of a talk I gave at <a href="https://zygotop.github.io/pastseminars.html">Zygotop</a> in order to prove a tom Dieck splitting for Mackey functors parameterized by atomic orbital \(\infty\)-categories and valued in arbitrary stable categories.
-    Finishing this is low-priority, since I don't have a use, as I haven't found a use for \(\mathcal{T}\)-stabilization of categories of coefficient systems outside of the setting of \(G\)-equivariant suspension spectra, where the result is well-known.
-</details>
-
 
 <br/><br/>  
 
 ## Topics I intend to dive into within the next few years
+
+<details> 
+<summary>
+	The equivariant \(\infty\)-cateogical Eckmann-Hilton argument
+</summary>
+    I think you can run an analogue of <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, with \(\mathrm{Comm}_G\) replaced with an almost essentially unital weak \(\mathcal{N}_\infty\)$-operad, so in particular, a unital one.
+	In particular, this has some corollaries along the lines of equivariant Dunn additivity (and should not be very hard), so I'll probably try to work this one out soon after the connectivity paper goes up.
+</details>
 
 <details> 
 <summary>
