@@ -1,6 +1,6 @@
 ---
 layout: base
-title: misc
+title: Misc
 ---
 
 ### Travel log
@@ -36,7 +36,7 @@ Here's some of my favorite musical projects beginning with various characters, b
 Here are some random pictures of jewelry that I've made.
 
 
-![earrings](/home/nat/Documents/nataliesstewart.github.io/files/earring.jpg)
-![bracelet](/home/nat/Documents/nataliesstewart.github.io/files/padded_demeter.jpg)
-![ring 1](/home/nat/Documents/nataliesstewart.github.io/files/pinky_ring.jpg)
-![ring 1](/home/nat/Documents/nataliesstewart.github.io/files/pinky_ring2.jpg)
+![earrings](/files/earring.jpg)
+![bracelet](/files/padded_demeter.jpg)
+![ring 1](/files/pinky_ring.jpg)
+![ring 1](/files/pinky_ring2.jpg)
