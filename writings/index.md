@@ -62,10 +62,9 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
     <b style="color:#92b99b;">Orbital categories and weak indexing systems</b> (2024).
-    <a style="color:#DeB0ff" href="/files/windex_draft.pdf">[pre-preprint]</a>
+    <a style="color:#DeB0ff" href="/files/windex_draft.pdf">[preprint]</a>
 </summary>
-    This paper is intended to get the ball rolling on the combinatorics of <i>weak</i> indexing systems, thus bolstering a combinatorial framework for managing arities and composition of operations when working with equivariant operads and their algebras.
-    It's more or less in it's preprint form, but I'm planning on putting it up on the arxiv with the following paper, so it'll stay in this form for at least a few more weeks.
+    I'm waiting on my NSF coordinating official to give me the information 
 </details>
 
 <details> 
