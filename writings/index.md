@@ -64,7 +64,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     <b style="color:#92b99b;">Orbital categories and weak indexing systems</b> (2024).
     <a style="color:#DeB0ff" href="/files/windex_draft.pdf">[preprint]</a>
 </summary>
-    I'm waiting on my NSF coordinating official to give me the information 
+    I'm waiting on my NSF coordinating official to give me my grant number, at which point I will put this on the arxiv.
 </details>
 
 <details> 
