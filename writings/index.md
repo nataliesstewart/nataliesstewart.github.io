@@ -199,18 +199,6 @@ a living document intended to serve as a companion to <a href="https://people.ma
 </details>
 
 
-<details><summary> 
-<a href="/files/cauchy.pdf">Some notes on Cauchy complete categories</a>
-</summary>
- prepared for a talk at Harvard's "trivial notions" seminar.
-</details>
-
-<details><summary> 
- <a href="/files/juvitop_9_14_21.pdf">An introduction to L-infinity algebras</a>
-</summary>
-for a talk at <a href="https://math.mit.edu/juvitop/">Juvitop</a>
-</details>
-
 <details> <summary> <a href="https://math.mit.edu/research/undergraduate/spur/documents/2019Johnson-Stewart.pdf">Some graphical realizations of two-row Specht modules of Iwahori-Hecke algebras of the symmetric group (2019).</a> Joint with Miles Johnson.
     </summary>
   Studies a generalization of Khovanov's "crossingless matchings" representation of an Iwahori-Hecke Algebra of the symmetric group to include a particular number of endpoints on the "bottom" and "top";
