@@ -54,13 +54,13 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 Recent updates:
 <ul>
     <li>
-        A draft of my paper <b><a style="color:#92b99b;" href="files/windex_draft.pdf">Orbital categories and weak indexing systems</a></b> is now live! 
+        A preprint of my paper <b><a style="color:#C59FDF;" href="https://arxiv.org/abs/2409.01377">Orbital categories and weak indexing systems</a></b> is now on the arxiv! 
     </li>
     <li>
-        A draft of my paper <b><a style="color:#92b99b;" href="files/Ninfty_draft.pdf">On tensor products of equivariant commutative operads</a></b> is now live! 
+        A draft of my paper <b><a style="color:#C59FDF;" href="files/Ninfty_draft.pdf">On tensor products of equivariant commutative operads</a></b> is now live! 
     </li>
     <li>
-        A draft of my paper <b><a style="color:#92b99b;" href="files/Conf_draft.pdf">On connectivity of spaces of equivariant configurations</a></b> is now live! 
+        A draft of my paper <b><a style="color:#C59FDF;" href="files/Conf_draft.pdf">On connectivity of spaces of equivariant configurations</a></b> is now live! 
     </li>
 </ul>
 </p>

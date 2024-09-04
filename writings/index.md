@@ -27,6 +27,15 @@ details[open] summary {
 
 ## Papers
 
+<details>
+<summary>
+<!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
+    <b style="color:#92b99b;">Orbital categories and weak indexing systems</b> (2024).
+    <a href="https://arxiv.org/abs/2409.01377">[arxiv]</a>
+</summary>
+    This paper is an exposé on weak indexing systems, the combinatorics behind weak \(\mathcal{N}_\infty\) operads. 
+</details>
+
 <details> 
 <summary> <b>Lower bounds on volumes of hyperbolic link complements in 3-manifolds </b> (2021) with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. 
 <a href="https://arxiv.org/pdf/2111.06319.pdf">[arxiv]</a>
@@ -58,14 +67,6 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 ## In-progress projects to look out for
 
-<details>
-<summary>
-<!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-    <b style="color:#92b99b;">Orbital categories and weak indexing systems</b> (2024).
-    <a style="color:#DeB0ff" href="/files/windex_draft.pdf">[preprint]</a>
-</summary>
-    I'm waiting on my NSF coordinating official to give me my grant number, at which point I will put this on the arxiv.
-</details>
 
 <details> 
 <summary>
@@ -81,7 +82,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	<b style="color:#92b99b;">On connectivity of spaces of equivariant configurations</b> (2024).
+	<b>On connectivity of spaces of equivariant configurations</b> (2024).
 	<a style="color:#DEB0FF;" href="/files/Conf_draft.pdf">[draft]</a>
 </summary>
     This paper is what it says on the tin;
