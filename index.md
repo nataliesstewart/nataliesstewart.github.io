@@ -50,14 +50,18 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tbody></table>
 
 <p>
-	Find me at <a href="https://www.mfo.de/occasion/2442/www_view">Oberwolfach</a> in October, catch my talk at <a href=https://lzyang257.github.io/organization-and-activities/seminar_fall2024/">Columbia</a> in November, or find me in <a href="https://www.newton.ac.uk/event/eht/">Cambridge, UK</a> next January.
+	This semester, I'm running <a href="https://math.mit.edu/topology/babytop/index.html">Babytop</a> on <a href="https://arxiv.org/abs/0908.3724">HHR</a>.
+</p>
+
+<p>
+	Find me at <a href="https://www.mfo.de/occasion/2442/www_view">Oberwolfach</a> in October, catch my talk at <a href="https://lzyang257.github.io/organization-and-activities/seminar_fall2024/">Columbia</a> in November, or find me in <a href="https://www.newton.ac.uk/event/eht/">Cambridge, UK</a> next January.
 </p>
 
 <p> 
 Recent updates:
 <ul>
     <li>
-        I've split my draft on tensor products of equivariant commutative operads into <a href="/files/">two</a> <a href="">drafts</a> for length's sake.
+        I've split my draft on tensor products of equivariant commutative operads into <a href="/files/1n.pdf">two</a> <a href="/files/Ninfty_draft.pdf">drafts</a> for length's sake.
     </li>
 </ul>
 </p>
