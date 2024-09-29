@@ -67,6 +67,16 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 ## In-progress projects to look out for
 
+<details> 
+<summary>
+<!--	<b style="color:#92b99b;">The equivariant Boardman-Vogt tensor product</b> (2024). -->
+	<b>Equivariant operads, symmetric sequences, and the Boardman-Vogt tensor product</b> (2024).
+	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
+</summary>
+	At some point was the first half of "On tensor products of equivariant commutative operads."
+	I'm hoping to put it out in October.
+</details>
+
 
 <details> 
 <summary>
@@ -74,10 +84,10 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024).
 	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
 </summary>
-	This one is far along in the revision stages! 
-	I'm currently editing mostly for writing and readability. 
-	If all goes well, this should land on the arxiv in early september.
+	100 pages is too long, so I'm splitting this into two papers. 
+	This title corresponds with the second half of the split, which should be out in November.
 </details>
+
 
 <details> 
 <summary>
@@ -88,7 +98,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     This paper is what it says on the tin;
     given \(V\) a real orthogonal \(G\)-representation (which may have no fixed points), we give sharp bounds on connectivity of spaces of \(H\)-equivariant configurations of finite \(H\)-sets in it;
     the upshot is that when \(V\) is large (e.g. it is a \(d\)-fold direct sum), \(\mathbb{E}_V\)-algebras canonically lift to \(AV\)-commutative algebras, and hence they are modelled by incomplete Mackey functors or bi-incomplete Tambara functors in a number of cases. 
-    Expect this on the arxiv around 1 or 2 weeks after the \(\mathcal{N}_\infty\) paper.
+   I'm hoping to put this out in December.
 </details>
 
 

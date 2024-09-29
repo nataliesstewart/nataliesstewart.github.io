@@ -13,7 +13,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
     </td>
     <td style="border:none;">
         <p style="margin-top: 1.25cm;">
-            I'm soon to be a 4th year PhD student at Harvard studying homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations.
+            I'm a 4th year PhD student at Harvard studying homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations.
         </p>
         <p>
             I was previously at MIT, where I studied mathematics with computer science.
@@ -49,18 +49,15 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tr>
 </tbody></table>
 
+<p>
+	Find me at <a href="https://www.mfo.de/occasion/2442/www_view">Oberwolfach</a> in October, catch my talk at <a href=https://lzyang257.github.io/organization-and-activities/seminar_fall2024/">Columbia</a> in November, or find me in <a href="https://www.newton.ac.uk/event/eht/">Cambridge, UK</a> next January.
+</p>
 
 <p> 
 Recent updates:
 <ul>
     <li>
-        A preprint of my paper <b><a style="color:#C59FDF;" href="https://arxiv.org/abs/2409.01377">Orbital categories and weak indexing systems</a></b> is now on the arxiv! 
-    </li>
-    <li>
-        A draft of my paper <b><a style="color:#C59FDF;" href="files/Ninfty_draft.pdf">On tensor products of equivariant commutative operads</a></b> is now live! 
-    </li>
-    <li>
-        A draft of my paper <b><a style="color:#C59FDF;" href="files/Conf_draft.pdf">On connectivity of spaces of equivariant configurations</a></b> is now live! 
+        I've split my draft on tensor products of equivariant commutative operads into <a href="/files/">two</a> <a href="">drafts</a> for length's sake.
     </li>
 </ul>
 </p>
