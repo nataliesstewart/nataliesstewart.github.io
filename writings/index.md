@@ -71,7 +71,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <summary>
 <!--	<b style="color:#92b99b;">The equivariant Boardman-Vogt tensor product</b> (2024). -->
 	<b>Equivariant operads, symmetric sequences, and the Boardman-Vogt tensor product</b> (2024).
-	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
+	<a style="color:#DEB0FF;" href="/files/1n_draft.pdf">[draft]</a>
 </summary>
 	At some point was the first half of "On tensor products of equivariant commutative operads."
 	I'm hoping to put it out in October.
