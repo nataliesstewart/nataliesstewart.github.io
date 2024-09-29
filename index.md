@@ -61,7 +61,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 Recent updates:
 <ul>
     <li>
-        I've split my draft on tensor products of equivariant commutative operads into <a href="/files/1n.pdf">two</a> <a href="/files/Ninfty_draft.pdf">drafts</a> for length's sake.
+        I've split my draft on tensor products of equivariant commutative operads into <a href="/files/1n_draft.pdf">two</a> <a href="/files/Ninfty_draft.pdf">drafts</a> for length's sake.
     </li>
 </ul>
 </p>
