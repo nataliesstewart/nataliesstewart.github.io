@@ -33,17 +33,17 @@ details[open] summary {
 	<a style="color:#DEB0FF;" href="/files/1n_draft.pdf">[draft]</a>
 </summary>
 	The purpose of this paper is to set the stage to study the homotopy theory of \(G\)-operads and their Boardman-Vogt tensor products.
-	The important constructions are the <i> underlying \(G\)-symmetric sequence</i> and the <i>Boardman-Vogt tensor pdocuct of \(G\)-operads</i>.
+	The important constructions are the <i> underlying \(G\)-symmetric sequence</i> and the <i>Boardman-Vogt tensor product of \(G\)-operads</i>.
 	The important facts are the following:
 	<ul>
 		<li>
 			The underlying \(G\)-symmetric sequence is monadic.
 		</li>
 		<li>
-			There is a well-behaved localizing subcategory of \(G\)-\(d\)operads (whose structure spaces are \(d-1\)-truncated), compatible with all of the constructions.
+			There is a well-behaved localizing subcategory of \(G\)-\(d\)-operads (whose structure spaces are \((d-1)\)-truncated), compatible with all of the constructions.
 		</li>
 		<li>
-			The \(\mathcal{O}\)-\(G\)-coefficient systems functor \(\mathcal{O} \mapsto \mathrm{Alg}_{\mathcal{O}}(\mathrm{Coeff}^G\mathcal{C})\) detects equivalences on the base change of the underlying \(G\)-symmetric sequence to \(mathcal{C}\);
+			The \(\mathcal{O}\)-\(G\)-coefficient systems functor \(\mathcal{O} \mapsto \mathrm{Alg}_{\mathcal{O}}(\mathrm{Coeff}^G\mathcal{C})\) detects equivalences on the base change of the underlying \(G\)-symmetric sequence to \(\mathcal{C}\);
 			in particular, evaluation on \(n\)-truncated \(G\)-spaces detects \(n\)-equivalences of \(G\)-operads and evaluation on \(G\)-spaces is conservative. 
 		</li>
 		<li>
