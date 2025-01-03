@@ -27,10 +27,38 @@ details[open] summary {
 
 ## Papers
 
+<details> 
+<summary>
+	<b style="color:#92b99b;">Equivariant operads, symmetric sequences, and the Boardman-Vogt tensor product</b> (2024).
+	<a style="color:#DEB0FF;" href="/files/1n_draft.pdf">[draft]</a>
+</summary>
+	The purpose of this paper is to set the stage to study the homotopy theory of \(G\)-operads and their Boardman-Vogt tensor products.
+	The important constructions are the <i> underlying \(G\)-symmetric sequence</i> and the <i>Boardman-Vogt tensor pdocuct of \(G\)-operads</i>.
+	The important facts are the following:
+	<ul>
+		<li>
+			The underlying \(G\)-symmetric sequence is monadic.
+		</li>
+		<li>
+			There is a well-behaved localizing subcategory of \(G\)-\(d\)operads (whose structure spaces are \(d-1\)-truncated), compatible with all of the constructions.
+		</li>
+		<li>
+			The \(\mathcal{O}\)-\(G\)-coefficient systems functor \(\mathcal{O} \mapsto \mathrm{Alg}_{\mathcal{O}}(\mathrm{Coeff}^G\mathcal{C})\) detects equivalences on the base change of the underlying \(G\)-symmetric sequence to \(mathcal{C}\);
+			in particular, evaluation on \(n\)-truncated \(G\)-spaces detects \(n\)-equivalences of \(G\)-operads and evaluation on \(G\)-spaces is conservative. 
+		</li>
+		<li>
+			The equivariant operadic nerve intertwines everything in sight, so it has a conservative right-derived functor; moreover, it's only the coherences that make things annoying, so it's easy to verify that it's an equivalence on one-color \(G\)-1-operads.
+		</li>
+		<li>
+			The Boardman-Vogt tensor product works as you expect it to and intertwines with the Day convolution structure on \(G\)-symmetric monoidal \(\infty\)-categories via the envelope.
+		</li>
+	</ul>
+</details>
+
 <details>
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-    <b style="color:#92b99b;">Orbital categories and weak indexing systems</b> (2024).
+    <b >Orbital categories and weak indexing systems</b> (2024).
     <a href="https://arxiv.org/abs/2409.01377">[arxiv]</a>
 </summary>
     This paper is an exposé on weak indexing systems, the combinatorics behind weak \(\mathcal{N}_\infty\) operads. 
@@ -67,13 +95,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 ## In-progress projects to look out for
 
-<details> 
-<summary>
-<!--	<b style="color:#92b99b;">The equivariant Boardman-Vogt tensor product</b> (2024). -->
-	<b>Equivariant operads, symmetric sequences, and the Boardman-Vogt tensor product</b> (2024).
-	<a style="color:#DEB0FF;" href="/files/1n_draft.pdf">[draft]</a>
-</summary>
-</details>
+
 
 
 <details> 
@@ -82,7 +104,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024).
 	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
 </summary>
-	Our main theorem constructs a unique equivalence $\mathcal{N}_{I \infty} \otimes $\mathcal{N}_{J \infty} \simeq \mathcal{N}_{I \vee J \infty}$.
+	Our main theorem constructs a unique equivalence \(\mathcal{N}_{I \infty} \otimes \mathcal{N}_{J \infty} \simeq \mathcal{N}_{I \vee J \infty}\).
 	It'll come out soon, I promise.
 </details>
 
