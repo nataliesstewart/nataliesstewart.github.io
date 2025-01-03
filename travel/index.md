@@ -7,6 +7,9 @@ title: Misc
 Think you've met me?
 Maybe you met me in:
 <ul>
+ 	<li>
+        October 2024 at <a href="https://www.mfo.de/occasion/2442/www_view">Arbeitsgemeinschaft: Algebraic K-Theory and the Telescope Conjecture</a>.
+    </li>
     <li>
         June 2024 during <a href="https://algtoppr.github.io/">Algebraic Structures in Topology (in San Juan, PR)</a>.
     </li>

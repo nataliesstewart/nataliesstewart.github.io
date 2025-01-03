@@ -73,8 +73,6 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	<b>Equivariant operads, symmetric sequences, and the Boardman-Vogt tensor product</b> (2024).
 	<a style="color:#DEB0FF;" href="/files/1n_draft.pdf">[draft]</a>
 </summary>
-	At some point was the first half of "On tensor products of equivariant commutative operads."
-	I'm hoping to put it out in October.
 </details>
 
 
@@ -84,8 +82,8 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024).
 	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
 </summary>
-	100 pages is too long, so I'm splitting this into two papers. 
-	This title corresponds with the second half of the split, which should be out in November.
+	Our main theorem constructs a unique equivalence $\mathcal{N}_{I \infty} \otimes $\mathcal{N}_{J \infty} \simeq \mathcal{N}_{I \vee J \infty}$.
+	It'll come out soon, I promise.
 </details>
 
 
@@ -98,7 +96,6 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     This paper is what it says on the tin;
     given \(V\) a real orthogonal \(G\)-representation (which may have no fixed points), we give sharp bounds on connectivity of spaces of \(H\)-equivariant configurations of finite \(H\)-sets in it;
     the upshot is that when \(V\) is large (e.g. it is a \(d\)-fold direct sum), \(\mathbb{E}_V\)-algebras canonically lift to \(AV\)-commutative algebras, and hence they are modelled by incomplete Mackey functors or bi-incomplete Tambara functors in a number of cases. 
-   I'm hoping to put this out in December.
 </details>
 
 
@@ -111,9 +108,9 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-    Stable additivity of the \(\mathbb{E}_V\) family of \(G\)-operads.
+    Homotopical equivariant Dunn additivity.
 </summary>
-    I hope to leverage the closedness of the equivariant BV tensor product to reduce stable additivity of \(\mathbb{E}_V\) operads to checking on algebras in pointed connected \(G\)-spaces, which are well-described using loop space theory.
+    I'm working on writing up a proof that \(\mathbb{E}_V \otimes \mathbb{E}_W \simeq \mathbb{E}_{V \oplus W}\).
 </details>
 
 

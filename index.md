@@ -50,11 +50,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tbody></table>
 
 <p>
-	This semester, I'm running <a href="https://math.mit.edu/topology/babytop/index.html">Babytop</a> on <a href="https://arxiv.org/abs/0908.3724">HHR</a>.
-</p>
-
-<p>
-	Find me at <a href="https://www.mfo.de/occasion/2442/www_view">Oberwolfach</a> in October, catch my talk at <a href="https://lzyang257.github.io/organization-and-activities/seminar_fall2024/">Columbia</a> in November, or find me in <a href="https://www.newton.ac.uk/event/eht/">Cambridge, UK</a> next January.
+	Find me in <a href="https://www.newton.ac.uk/event/eht/">Cambridge, UK</a> this month.
 </p>
 
 <p> 
