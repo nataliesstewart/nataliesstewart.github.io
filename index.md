@@ -50,14 +50,14 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tbody></table>
 
 <p>
-	Find me in <a href="https://www.newton.ac.uk/event/eht/">Cambridge, UK</a> this month.
+	Find me in <a href="https://www.newton.ac.uk/event/eht/">Cambridge, UK</a> until the 25th of January.
 </p>
 
 <p> 
 Recent updates:
 <ul>
     <li>
-        I've split my draft on tensor products of equivariant commutative operads into <a href="/files/1n_draft.pdf">two</a> <a href="/files/Ninfty_draft.pdf">drafts</a> for length's sake.
+        My preprint <a href="https://arxiv.org/abs/2501.02129">Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</a> has hit the arxiv.        
     </li>
 </ul>
 </p>

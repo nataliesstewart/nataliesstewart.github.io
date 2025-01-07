@@ -29,8 +29,8 @@ details[open] summary {
 
 <details> 
 <summary>
-	<b style="color:#92b99b;">Equivariant operads, symmetric sequences, and the Boardman-Vogt tensor product</b> (2024).
-	<a style="color:#DEB0FF;" href="/files/1n_draft.pdf">[draft]</a>
+	<b style="color:#92b99b;">Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</b> (2024).
+	<a href="https://arxiv.org/abs/2501.02129">[arxiv]</a>
 </summary>
 	The purpose of this paper is to set the stage to study the homotopy theory of \(G\)-operads and their Boardman-Vogt tensor products.
 	The important constructions are the <i> underlying \(G\)-symmetric sequence</i> and the <i>Boardman-Vogt tensor product of \(G\)-operads</i>.
@@ -135,18 +135,20 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     I'm working on writing up a proof that \(\mathbb{E}_V \otimes \mathbb{E}_W \simeq \mathbb{E}_{V \oplus W}\).
 </details>
 
+<details> 
+<summary>
+	The equivariant \(\infty\)-cateogical Eckmann-Hilton argument
+</summary>
+    I'm writing downan analogue of <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, with \(\mathrm{Comm}_G\) replaced with an almost essentially unital weak \(\mathcal{N}_\infty\)$-operad, so in particular, a unital one.
+    This totally classifies the \(\otimes\)-idempotent unital \(G\)-operads (really, any whose nullary structure spaces are empty or contractible).
+</details>
+
 
 <br/><br/>  
 
 ## Topics I intend to dive into within the next few years
 
-<details> 
-<summary>
-	The equivariant \(\infty\)-cateogical Eckmann-Hilton argument
-</summary>
-    I think you can run an analogue of <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, with \(\mathrm{Comm}_G\) replaced with an almost essentially unital weak \(\mathcal{N}_\infty\)$-operad, so in particular, a unital one.
-	In particular, this has some corollaries along the lines of equivariant Dunn additivity (and should not be very hard), so I'll probably try to work this one out soon after the connectivity paper goes up.
-</details>
+
 
 <details> 
 <summary>
