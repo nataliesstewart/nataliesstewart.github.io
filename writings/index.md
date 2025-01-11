@@ -53,6 +53,7 @@ details[open] summary {
 			The Boardman-Vogt tensor product works as you expect it to and intertwines with the Day convolution structure on \(G\)-symmetric monoidal \(\infty\)-categories via the envelope.
 		</li>
 	</ul>
+	This is not yet submitted; <a href="/files/1n_nightly.pdf">click here for v1.5.</a>
 </details>
 
 <details>
