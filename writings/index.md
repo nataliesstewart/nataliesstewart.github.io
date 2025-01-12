@@ -66,8 +66,8 @@ details[open] summary {
 </details>
 
 <details> 
-<summary> <b>Lower bounds on volumes of hyperbolic link complements in 3-manifolds </b> (2021) with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. 
-<a href="https://arxiv.org/pdf/2111.06319.pdf">[arxiv]</a>
+<summary> <b>Lower Bounds on Volumes of Hyperbolic 3-Manifolds via Decomposition</b> (2021) with <a href="https://sites.williams.edu/cadams/">Colin Adams</a> et al. 
+<a href="https://arxiv.org/abs/2111.06319">[arxiv]</a>
 </summary>
 <p>
 Lower bounds on the volumes of hyperbolic link complements are given via a new construction:
