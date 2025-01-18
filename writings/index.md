@@ -62,7 +62,10 @@ details[open] summary {
     <b >Orbital categories and weak indexing systems</b> (2024).
     <a href="https://arxiv.org/abs/2409.01377">[arxiv]</a>
 </summary>
-    This paper is an exposé on weak indexing systems, the combinatorics behind weak \(\mathcal{N}_\infty\) operads. 
+    This paper is an exposé on weak indexing systems, the combinatorics behind weak \(\mathcal{N}_\infty\) operads.
+    The main point here is to show that, even though it's somewhat more complicated, you can run some version almost all of the homotopical combinatorics you know and love in the more general setting of subterminal \(G\)-operads, perhaps under mild unitality assumptions.
+
+<p>    This is not yet  submitted: <a href="/files/windex_nightly.pdf">click here for v1.5.</a></p>
 </details>
 
 <details> 
