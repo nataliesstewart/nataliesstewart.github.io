@@ -29,8 +29,9 @@ details[open] summary {
 
 <details> 
 <summary>
-	<b style="color:#92b99b;">Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</b> (2024).
+	<b style="color:#92b99b;">Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</b> (2025).
 	<a href="https://arxiv.org/abs/2501.02129">[arxiv]</a>
+	<a href="/files/1n_nightly.pdf">[v1.5]</a>	
 </summary>
 	The purpose of this paper is to set the stage to study the homotopy theory of \(G\)-operads and their Boardman-Vogt tensor products.
 	The important constructions are the <i> underlying \(G\)-symmetric sequence</i> and the <i>Boardman-Vogt tensor product of \(G\)-operads</i>.
@@ -61,6 +62,7 @@ details[open] summary {
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
     <b >Orbital categories and weak indexing systems</b> (2024).
     <a href="https://arxiv.org/abs/2409.01377">[arxiv]</a>
+    	<a href="/files/windex_nightly.pdf">[v1.5]</a>	
 </summary>
     This paper is an exposé on weak indexing systems, the combinatorics behind weak \(\mathcal{N}_\infty\) operads.
     The main point here is to show that, even though it's somewhat more complicated, you can run some version almost all of the homotopical combinatorics you know and love in the more general setting of subterminal \(G\)-operads, perhaps under mild unitality assumptions.
