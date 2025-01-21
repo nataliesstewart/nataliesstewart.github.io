@@ -118,12 +118,14 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	<b>On connectivity of spaces of equivariant configurations</b> (2024).
+	<b>Connectivity of spaces of equivariant configurations and \(\mathbb{E}_V\)-algebraic Wirthmüller maps</b> (2024).
 	<a style="color:#DEB0FF;" href="/files/Conf_draft.pdf">[draft]</a>
 </summary>
-    This paper is what it says on the tin;
-    given \(V\) a real orthogonal \(G\)-representation (which may have no fixed points), we give sharp bounds on connectivity of spaces of \(H\)-equivariant configurations of finite \(H\)-sets in it;
-    the upshot is that when \(V\) is large (e.g. it is a \(d\)-fold direct sum), \(\mathbb{E}_V\)-algebras canonically lift to \(AV\)-commutative algebras, and hence they are modelled by incomplete Mackey functors or bi-incomplete Tambara functors in a number of cases. 
+    The results in this draft keep getting stronger, and the dependencies heavier;
+    as of right now, the _point_ is that you can lift the Fadell-Neuwirth fibration to equivariant configurations, reducing connectivity statements for configurations in \(G\)-manifolds to connectivity and dimension statements in their strata with fixed isotropy. 
+    In the case of orthogonal representations, this itself is completely determined by the dimensions of various fixed point spaces;
+    surprisingly, this means that the collection of arities \(S\) for which \(\mathbb{E}_V(S)\) is \(n\)-connected is closed under self-indexed coproducts and restruction, i.e. it's a _unital weak indexing system_.
+    As a consequence, an easy dimension-counting condition completely classifies the connectivity of the fibers of semiadditive norm maps in the \(G\)-category of \(\mathbb{E}_V\)-\(G\)-spaces, quantifying how close these things are to \(G\)-semiadditivity (and hence how close \(\mathbb{E}_V\)-algebras are to weak \(\mathcal{N}_\infty\)-algebras).
 </details>
 
 
