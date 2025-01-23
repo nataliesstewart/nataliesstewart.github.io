@@ -107,7 +107,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024).
+	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2025).
 	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
 </summary>
 	Our main theorem constructs a unique equivalence \(\mathcal{N}_{I \infty} \otimes \mathcal{N}_{J \infty} \simeq \mathcal{N}_{I \vee J \infty}\).
@@ -118,7 +118,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	<b>Connectivity of spaces of equivariant configurations and \(\mathbb{E}_V\)-algebraic Wirthmüller maps</b> (2024).
+	<b>Connectivity of spaces of equivariant configurations and \(\mathbb{E}_V\)-algebraic Wirthmüller maps</b> (2025).
 	<a style="color:#DEB0FF;" href="/files/Conf_draft.pdf">[draft]</a>
 </summary>
     The results in this draft keep getting stronger, and the dependencies heavier;
