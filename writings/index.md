@@ -14,6 +14,7 @@ details {
 summary {
   margin: -0.5em -0.5em 0;
   padding: 0.5em;
+  font-size = 15pt;b
 }
 
 details[open] {
@@ -118,7 +119,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	<b>Connectivity of spaces of equivariant configurations and \(\mathbb{E}_V\)-algebraic Wirthmüller maps</b> (2025).
+	<b>Connectivity of equivariant configuration spaces and \(\mathbb{E}_V\)-algebraic Wirthmüller maps</b> (2025).
 	<a style="color:#DEB0FF;" href="/files/Conf_draft.pdf">[draft]</a>
 </summary>
     The results in this draft keep getting stronger, and the dependencies heavier;
