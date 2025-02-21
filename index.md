@@ -50,12 +50,19 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tbody></table>
 
 <p>
-	Find me in <a href="https://www.newton.ac.uk/event/eht/">Cambridge, UK</a> until the 25th of January.
+	Find me in 
+</p>
+<p>
+	Find me in <a href="https://www.newton.ac.uk/event/ehtw02/">Belfast</a> this April for <i>operads and calculus</i>.
 </p>
 
 <p> 
 Recent updates:
 <ul>
+	<li>
+		I just put up a draft titled <a href="/files/eha_draft.pdf">An Eckmann-Hilton argument in equivariant higher algebra</a>.
+		Fans and anti-fans of iterated loop space theory: inquire within. 
+	</li>
     <li>
         My preprint <a href="https://arxiv.org/abs/2501.02129">Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</a> has hit the arxiv.        
     </li>

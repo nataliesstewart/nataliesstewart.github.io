@@ -115,6 +115,17 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	It'll come out soon, I promise.
 </details>
 
+<details> 
+<summary>
+	<b> An Eckmann-Hilton argument in equivariant higher algebra (2025).</b> 	<a style="color:#DEB0FF;" href="/files/eha_draft.pdf">[draft]</a>
+</summary>
+    If you're familiar with <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, this works similarly;
+    whereas connectivity of a space is a function on the orbit category, connectivity of a unital \(G\)-operad is most naturally viewed as a function on the poset of unital weak indexing systems (meaning minimum connectivity of \(I\)-admissible \(H\)-sets), and it turns out that connectivity function yields the obvious analog of Schlank-Yanovski's lower bound on Boardman-Vogt tensor products.
+    
+   We acquire probably the most _algebraic_ intrinsic characterization you can get for (almost unital weak) \(\mathcal{N}_\infty\)-operads:
+   they are the targets of \(G\)-\(\infty\)-categorical Eckmann-Hilton arguments, or equivalently, they are the smashing localizations on (almost unital) \(G\)-operads.
+</details>
+
 
 <details> 
 <summary>
@@ -144,13 +155,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     I'm working on writing up a proof that \(\mathbb{E}_V \otimes \mathbb{E}_W \simeq \mathbb{E}_{V \oplus W}\).
 </details>
 
-<details> 
-<summary>
-	The equivariant \(\infty\)-cateogical Eckmann-Hilton argument
-</summary>
-    I'm writing downan analogue of <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, with \(\mathrm{Comm}_G\) replaced with an almost essentially unital weak \(\mathcal{N}_\infty\)$-operad, so in particular, a unital one.
-    This totally classifies the \(\otimes\)-idempotent unital \(G\)-operads (really, any whose nullary structure spaces are empty or contractible).
-</details>
+
 
 
 <br/><br/>  
