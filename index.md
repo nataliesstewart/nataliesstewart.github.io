@@ -50,9 +50,6 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tbody></table>
 
 <p>
-	Find me in 
-</p>
-<p>
 	Find me in <a href="https://www.newton.ac.uk/event/ehtw02/">Belfast</a> this April for <i>operads and calculus</i>.
 </p>
 
@@ -64,7 +61,7 @@ Recent updates:
 		Fans and anti-fans of iterated loop space theory: inquire within. 
 	</li>
     <li>
-        My preprint <a href="https://arxiv.org/abs/2501.02129">Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</a> has hit the arxiv.        
+        I added a corollary on disintegration and assembly for \(G\)-operads to the draft <a href="/files/Ninfty_draft.pdf">On tensor products of equivariant commutative operads</a>. 
     </li>
 </ul>
 </p>
