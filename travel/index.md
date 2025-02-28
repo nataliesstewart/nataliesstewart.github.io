@@ -9,6 +9,7 @@ Maybe you met me in:
 <ul>
 	<li> January 2025 at <a href="https://www.newton.ac.uk/event/eht/">INI</a>, as a visitor from the 6th to the 25th and as a participant in the <a href="https://www.newton.ac.uk/event/ehtw01/">Introductory Workshop for Equivariant Homotopy Theory in Context</a>.
  	</li>
+    <li>
         October 2024 at <a href="https://www.mfo.de/occasion/2442/www_view">Arbeitsgemeinschaft: Algebraic K-Theory and the Telescope Conjecture</a>.
     </li>
     <li>
