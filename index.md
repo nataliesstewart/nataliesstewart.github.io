@@ -9,7 +9,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse; border:none; margin-top: -1cm;">
     <tbody><tr style="border:none;">
     <td width = "35%" style="border:none;">
-        <img style="display: block;" alt="photo" src="/assets/Borromean.png">
+        <img style="display: block;" alt="photo" src="/files/steenrod squares.svg">
     </td>
     <td style="border:none;">
         <p style="margin-top: 1.25cm;">
