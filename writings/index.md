@@ -33,7 +33,7 @@ details[open] summary {
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
 	<b style="color:#92b99b;">On tensor products with equivariant commutative operads</b> (2025).
-	<a href="arxiv">[arxiv]</a>
+	<a href="the link will appear in due time">[arxiv]</a>
 </summary>
 	We study cartesian and cocartesian structures in equivariant higher algebra, leading to computations of tensor products of \(G\)-operads with weak \(\mathcal{N}_\infty\)-operads.
 	In particular, we find that
@@ -75,7 +75,7 @@ details[open] summary {
 	</li>
 	<li>
 		Factorization homology is \(G\)-symmetric monoidal;
-		in particular, the above computation lifts \(\mathrm{THR}\) to a natural endofunctor of \(\mathbb{E}_\sigma\)-rings.
+		in particular, the above computation lifts \(\mathrm{THR}\) to a natural endofunctor of \(\mathbb{E}_{\infty\sigma}\)-rings.
 		As a bit of service, we show how to lift this to a lax \(C_2\)-symmetric monoidal cyclotomic structure, constructing a lax \(C_2\)-symmetric monoidal functor whose induced endofunctor of \(C_2\)-commutative rings is Quigley-Shah's Real topological cyclic homology.
 	</li>
 	</ul>
