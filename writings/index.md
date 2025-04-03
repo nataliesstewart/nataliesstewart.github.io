@@ -28,6 +28,59 @@ details[open] summary {
 
 ## Papers
 
+
+<details> 
+<summary>
+<!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
+	<b style="color:#92b99b;">On tensor products with equivariant commutative operads</b> (2025).
+	<a href="arxiv">[arxiv]</a>
+</summary>
+	We study cartesian and cocartesian structures in equivariant higher algebra, leading to computations of tensor products of \(G\)-operads with weak \(\mathcal{N}_\infty\)-operads.
+	In particular, we find that
+	<ul>
+	<li>
+		The category of (co)cartesian structures on a \(G\)-category with finite indexed (co)products is contractible.
+	</li>
+	<li>
+		Cartesian \(\mathcal{O}\)-algebras can be presented as "\(\mathcal{O}\)-monoids;"
+		in particular, \(\mathcal{O}\)-algebras in the catesian structure on coefficient systems are Segal objects over either of the associated algebraic patterns.
+	</li>
+	<li>
+		If \(\mathcal{C}^{\otimes}\) is cocartesian over all arities at which a reduced \(G\)-operad \(\mathcal{O}^{\otimes}\) has nonempty structure spaces and the underlying \(G\)-category of colors of \(\mathcal{O}\) is contractible, then objects of \(\mathcal{C}\) admit <i>contractible</i> moduli of \(\mathcal{O}\)-algbera structures;
+		moreover, the converse is true, if you generalize to <i> unital</i> \(I\)-operads.
+	</li>
+	<li>
+		If \(I\) is almost essentially unital and \(\mathcal{O}^{\otimes}\) is almosst essentially reduced, then there is an equivalence \(\mathcal{O} \otimes \mathcal{N}_{I\infty} \simeq \mathcal{N}_{I\infty}\) if and only if \(A\mathcal{O} \leq I\).
+		Moreover, the assumptions were necessary:
+		if \(I\) is not almost essentially unital, then \(\mathcal{N}_{I\infty}^{\otimes 2}\) is not connected, let alone equivalent to \(\mathcal{N}_{I \infty}^{\otimes}\).
+		Hence almost-unital weak \(\mathcal{N}_\infty\)-operads are idempotent algebras, i.e. they classify smashing localizations.
+	</li>
+	<li>
+		There is an equivalence \(\mathcal{O} \otimes \mathcal{N}_{I\infty} \simeq \mathcal{O}\) if and only if the underlying \(I\)-operad of \(\mathcal{O}\) is cocartesian--equivalently, if and only if \(\mathcal{O}\)-algebra \(G\)-spaces have \(I\)-indexed Wirthmüller isomorphisms. 
+	</li>
+	<li>
+		The above point allows you to compute \(\mathcal{N}_{I\infty} \otimes \mathcal{N}_{J \infty} \simeq \mathcal{N}_{I \vee J \infty}\) in the almost-unital setting, affirming the remaining conjecture of <a href="https://arxiv.org/pdf/1309.1750">Blumberg-Hill</a>. 
+	</li>
+	<li>
+		\(\otimes\)-idempotence of \(\mathrm{Comm}^{\otimes}_G\) allows for the <i>sliced</i> equifibered perspective to be symmetric monoidal, leading to an easy construction of a canonical lift of the Boardman-Vogt tensor product to a presentably symmetric monoidal \(G\)-\(\infty\)-category of \(G\)-operads.
+	</li>
+	<li>
+		Lurie's Disintegration and assembly procedure works for \(G\)-space colored \(G\)-operads, on the level of giving natural \(G\)-colimit presentations via one-color \(G\)-operads;
+		\(G\)-functorial distributivity of \(\otimes\) allows us to compute tensor products of \(G\)-space colored \(G\)-operads in terms of one-colored \(G\)-operads.
+		Put a pin in this--we'll use it for equivariant Dunn additivity with tangential structure.
+	</li>
+	<li>
+		\(A \mapsto \mathrm{RMod}_A\) takes \(\mathcal{O} \otimes \mathbb{E}_1\)-algebras to \(\mathcal{O}\)-monoidal \(\infty\)-categories;
+		in particular, right modules over an \(I\)-commutative algebra are given a  natural \(I\)-symmetric monoidal structure when \(I\) is an indexing category.
+	</li>
+	<li>
+		Factorization homology is \(G\)-symmetric monoidal;
+		in particular, the above computation lifts \(\mathrm{THR}\) to a natural endofunctor of \(\mathbb{E}_\sigma\)-rings.
+		As a bit of service, we show how to lift this to a lax \(C_2\)-symmetric monoidal cyclotomic structure, constructing a lax \(C_2\)-symmetric monoidal functor whose induced endofunctor of \(C_2\)-commutative rings is Quigley-Shah's Real topological cyclic homology.
+	</li>
+	</ul>
+</details>
+
 <details> 
 <summary>
 	<b style="color:#92b99b;">Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</b> (2025).
@@ -105,15 +158,6 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 
 
-<details> 
-<summary>
-<!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2025).
-	<a style="color:#DEB0FF;" href="/files/Ninfty_draft.pdf">[draft]</a>
-</summary>
-	Our main theorem constructs a unique equivalence \(\mathcal{N}_{I \infty} \otimes \mathcal{N}_{J \infty} \simeq \mathcal{N}_{I \vee J \infty}\).
-	It'll come out soon, I promise.
-</details>
 
 <details> 
 <summary>
