@@ -50,19 +50,30 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tbody></table>
 
 <p>
-	Find me in <a href="https://www.newton.ac.uk/event/ehtw02/">Belfast</a> this April for <i>operads and calculus</i>.
+Upcoming travel:
+<ul>	
+<li>
+I'll be in <a href="https://www.newton.ac.uk/event/ehtw02/">Belfast</a> this April for <i>operads and calculus</i>.
+</li>
+<li>
+	Catch me at the <a href="https://e.math.cornell.edu/sites/topology/2025/index_2025.php">Cornell topology festival</a> in May, followed by <a href="https://sites.google.com/view/talbotworkshop/home">Talbot</a>.
+</li>
+<li>
+	I'll also be at <a href="https://www.math-stockholm.se/en/kalender/konferens/ytm2025-1.1350169">YTM</a> in June.
+</li>
+</ul>
 </p>
 
 <p> 
 Recent updates:
 <ul>
+<li>
+		My paper <a href="https://arxiv.org/abs/2504.02143">On tensor products with equivariant commutative operads</a> is now on the arXiv!
+	</li>
 	<li>
-		I just put up a draft titled <a href="/files/eha_draft.pdf">An Eckmann-Hilton argument in equivariant higher algebra</a>.
+		I recently put up a draft titled <a href="/files/eha_draft.pdf">An Eckmann-Hilton argument in equivariant higher algebra</a>.
 		Fans and anti-fans of iterated loop space theory: inquire within. 
 	</li>
-    <li>
-        I added a corollary on disintegration and assembly for \(G\)-operads to the draft <a href="/files/Ninfty_draft.pdf">On tensor products of equivariant commutative operads</a>. 
-    </li>
 </ul>
 </p>
 
