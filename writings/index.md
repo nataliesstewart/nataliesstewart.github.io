@@ -33,7 +33,7 @@ details[open] summary {
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
 	<b style="color:#92b99b;">On tensor products with equivariant commutative operads</b> (2025).
-	<a href="the link will appear in due time">[arxiv]</a>
+	<a href="https://arxiv.org/abs/2504.02143">[arxiv]</a>
 </summary>
 	We study cartesian and cocartesian structures in equivariant higher algebra, leading to computations of tensor products of \(G\)-operads with weak \(\mathcal{N}_\infty\)-operads.
 	In particular, we find that
@@ -261,7 +261,16 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <br/><br/>  
 
 ## Notes and other things
-
+<details>
+<summary> 
+Lecture notes: 
+<b> Homotopy-coherent interchange and equivariant little disk operads</b>
+<a href="/files/higher_galgebra.pdf">[source]</a>
+<a href="https://www.overleaf.com/read/pryjbtypsgph#4c3fcc">
+[pdf]</a> 
+</summary>
+a living document intended to serve as a companion to <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf">Higher algebra</a>, giving citations to equivariant lifts of its greatest hits.
+</details>
 
 <details>
 <summary> 
