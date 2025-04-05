@@ -83,7 +83,7 @@ details[open] summary {
 
 <details> 
 <summary>
-	<b style="color:#92b99b;">Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</b> (2025).
+	<b>Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products</b> (2025).
 	<a href="https://arxiv.org/abs/2501.02129">[arxiv]</a>
 	<a href="/files/1n_nightly.pdf">[v1.5]</a>	
 </summary>
@@ -184,6 +184,15 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     As a consequence, an easy dimension-counting condition completely classifies the connectivity of the fibers of semiadditive norm maps in the \(G\)-category of \(\mathbb{E}_V\)-\(G\)-spaces, quantifying how close these things are to \(G\)-semiadditivity (and hence how close \(\mathbb{E}_V\)-algebras are to weak \(\mathcal{N}_\infty\)-algebras).
 </details>
 
+<details> 
+<summary>
+<b style="color:#92b99b;">Homotopical additivity of equivariant little disk </b> (2025).
+	<a href="https://arxiv.org/abs/2504.02143">[arxiv]</a>
+    Homotopical equivariant Dunn additivity.
+</summary>
+   	A not-quite-complete draft which nevertheless does what it says on the tin: we prove \(\mathbb{E}_V \otimes \mathbb{E}_W \simeq \mathbb{E}_{V \oplus W}\).
+</details>
+
 
 <details>
 <summary>
@@ -192,12 +201,6 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	This is ongoing work with <a href="https://sites.google.com/view/bastiaan-cnossen">Bastiaan Cnossen</a>, <a href="https://t-lenz.github.io/">Tobias Lenz</a>, and <a href="https://www.math.uni-bonn.de/people/linskens/webpage.htmpl">Sil Linskens</a>. 
 </details>
 
-<details> 
-<summary>
-    Homotopical equivariant Dunn additivity.
-</summary>
-    I'm working on writing up a proof that \(\mathbb{E}_V \otimes \mathbb{E}_W \simeq \mathbb{E}_{V \oplus W}\).
-</details>
 
 
 
