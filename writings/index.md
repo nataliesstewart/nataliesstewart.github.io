@@ -161,7 +161,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-	<b> An Eckmann-Hilton argument in equivariant higher algebra (2025).</b> 	<a style="color:#DEB0FF;" href="/files/eha_draft.pdf">[draft]</a>
+	<b> An Eckmann-Hilton argument in equivariant higher algebra.</b> 	<a style="color:#DEB0FF;" href="/files/eha_draft.pdf">[draft]</a>
 </summary>
     If you're familiar with <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, this works similarly;
     whereas connectivity of a space is a function on the orbit category, connectivity of a unital \(G\)-operad is most naturally viewed as a function on the poset of unital weak indexing systems (meaning minimum connectivity of \(I\)-admissible \(H\)-sets), and it turns out that connectivity function yields the obvious analog of Schlank-Yanovski's lower bound on Boardman-Vogt tensor products.
@@ -174,7 +174,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
-	<b>Connectivity of equivariant configuration spaces and \(\mathbb{E}_V\)-algebraic Wirthmüller maps</b> (2025).
+	<b>Connectivity of equivariant configuration spaces and \(\mathbb{E}_V\)-algebraic Wirthmüller maps</b>.
 	<a style="color:#DEB0FF;" href="/files/Conf_draft.pdf">[draft]</a>
 </summary>
     The results in this draft keep getting stronger, and the dependencies heavier;
@@ -186,9 +186,9 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-<b style="color:#92b99b;">Homotopical additivity of equivariant little disk </b> (2025).
-	<a href="https://arxiv.org/abs/2504.02143">[arxiv]</a>
-    Homotopical equivariant Dunn additivity.
+<b style="color:#92b99b;">Homotopical additivity of equivariant little disk operads</b>.
+	<a style="color:#DEB0FF;" href="/files/dunn.pdf">[rough draft]</a>
+</summary>
 </summary>
    	A not-quite-complete draft which nevertheless does what it says on the tin: we prove \(\mathbb{E}_V \otimes \mathbb{E}_W \simeq \mathbb{E}_{V \oplus W}\).
 </details>
