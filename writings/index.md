@@ -267,11 +267,11 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 <details>
 <summary> 
 Lecture notes: 
-<b style="color:#92b99b;"> Homotopy-coherent interchange and equivariant little disk operads</b>
-<a href="/files/dunn_handout.pdf">[source]</a>
-<a href="/files/dunn_handout.pdf">[pdf]</a> 
+<b> Homotopy-coherent interchange and equivariant little disk operads</b>
+<a href="/files/dunn_archive.zip">[source]</a>
+<a href="/files/dunn_handout.pdf">[handout]</a>
 </summary>
-a living document intended to serve as a companion to <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf">Higher algebra</a>, giving citations to equivariant lifts of its greatest hits.
+	Slides for a talk in Belfast.
 </details>
 
 <details>
