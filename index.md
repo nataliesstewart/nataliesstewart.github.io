@@ -54,6 +54,7 @@ Upcoming travel:
 <ul>	
 <li>
 I'll be in <a href="https://www.newton.ac.uk/event/ehtw02/">Belfast</a> this April for <i>operads and calculus</i>.
+See my talk slides <a href="/files/dunn_handout.pdf">here</a>.
 </li>
 <li>
 	Catch me at the <a href="https://e.math.cornell.edu/sites/topology/2025/index_2025.php">Cornell topology festival</a> in May, followed by <a href="https://sites.google.com/view/talbotworkshop/home">Talbot</a>.
