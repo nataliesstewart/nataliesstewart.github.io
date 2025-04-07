@@ -73,9 +73,8 @@ Recent updates:
 	</li>
     <li>
         An incomplete draft of the paper <a style="color:#DEB0FF;" href="/files/dunn.pdf">Homotopical additivity of equivariant little disk operads</a> is now up.
-        It contains a somewhat-sloppy but hopefully complete proof of Dunn additivity for little disk \(G-\)(\(\infty\)-)operads.
+        It contains a somewhat-sloppy but hopefully complete proof of Dunn additivity for little disk G-(∞-)operads.
 </li>
-</details>
 	<li>
 		I recently put up a draft titled <a href="/files/eha_draft.pdf">An Eckmann-Hilton argument in equivariant higher algebra</a>.
 		Fans and anti-fans of iterated loop space theory: inquire within. 
