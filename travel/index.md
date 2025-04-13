@@ -7,6 +7,10 @@ title: Misc
 Think you've met me?
 Maybe you met me in:
 <ul>
+	<li>
+		April 2025 at <a href="https://www.newton.ac.uk/event/ehtw02/">Operads and calculus, Queen's university Belfast</a>. I gave a talk from
+		<a href="/files/dunn_handout.pdf">these slides</a>.
+	</li>
 	<li> January 2025 at <a href="https://www.newton.ac.uk/event/eht/">INI</a>, as a visitor from the 6th to the 25th and as a participant in the <a href="https://www.newton.ac.uk/event/ehtw01/">Introductory Workshop for Equivariant Homotopy Theory in Context</a>.
  	</li>
     <li>
