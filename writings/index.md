@@ -201,8 +201,23 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 	This is ongoing work with <a href="https://sites.google.com/view/bastiaan-cnossen">Bastiaan Cnossen</a>, <a href="https://t-lenz.github.io/">Tobias Lenz</a>, and <a href="https://www.math.uni-bonn.de/people/linskens/webpage.htmpl">Sil Linskens</a>. 
 </details>
 
+<details> 
+<summary>
+    Modules and cotangent complexes in equivariant higher algebra.
+</summary>
+    I hope to relitigate Higher Algebra chapter 7 in the setting of \(G\)-operads;
+    the aim is to lift the characterization of cotangent complexes from <a href="https://arxiv.org/pdf/1007.5315.pdf">Basterra-Mandell</a> in the setting \(G = C_2\) using the (dihedral) Bar construction of e.g. <a href="https://arxiv.org/pdf/2111.06970.pdf">Knoll-Gerhardt-Hill</a>, in preparation for computations in Real deformation theory. 
+    This is ongoing joint work with <a href="https://research-portal.uu.nl/en/persons/ryan-quinn">Ryan Quinn</a>.
+</details>
 
-
+<details> 
+<summary>
+	All models for \(G\)-operads agree.
+</summary>
+    <p>
+        In ongoing work with <a href="https://www.ru.nl/en/people/marc-g">Gregoire  Marc</a>, we hope to show that the Nardin-Shah and Bonventre-Pereira models for \(G\)-operads agree, ultimately verifying that one can use "monoids in \(G\)-symmetric sequences" in equivariant higher algebra arguments exactly when it's convenient.
+    </p>
+</details>
 
 
 <br/><br/>  
@@ -211,13 +226,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 
 
-<details> 
-<summary>
-    A characterization of modules and cotangent complexes over equivariant operad algebras.
-</summary>
-    I hope to relitigate Higher Algebra chapter 7 in the setting of \(G\)-operads;
-    the aim is to lift the characterization of cotangent complexes from <a href="https://arxiv.org/pdf/1007.5315.pdf">Basterra-Mandell</a> in the setting \(G = C_2\) using the (dihedral) Bar construction of e.g. <a href="https://arxiv.org/pdf/2111.06970.pdf">Knoll-Gerhardt-Hill</a>, in preparation for computations in Real deformation theory. 
-</details>
+
 
 <details> 
 <summary>
@@ -234,30 +243,15 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-    Infinite loop space theory for equivariant associative operads.
+    Infinite loop space theory for equivariant associative operads?
 </summary>
     <p>
-    <a href="https://arxiv.org/pdf/1705.03585.pdf">Rubin</a> constructed an associative version of \(N_\infty\) operads; these are the family of \(\mathbb{E}_1\)-containing subfunctors of an equivariant associative operad.
-    Tensor products of these are more complicated, as they are not tensor closed (indeed, \(\mathbb{E_2}\) is not a subfunctor of the equivariant associative operad, as it is not discrete)--
-    I hope to say something about this using techniques reminescent of <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a> and <a href="https://people.math.rochester.edu/faculty/doug/otherpapers/guillou-may-iterated2.pdf">Guillou-May</a>;
-    in particular, I conjecture that the $k$-fold tensor product of \(\mathrm{As}(I)\) can be interpreted as having grouplike algebras which are the \(k\)-fold deloopings for the maps in the transfer system associated to \(I\), in the sense of limits of \(S\)-indexed cubes, and when \(k = \infty\), this computes \(\mathcal{N}_{I \infty}.\)
-    </p>
-    
-    <p>
-    The aim of this is to supplant the \(\mathbb{E}_V\) family with a family whose tensor-indecomposables are of a combinatorial nature, bringing the explicit computational ease of the case \(G=C_2\) to arbitrary groups.
-    This is low priority, since my computational examples of interest currently only have \(C_2\) actions.
+    Lately, I've started to believe that some \(\mathcal{N}_\infty\)-operads are "exotic" in the sense that they do not arise as a filtered colimit of operads satisfying recognition principles in equivariant algebraic topology. 
+    I hope to either exhibit some such examples, or (more likely) verify that no such examples exist.
     </p>
 </details>
 
-<details> 
-<summary>
-    Closing the gap between \(G\)-\(\infty\)-operads and genuine \(G\)-operads.
-</summary>
-    <p>
-        What remains in the equivariant version of the program to identify all models of operads with each other is an equivariant lift of <a href="https://arxiv.org/pdf/1606.03826.pdf">Chu-Haugseng-Heuts</a>;
-        I hope to use the general machinery of algebraic patterns to add a \(G\) everywhere in the above paper.
-    </p>
-</details>
+
 
 
 
