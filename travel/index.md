@@ -8,6 +8,9 @@ Think you've met me?
 Maybe you met me in:
 <ul>
 	<li>
+		May 2025, speaking at the <a href="https://lzyang257.github.io/organization-and-activities/seminar_spring2025/">Columbia algebraic topology seminar</a>.
+	</li>
+	<li>
 		April 2025 at <a href="https://www.newton.ac.uk/event/ehtw02/">Operads and calculus, Queen's university Belfast</a>. I gave a talk from
 		<a href="/files/dunn_handout.pdf">these slides</a>.
 	</li>
