@@ -120,7 +120,7 @@ details[open] summary {
     This paper is an exposé on weak indexing systems, the combinatorics behind weak \(\mathcal{N}_\infty\) operads.
     The main point here is to show that, even though it's somewhat more complicated, you can run some version almost all of the homotopical combinatorics you know and love in the more general setting of subterminal \(G\)-operads, perhaps under mild unitality assumptions.
 
-<p>    Submitted</a></p>
+<p>    Submitted.</p>
 </details>
 
 <details> 
@@ -217,6 +217,16 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
         In ongoing work with <a href="https://www.ru.nl/en/people/marc-g">Gregoire  Marc</a>, we hope to show that the Nardin-Shah and Bonventre-Pereira models for \(G\)-operads agree, ultimately verifying that one can use "monoids in \(G\)-symmetric sequences" in equivariant higher algebra arguments exactly when it's convenient.
     </p>
 </details>
+
+<details> 
+<summary>
+	Norms for compact Lie groups.
+</summary>
+    <p>
+        In ongoing work with <a href="https://brankoj.gitlab.io/">Branko Juran</a>, we hope to use equivariant higher algebra to fulfill some of the conjectures of <a href="https://arxiv.org/abs/2212.11404">Blumberg-Hill-Mandell</a>.
+    </p>
+</details>
+
 
 
 <br/><br/>  
