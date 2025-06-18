@@ -220,7 +220,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 <details> 
 <summary>
-	Norms for compact Lie groups.
+	Dimension-shifting multiplicative norms in equivariant homotopy theory.
 </summary>
     <p>
         In ongoing work with <a href="https://brankoj.gitlab.io/">Branko Juran</a>, we hope to use equivariant higher algebra to fulfill some of the conjectures of <a href="https://arxiv.org/abs/2212.11404">Blumberg-Hill-Mandell</a>.
