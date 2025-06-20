@@ -54,10 +54,7 @@ Upcoming travel:
 <ul>	
 
 <li>
-	Catch me at <a href="https://sites.google.com/view/talbotworkshop/home">Talbot</a> in May.
-</li>
-<li>
-	I'll also be at the <a href="https://www.math.ku.dk/english/calendar/events/arithmetic-and-homotopy-theory/">Copenhagen masterclass on arithmetic and homotopy theory</a> and <a href="https://www.math-stockholm.se/en/kalender/konferens/ytm2025-1.1350169">YTM</a> in June.
+	Catch me at <a href="https://www.math-stockholm.se/en/kalender/konferens/ytm2025-1.1350169">YTM</a> in June.
 </li>
 <li>
 	In July, I'll be at Penn for the <a href="https://sites.google.com/view/scissorscongruenceandk-theory/home"> Scissors Congruence and K-theory Conference</a>.

@@ -7,6 +7,12 @@ title: Misc
 Think you've met me?
 Maybe you met me in:
 <ul>
+	<li>  
+		June 2025, at the <a href="https://sites.google.com/view/talbotworkshop/past-talbots/talbot-2025?authuser=0">Copenhagen Masterclass: Arithmetic and Homotopy Theory</a>.
+	</li>
+	<li>
+		May 2025, speaking at <a href="https://sites.google.com/view/talbotworkshop/past-talbots/talbot-2025?authuser=0">Talbot</a>.
+	</li>
 	<li>
 		May 2025, speaking at the <a href="https://lzyang257.github.io/organization-and-activities/seminar_spring2025/">Columbia algebraic topology seminar</a>.
 	</li>
