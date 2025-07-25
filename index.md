@@ -53,12 +53,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 Upcoming travel:
 <ul>	
 
-<li>
-	Catch me at <a href="https://www.math-stockholm.se/en/kalender/konferens/ytm2025-1.1350169">YTM</a> in June.
-</li>
-<li>
-	In July, I'll be at Penn for the <a href="https://sites.google.com/view/scissorscongruenceandk-theory/home"> Scissors Congruence and K-theory Conference</a>.
-</li>
+
 <li>
 	In August, I'll be speaking at the<a href="https://sites.google.com/view/scissorscongruenceandk-theory/home"> Copenhagen masterclass on operads and applications to geometry</a>.
 </li>

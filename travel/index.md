@@ -7,6 +7,9 @@ title: Misc
 Think you've met me?
 Maybe you met me in:
 <ul>
+	<li>
+		June 2025, at <a href="https://www.math-stockholm.se/en/kalender/konferens/ytm2025-1.1350169">YTM</a>, where I presented a poster.
+	</li>
 	<li>  
 		June 2025, at the <a href="https://sites.google.com/view/talbotworkshop/past-talbots/talbot-2025?authuser=0">Copenhagen Masterclass: Arithmetic and Homotopy Theory</a>.
 	</li>

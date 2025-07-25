@@ -34,6 +34,7 @@ details[open] summary {
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
 	<b style="color:#92b99b;">On tensor products with equivariant commutative operads</b> (2025).
 	<a href="https://arxiv.org/abs/2504.02143">[arxiv]</a>
+    <a href="/files/Ninfty_nightly.pdf">[v1.5]</a>
 </summary>
 	We study cartesian and cocartesian structures in equivariant higher algebra, leading to computations of tensor products of \(G\)-operads with weak \(\mathcal{N}_\infty\)-operads.
 	In particular, we find that
@@ -169,6 +170,14 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
    they are the targets of \(G\)-\(\infty\)-categorical Eckmann-Hilton arguments, or equivalently, they are the smashing localizations on (almost unital) \(G\)-operads.
 </details>
 
+<details> 
+<summary>
+	Dimension-shifting multiplicative norms in equivariant homotopy theory.
+</summary>
+    <p>
+        In ongoing work with <a href="https://brankoj.gitlab.io/">Branko Juran</a>, we hope to use equivariant higher algebra to fulfill some of the conjectures of <a href="https://arxiv.org/abs/2212.11404">Blumberg-Hill-Mandell</a>.
+    </p>
+</details>
 
 <details> 
 <summary>
@@ -192,14 +201,6 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
    	A not-quite-complete draft which nevertheless does what it says on the tin: we prove \(\mathbb{E}_V \otimes \mathbb{E}_W \simeq \mathbb{E}_{V \oplus W}\).
 </details>
 
-
-<details>
-<summary>
-	Canonical indexed tensor products of homotopical Mackey functors.
-</summary>
-	This is ongoing work with <a href="https://sites.google.com/view/bastiaan-cnossen">Bastiaan Cnossen</a>, <a href="https://t-lenz.github.io/">Tobias Lenz</a>, and <a href="https://www.math.uni-bonn.de/people/linskens/webpage.htmpl">Sil Linskens</a>. 
-</details>
-
 <details> 
 <summary>
     Modules and cotangent complexes in equivariant higher algebra.
@@ -218,14 +219,17 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     </p>
 </details>
 
-<details> 
+<details>
 <summary>
-	Dimension-shifting multiplicative norms in equivariant homotopy theory.
+	Canonical indexed tensor products of homotopical Mackey functors.
 </summary>
-    <p>
-        In ongoing work with <a href="https://brankoj.gitlab.io/">Branko Juran</a>, we hope to use equivariant higher algebra to fulfill some of the conjectures of <a href="https://arxiv.org/abs/2212.11404">Blumberg-Hill-Mandell</a>.
-    </p>
+	This is ongoing work with <a href="https://sites.google.com/view/bastiaan-cnossen">Bastiaan Cnossen</a>, <a href="https://t-lenz.github.io/">Tobias Lenz</a>, and <a href="https://www.math.uni-bonn.de/people/linskens/webpage.htmpl">Sil Linskens</a>. 
 </details>
+
+
+
+
+
 
 
 
@@ -269,7 +273,7 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 ## Notes and other things
 <details>
 <summary> 
-Lecture notes: 
+Slides: 
 <b> Homotopy-coherent interchange and equivariant little disk operads</b>
 <a href="/files/dunn_archive.zip">[source]</a>
 <a href="/files/dunn_handout.pdf">[handout]</a>
