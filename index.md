@@ -64,16 +64,15 @@ Upcoming travel:
 Recent updates:
 <ul>
 <li>
-		My paper <a href="https://arxiv.org/abs/2504.02143">On tensor products with equivariant commutative operads</a> is now on the arXiv!
+	<a href="https://arxiv.org/abs/2508.05556">Eckmann-Hilton arguments in equivariant higher algebra</a> has now made it onto arxiv.
+</li>
+<li>
+		My paper <a href="https://arxiv.org/abs/2504.02143">On tensor products with equivariant commutative operads</a> got a v2 on the arxiv, with a new appendix.
 	</li>
     <li>
         An incomplete draft of the paper <a style="color:#DEB0FF;" href="/files/dunn.pdf">Homotopical additivity of equivariant little disk operads</a> is now up.
         It contains a somewhat-sloppy proof of Dunn additivity for little disk G-(∞-)operads.
 </li>
-	<li>
-		I recently put up a draft titled <a href="/files/eha_draft.pdf">An Eckmann-Hilton argument in equivariant higher algebra</a>.
-		Fans and anti-fans of iterated loop space theory: inquire within. 
-	</li>
 </ul>
 </p>
 

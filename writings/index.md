@@ -27,14 +27,23 @@ details[open] summary {
 </style>
 
 ## Papers
+<details> 
+<summary>
+	<b> An Eckmann-Hilton argument in equivariant higher algebra</b> (2025). <a href="https://arxiv.org/abs/2508.05556">[arxiv]</a>
+	</summary>
+    If you're familiar with <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, this works similarly;
+    whereas connectivity of a space is a function on the orbit category, connectivity of a unital \(G\)-operad is most naturally viewed as a function on the poset of unital weak indexing systems (meaning minimum connectivity of \(I\)-admissible \(H\)-sets), and it turns out that connectivity function yields the obvious analog of Schlank-Yanovski's lower bound on Boardman-Vogt tensor products.
+    
+   We acquire probably the most _algebraic_ intrinsic characterization you can get for (almost unital weak) \(\mathcal{N}_\infty\)-operads:
+   they are the targets of \(G\)-\(\infty\)-categorical Eckmann-Hilton arguments, or equivalently, they are the smashing localizations on (almost unital) \(G\)-operads.
+</details>
 
 
 <details> 
 <summary>
-<!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
 	<b style="color:#92b99b;">On tensor products with equivariant commutative operads</b> (2025).
 	<a href="https://arxiv.org/abs/2504.02143">[arxiv]</a>
-    <a href="/files/Ninfty_nightly.pdf">[v1.5]</a>
+    <!--<a href="/files/Ninfty_nightly.pdf">[v1.5]</a>-->
 </summary>
 	We study cartesian and cocartesian structures in equivariant higher algebra, leading to computations of tensor products of \(G\)-operads with weak \(\mathcal{N}_\infty\)-operads.
 	In particular, we find that
@@ -157,28 +166,6 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
 
 
 
-
-
-<details> 
-<summary>
-	<b> An Eckmann-Hilton argument in equivariant higher algebra.</b> 	<a style="color:#DEB0FF;" href="/files/eha_draft.pdf">[draft]</a>
-</summary>
-    If you're familiar with <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, this works similarly;
-    whereas connectivity of a space is a function on the orbit category, connectivity of a unital \(G\)-operad is most naturally viewed as a function on the poset of unital weak indexing systems (meaning minimum connectivity of \(I\)-admissible \(H\)-sets), and it turns out that connectivity function yields the obvious analog of Schlank-Yanovski's lower bound on Boardman-Vogt tensor products.
-    
-   We acquire probably the most _algebraic_ intrinsic characterization you can get for (almost unital weak) \(\mathcal{N}_\infty\)-operads:
-   they are the targets of \(G\)-\(\infty\)-categorical Eckmann-Hilton arguments, or equivalently, they are the smashing localizations on (almost unital) \(G\)-operads.
-</details>
-
-<details> 
-<summary>
-	Dimension-shifting multiplicative norms in equivariant homotopy theory.
-</summary>
-    <p>
-        In ongoing work with <a href="https://brankoj.gitlab.io/">Branko Juran</a>, we hope to use equivariant higher algebra to fulfill some of the conjectures of <a href="https://arxiv.org/abs/2212.11404">Blumberg-Hill-Mandell</a>.
-    </p>
-</details>
-
 <details> 
 <summary>
 <!--	<b style="color:#92b99b;">On tensor products of equivariant commutative operads</b> (2024). -->
@@ -190,6 +177,15 @@ Lower bounds on the volumes of hyperbolic link complements are given via a new c
     In the case of orthogonal representations, this itself is completely determined by the dimensions of various fixed point spaces;
     surprisingly, this means that the collection of arities \(S\) for which \(\mathbb{E}_V(S)\) is \(n\)-connected is closed under self-indexed coproducts and restruction, i.e. it's a _unital weak indexing system_.
     As a consequence, an easy dimension-counting condition completely classifies the connectivity of the fibers of semiadditive norm maps in the \(G\)-category of \(\mathbb{E}_V\)-\(G\)-spaces, quantifying how close these things are to \(G\)-semiadditivity (and hence how close \(\mathbb{E}_V\)-algebras are to weak \(\mathcal{N}_\infty\)-algebras).
+</details>
+
+<details> 
+<summary>
+	Dimension-shifting multiplicative norms in equivariant homotopy theory.
+</summary>
+    <p>
+        In ongoing work with <a href="https://brankoj.gitlab.io/">Branko Juran</a>, we hope to use equivariant higher algebra to fulfill the conjectures of <a href="https://arxiv.org/abs/2212.11404">Blumberg-Hill-Mandell</a> in the \(\infty\)-categorical setting, replacing strictly commutative algebras with normed algebras (having finite-index norms).
+    </p>
 </details>
 
 <details> 
