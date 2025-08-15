@@ -29,7 +29,7 @@ details[open] summary {
 ## Papers
 <details> 
 <summary>
-	<b> An Eckmann-Hilton argument in equivariant higher algebra</b> (2025). <a href="https://arxiv.org/abs/2508.05556">[arxiv]</a>
+	<b> Eckmann-Hilton arguments in equivariant higher algebra</b> (2025). <a href="https://arxiv.org/abs/2508.05556">[arxiv]</a>
 	</summary>
     If you're familiar with <a href="https://arxiv.org/pdf/1808.06006.pdf">Schlank-Yanovski</a>, this works similarly;
     whereas connectivity of a space is a function on the orbit category, connectivity of a unital \(G\)-operad is most naturally viewed as a function on the poset of unital weak indexing systems (meaning minimum connectivity of \(I\)-admissible \(H\)-sets), and it turns out that connectivity function yields the obvious analog of Schlank-Yanovski's lower bound on Boardman-Vogt tensor products.
