@@ -7,6 +7,13 @@ title: Misc
 Think you've met me?
 Maybe you met me in:
 <ul>
+<li>
+	August 2025
+	, at the<a href="https://sites.google.com/view/scissorscongruenceandk-theory/home"> Copenhagen masterclass on operads and applications to geometry</a>, where I gave a contributed talk.
+</li>
+	<li>
+		July 2025, at the <a href="https://sites.google.com/view/scissorscongruenceandk-theory/home"> Scissors Congruence and K-theory Conference</a> at Penn.
+	</li>
 	<li>
 		June 2025, at <a href="https://www.math-stockholm.se/en/kalender/konferens/ytm2025-1.1350169">YTM</a>, where I presented a poster.
 	</li>
@@ -20,7 +27,7 @@ Maybe you met me in:
 		May 2025, speaking at the <a href="https://lzyang257.github.io/organization-and-activities/seminar_spring2025/">Columbia algebraic topology seminar</a>.
 	</li>
 	<li>
-		April 2025 at <a href="https://www.newton.ac.uk/event/ehtw02/">Operads and calculus, Queen's university Belfast</a>. I gave a talk from
+		April 2025 at <a href="https://www.newton.ac.uk/event/ehtw02/">Operads and calculus, Queen's university Belfast</a>, where I gave a contributed talk from
 		<a href="/files/dunn_handout.pdf">these slides</a>.
 	</li>
 	<li> January 2025 at <a href="https://www.newton.ac.uk/event/eht/">INI</a>, as a visitor from the 6th to the 25th and as a participant in the <a href="https://www.newton.ac.uk/event/ehtw01/">Introductory Workshop for Equivariant Homotopy Theory in Context</a>.

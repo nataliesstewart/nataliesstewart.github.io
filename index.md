@@ -13,10 +13,10 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
     </td>
     <td style="border:none;">
         <p style="margin-top: 1.25cm;">
-            I'm a 4th year PhD student at Harvard studying homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations.
+            I'm a 5th year PhD student at Harvard studying homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations. 
         </p>
         <p>
-            I was previously at MIT, where I studied mathematics with computer science.
+            I will be on the academic job market in fall of 2025.
         </p>
     
     <table style="border-collapse: collapse; border:none;"><tbody>
@@ -52,11 +52,13 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <p>
 Upcoming travel:
 <ul>	
-
-
 <li>
-	In August, I'll be speaking at the<a href="https://sites.google.com/view/scissorscongruenceandk-theory/home"> Copenhagen masterclass on operads and applications to geometry</a>.
+	In September, I'll be speaking at the <a href="https://math.nmsu.edu/activities/geometry-and-topology-calendar.html">NMSU Geometry and Topology seminar</a>. 
 </li>
+<li> 
+	In October, I'll be speaking at <a href="https://www-users.cse.umn.edu/~tlawson/topology/">UMN topology seminar</a>, <a href="https://math.virginia.edu/seminars/topology/">UVA topology seminar</a>, and <a href="https://math.uchicago.edu/~algtop/">Univiersity of Chicago topology seminar</a>.
+</li>
+
 </ul>
 </p>
 
@@ -67,12 +69,8 @@ Recent updates:
 	<a href="https://arxiv.org/abs/2508.05556">Eckmann-Hilton arguments in equivariant higher algebra</a> has now made it onto arxiv.
 </li>
 <li>
-		My paper <a href="https://arxiv.org/abs/2504.02143">On tensor products with equivariant commutative operads</a> got a v2 on the arxiv, with a new appendix.
+	<a href="https://arxiv.org/abs/2504.02143">On tensor products with equivariant commutative operads</a> got a v2 on the arxiv, with a new appendix.
 	</li>
-    <li>
-        An incomplete draft of the paper <a style="color:#DEB0FF;" href="/files/dunn.pdf">Homotopical additivity of equivariant little disk operads</a> is now up.
-        It contains a somewhat-sloppy proof of Dunn additivity for little disk G-(∞-)operads.
-</li>
 </ul>
 </p>
 
