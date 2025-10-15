@@ -8,6 +8,12 @@ Think you've met me?
 Maybe you met me in:
 <ul>
 <li>
+	October 2025, giving a talk at  <a href="https://www-users.cse.umn.edu/~tlawson/topology/">UMN topology seminar</a> or  <a href="https://math.virginia.edu/seminars/topology/">UVA topology seminar</a>.
+</li>
+<li>
+	September 2025, giving a talk at the <a href="https://math.nmsu.edu/activities/geometry-and-topology-calendar.html">NMSU Geometry and Topology seminar</a>. 
+</li>
+<li>
 	August 2025
 	, at the<a href="https://sites.google.com/view/scissorscongruenceandk-theory/home"> Copenhagen masterclass on operads and applications to geometry</a>, where I gave a contributed talk.
 </li>

@@ -35,8 +35,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
     <tbody><tr style="border:none; margin-left: 0cm">
     <td width = "69%" style="border:none; margin-left: 0cm">
             <p>
-                I believe that the best mathematical community is one whose population is primarily selected for by interest and effort, as well as their interaction with "talent," an endogenous and perpetually evolving trait.
-                To this end, I care about <a href="dei.html">diversity in the mathematics community.</a>
+                I believe that the best mathematical community is one whose population is primarily selected for by interest and effort.
+                I endorce <a href="dei.html">Federico Ardila axioms.</a>
             </p>
             <p>
                 Outside of mathematics, I tend to spend time playing jazz guitar, making electronic music, and <a href="/cooking/">cooking vegetarian food</a>.
@@ -52,11 +52,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 <p>
 Upcoming travel:
 <ul>	
-<li>
-	In September, I'll be speaking at the <a href="https://math.nmsu.edu/activities/geometry-and-topology-calendar.html">NMSU Geometry and Topology seminar</a>. 
-</li>
 <li> 
-	In October, I'll be speaking at <a href="https://www-users.cse.umn.edu/~tlawson/topology/">UMN topology seminar</a>, <a href="https://math.virginia.edu/seminars/topology/">UVA topology seminar</a>, and <a href="https://math.uchicago.edu/~algtop/">Univiersity of Chicago topology seminar</a>.
+	This month, I'll be speaking at the <a href="https://math.uchicago.edu/~algtop/">Univiersity of Chicago topology seminar</a>
 </li>
 
 </ul>
