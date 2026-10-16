@@ -35,6 +35,12 @@ gem "webrick"
 
 gem "rexml"
 
-gem "github-pages"
+gem "csv"
+
+gem "logger"
+
+# gem "github-pages"
 
 #gem "jekyll-theme-minima"
+
+# gem "jekyll", "~> 3.9"

@@ -13,15 +13,14 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
     </td>
     <td style="border:none;">
         <p style="margin-top: 1.25cm;">
-            I'm a 5th year PhD student at Harvard studying homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations. 
+            I'm a postdoc at MPIM, 
+            where I study homotopy theory and algebraic topology, with particular emphasis on equivariant and algebraic considerations. 
         </p>
-        <p>
-            I will be on the academic job market in fall of 2025.
-        </p>
+
     
     <table style="border-collapse: collapse; border:none;"><tbody>
             <tr style='vertical-align:middle; border:none;'><td width="50%" style='text-align:center; vertical-align:middle; border:none;'>
-            <a href="mailto:nataliestewart@math.harvard.edu">Email</a>
+            <a href="mailto:stewart@mpim-bonn.mpg.de">Email</a>
           </td>
           <td style='text-align:center; vertical-align:middle; border:none;'>
             <a href="/files/cv.pdf">CV</a>
@@ -38,10 +37,6 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
                 I believe that the best mathematical community is one whose population is primarily selected for by interest and effort.
                 I endorce <a href="dei.html">Federico Ardila axioms.</a>
             </p>
-            <p>
-                Outside of mathematics, I tend to spend time playing jazz guitar, making electronic music, and <a href="/cooking/">cooking vegetarian food</a>.
-                I have a budding <a href="/blog/">blog</a> which I very occasionally use to deposit miscellaneous math thoughts. 
-            </p>
     </td>
     <td style="border:none;">
         <img src="/files/Self portrait 3.png" alt="photo" style="margin-top:-.9cm">       
@@ -49,25 +44,30 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 </tr>
 </tbody></table>
 
+Recent updates:
+<ul>
+  <li>
+  The paper <a href="https://arxiv.org/abs/2610.22074">Normed idempotence of spectra and distributivity in equivariant higher algebra</a> is now live on the arxiv.
+  </li>
+  <li>
+  This past spring, I graduated from my PhD, with the thesis <a href="https://dash.harvard.edu/entities/publication/df60734e-53b2-47f9-88e2-08cd201a8b5e">Equivariant higher algebra</a>.
+  Over the coming months, I intend to polish this and put it on the arxiv.
+  </li>
+</ul>
+
+
+<!--
 <p>
 Upcoming travel:
 <ul>	
 <li> 
-	This month, I'll be speaking at the <a href="https://math.uchicago.edu/~algtop/">Univiersity of Chicago topology seminar</a>
+	Next month I will speak at the <a href="https://www.mpim-bonn.mpg.de/hamfc">MPIM conference on Interactions between higher algebra, manifolds, and functor calculus</a>.
 </li>
-
 </ul>
 </p>
 
-<p> 
-Recent updates:
-<ul>
-<li>
-	<a href="https://arxiv.org/abs/2508.05556">Eckmann-Hilton arguments in equivariant higher algebra</a> has now made it onto arxiv.
-</li>
-<li>
-	<a href="https://arxiv.org/abs/2504.02143">On tensor products with equivariant commutative operads</a> got a v2 on the arxiv, with a new appendix.
-	</li>
-</ul>
+<p>
+	Subsequently, I will be taking the summer off.
 </p>
+-->
 

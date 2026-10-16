@@ -3,9 +3,28 @@ layout: base
 title: Misc
 ---
 
-### Travel log
+## Travel log
 Think you've met me?
 Maybe you met me in:
+<details><Summary>
+The year 2026:
+</summary>
+<ul>
+<li>
+  October 2026, at <a href="https://sites.google.com/view/loopingmainz">Looping Mainz</a>.
+</li>
+<li>
+  May 2026, giving a talk at the MPIM conference on <a href="https://www.mpim-bonn.mpg.de/hamfc">Interactions between higher algebra, manifolds and functor calculus</a>
+</li>
+<li>
+  January 2026, giving a talk at the <a href="https://meetings.ams.org/math/jmm2026/meetingapp.cgi/Session/13257">AMS special session on new voices in homotopy theory.</a>
+</li>
+</ul>
+</details>
+  <details>
+  <summary>
+  The year 2025:
+  </summary>
 <ul>
 <li>
 	October 2025, giving a talk at  <a href="https://www-users.cse.umn.edu/~tlawson/topology/">UMN topology seminar</a> or  <a href="https://math.virginia.edu/seminars/topology/">UVA topology seminar</a>.
@@ -38,6 +57,11 @@ Maybe you met me in:
 	</li>
 	<li> January 2025 at <a href="https://www.newton.ac.uk/event/eht/">INI</a>, as a visitor from the 6th to the 25th and as a participant in the <a href="https://www.newton.ac.uk/event/ehtw01/">Introductory Workshop for Equivariant Homotopy Theory in Context</a>.
  	</li>
+  </ul>
+  </details>
+
+  <details><summary> The year 2024:</summary>
+  <ul>
     <li>
         October 2024 at <a href="https://www.mfo.de/occasion/2442/www_view">Arbeitsgemeinschaft: Algebraic K-Theory and the Telescope Conjecture</a>.
     </li>
@@ -47,6 +71,11 @@ Maybe you met me in:
     <li>
         April 2024 during <a href="https://cos.northeastern.edu/events/mid-atlantic-topology-conference-2024/">Mid-atlantic topology confrence</a>.
     </li>
+  </ul>
+  </details>
+
+  <details><summary> Earlier:</summary>
+    <ul>
     <li>
         March 2023 during <a href="https://antieau.github.io/workshops/202301-goerss.html">Homotopy theory in honor of Paul Goerss</a>.
     </li>
@@ -57,8 +86,9 @@ Maybe you met me in:
         Summer 2020 during <a href="https://math.williams.edu/small/">SMALL REU</a>.
     </li>
 </ul>   
+</details>
 
-### Music
+## Music
 
 A big part of how I interact with people outside of mathematics is through music. 
 Here's some of my favorite musical projects beginning with various characters, because I needed a theme.

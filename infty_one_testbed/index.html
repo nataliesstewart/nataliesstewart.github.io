@@ -1,542 +1,706 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="icon.svg" type="image/x-icon">
-    <title>(∞,1)-seminar</title>
-    <style type="text/css">
-/* 
-        dt, dd { display: inline-block; float: left; }
-        dt { clear: left; }
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:pref="http://www.w3.org/2002/Math/preference" pref:renderer="css"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="index_files/MathJax.js"></script>
+	 <script src="index_files/local-mathjax-macros.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style>
 
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
+  <link rel="stylesheet" href="index_files/juvitop_2017-9-20.css" type="text/css">
+  <title>Babytop Seminar</title>
+    <meta name="description" content="Another Harvard-MIT graduate student topology learning seminar.This semester Babytop is about the K(n)-local sphere and the Two (p-adic) Towers. The goal of the seminar is to learn about https://math.bu.edu/people/jsweinst/chromatic.pdf and some of the tools that go into its proof. &lt;br&gt; &lt;style&gt;
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+&lt;/style&gt; &lt;img src=" .="" s24.png"="" alt="twotowers" style="width:50%;"><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?V=2.7.1') format('opentype'); font-weight: bold}
+@font-face {font-family: MathJax_Main; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?V=2.7.1') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Math; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?V=2.7.1') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?V=2.7.1') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?V=2.7.1') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?V=2.7.1') format('opentype')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head><body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div></div><div id="MathJax_Message" style="display: none;"></div>"&gt;
+    <meta name="keywords" content="MIT,Harvard,Math,Babytop,math.mit.edu,topology,graduate student,Seminar,colloquia,Cambridge">
+    <meta name="author" content="babytop">
+    <meta name="google-site-verification" content="UFraLMG4ydAejwwTH5OpiSSYG3FGodWADGdCBmwV3hc">
 
-        th, td {
-            padding: 5px;
-        }
-        th {
-            text-align: left;
-        }
-
-        body {
-            margin-right: 50px;
-        } */
-        .sidenav {
-            height: 100%;
-            width: 160px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-        }
-        .sidenav a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            }
-
-            .sidenav a:hover {
-            color: #f1f1f1;
-            }
-            .boxed {
-            padding: 10px;
-            margin: 0 -1em;
-            border: 10px #ff0000;
-            }
-            /* #tab table, th, td, tr {border: none;
-            border-collapse: collapse;} */
-
-    </style>
-    <link rel="stylesheet" href="juvitop_2017-9-20.css" type="text/css">
-</head>
 
 
-<body>
 
-  <div style="padding: 0.5px; background-color: rgb(227, 227, 227);">
+<ul id="topbar">
+  <li id="logo"><a href="http://web.mit.edu/">MIT</a></li>
+  <li><a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></li>
+  <li><a href="http://www-math.mit.edu/">Department of Mathematics</a></li>
+  <li><a href="http://math.mit.edu/seminars/">Seminars and colloquia</a></li>
+</ul>
 
-    <div id="content">
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
-
-  <div style="margin-top: 10px; background-color: rgb(248,142,30); border: 2px solid #000000; margin-bottom: 10px;">
-  <img style="margin-top:5px;" src="reading group.svg"></img>
+<div id="content">
+<div id="header">
+<h1> Babytop Seminar </h1>
+    <ul id="nav">
+            <li id="index_nav" class="active"><a href="https://math.mit.edu/topology/babytop/index.html">Current Semester</a></li>
+      
+            <li id="past_nav"><a href="https://math.mit.edu/topology/babytop/pastsemina/index.html">Past Semesters</a></li>
+      
+    </ul>
   </div>
 
-<!-- <h1>Overview:</h1> -->
-<hr style="margin-bottom: 10px">
-<p> We are a learning seminar about \(\infty\)-nonsense. We will follow sections from <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf">Higher Algebra</a> according to the interests of the participants.
 
-<p> We meet in SC 232 at 6-7pm on Thursdays.
-All talk titles are estimates, and subject to change. 
 
-<p> Familiarity with \((\infty,1)\)-categories on the level of <a href="https://arxiv.org/pdf/math/0608040.pdf">HTT §1-3</a> will be helpful, as well as some familiarity with model categories and stable homotopy theory;
-the fundamentals of higher category theory will be quickly reviewed.
 
-<p> This seminar is organized by <a href="mailto:nataliestewart@math.harvard.edu">Natalie Stewart</a> and <a href="mailto:tnam@math.harvard.edu">Taeuk Nam</a>.</p>
 
-<hr>
-<!-- <h1>Schedule:</h1> -->
 
-        <ul id= "talks">
-            <li class="talk">
-                <ul class="meta">
-                  <li class="date"><b> Feb 3</b>2022</li>
-                <!--
-                
-                    <li class="calendar"><a title="Add to Google Calendar" href=""></a></li> 
-                
-                -->
-                </ul>
-                  
-                    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; />" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 0em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0em; height: 0px; font-size: 101%;"><span style="position: absolute; clip: rect(3.822em, 1000.004em, 4.247em, -999.996em); top: -4.028em; left: 0em;"><span class="mrow" id="MathJax-Span-2"></span><span style="display: inline-block; width: 0px; height: 4.035em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.146em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></span></span><script type="math/tex" id="MathJax-Element-1">\begingroup</script> </div>
-                    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
-                                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
-                        <h4 class="title">Organizational meeting</h4>
-                        
-                        <div style="clear: both;"></div>
-                    
-                    
-                        <h3 class="speaker">Natalie and Taeuk</h3>
-                        <div style="clear: both;">
-                          We will discuss logistics of the seminar;
-                          our main goal will be to gauge the interests of participants and get a chart outline of the curriculum and speakers for the first portion of the semester.
-                        </div>
-                    
-                    
-                    
-                    
-                    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
-                    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; />" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-3" style="width: 0em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0em; height: 0px; font-size: 101%;"><span style="position: absolute; clip: rect(3.822em, 1000.004em, 4.247em, -999.996em); top: -4.028em; left: 0em;"><span class="mrow" id="MathJax-Span-4"></span><span style="display: inline-block; width: 0px; height: 4.035em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.146em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></span></span><script type="math/tex" id="MathJax-Element-2">\endgroup</script> </div>
-                    
-                </li>
 
-             <li class="talk">
+<h2> Fall 2024 </h2>
 
-                <ul class="meta">
-                <li class="date"><b> Feb 10</b>2022</li>
-                <!--
-                
-                    <li class="calendar"><a title="Add to Google Calendar" href=""></a></li> 
-                
-                -->
-                </ul>
-                  
-                    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; />" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-5" style="width: 0em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0em; height: 0px; font-size: 101%;"><span style="position: absolute; clip: rect(3.822em, 1000.004em, 4.247em, -999.996em); top: -4.028em; left: 0em;"><span class="mrow" id="MathJax-Span-6"></span><span style="display: inline-block; width: 0px; height: 4.035em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.146em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></span></span><script type="math/tex" id="MathJax-Element-3">\begingroup</script> </div>
-                    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
-                                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
-                    
-                        
-                            <h4 class="title">HTT crash course I: \((\infty,1)\)-categories</h4>
-                        
-                        <div style="clear: both;"></div>
-                    
-                    
-                        <h3 class="speaker">Taeuk Nam</h3>
-                        <div style="clear: both;"></div>
-                    
-                    
-                    
-                        <!-- <div class="notes"><h3>References:</h3>
-                <ul> -->
-                <!-- <li><a href="http://arxiv.org/pdf/math/0410342.pdf">Kuhn, Goodwillie towers and chromatic homotopy: an overview</a>, sections 1-5</li> -->
-                <!-- <li><a href="http://arxiv.org/pdf/math/0310481.pdf">Goodwillie, Calculus III: Taylor Series</a></li> -->
-                <!-- <li><a href="http://www.math.harvard.edu/~lurie/papers/HA.pdf#chapter.6">Lurie, Higher Algebra</a>, sections 6.1.1 - 6.1.5</li> -->
-                <!-- </ul></div> -->
-                    
-                    
-                    </ul><div style="clear:both;">
-                    First, we will define infinity categories as simplicial sets that satisfy a certain lifting property. Then, we will compare our approach with other approaches to infinity categories. Finally, we will discuss how to extend ordinary category theoretic constructions to the setting of infinity categories.
-                    </div> <!-- close talk_float div, and it needs to be cleared -->
-                                                                    <div class="notes"><h3>References:</h3>
-                                                                <ul>
-                                                                  <li> 
-                                                                    <a href="https://arxiv.org/pdf/math/0608040.pdf#chapter.1"> Lurie, Higher Topos Theory §1 </a>
-                                                                  </li> 
-                                                                </ul></div>
-                                                                    
-                                                                    
-                                                                    
-                                                                    <div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
-                                                                    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; />" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-7" style="width: 0em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0em; height: 0px; font-size: 101%;"><span style="position: absolute; clip: rect(3.822em, 1000.004em, 4.247em, -999.996em); top: -4.028em; left: 0em;"><span class="mrow" id="MathJax-Span-8"></span><span style="display: inline-block; width: 0px; height: 4.035em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.146em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></span></span><script type="math/tex" id="MathJax-Element-4">\endgroup</script> </div>
-                                                                
-             </li>
-             <li class="talk">
 
-                <ul class="meta">
-                <li class="date"><b> Feb 17</b>2022</li>
-                <!--
-                
-                    <li class="calendar"><a title="Add to Google Calendar" href=""></a></li> 
-                
-                -->
-                </ul>
-                  
-                    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; />" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-5" style="width: 0em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0em; height: 0px; font-size: 101%;"><span style="position: absolute; clip: rect(3.822em, 1000.004em, 4.247em, -999.996em); top: -4.028em; left: 0em;"><span class="mrow" id="MathJax-Span-6"></span><span style="display: inline-block; width: 0px; height: 4.035em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.146em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></span></span><script type="math/tex" id="MathJax-Element-3">\begingroup</script> </div>
-                    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
-                                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
-                    
-                        
-                                                <h4 class="title">HTT crash course II: model structures on \(\mathbf{Set}_\Delta\)</h4>
-                        
-                        <div style="clear: both;"></div>
-                    
-                    
-                        <h3 class="speaker">Natalie Stewart</h3>
-                        <div style="clear: both;"></div>
-                    
-                    
-                    
-                        <!-- <div class="notes"><h3>References:</h3>
-                <ul> -->
-                <!-- <li><a href="http://arxiv.org/pdf/math/0410342.pdf">Kuhn, Goodwillie towers and chromatic homotopy: an overview</a>, sections 1-5</li> -->
-                <!-- <li><a href="http://arxiv.org/pdf/math/0310481.pdf">Goodwillie, Calculus III: Taylor Series</a></li> -->
-                <!-- <li><a href="http://www.math.harvard.edu/~lurie/papers/HA.pdf#chapter.6">Lurie, Higher Algebra</a>, sections 6.1.1 - 6.1.5</li> -->
-                <!-- </ul></div> -->
-                    
-                    
-                    </ul><div style="clear:both;">
-                      <p> We define <a href="fibrations.png">several classes of maps</a> in \(\mathbf{Set}_\Delta\) and sketch the definition of (co)Cartesian fibrations. 
-                     
-                      <p> We review the Quillen model structure on \(\mathbf{Set}_\Delta\), whose fibrations are Kan fibrations.
+   <p> This semester, Babytop will be about the Kervaire invariant one problem and stable equivariant homotopy theory, via <a href="https://arxiv.org/abs/0908.3724">HHR</a>.
+    We will aim to cover foundational details using the technology of \(\infty\)-categories and the spectral Mackey functor theorem.
+   </p>
 
-                      <p> We go over the (unmarked) straightening and unstraightening constructions, and construct the covariant model structure on \((\mathbf{Set}_\Delta)_{/S}\), whose fibrations correspond with left fibrations over \(S\).
-                     
-                      <p> We go on to construct the Joyal model structure on \(\mathbf{Set}_\Delta\), which has fibrations the isofibrations (hence fibrant objects the quasicategories) and is Quillen equivalent to the Joyal model structure on \(\mathbf{Set}_\Delta-\mathbf{Cat}\), with left adjoint given by the simplicial nerve functor. 
-                      In general, we emphasize a collection of <a href="adjunctions.png">quillen adjunctions</a> relating the model structures mentioned above.
+   <p>
+   We meet at 4:00 on Tuesdays in <a color="blue">location</a> unless otherwise noted. 
+   </p>
 
-                    </div> <!-- close talk_float div, and it needs to be cleared -->
-                                                                    
-                                                                    
-                                                                    
-                                                                    <div class="notes"><h3>References:</h3>
-                                                                <ul>
-                                                                  <li>  
-                                                                    <a href="https://arxiv.org/pdf/math/0608040.pdf#chapter.2"> Lurie, Higher Topos Theory §2.1-2.3 </a> for a full treatment, or
-                                                                  </li>
-                                                                  <li>
-                                                                    <a href="https://kerodon.net/tag/01GP"> Kerodon §4 </a> for a readable summary of fibrations other than (co)Cartesian fibrations.
-                                                                  </li>
-                                                                </ul></div>
-                                                                    
-                                                                    
-                                                                    <div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
-                                                                    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; />" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-7" style="width: 0em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0em; height: 0px; font-size: 101%;"><span style="position: absolute; clip: rect(3.822em, 1000.004em, 4.247em, -999.996em); top: -4.028em; left: 0em;"><span class="mrow" id="MathJax-Span-8"></span><span style="display: inline-block; width: 0px; height: 4.035em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left-width: 0px; border-left-style: solid; width: 0px; height: 0.146em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"></math></span></span><script type="math/tex" id="MathJax-Element-4">\endgroup</script> </div>
-                                                                
-                                                               </li>
-          <li class="talk">
-            <ul class="meta">
-              <li class="date"><b> Feb 24</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">HTT crash course III: the Cartesian model structure and the \((\infty,1)\)-category of \((\infty,1)\)-categories</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">Grant Barkley</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              We will discuss the notion of a Cartesian fibration of simplicial sets, generalizing the notion of a Grothendieck fibration of 1-categories. As in the 1-categorical setting, a Cartesian fibration of quasicategories should be thought as a family of quasicategories varying (contra)functorially over the base. By generalizing this perspective, we arrive at the construction of straightening and unstraightening functors. To place these constructions in the context of model structures, we will need to enhance the category of simplicial sets with some extra data, a marking of edges. The marked simplicial sets lying over a given simplicial set \(S\) have a model structure presenting the category of \((\infty,1)\)-presheaves on S. In particular, we get a new presentation of \(\mathbf{Cat}_\infty\) by taking \(S = *\). If we have time, we'll talk about how this perspective helps us compute limits in \(\mathbf{Cat}_\infty\).
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://arxiv.org/pdf/math/0608040.pdf#chapter.1"> Lurie, Higher Topos Theory §3 </a>
-                </li>
-              </ul>
-            </div>                                                      
 
-            <div style="clear:both;">
-            </div> 
-          </li>
+
+
+<ul id="talks">
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Sep 10</b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mtext" id="MathJax-Span-3" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-1">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240206-Jared Weinstein">Overview and organization</label></h4>
+            <input type="checkbox" id="20240206-Jared Weinstein" checked="checked">
+            <label for="20240206-Jared Weinstein" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">Mike Hopkins</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+    
+        <div class="abstract">
+        <p></p><p>
+</p><p>
+  Abstract
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-4" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-5"><span class="mtext" id="MathJax-Span-6" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-2">\endgroup</script> </div>
+
+</li>
+
+
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Sep 17</b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-7" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-8"><span class="mtext" id="MathJax-Span-9" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-3">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240213-Maxime Ramzi">The manifold story</label></h4>
+            <input type="checkbox" id="20240213-Maxime Ramzi" checked="checked">
+            <label for="20240213-Maxime Ramzi" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+        <div class="abstract">
+        <p></p><p>
+</p><p>
+  Sketches of Kervaire, Kervaire-Milnor, and especially Browder
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-10" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-11"><span class="mtext" id="MathJax-Span-12" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-4">\endgroup</script> </div>
+
+</li>
+
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Sep 24 </b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-13" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-14"><span class="mtext" id="MathJax-Span-15" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-5">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240220-Rushil Mallarapu">
+                Stable homotopy theory crash course
+              </label></h4>
+            <input type="checkbox" id="20240220-Rushil Mallarapu" checked="checked">
+            <label for="20240220-Rushil Mallarapu" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+        <div class="notes"><p>
           
-          <li class="talk">
-            <ul class="meta">
-              <li class="date"><b> Mar 3</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">Stable \(\infty\)-Categories</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">Eunice Sukarto</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              We will define stability in an infinity-categorical setting. 
-              Roughly speaking, this means that fiber and cofiber sequences coincide. 
-              As in the 1-categorical setting, the homotopy category of a stable infinity category is triangulated. 
-              This means that we have a shift functor which is an equivalence, together with a collection of “distinguished triangles” (think: exact sequences). 
-              We will see that a pointed infinity category is stable iff it has all finite limits and colimits and pushout and pullback squares coincide. 
-              The correct notion of structure preserving morphisms between stable infinity categories are exact functors. 
-              This gives a subcategory \(\textbf{Cat}_{\infty}^{\mbox{Ex}} \subseteq \textbf{Cat}_{\infty}\) consisting of stable infinity categories and exact functors. 
-              In fact, the infinity category \(\textbf{Cat}_{\infty}^{\mbox{Ex}}\) has all small limits and small filtered colimits, which are preserved by the inclusion \(\textbf{Cat}_{\infty}^{\mbox{Ex}} \subseteq \textbf{Cat}_{\infty}\).
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.1.1"> Lurie, Higher Algebra §1.1 </a>
-                </li>
-              </ul>
-            </div>                                                      
+          </p></div>
+    
+    
+        <div class="abstract">
+        <p></p><p>
+</p><p>
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-16" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-17"><span class="mtext" id="MathJax-Span-18" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-6">\endgroup</script> </div>
+
+</li>
+
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Oct 01 </b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-13" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-14"><span class="mtext" id="MathJax-Span-15" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-5">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240220-Rushil Mallarapu">
+                Equivariant stable homotopy theory 1: G-spectra, homotopy, cohomology, and the spectral mackey functor theorem.
+              </label></h4>
+            <input type="checkbox" id="20240220-Rushil Mallarapu" checked="checked">
+            <label for="20240220-Rushil Mallarapu" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+        <div class="notes"><p>
           
-            <li class="talk">
-            <ul class="meta">
-              <li class="datenow"><b> Mar 10</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">Filtered objects, spectral sequences, and the Dold-Kan correspondence</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">Jit Wu Yap</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              In this talk, we will define the notion of t-structures for a triangulated category, and extend it to the setting of stable \(\infty\)-categories. We will then define the notion of a filtered object in a stable \(\infty\)-category, and construct a spectral sequence that generalizes the spectral sequence of a filtered complex in an abelian category. Finally we will review the classical Dold-Kan correspondence, and then introduce the \(\infty\)-categorical version of it.
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.1.2"> Lurie, Higher Algebra §1.2 </a>
-                </li>
-              </ul>
-            </div>                                                      
+          </p></div>
+    
+    
+        <div class="abstract">
+        <p></p><p>
+</p><p>
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-16" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-17"><span class="mtext" id="MathJax-Span-18" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-6">\endgroup</script> </div>
 
-            <div style="clear:both;">
-            </div> 
-          </li>
+</li>
 
-            <li class="talk">
-            <ul class="meta">
-              <li class="datemon"><b> Mar 21</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">Special talk: monadicity</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">Taeuk Nam</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              Monadicity, aimed at a general audience
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.maths.ox.ac.uk/brantner/L5.pdf"> These notes by Brantner. </a>
-                </li>
-              </ul>
-            </div>                                                      
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Oct 08</b>2024</li>
+<!--
 
-            <div style="clear:both;">
-            </div> 
-          </li>
-            
-          <li class="talk">
-            <ul class="meta">
-              <li class="date"><b> Mar 24</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">The derived \((\infty,1)\)-category of an abelian category</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">Wyatt Reeves</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              ???
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.1.3"> Lurie, Higher Algebra §1.3 </a>
-                </li>
-              </ul>
-            </div>                                                      
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-19" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-20"><span class="mtext" id="MathJax-Span-21" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-7">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240227-Dylan Pentland">Equivariant stable homotopy theory 2: geometric fixed points and the isotropy separation sequence </label></h4>
+            <input type="checkbox" id="20240227-Dylan Pentland" checked="checked">
+            <label for="20240227-Dylan Pentland" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+        <div class="notes"><p></p></div>
+    
+    
+        <div class="abstract">
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-22" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-23"><span class="mtext" id="MathJax-Span-24" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-8">\endgroup</script> </div>
 
-            <div style="clear:both;">
-            </div> 
-          </li>
-            <li class="talk">
-            <ul class="meta">
-              <li class="date"><b> Mar 31</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">The \((\infty,1)\)-category of spectra</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">Keeley Hoek</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              ???
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.1.4"> Lurie, Higher Algebra §1.4 </a>
-                </li>
-              </ul>
-            </div>                                                      
+</li>
 
-            <div style="clear:both;">
-            </div> 
-          </li>
-            <li class="talk">
-            <ul class="meta">
-              <li class="date"><b> Apr 7</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title"> Foundations of \(\infty\)-operads.</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">Rushil?</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              ???
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.2.1"> Lurie, Higher Algebra §2.1 </a>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.6.1"> Lurie, Higher Algebra §6.3 </a> for comparison with (co)monoids in symmetric sequences. 
-                </li>
-              </ul>
-            </div>                                                      
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Oct 22</b>2024</li>
+<!--
 
-            <div style="clear:both;">
-            </div> 
-          </li>
- 
-            <li class="talk">
-            <ul class="meta">
-              <li class="date"><b> Apr 14</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">Constructions of \(\infty\)-Operads</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">???</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              ???
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.2.2"> Lurie, Higher Algebra §2.2 </a>
-                </li>
-              </ul>
-            </div>                                                      
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-19" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-20"><span class="mtext" id="MathJax-Span-21" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-7">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240227-Dylan Pentland">Equivariant stable homotopy theory 3: tensor products and norms of G-spectra 
+              </label></h4>
+            <input type="checkbox" id="20240227-Dylan Pentland" checked="checked">
+            <label for="20240227-Dylan Pentland" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+        <div class="notes"><p></p></div>
+    
+    
+        <div class="abstract">
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-22" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-23"><span class="mtext" id="MathJax-Span-24" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-8">\endgroup</script> </div>
 
-            <div style="clear:both;">
-            </div> 
-          </li>
-            <li class="talk">
-            <ul class="meta">
-              <li class="date"><b> Apr 21</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">Disintegration and assembly</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">???</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              ???
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.2.3"> Lurie, Higher Algebra §2.3 </a>
-                </li>
-              </ul>
-            </div>                                                      
+</li>
 
-            <div style="clear:both;">
-            </div> 
-          </li>
-            <li class="talk">
-            <ul class="meta">
-              <li class="date"><b> Apr 28</b>2022</li>
-            </ul>
-                  
-            <ul class="talk_float">    
-              <h4 class="title">Products and coproducts</h4>
-              <div style="clear: both;"></div>
-           
-              <h3 class="speaker">???</h3>
-              <div style="clear: both;"></div>
-            </ul>
-              
-            <div style="clear:both;">
-              ???
-            </div> 
-                                                              
-            <div class="notes">
-              <h3>References:</h3>
-              <ul>
-                <li>
-                  <a href="https://people.math.harvard.edu/~lurie/papers/HA.pdf#section.2.4"> Lurie, Higher Algebra §2.4 </a>
-                </li>
-              </ul>
-            </div>                                                      
 
-            <div style="clear:both;">
-            </div> 
-          </li>
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Oct 29</b>2024</li>
+<!--
 
-        </ul>
-    <hr style="margin-top: 20px; margin-bottom: 10px;">
-    <p> We would like to acknowledge that this seminar takes place on the traditional, ancestral, and unceded territory of the Massachusett, the Pawtucket, the Wampanoag, and the Nipmuc peoples. They have stewarded for hundreds of generations the land that is now called Cambridge and the areas surrounding it.
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-9-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-25" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-26"><span class="mtext" id="MathJax-Span-27" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-9">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240305-Andy">Equivariant stable homotopy theory 4: the equivariant slice filtration</label></h4>
+            <input type="checkbox" id="20240305-Andy" checked="checked">
+            <label for="20240305-Andy" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+        <div class="abstract">
+        <p></p><p>
+</p><p>
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-10-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-28" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-29"><span class="mtext" id="MathJax-Span-30" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-10">\endgroup</script> </div>
 
-    </div>
-    </div>
-</body>
+</li>
 
+
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Nov 5</b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-11-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-31" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-32"><span class="mtext" id="MathJax-Span-33" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-11">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240319-Piotr">Real bordism and the spectrum \(\Omega\)</label></h4>
+            <input type="checkbox" id="20240319-Piotr" checked="checked">
+            <label for="20240319-Piotr" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+        <div class="notes"><p>
+          </p></div>
+    
+    
+        <div class="abstract">
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-12-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-34" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-35"><span class="mtext" id="MathJax-Span-36" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-12">\endgroup</script> </div>
+
+</li>
+
+
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Nov 12</b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-13-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-37" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-38"><span class="mtext" id="MathJax-Span-39" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-13">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240326-Keita Allen">
+                The slice, reduction, and gap theorems
+              </label>
+            </h4>
+            <input type="checkbox" id="20240326-Keita Allen" checked="checked">
+            <label for="20240326-Keita Allen" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+        <div class="abstract">
+        <p></p><p>
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-15-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-45" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-46"><span class="mtext" id="MathJax-Span-47" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-15">\endgroup</script> </div>
+
+</li>
+
+
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Nov 19</b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-16-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-48" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-49"><span class="mtext" id="MathJax-Span-50" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-16">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title">
+              <input type="checkbox" id="20240402-Tristan Yang" checked="checked">
+            <label for="20240402-Tristan Yang" class="plusminus"> The periodicity and homotopy fixed point theorems</label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+    
+        <div class="abstract">
+        <p></p><p>
+</p><p>
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-18-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-60" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-61"><span class="mtext" id="MathJax-Span-62" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-18">\endgroup</script> </div>
+
+</li>
+
+
+
+
+<li class="talk">
+<ul class="meta">
+  <li class="date"><b> Dec 3</b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-21-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-69" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-70"><span class="mtext" id="MathJax-Span-71" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-21">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240416-Ishan">The detection theorem</label></h4>
+            <input type="checkbox" id="20240416-Ishan" checked="checked">
+            <label for="20240416-Ishan" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+    
+        <div class="abstract">
+        <p></p><p>
+</p><p>
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-22-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-72" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-73"><span class="mtext" id="MathJax-Span-74" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-22">\endgroup</script> </div>
+
+</li>
+
+
+<li class="talk">
+<ul class="meta">
+<li class="date"><b> Dec 10</b>2024</li>
+<!--
+
+-->
+</ul>
+  
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-23-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\begingroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-75" style="width: 5.251em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.321em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1005.29em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-76"><span class="mtext" id="MathJax-Span-77" style="font-family: MathJax_Main; color: red;">\begingroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\begingroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-23">\begingroup</script> </div>
+    <ul class="talk_float">  <!-- This ul is to make it so we can clear the title/abstract float without clearing the meta float.
+                                Clearing the meta float causes too big of a gap between the title and the name of the speaker-->    
+    
+        
+            <!-- This is a hack to make the abstract open/closer work without javascript. -->
+            <h4 class="title"><label for="20240423-Isabel Longbottom">More? </label></h4>
+            <input type="checkbox" id="20240423-Isabel Longbottom" checked="checked">
+            <label for="20240423-Isabel Longbottom" class="plusminus"></label>  
+        
+        <div style="clear: both;"></div>
+    
+    
+        <h3 class="speaker">TBD</h3>
+        <div style="clear: both;"></div>
+    
+    
+    
+    
+        <div class="abstract">
+        <p></p><p>
+</p><p>
+</p>
+<p></p>
+<p></p>
+        </div>
+    
+    </ul><div style="clear:both;"></div> <!-- close talk_float div, and it needs to be cleared -->
+    <div class="begroup">  <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-24-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mtext mathcolor=&quot;red&quot;&gt;\endgroup&lt;/mtext&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-78" style="width: 4.523em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.592em; height: 0px; font-size: 98%;"><span style="position: absolute; clip: rect(1.291em, 1004.56em, 2.728em, -1000em); top: -2.259em; left: 0em;"><span class="mrow" id="MathJax-Span-79"><span class="mtext" id="MathJax-Span-80" style="font-family: MathJax_Main; color: red;">\endgroup</span></span><span style="display: inline-block; width: 0px; height: 2.259em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.316em; border-left: 0px solid; width: 0px; height: 1.123em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext mathcolor="red">\endgroup</mtext></math></span></span><script type="math/tex" id="MathJax-Element-24">\endgroup</script> </div>
+
+</li>
+
+
+</ul><!--talks-->
+
+
+
+
+<p> 
+This seminar 
+
+   is
+
+organized by <a href="mailto:ishanl@mit.edu, piotr@math.harvard.edu, senger@math.harvard.edu">Ishan Levy, Piotr Pstragowski, and Andy Senger</a>.
+</p>
+
+
+</div><!--content-->
+
+
+<ul id="bottombar">
+  <li><a href="mailto:ishanl@mit.edu">Contact Webmaster</a></li>
+</ul>
+
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: italic; font-size-adjust: none; font-family: MathJax_Math, sans-serif;"></div></div></body></html>

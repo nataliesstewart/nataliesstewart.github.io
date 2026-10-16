@@ -1,6 +1,6 @@
 % i assure you, there's no reason to be reading this file
 % the designated based character
-\def\base{{\mathfrak{B}}}
+\newcommand{\base}{{\mathfrak{B}}}
 
 % special characters
 \renewcommand{\AA}{{\mathbb{A}}}
@@ -30,18 +30,20 @@
 \newcommand{\YY}{{\mathbb{Y}}}
 \newcommand{\ZZ}{{\mathbb{Z}}}
 
-\def\sA{{\mathscr{A}}}
-\def\sB{{\mathscr{B}}}
-\def\sC{{\mathscr{C}}}
-\def\sD{{\mathscr{D}}}
-\def\sF{{\mathscr{F}}}
-\def\sG{{\mathscr{G}}}
-\def\sH{{\mathscr{H}}}
-\def\sI{{\mathscr{I}}}
-\def\sL{{\mathscr{L}}}
-\def\sN{{\mathscr{N}}}
-\def\sO{{\mathscr{O}}}
-\def\sP{{\mathscr{P}}}
+\newcommand{\uS}{\underline{S}}
+
+\newcommand{\sA}{{\mathscr{A}}}
+\newcommand{\sB}{{\mathscr{B}}}
+\newcommand{\sC}{{\mathscr{C}}}
+\newcommand{\sD}{{\mathscr{D}}}
+\newcommand{\sF}{{\mathscr{F}}}
+\newcommand{\sG}{{\mathscr{G}}}
+\newcommand{\sH}{{\mathscr{H}}}
+\newcommand{\sI}{{\mathscr{I}}}
+\newcommand{\sL}{{\mathscr{L}}}
+\newcommand{\sN}{{\mathscr{N}}}
+\newcommand{\sO}{{\mathscr{O}}}
+\newcommand{\sP}{{\mathscr{P}}}
 
 \newcommand{\cA}{{\mathcal{A}}}
 \newcommand{\cB}{{\mathcal{B}}}
@@ -70,41 +72,39 @@
 \newcommand{\cY}{{\mathcal{Y}}}
 \newcommand{\cZ}{{\mathcal{Z}}}
 
-\def\fC{{\mathfrak{C}}}
-\def\fD{{\mathfrak{D}}}
-\def\fJ{{\mathfrak{J}}}
-\def\fO{{\mathfrak{O}}}
-\def\fP{{\mathfrak{P}}}
-\def\fQ{{\mathfrak{Q}}}
-\def\fR{{\mathfrak{R}}}
-\def\fS{{\mathfrak{S}}}
-\def\fX{{\mathfrak{X}}}
+\newcommand{\fC}{{\mathfrak{C}}}
+\newcommand{\fD}{{\mathfrak{D}}}
+\newcommand{\fJ}{{\mathfrak{J}}}
+\newcommand{\fO}{{\mathfrak{O}}}
+\newcommand{\fP}{{\mathfrak{P}}}
+\newcommand{\fQ}{{\mathfrak{Q}}}
+\newcommand{\fR}{{\mathfrak{R}}}
+\newcommand{\fS}{{\mathfrak{S}}}
+\newcommand{\fX}{{\mathfrak{X}}}
 
-\def\fa{\mathfrak{a}}
-\def\fb{\mathfrak{b}}
-\def\fc{\mathfrak{c}}
-\def\fm{\mathfrak{m}}
-\def\fp{\mathfrak{p}}
-\def\fq{\mathfrak{q}}
-\def\fr{\mathfrak{r}}
+\newcommand{\fa}{\mathfrak{a}}
+\newcommand{\fb}{\mathfrak{b}}
+\newcommand{\fc}{\mathfrak{c}}
+\newcommand{\fm}{\mathfrak{m}}
+\newcommand{\fp}{\mathfrak{p}}
+\newcommand{\fq}{\mathfrak{q}}
+\newcommand{\fr}{\mathfrak{r}}
 
-\def\bx{\mathbf{x}}
-\def\by{\mathbf{y}}
-\def\bC{\mathbf{C}}
-\def\bG{\mathbf{G}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+\newcommand{\bC}{\mathbf{C}}
+\newcommand{\bG}{\mathbf{G}}
 
-\def\uI{\underline{I}}
+\newcommand{\uI}{\underline{I}}
+\newcommand{\uV}{\underline{V}}
 
-\def\uV{\underline{V}}
-\def\uW{\underline{W}}
-
-\def\ucM{\underline{\cM}}
-\def\ucO{\underline{\cO}}
-\def\ucS{\underline{\cS}}
+\newcommand{\ucM}{\underline{\cM}}
+\newcommand{\ucO}{\underline{\cO}}
+\newcommand{\ucS}{\underline{\cS}}
 
 \newcommand{\uFF}{{\underline{\FF}}}
 
-\def\uSp{\underline{\Sp}}
+\newcommand{\uSp}{\underline{\Sp}}
 
 % Brackets and such
 \newcommand{\abs}[1]{\left| #1 \right|}
@@ -119,73 +119,69 @@
 \newcommand{\dlim}{{\displaystyle\lim}}
 \newcommand{\colim}{{\operatorname{colim}}}
 \newcommand{\ucolim}{{\underline{\colim}}}
-\def\dcolim{\operatornamewithlimits{colim}}
-\def\dprod{\displaystyle\prod}
-\def\dcoprod{\displaystyle\coprod}
-\def\dsum{\displaystyle\sum}
+\newcommand{\dcolim}{\operatornamewithlimits{colim}}
+\newcommand{\dprod}{\displaystyle\prod}
+\newcommand{\dcoprod}{\displaystyle\coprod}
+\newcommand{\dsum}{\displaystyle\sum}
 
 \newcommand{\LKE}{\operatorname{LKE}}
 \newcommand{\RKE}{\operatorname{RKE}}
 
-\def\dcircledast{\displaystyle\circledast}
+\newcommand{\dcircledast}{\displaystyle\circledast}
 
 % title macros
-\def\tcT{\texorpdfstring{$\cT$}{T}}
-\def\tn{\texorpdfstring{$n$}{n}}
-\def\tE{\texorpdfstring{$E$}{E}}
-\def\tG{\texorpdfstring{$G$}{G}}
-\def\tI{\texorpdfstring{$I$}{I}}
-\def\tV{\texorpdfstring{$V$}{V}}
-\def\td{\texorpdfstring{$d$}{d}}
-\def\tinfty{\texorpdfstring{$\infty$}{∞}}
-\def\tOel{\texorpdfstring{$\cO^{\el}$}{Oel}}
-\def\tcO{\texorpdfstring{$\cO$}{O}}
+\newcommand{\tcT}{\texorpdfstring{$\cT$}{T}}
+\newcommand{\tn}{\texorpdfstring{$n$}{n}}
+\newcommand{\tE}{\texorpdfstring{$E$}{E}}
+\newcommand{\tG}{\texorpdfstring{$G$}{G}}
+\newcommand{\tI}{\texorpdfstring{$I$}{I}}
+\newcommand{\tV}{\texorpdfstring{$V$}{V}}
+\newcommand{\td}{\texorpdfstring{$d$}{d}}
+\newcommand{\tinfty}{\texorpdfstring{$\infty$}{∞}}
+\newcommand{\tOel}{\texorpdfstring{$\cO^{\el}$}{Oel}}
+\newcommand{\tcO}{\texorpdfstring{$\cO$}{O}}
 
 % operators
-\def\emptyset{\varnothing}
-\def\meet{\wedge}
-\def\join{\vee}
-\def\deq{\coloneqq}
-\def\cln{\colon}
+\renewcommand{\emptyset}{\varnothing}
+\newcommand{\deq}{\coloneqq}
+\newcommand{\cln}{\colon}
 \newcommand{\heart}{\ensuremath\heartsuit}
 
 % algebras and such
-\def\CMon{\mathrm{CMon}}
-\def\uCMon{\underline{\CMon}}
-\def\PCMon{\mathrm{PCMon}}
-\def\uPCMon{\underline{\PCMon}}
-\def\CAlg{\mathrm{CAlg}}
-\def\uCAlg{\underline{\CAlg}}
-\def\Alg{\mathrm{Alg}}
-\def\uAlg{\underline{\Alg}}
-\def\Mon{\mathrm{Mon}}
-\def\uMon{\underline{\Mon}}
+\newcommand{\CMon}{\mathrm{CMon}}
+\newcommand{\uCMon}{\underline{\CMon}}
+\newcommand{\PCMon}{\mathrm{PCMon}}
+\newcommand{\uPCMon}{\underline{\PCMon}}
+\newcommand{\CAlg}{\mathrm{CAlg}}
+\newcommand{\uCAlg}{\underline{\CAlg}}
+\newcommand{\Alg}{\mathrm{Alg}}
+\newcommand{\uAlg}{\underline{\Alg}}
+\newcommand{\Mon}{\mathrm{Mon}}
+\newcommand{\uMon}{\underline{\Mon}}
 
 
 % equivariant things
-\def\Glo{\mathrm{Glo}}
-\def\Orb{\mathrm{Orb}}
-\def\CoFr{\mathrm{CoFr}}
-\def\uCoFr{\underline{\CoFr}}
-\def\Bor{\mathrm{Bor}}
-\def\Infl{\mathrm{Infl}}
-\def\Ind{\mathrm{Ind}}
-\def\CoInd{\mathrm{CoInd}}
+\newcommand{\Glo}{\mathrm{Glo}}
+\newcommand{\Orb}{\mathrm{Orb}}
+\newcommand{\CoFr}{\mathrm{Coeff}}
+\newcommand{\uCoFr}{\underline{\CoFr}}
+\newcommand{\Bor}{\mathrm{Bor}}
+\newcommand{\Infl}{\mathrm{Infl}}
+\newcommand{\Ind}{\mathrm{Ind}}
+\newcommand{\CoInd}{\mathrm{CoInd}}
 
 \newcommand{\tot}{{\operatorname{Tot}}}
 \newcommand{\Tot}{{\operatorname{Tot}}}
-\newcommand{\dis}{{\operatorname{dis}}}
-\def\uAst{\underline{*}}
+\newcommand{\uAst}{\underline{*}}
 \newcommand{\Res}{\operatorname{Res}}
 
-\def\utright{\underline{\triangleright}}
-\def\utleft{\underline{\triangleleft}}
-\def\utr{\underline{\triangleright}}
-\def\utl{\underline{\triangleleft}}
+\newcommand{\utright}{\underline{\triangleright}}
+\newcommand{\utleft}{\underline{\triangleleft}}
+\newcommand{\utr}{\underline{\triangleright}}
+\newcommand{\utl}{\underline{\triangleleft}}
 
 % categorical things
 \newcommand{\Fun}{{\operatorname{Fun}}}
-\newcommand{\Fam}{{\mathrm{fam}}}
 \newcommand{\uFun}{{\underline{\Fun}}}
 \newcommand{\Hom}{\operatorname{Hom}}
 \newcommand{\Aut}{\operatorname{Aut}}
@@ -193,26 +189,26 @@
 \newcommand{\Map}{\operatorname{Map}}
 \newcommand{\Span}{\operatorname{Span}}
 
-\def\Trip{\mathrm{Trip}}
-\def\Adeq{\mathrm{Adeq}}
+\newcommand{\Trip}{\mathrm{Trip}}
+\newcommand{\Adeq}{\mathrm{Adeq}}
 
-\def\Lan{\operatorname{Lan}}
-\def\Ran{\operatorname{Ran}}
+\newcommand{\Lan}{\operatorname{Lan}}
+\newcommand{\Ran}{\operatorname{Ran}}
 
-\def\op{\operatorname{op}}
-\def\gr{\operatorname{gr}}
+\newcommand{\op}{\operatorname{op}}
+\newcommand{\gr}{\operatorname{gr}}
 
-\def\cart{\mathrm{cart}}
-\def\semi{\mathrm{sAdd}}
+\newcommand{\cart}{\mathrm{cart}}
+\newcommand{\semi}{\mathrm{sAdd}}
 
-\def\Mode{\mathrm{mode}}
+\newcommand{\Mode}{\mathrm{mode}}
 
-\def\Fil{\mathrm{Fil}}
+\newcommand{\Fil}{\mathrm{Fil}}
 
-\def\Disk{\mathrm{Disk}}
-\def\uDisk{\underline{\Disk}}
-\def\Mfld{\mathrm{Mfld}}
-\def\uMfld{\underline{\Mfld}}
+\newcommand{\Disk}{\mathrm{Disk}}
+\newcommand{\uDisk}{\underline{\Disk}}
+\newcommand{\Mfld}{\mathrm{Mfld}}
+\newcommand{\uMfld}{\underline{\Mfld}}
 
 \newcommand{\AlgPatt}{{\mathrm{AlgPatt}}}
 \newcommand{\uAlgPatt}{{\underline{\AlgPatt}}}
@@ -220,280 +216,260 @@
 \newcommand{\el}{{\mathrm{el}}}
 \newcommand{\Int}{\mathrm{int}}
 
-\def\ess{\operatorname{ess}}
+\renewcommand{\Top}{\mathrm{Top}}
 
-\def\id{\operatorname{id}}
+\newcommand{\ess}{\operatorname{ess}}
+
+\newcommand{\id}{\operatorname{id}}
 
 
 % Misc objects of interest
-\def\BO{\mathrm{BO}}
+\newcommand{\BO}{\mathrm{BO}}
 \newcommand{\BPRn}[1]{BP_{\RR}\left< #1 \right>}
-\def\RRP{\mathbb{RP}}
-\def\CCP{\mathbb{CP}}
+\newcommand{\RRP}{\mathbb{RP}}
+\newcommand{\CCP}{\mathbb{CP}}
 
-\def\SO{\operatorname{SO}}
-\def\O{\operatorname{O}}
-\def\SU{\operatorname{SU}}
-\def\U{\operatorname{U}}
-\def\GL{\operatorname{GL}}
-\def\Sp{\operatorname{Sp}}
-\def\SL{\operatorname{SL}}
-\def\PSL{\operatorname{PSL}}
-\def\PGL{\operatorname{PGL}}
+\newcommand{\SO}{\operatorname{SO}}
+\newcommand{\SU}{\operatorname{SU}}
+\newcommand{\U}{\operatorname{U}}
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\Sp}{\operatorname{Sp}}
+\newcommand{\SL}{\operatorname{SL}}
+\newcommand{\PSL}{\operatorname{PSL}}
+\newcommand{\PGL}{\operatorname{PGL}}
 
-\def\BPR{BP_{\RR}}
-\def\BP{BP}
+\newcommand{\BPR}{BP_{\RR}}
+\newcommand{\BP}{BP}
 
-\def\MU{\mathrm{MU}}
-\def\MUR{\mathrm{MU}_{\RR}}
-\def\BU{\mathrm{BU}}
-\def\BUR{\mathrm{BU}_{\RR}}
-\def\BSU{\mathrm{BSU}}
-\def\BSUR{\mathrm{BSU}_{\RR}}
-\def\SUR{\mathrm{SU}_{\RR}}
+\newcommand{\MU}{\mathrm{MU}}
+\newcommand{\MUR}{\mathrm{MU}_{\RR}}
+\newcommand{\BU}{\mathrm{BU}}
+\newcommand{\BUR}{\mathrm{BU}_{\RR}}
+\newcommand{\BSU}{\mathrm{BSU}}
+\newcommand{\BSUR}{\mathrm{BSU}_{\RR}}
+\newcommand{\SUR}{\mathrm{SU}_{\RR}}
 
 % Names of categories
-\def\Set{\mathrm{Set}}
-\def\Grp{\mathrm{Grp}}
-\def\Cat{\mathrm{Cat}}
-\def\uCat{\underline{\Cat}}
-\def\Top{\mathrm{Top}}
-\def\CW{\mathbf{CW}}
-\def\Mod{\mathrm{Mod}}
-\def\Ring{\mathbf{Ring}}
-\def\Poset{\mathrm{Poset}}
+\newcommand{\Set}{\mathrm{Set}}
+\newcommand{\Grp}{\mathrm{Grp}}
+\newcommand{\Cat}{\mathrm{Cat}}
+\newcommand{\uCat}{\underline{\Cat}}
+\newcommand{\CW}{\mathbf{CW}}
+\newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\Ring}{\mathbf{Ring}}
+\newcommand{\Poset}{\mathrm{Poset}}
 \newcommand{\Ab}{\mathbf{Ab}}
-\def\Fin{\mathbf{Fin}}
-\def\Rep{\mathbf{Rep}}
-\def\Comm{\mathrm{Comm}}
+\newcommand{\Fin}{\mathbf{Fin}}
+\newcommand{\Rep}{\mathbf{Rep}}
+\newcommand{\Comm}{\mathrm{Comm}}
 \newcommand{\Op}{{\mathrm{Op}}}
 
-\def\Ar{\mathrm{Ar}}
+\newcommand{\Ar}{\mathrm{Ar}}
 \newcommand{\uOp}{{\underline{\Op}}}
 
 % Misc
 \newcommand{\txt}[2]{\operatorname{#1} \prn{#2}}
-\def\red{\operatorname{red}}
+\newcommand{\red}{\operatorname{red}}
 
-\def\seg{\mathrm{seg}}
+\newcommand{\seg}{\mathrm{seg}}
 
-\def\pr{\operatorname{pr}}
-\def\ev{\operatorname{ev}}
-\def\In{\operatorname{in}}
-\def\Gr{\operatorname{Gr}}
-\def\inj{\operatorname{inj}}
-\def\cod{\operatorname{cod}}
-\def\ab{\operatorname{ab}}
-\def\dom{\operatorname{dom}}
-\def\Tor{\operatorname{Tor}}
-\def\Hom{\operatorname{Hom}}
-\def\Ext{\operatorname{Ext}}
-\def\Ob{\operatorname{Ob}}
-\def\Mor{\operatorname{Mor}}
+\newcommand{\pr}{\operatorname{pr}}
+\newcommand{\ev}{\operatorname{ev}}
+\newcommand{\In}{\operatorname{in}}
+\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\inj}{\operatorname{inj}}
+\newcommand{\cod}{\operatorname{cod}}
+\newcommand{\ab}{\operatorname{ab}}
+\newcommand{\dom}{\operatorname{dom}}
+\newcommand{\Tor}{\operatorname{Tor}}
+\newcommand{\Ext}{\operatorname{Ext}}
+\newcommand{\Ob}{\operatorname{Ob}}
+\newcommand{\Mor}{\operatorname{Mor}}
 
-\def\Gal{\operatorname{Gal}}
+\newcommand{\Gal}{\operatorname{Gal}}
 
-\def\sh{\operatorname{sh}}
-\def\Sh{\operatorname{Sh}}
-\def\Psh{\operatorname{Psh}}
+\newcommand{\sh}{\operatorname{sh}}
+\newcommand{\Sh}{\operatorname{Sh}}
+\newcommand{\Psh}{\operatorname{Psh}}
 
-\def\codim{\operatorname{codim}}
+\newcommand{\codim}{\operatorname{codim}}
+\newcommand{\Norm}{\mathrm{Norm}}
 
-\def\Map{\operatorname{Map}}
+\newcommand{\A}{\operatorname{A}}
 
-\def\Norm{\mathrm{Norm}}
+\newcommand{\Fact}{\mathrm{Fact}}
+\newcommand{\uFact}{\underline{Fact}}
 
-\def\A{\operatorname{A}}
+\newcommand{\Un}{\mathrm{Un}}
 
-\def\Fact{\mathrm{Fact}}
-\def\uFact{\underline{Fact}}
-
-\def\Un{\mathrm{Un}}
-
-\def\RO{\operatorname{RO}}
-\def\Fr{\operatorname{Fr}}
+\newcommand{\RO}{\operatorname{RO}}
+\newcommand{\Fr}{\operatorname{Fr}}
 
 
-\def\eff{\mathrm{eff}}
-\def\Free{\mathrm{Free}}
+\newcommand{\eff}{\mathrm{eff}}
+\newcommand{\Free}{\mathrm{Free}}
 
-\def\Mtilde{\widetilde{\mathrm{Mod}}^{\cO}(\cC)^{\otimes}}
-\def\Mbar{\overline{\mathrm{Mod}}^{\cO}(\cC)^{\otimes}}
-\def\Mb{\Mbar}
-\def\Atilde{\widetilde{\mathrm{Alg}}^{\cO}(\cC)^{\otimes}}
-\def\Abar{\overline{\mathrm{Alg}}^{\cO}(\cC)^{\otimes}}
+\newcommand{\Mtilde}{\widetilde{\mathrm{Mod}}^{\cO}(\cC)^{\otimes}}
+\newcommand{\Mbar}{\overline{\mathrm{Mod}}^{\cO}(\cC)^{\otimes}}
+\newcommand{\Mb}{\Mbar}
+\newcommand{\Atilde}{\widetilde{\mathrm{Alg}}^{\cO}(\cC)^{\otimes}}
+\newcommand{\Abar}{\overline{\mathrm{Alg}}^{\cO}(\cC)^{\otimes}}
 
-\def\fil{\mathrm{fil}}
+\newcommand{\fil}{\mathrm{fil}}
 
 \newcommand{\Mul}{{\mathrm{Mul}}}
 
-\def\triv{\mathrm{triv}}
+\newcommand{\triv}{\mathrm{triv}}
 
 
-\def\Aug{\mathrm{Aug}}
+\newcommand{\Aug}{\mathrm{Aug}}
 
-\def\Q{\mathcal{Q}}
-
-\def\Seg{\mathrm{Seg}}
-\def\uSeg{\underline{\Seg}}
-\def\Fibr{\mathrm{Fbrs}}
-\def\Fbrs{\Fibr}
-\def\uFbrs{\underline{\Fbrs}}
-\def\Env{\mathrm{Env}}
-
-\def\sA{\mathscr{A}}
-
-\def\Ftv{\underline{\mathbb{F}}^V_{\cT}}
-\def\Ftp{\underline{\mathbb{F}}_{\cT,*}}
-
-\def\ugAlgPatt{\uAlgPatt^{\mathrm{SEIS}}}
-
-\newcommand*\circled[1]{{\scalebox{0.2}{\tikz[baseline=(char.base)]{
-            \node[shape=circle,draw,inner sep=2pt] (char) {\scalebox{2}{#1}};}}}}
-
-\def\usseq{\underline{\sseq}}
+\newcommand{\Seg}{\mathrm{Seg}}
+\newcommand{\uSeg}{\underline{\Seg}}
+\newcommand{\Fibr}{\mathrm{Fbrs}}
+\newcommand{\Fbrs}{\Fibr}
+\newcommand{\uFbrs}{\underline{\Fbrs}}
+\newcommand{\Env}{\mathrm{Env}}
 
 
-\def\adeq{\mathrm{adeq}}
-\def\SSeg{\mathrm{SSeg}}
-\def\uSupp{\mathrm{uniSupp}}
+\newcommand{\Ftv}{\underline{\mathbb{F}}^V_{\cT}}
+\newcommand{\Ftp}{\underline{\mathbb{F}}_{\cT,*}}
 
-\def\cocart{\mathrm{cocart}}
+\newcommand{\ugAlgPatt}{\uAlgPatt^{\mathrm{SEIS}}}
 
-\def\cSupp{\operatorname{cSupp}}
-
-\def\Sub{\mathrm{Sub}}
-
-\def\Transf{\mathrm{Transf}}
-
-\def\TrSys{\mathrm{Transf}}
-
-\def\Family{\mathrm{Fam}}
-\def\Fam{\Family}
-
-\def\oOp{\overline{\Op}}
-\def\wuni{\mathrm{wuni}}
-\def\uni{\mathrm{uni}}
-\def\owIndSys{\wIndSys^{\uni}}
+\newcommand{\usseq}{\underline{\sseq}}
 
 
+\newcommand{\adeq}{\mathrm{adeq}}
+\newcommand{\SSeg}{\mathrm{SSeg}}
+\newcommand{\uSupp}{\mathrm{uniSupp}}
+
+\newcommand{\cocart}{\mathrm{cocart}}
+
+\newcommand{\cSupp}{\operatorname{cSupp}}
+
+\newcommand{\Sub}{\mathrm{Sub}}
+
+\newcommand{\Transf}{\mathrm{Transf}}
+
+\newcommand{\TrSys}{\mathrm{Transf}}
+
+\newcommand{\Family}{\mathrm{Fam}}
+\newcommand{\Fam}{\Family}
+
+\newcommand{\oOp}{\overline{\Op}}
+\newcommand{\uni}{\mathrm{uni}}
+\newcommand{\owIndSys}{\wIndSys^{\uni}}
+
+\newcommand{\oc}{\mathrm{oc}}
+\newcommand{\sn}{\oc}
+
+\newcommand{\Quad}{\mathrm{Quad}}
+
+\newcommand{\sseq}{\operatorname{sseq}}
+
+\newcommand{\IndSys}{\mathrm{Index}}
+\newcommand{\wIndSys}{\mathrm{w}\IndSys}
+\newcommand{\uwIndSys}{\underline{\wIndSys}}
+\newcommand{\IndCat}{\mathrm{IndexCat}}
 
 
-\def\wu{\wuni}
-\def\oc{\mathrm{oc}}
-\def\sn{\oc}
+\newcommand{\Bispan}{\mathrm{Bispan}}
+\newcommand{\dist}{\mathrm{dist}}
+\newcommand{\Tamb}{\mathrm{Tamb}}
+\newcommand{\uTamb}{\underline{\Tamb}}
 
-\def\Quad{\mathrm{Quad}}
+\newcommand{\St}{\mathrm{St}}
 
-\def\sseq{\operatorname{sseq}}
+\newcommand{\tr}{\mathrm{tr}}
 
-\def\IndSys{\mathrm{Index}}
-\def\wIndSys{\mathrm{w}\IndSys}
-\def\uwIndSys{\underline{\wIndSys}}
-\def\IndCat{\mathrm{IndexCat}}
+\newcommand{\dotimes}{\displaystyle{\otimes}}
 
+\newcommand{\sSet}{\mathrm{sSet}}
 
-\def\Bispan{\mathrm{Bispan}}
-\def\dist{\mathrm{dist}}
-\def\Tamb{\mathrm{Tamb}}
-\def\uTamb{\underline{\Tamb}}
+\newcommand{\uGamma}{\underline{\Gamma}}
 
-\def\St{\mathrm{St}}
-
-\def\tr{\mathrm{tr}}
-
-\def\dotimes{\displaystyle{\otimes}}
-
-\def\sSet{\mathrm{sSet}}
-
-\def\uGamma{\underline{\Gamma}}
-
-\def\uSigma{\underline{\Sigma}}
-\def\ouSigma{\overline{\underline{\Sigma}}}
-\def\uoSigma{\overline{\underline{\Sigma}}}
+\newcommand{\uSigma}{\underline{\Sigma}}
+\newcommand{\ouSigma}{\overline{\underline{\Sigma}}}
+\newcommand{\uoSigma}{\overline{\underline{\Sigma}}}
 
 \newcommand{\myrightleftarrows}[1]{\mathrel{\substack{\xrightarrow{#1} \\[-.9ex] \xleftarrow{#1}}}}
-\def\longrightleftarrows{\myrightleftarrows{\rule{3em}{0cm}}}
+\newcommand{\longrightleftarrows}{\myrightleftarrows{\rule{3em}{0cm}}}
 
-\def\Cl{\mathrm{Cl}}
-\def\ho{\mathrm{ho}}
+\newcommand{\Cl}{{\mathrm{Cl}}}
+\newcommand{\ho}{\mathrm{ho}}
 
-\def\Coll{\mathrm{Coll}}
-\def\Sieve{\mathrm{Sieve}}
-\def\Codomain{\mathrm{Cod}}
-\def\Cod{\Codomain}
-\def\Domain{\mathrm{Dom}}
+\newcommand{\Coll}{\mathrm{Coll}}
+\newcommand{\Sieve}{\mathrm{Sieve}}
+\newcommand{\Codomain}{\mathrm{Cod}}
+\newcommand{\Cod}{\Codomain}
+\newcommand{\Domain}{\mathrm{Dom}}
 
-\def\uSub{\underline{\Sub}}
-\def\wIndCat{\mathrm{wIndexCat}}
-\def\wIndcat{\wIndCat}
-\def\uwIndCat{\underline{\wIndcat}}
+\newcommand{\uSub}{\underline{\Sub}}
+\newcommand{\wIndCat}{\mathrm{wIndexCat}}
+\newcommand{\wIndcat}{\wIndCat}
+\newcommand{\uwIndCat}{\underline{\wIndcat}}
 
-\def\Tr{\mathrm{Trf}}
-\def\D{\mathrm{Dom}}
-\def\CD{\mathrm{CoDom}}
+\newcommand{\Tr}{\mathrm{Trf}}
+\newcommand{\CD}{\mathrm{CoDom}}
 
 
-\def\Glo{\mathbf{Glo}}
-\def\bOrb{\mathbf{Orb}}
-\def\fG{\mathfrak{Gl}}
+\newcommand{\bOrb}{\mathbf{Orb}}
+\newcommand{\fG}{\mathfrak{Gl}}
 
-\def\cln{\colon}
+\newcommand{\stab}{\mathrm{stab}}
+\newcommand{\tCpN}{\texorpdfstring{$C_{p^n}$}{Cpn}}
+\newcommand{\tCp}{\texorpdfstring{$C_{p}$}{Cp}}
+\newcommand{\tN}{\texorpdfstring{$N$}{N}}
+\newcommand{\Istrp}{\mathrm{Istrp}}
+\newcommand{\Sv}{\mathscr{S}}
 
-\def\stab{\mathrm{stab}}
-\def\tCpN{\texorpdfstring{$C_{p^n}$}{Cpn}}
-\def\tCp{\texorpdfstring{$C_{p}$}{Cp}}
-\def\tN{\texorpdfstring{$N$}{N}}
-\def\Istrp{\mathrm{Istrp}}
-\def\Sv{\mathscr{S}}
+\newcommand{\FS}{{\mathfrak{S}}}
+\newcommand{\FSp}{\mathrm{FullSub}^*}
+\newcommand{\sparse}{\mathrm{sprs}}
 
-\def\FS{{\mathfrak{S}}}
-\def\FSp{\mathrm{FullSub}^*}
-\def\sparse{\mathrm{sprs}}
+\newcommand{\uAut}{\underline{\Aut}}
+\newcommand{\ssseq}{s\mathrm{sseq}}
+\newcommand{\bD}{\mathbf{D}}
+\newcommand{\uK}{\underline{K}}
+\newcommand{\ucK}{\underline{\mathcal{\cK}}}
+\newcommand{\mspc}{\hspace{-9pt}}
+\newcommand{\uSet}{\underline{\Set}}
+\newcommand{\PrLS}{\mathrm{Pr}^{L, I-\oplus}}
 
-\def\uAut{\underline{\Aut}}
-\def\ssseq{s\mathrm{sseq}}
-\def\wIndCat{\mathrm{wIndexCat}}
-\def\bD{\mathbf{D}}
-\def\uK{\underline{K}}
-\def\ucK{\underline{\mathcal{\cK}}}
-\def\mspc{\hspace{-9pt}}
-\def\uSet{\underline{\Set}}
-\def\PrLS{\mathrm{Pr}^{L, I-\oplus}}
+\newcommand{\ulim}{\underline{\lim}}
 
-\def\ulim{\underline{\lim}}
+\newcommand{\wide}{\mathrm{wide}}
+\newcommand{\Can}{\mathrm{Can}}
+\newcommand{\BV}{\mathrm{BV}}
+\newcommand{\equi}{\mathrm{equi}}
+\newcommand{\Day}{\mathrm{Day}}
 
-\def\wide{\mathrm{wide}}
-\def\Can{\mathrm{Can}}
-\def\BV{\mathrm{BV}}
-\def\equi{\mathrm{equi}}
-\def\Day{\mathrm{Day}}
-\def\ho{\mathrm{ho}}
+\newcommand{\upi}{\underline{\pi}}
 
-\def\upi{\underline{\pi}}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\uU}{\underline{U}}
 
-\def\bA{\mathbf{A}}
-\def\bB{\mathbf{B}}
-\def\uU{\underline{U}}
+\newcommand{\ptw}{\mathrm{ptws}}
 
-\def\ptw{\mathrm{ptws}}
+\newcommand{\sOp}{\mathrm{sOp}}
 
-\def\cln{\colon}
-\def\sOp{\mathrm{sOp}}
-\def\cV{\mathcal{V}}
+\makeatletter
+\newcommand{\oset}[2]{%
+  {\mathop{#2}\limits^{\vbox to -.4\ex@{\kern-\tw@\ex@
+   \hbox{\scriptsize #1}\vss}}}}
+\makeatother
 
-\def\obv{\stackrel{\textrm{\tiny BV}}{\otimes}}
-\def\cL{\mathcal{L}}
+%\newcommand{\obv{\stackrel{\textrm{\fontsize{5}{5}\selectfont \rm BV}\vspace{-1pt}}{\otimes}}
+\newcommand{\obv}{{\, \oset{\textrm{\fontsize{4}{4}\selectfont \rm BV}}{\otimes}\,}}
 
-\def\uPr{\underline{\Pr}}
+\newcommand{\uPr}{\underline{\Pr}}
 
-\def\uSpan{\underline{\Span}}
+\newcommand{\uSpan}{\underline{\Span}}
 
-\def\CoFr{\mathrm{Coeff}}
-\def\Conf{\operatorname{Conf}}
+\newcommand{\Conf}{\operatorname{Conf}}
 
-\def\Cl{\mathrm{Cl}}
-\def\uAst{*}
 
 \newcommand{\zerodisplayskips}{%
   \setlength{\abovedisplayskip}{0pt}%
@@ -504,3 +480,108 @@
 \newcommand{\noafterskip}{%
   \setlength{\belowdisplayskip}{-7pt}%
   \setlength{\belowdisplayshortskip}{-7pt}}
+
+  \usepackage{stmaryrd} % spoke
+  \newcommand{\vop}{\mathrm{vop}}
+  \newcommand{\PreOp}{\mathrm{PreOp}}
+  \newcommand{\RMod}{\mathrm{RMod}}
+  \newcommand{\uA}{\underline{A}}
+  \newcommand{\Nm}{\mathrm{Nm}}
+  \newcommand{\uwIndex}{\underline{\wIndSys}}
+  \newcommand{\uW}{\underline{W}}
+  \newcommand{\THR}{\mathrm{THR}}
+  \newcommand{\THH}{\mathrm{THH}}
+  \newcommand{\TCR}{\mathrm{TCR}}
+  \newcommand{\ptws}{\mathrm{ptws}}
+  \newcommand{\RCyc}{\mathbb{R}\mathrm{CycSp}}
+  \newcommand{\uRCyc}{\underline{\RCyc}}
+  \newcommand{\spoke}{\Yright}
+
+  \newcommand{\dis}{\mathrm{dis}}
+  \newcommand{\strat}{\mathrm{strat}}
+  \newcommand{\tdeg}{\mathrm{tdeg}}
+
+  \newcommand{\Nat}{\mathrm{Nat}}
+  \newcommand{\uNat}{\underline{\Nat}}
+
+\newcommand{\shortqed}{\vspace{-\baselineskip }\qedhere}
+\newcommand{\coev}{\mathrm{coev}}
+
+
+% ****** LINKS!!!! ******
+\newcommand{\httthmlink}[1]{\href{https://arxiv.org/pdf/math/0608040v4\#theorem.#1}{#1}}
+\newcommand{\httmetathm}[2]{{\cite[#1~\httthmlink{#2}]{HTT}}}
+\newcommand{\httcor}[1]{\httmetathm{Cor.}{#1}}
+\newcommand{\httdef}[1]{\httmetathm{Def.}{#1}}
+\newcommand{\httprop}[1]{\httmetathm{Prop.}{#1}}
+\newcommand{\httlem}[1]{\httmetathm{Lem.}{#1}}
+\newcommand{\httthm}[1]{\httmetathm{Thm.}{#1}}
+\newcommand{\httpropprop}[2]{{\cite[Props.~\httthmlink{#1},~\httthmlink{#2}]{HTT}}}
+\newcommand{\httcorprop}[2]{{\cite[Cor.~\httthmlink{#1},Prop.~\httthmlink{#2}]{HTT}}}
+\newcommand{\httpasting}{{\httlem{4.4.2.1}} }
+
+
+\newcommand{\kerodon}[1]{{\cite[\href{https://kerodon.net/tag/#1}{Tag #1}]{kerodon}}}
+
+\newcommand{\SY}[3]{{\cite[#1~\href{https://arxiv.org/pdf/1808.06006v3\#page=#3}{#2}]{Schlank}}}
+
+\newcommand{\ns}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2203.00072v1\#nul.#2}{#2}]{Nardin}}}
+\newcommand{\NSprop}[1]{{\cite[Prop.~\href{https://arxiv.org/pdf/2203.00072v1\#nul.#1}{#1}]{Nardin}}}
+
+\newcommand{\ha}[2]{{\cite[#1~\href{https://people.math.harvard.edu/~lurie/papers/HA.pdf\#theorem.#2}{#2}]{HA}}}
+\newcommand{\EBVsubsec}[1]{{\cite[\S~\href{https://arxiv.org/pdf/2501.02129v1\#subsection.#1}{#1}]{EBV}}}
+\newcommand{\EBVprop}[1]{{\cite[Prop.~\href{https://arxiv.org/pdf/2501.02129v1\#proposition.#1}{#1}]{EBV}}}
+\newcommand{\EBVobs}[1]{{\cite[Obs.~\href{https://arxiv.org/pdf/2501.02129v1\#observation.#1}{#1}]{EBV}}}
+\newcommand{\EBVlem}[1]{{\cite[Lem.~\href{https://arxiv.org/pdf/2501.02129v1\#lemma.#1}{#1}]{EBV}}}
+\newcommand{\EBVcor}[1]{{\cite[Cor.~\href{https://arxiv.org/pdf/2501.02129v1\#corollary.#1}{#1}]{EBV}}}
+\newcommand{\EBVthm}[1]{{\cite[Thm.~\href{https://arxiv.org/pdf/2501.02129v1\#theorem.#1}{#1}]{EBV}}}
+\newcommand{\EBVex}[1]{{\cite[Ex.~\href{https://arxiv.org/pdf/2501.02129v1\#example.#1}{#1}]{EBV}}}
+
+\newcommand{\Windlem}[1]{{\cite[Lem.~\href{https://arxiv.org/pdf/2409.01377v2\#lemma.#1}{#1}]{Windex}}}
+\newcommand{\Windprop}[1]{{\cite[Prop.~\href{https://arxiv.org/pdf/2409.01377v2\#proposition.#1}{#1}]{Windex}}}
+
+\newcommand{\eh}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2010.15722v3\#thm.#2}{#2}]{Elmanto}}}
+\newcommand{\csy}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2007.13089v2\#thm.#2}{#2}]{Carmeli}}}
+\newcommand{\chll}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2407.08399v1\#thm.#2}{#2}]{Cnossen_tambara}}}
+
+\newcommand{\hhln}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2011.11042v3\#equation.#2}{#2}]{Haugseng_two}}}
+
+\newcommand{\hor}[2]{{\cite[#1~\href{https://arxiv.org/pdf/1910.07226\#thm.#2}{#2}]{Horev}}}
+
+\newcommand{\nar}[2]{{\cite[#1~\href{https://arxiv.org/pdf/1608.07704\#nul.#2}{#2}]{Nardin}}}
+
+\newcommand{\ehaprop}[1]{{\cite[Prop.~\href{https://arxiv.org/pdf/2508.05556v1\#proposition.#1}{#1}]{EHA}}}
+
+\newcommand{\steprop}[1]{{\cite[Prop.~\href{https://arxiv.org/pdf/2504.02143v2\#proposition.#1}{#1}]{Tensor}}}
+\newcommand{\sterem}[1]{{\cite[Rmk.~\href{https://arxiv.org/pdf/2504.02143v2\#remark.#1}{#1}]{Tensor}}}
+\newcommand{\stecor}[1]{{\cite[Cor.~\href{https://arxiv.org/pdf/2504.02143v2\#corollary.#1}{#1}]{Tensor}}}
+\newcommand{\stethm}[1]{{\cite[Thm.~\href{https://arxiv.org/pdf/2504.02143v2\#theorem.#1}{#1}]{Tensor}}}
+\newcommand{\steobs}[1]{{\cite[Obs.~\href{https://arxiv.org/pdf/2504.02143v2\#observation.#1}{#1}]{Tensor}}}
+\newcommand{\stelem}[1]{{\cite[Lem.~\href{https://arxiv.org/pdf/2504.02143v2\#lemma.#1}{#1}]{Tensor}}}
+\newcommand{\stesubsec}[1]{{\cite[\S~\href{https://arxiv.org/pdf/2504.02143v2\#subsection.#1}{#1}]{Tensor}}}
+
+\newcommand{\shaone}[2]{{\cite[#1~\href{https://arxiv.org/pdf/1809.05892v3\#nul.#2}{#2}]{Shah2}}}
+
+\newcommand{\Blumberg}[2]{{\cite[#1~\href{https://arxiv.org/pdf/1309.1750v3\#equation.#2}{#2}]{Blumberg-op}}}
+
+\newcommand{\qs}[2]{{\cite[#1~\href{https://arxiv.org/pdf/1909.03920v1\#nul.#2}{#2}]{Quigley}}}
+\newcommand{\qssec}[1]{{\cite[\S~\href{https://arxiv.org/pdf/1909.03920v1\#section.#1}{#1}]{Quigley}}}
+\newcommand{\qstwo}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2112.07462v2\#nul.#2}{#2}]{Quigley_cyclotomic}}}
+\newcommand{\qstwosec}[1]{{\cite[\S~\href{https://arxiv.org/pdf/2112.07462v2\#section.#1}{#1}]{Quigley_cyclotomic}}}
+
+\newcommand{\sta}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2301.08240v2\#theorem.#2}{#2}]{Cnossen_stable}}}
+\newcommand{\cllsemicor}[1]{{\cite[Cor.~\href{https://arxiv.org/pdf/2403.07676v3\#corollary.#1}{#1}]{Cnossen_semiadditive}}}
+
+\newcommand{\Barkan}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2208.07183v2\#thm.#2}{#2}]{Barkan}}}
+\newcommand{\llp}[2]{{\cite[#1~\href{https://arxiv.org/pdf/2503.02839v1\#theorem.#2}{#2}]{Lenz_norms}}}
+
+
+\newcommand{\Conn}{\mathrm{Conn}}
+\newcommand{\Mack}{\mathrm{Mack}}
+\newcommand{\uMack}{\underline{\Mack}}
+
+\DeclareFontFamily{U}{dmjhira}{}
+\DeclareFontShape{U}{dmjhira}{m}{n}{ <-> dmjhira }{}
+
+%\newcommand{\yoneda}[1]{y_{#1}}
+\newcommand{\yo}{{\text{\usefont{U}{dmjhira}{m}{n}\symbol{"48}}}}
