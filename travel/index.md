@@ -17,7 +17,7 @@ The year 2026:
   May 2026, giving a talk at the MPIM conference on <a href="https://www.mpim-bonn.mpg.de/hamfc">Interactions between higher algebra, manifolds and functor calculus</a>
 </li>
 <li>
-  January 2026, giving a talk at the <a href="https://meetings.ams.org/math/jmm2026/meetingapp.cgi/Session/13257">AMS special session on new voices in homotopy theory.</a>
+  January 2026, giving a talk at the <a href="https://meetings.ams.org/math/jmm2026/meetingapp.cgi/Session/14562">AMS special session on new voices in homotopy theory.</a>
 </li>
 </ul>
 </details>
